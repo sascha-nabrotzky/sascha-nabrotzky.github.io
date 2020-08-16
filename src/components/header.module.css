@@ -1,0 +1,30 @@
+.header {
+    font-size: 1.5rem;
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    text-decoration: none;
+    color: #333;
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navLink {
+    color: #888;
+    text-decoration: none;
+    margin-right: 1.3rem;
+}
+
+.navLink:hover {
+    color: #555;
+}
+
+.activeNavLink {
+    color: #444;
+}
+
