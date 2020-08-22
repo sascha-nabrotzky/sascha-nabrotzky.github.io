@@ -4,12 +4,16 @@ body {
     margin: 0;
 }
 
-h1, p, a {
+* {
     font-family: "Work Sans", sans-serif;
 }
 
 p {
     font-size: 1.3em;
+}
+
+li {
+    list-style-type: none;
 }
 
 .container {
@@ -22,4 +26,12 @@ p {
 
 .content {
     flex-grow: 1;
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
 }

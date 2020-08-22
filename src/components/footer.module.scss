@@ -1,3 +1,7 @@
+footer {
+    margin-top: 3em;
+}
+
 .footerNavList {
     display: flex;
     list-style-type: none;
@@ -8,10 +12,10 @@
     color: #888;
     text-decoration: none;
     margin-right: 1.3rem;
-}
 
-.footerNavLink:hover {
-    color: #555;
+    &:hover {
+        color: #666;
+    }
 }
 
 .activeFooterNavLink {
