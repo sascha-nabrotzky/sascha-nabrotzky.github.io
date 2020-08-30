@@ -1,30 +1,65 @@
+@mixin FiraItalBd {
+    font-weight: 400;
+}
+
 .header {
-    font-size: 1.5rem;
-    padding: 1rem 0 3rem;
-}
-
-.title {
-    text-decoration: none;
-    color: #333;
-}
-
-.navList {
+    padding: 1rem 0 0;
     display: flex;
-    list-style-type: none;
-    padding: 0;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 9999;
+
+    .logowrapper {
+        display: flex;
+        margin-left: 1em;
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            margin-right: 10px;
+            text-decoration: none;
+
+            p {
+                @include FiraItalBd;
+                margin: 0;
+                padding: 18px 0 0;
+            }
+        }
+    }
+
+    .navList {
+        display: flex;
+        padding: 0;
+        font-size: 1.3em;
+    }
+    
+    .navLink {
+        color: #888;
+        text-decoration: none;
+        margin-right: 1.3rem;
+    
+        &:hover {
+            color: #555;
+        }
+    }
+    
+    .activeNavLink {
+        color: #444;
+    }
+
+    @media ( max-width:600px ) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-.navLink {
-    color: #888;
-    text-decoration: none;
-    margin-right: 1.3rem;
-}
 
-.navLink:hover {
-    color: #555;
-}
-
-.activeNavLink {
-    color: #444;
-}
 

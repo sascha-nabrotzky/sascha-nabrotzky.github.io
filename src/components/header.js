@@ -8,18 +8,22 @@ export default function Header() {
             site {
                 siteMetadata {
                     title
+                    author
                 }
             }
         }
-    `)
+    `) 
 
     return (
         <header className={headerStyles.header}> 
-            <h1>
-                <Link className={headerStyles.title} to="/">
-                    {data.site.siteMetadata.title}
-                </Link>
-            </h1>
+                <div className={headerStyles.logowrapper}>
+                    <Link className={headerStyles.logo} to="/">
+                        <div >
+                            <p>&lt;SN&gt;</p>
+                        </div>
+                    </Link>
+                    <p>{data.site.siteMetadata.author}</p>
+                </div>
             <nav>
                 <ul className={headerStyles.navList}>
                     <li>

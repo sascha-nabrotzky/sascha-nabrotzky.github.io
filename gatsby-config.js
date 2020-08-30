@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Webdesign | Sascha Nabrotzky",
+    title: "Frontend-Entwicklung | Sascha Nabrotzky",
     author: "Sascha Nabrotzky"
   },
 
@@ -28,7 +28,6 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 500,
               linkImagesToOriginal: false,
             }
           }

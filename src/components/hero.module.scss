@@ -1,0 +1,39 @@
+@mixin FiraHero {
+    font-weight: 600;
+    color: #fff;
+    font-size: 15vw;
+    text-transform: uppercase;
+}
+
+.herocontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 70vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin-top: 5.7em;
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+  
+    p {
+        @include FiraHero;
+        margin: -0.45em 0 0;
+    }
+
+    @media ( max-width:600px ) {
+        height: 30vh;
+    }
+}
+  
