@@ -14,7 +14,7 @@ export default function Impressum() {
             
             <h4>Kontakt:</h4>
             Telefon: 05485 207981
-            E-Mail:	illustration@sascha-nabrotzky.de
+            E-Mail:	web.dev.design(at)sascha-nabrotzky.de
 
             <h4>Umsatzsteuer-ID:</h4>
             Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:

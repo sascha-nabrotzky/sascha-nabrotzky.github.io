@@ -1,0 +1,22 @@
+.timeLinePoint {
+    display: flex;
+    flex-flow: column;
+    max-width: 30em;
+    text-align: center;
+    margin: 0 auto
+}
+
+.circleImg {
+    width: 6em;
+    height: 6em;
+    background-color: rgba(206, 206, 206,0.7);
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+.linie {
+    background-color: #999;
+    width: 1px;
+    height: 2em;
+    margin: 0 auto 1em 
+}
