@@ -6,47 +6,47 @@ export default function About() {
     return (
         <Layout> 
             <h1>Hallo!</h1>
-            <p>Ich bin Sascha Nabrotzky und meine berufliche Passion ist das Entwicklen von Websites. Ich wurde in den 90ern zum Schriftsetzer/Mediengestalter ausgebildet und kam nach und nach zum Webdesign, als ich immer deutlicher merkte, wie flexibel die digitale Gestaltung war und der Printbereich immer mehr zurückgedrängt wurde.</p>
+            <p>Ich bin Sascha Nabrotzky und meine berufliche Passion ist das Programmieren von Websites. Seit einigen Jahren ist die Frontend-Entwicklung mein liebstes Interessengebiet, ich belegte viele Onlinekurse und bildete mich durch Videos und viel lesen in Blogs und Büchern immer weiter.</p>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
-                    2020
+                    <p>2020</p>
                 </div>
-                <p>Erste Schritte mit React, GatsbyJS, Git, Github , NodeJS und npm </p>
+                <p>Website mit ReactJS, GatsbyJS, Git, Github, NodeJS und npm programmiert. Weiterbildung in SCSS, ReactJS und JavaScript</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
-                    2019
+                    <p>2019</p>
                 </div>
-                <p>Frontend-Entwickler/Mediengestalter bei einem Großhändler</p>
+                <p>Frontend-Entwickler/Mediengestalter bei einen Onlineshop eines Großhändlers. Weiterbildung in UX/UI-Design, HTML5 und CSS3</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
-                    2017
+                    <p>2017</p>
                 </div>
-                <p>Erste Schritte in JavaScript und weitere Online-Kurse belegt</p>
+                <p>Erste Schritte in Vanilla JavaScript</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
-                    2008
+                    <p>2008</p>
                 </div>
-                <p>Nebenberuflich als Frontend-Entwickler. Erste Seiten in HTML, CSS und Jquery erstellt.</p>
+                <p>Nebenberuflich als Frontend-Entwickler. Websites in HTML, CSS und JQuery erstellt.</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
-                    2000
+                    <p>2000</p>
                 </div>
                 <p>Mediengestalter bei einem Verlag</p>
             </div>
@@ -55,7 +55,7 @@ export default function About() {
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
-                1997
+                <p>1997</p>
                 </div>
                 <p>Ausbildung zum Schriftsetzer</p>
             </div>

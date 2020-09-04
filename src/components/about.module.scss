@@ -1,3 +1,5 @@
+$light-grayBG: rgb(211, 209, 209);
+
 .timeLinePoint {
     display: flex;
     flex-flow: column;
@@ -7,15 +9,18 @@
 }
 
 .circleImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 6em;
     height: 6em;
-    background-color: rgba(206, 206, 206,0.7);
+    border: 2px solid $light-grayBG;
     border-radius: 50%;
     margin: 0 auto
 }
 
 .linie {
-    background-color: #999;
+    background-color: $light-grayBG;
     width: 1px;
     height: 2em;
     margin: 0 auto 1em 
