@@ -3,10 +3,11 @@ import Layout from "../components/layout"
 import aboutStyle from "../components/about.module.scss"
 
 export default function About() {
+
     return (
         <Layout> 
             <h1>Hallo!</h1>
-            <p>Ich bin Sascha Nabrotzky und meine berufliche Passion ist das Programmieren von Websites. Seit einigen Jahren ist die Frontend-Entwicklung mein liebstes Interessengebiet, ich belegte viele Onlinekurse und bildete mich durch Videos und viel lesen in Blogs und Büchern immer weiter.</p>
+            <p>Ich bin Sascha Nabrotzky und meine berufliche Passion ist das Programmieren von Websites. Seit einigen Jahren ist die Frontend-Entwicklung mein liebstes Interessengebiet, ich belegte viele Onlinekurse und bildete mich über die Jahre durch Videos und viel lesen in Blogs und Büchern immer weiter.</p>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>

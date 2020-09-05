@@ -42,6 +42,9 @@ body {
             padding: 0;
         }
 
+        @media ( max-width:600px ) {
+            padding-left: 1em;
+            padding-right: 1em;
     }
-
+    }
 }

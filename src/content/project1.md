@@ -4,8 +4,8 @@ title: "Kindertagespflege Löwenzahn"
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Für eine Tagesmutter habe ich eine dynamische Website mit dem Contentmanagement-System Joomla! erstellt. Die Anforderung war eigentlich ganz klar: Es sollte alles Wichtige auf einen Blick sichtbar und informativ, der Blogbereich sollte zudem selber zu pflegen sein, da auf Ausflügen immer wieder Fotos und interessante Geschichten entstehen.
 
-1. Joomla!
-2. HTML5
-3. CSS3
+Das Template habe ich komplett selber erstellt, so ist gewährleistet, dass der `Code` übersichtlich und nicht unnötig aufgeblasen ist. Der Vorteil dadurch ist die höhere Geschwindigket und Wartbarkeit, dazu kommt nochmal ein Performance-Boost, da auf dem Server PHP 7.4 läuft. 
+
+<div style="text-align: right">Joomla! | HTML5 | CSS3</div>

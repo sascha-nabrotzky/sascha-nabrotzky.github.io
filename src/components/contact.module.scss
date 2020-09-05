@@ -1,0 +1,22 @@
+.socialBtnWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+
+    .socialBtn {
+        border: 1px solid rgba(153, 153, 153, 1);
+        border-radius: 3em; 
+        margin-bottom: 2em;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        transition: .1s ease-in-out;
+
+        &:hover {
+            background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
+            color: #fff;
+            border: 1px solid #fff;
+        }
+    }
+
+}
