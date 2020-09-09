@@ -1,0 +1,11 @@
+.logoWrapper {
+    display: flex;
+    max-height: 6em;
+    margin-top: 3em;
+
+    img {
+        flex: 1;
+        min-width: 0;
+        width: 100%;
+    }
+}

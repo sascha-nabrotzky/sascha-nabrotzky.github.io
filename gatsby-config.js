@@ -6,12 +6,17 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Frontend-Entwicklung | Sascha Nabrotzky",
-    author: "Sascha Nabrotzky"
+    title: "Frontend-Entwicklung und UX/UI-Design | Sascha Nabrotzky",
+    description: "Analyse, Kreation und Optimierung der Nutzererfahrung - Komplexe Systeme auf eine Website gebracht!",
+    url: "https://sascha-nabrotzky.github.io/",
+    image: "https://business.google.com/photos/l/18021322768714798492?hl=de",
+    author: "Sascha Nabrotzky",
+    keywords: "UX-Design, UI-Design, Webdesign, Frontend-Development"
   },
 
   plugins: [
     `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
