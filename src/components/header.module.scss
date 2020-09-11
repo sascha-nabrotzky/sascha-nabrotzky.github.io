@@ -1,9 +1,10 @@
-@mixin FiraItalBd {
-    font-weight: 400;
+@mixin Fira {
+    font-weight: 600;
+    font-style: italic;
 }
 
 .header {
-    padding: 1rem 0 0;
+    padding: 1em 0 1em;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -11,26 +12,65 @@
     left: 0;
     right: 0;
     background-color: rgba(255,255,255,1);
+    box-shadow: 0px 10px 10px rgba(0,0,0,.05);
     z-index: 9999;
+
+    @media ( max-width:600px ) {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .logowrapper {
         display: flex;
-        margin-left: 1em;
+        margin-left: 2.5em;
 
         .logo {
-            width: 60px;
-            height: 60px;
-            background-color: black;
-            border-radius: 50%;
-            color: #fff;
-            text-align: center;
-            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 2em;
             text-decoration: none;
 
+            .circle1 {
+                width: 4em;
+                height: 4em;
+                border-radius: 50%;
+                border-left: 7px solid rgba(218, 58, 218, .7);
+                border-right: 7px solid rgba(26, 171, 238, 0.7);
+                transform: rotate(90deg);
+                filter: blur(1px);
+                z-index: 0;
+                position: absolute;
+                animation: spin1 5s infinite linear;
+            }
+
+            .circle2 {
+                width: 4em;
+                height: 4em;
+                border-radius: 50%;
+                border-left: 7px solid rgba(218, 58, 218, 0.4);
+                border-right: 7px solid rgba(26, 238, 157, 0.4);
+                filter: blur(1px);
+                z-index: 1;
+                position: absolute;
+                animation: spin2 2s infinite linear;
+            }
+
+            @keyframes spin1 {
+                0% {transform: rotate(0deg);}
+                100% {transform: rotate(360deg);}
+            }
+
+            @keyframes spin2 {
+                0% {transform: rotate(0deg);}
+                100% {transform: rotate(360deg);}
+            }
+
             p {
-                @include FiraItalBd;
+                @include Fira;
+                font-size: 2em;
                 margin: 0;
-                padding: 18px 0 0;
+                z-index: 2;
             }
         }
     }
@@ -55,10 +95,6 @@
         color: #444;
     }
 
-    @media ( max-width:600px ) {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 

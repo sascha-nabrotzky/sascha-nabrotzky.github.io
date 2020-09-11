@@ -4,8 +4,13 @@ title: "Kindertagespflege Löwenzahn"
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
-Für eine Tagesmutter habe ich eine dynamische Website mit dem Contentmanagement-System Joomla! erstellt. Die Anforderung war eigentlich ganz klar: Es sollte alles Wichtige auf einen Blick sichtbar und informativ, der Blogbereich sollte zudem selber zu pflegen sein, da auf Ausflügen immer wieder Fotos und interessante Geschichten entstehen.
+Die anfängliche **Ist-Situation und Konkurrenzanalyse** zeigte mir, dass man mit Informationen auf der Seite, nach denen Eltern häufig fragen, sich gut abheben kann, zudem wurden kleinere Animationen und ein buntes **Farbkonzept** als Blickfang eingeplant. Es sollte alles Wichtige auf einen Blick sichtbar und informativ sein, Termine und Aktionen sollten selber aktualisiert werden können.
 
-Das Template habe ich komplett selber erstellt, so ist gewährleistet, dass der `Code` übersichtlich und nicht unnötig aufgeblasen ist. Der Vorteil dadurch ist die höhere Geschwindigket und Wartbarkeit, dazu kommt nochmal ein Performance-Boost, da auf dem Server PHP 7.4 läuft. 
+Das Logo für die Kita wurde zuerst digital gezeichnet, aber auch schnell **wieder verworfen** - Pixelgrafiken sehen zwar authentischer aus, lassen sich aber nicht wie Vektorgrafiken skalieren. Auch der Hauptteil der Seite verlief ursprünglich gerade senkrecht durch die Seite, das haben allerdings schon viele und somit entschied ich, den mittleren Content einfach leicht anzuwinkeln und ihm das Aussehen eines Blatt Papieres zu geben.
+
+Das kinderfreundliche Gesamtbild, die wichtigsten Informationen auf einen Blick, das Kontaktformular und gute **SEO** brachten der Seite bis heute **beste Präsenz** in der lokalen Region, bei suchenden Müttern und auch im Google-Ranking.
+
+![Logo Kita Löwenzahn](../images/Loew_logovergleich.jpg)
+<p>Das ursprüngliche Logo (li.) wurde zugunsten des flexibleren Vektorlogos wieder verworfen.</p>
 
 <div style="text-align: right">Joomla! | HTML5 | CSS3</div>

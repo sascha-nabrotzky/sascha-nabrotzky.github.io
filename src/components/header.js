@@ -18,9 +18,9 @@ export default function Header() {
         <header className={headerStyles.header}> 
                 <div className={headerStyles.logowrapper}>
                     <Link className={headerStyles.logo} to="/">
-                        <div >
-                            <p>&lt;SN&gt;</p>
-                        </div>
+                            <div className={headerStyles.circle1}></div>
+                            <div className={headerStyles.circle2}></div>
+                            <p>s/n</p>
                     </Link>
                     <p>{data.site.siteMetadata.author}</p>
                 </div>

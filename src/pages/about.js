@@ -7,7 +7,7 @@ export default function About() {
     return (
         <Layout> 
             <h1>Hallo!</h1>
-            <p>Ich bin Sascha Nabrotzky und meine berufliche Passion ist das Programmieren von Websites. Seit einigen Jahren ist die Frontend-Entwicklung mein liebstes Interessengebiet, ich belegte viele Onlinekurse und bildete mich über die Jahre durch Videos und viel lesen in Blogs und Büchern immer weiter.</p>
+            <p>Ich bin Sascha Nabrotzky und meine berufliche Passion ist das Programmieren von nutzerzentrierten Websites mit vorhergehendem analysieren der Gesamtsituation und dem Prototyping der Website. Seit einigen Jahren ist die Frontend-Entwicklung mein liebstes Interessengebiet und ich bildete mich dafür im Bereich UX-Design zusätzlich weiter.</p>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
@@ -31,7 +31,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2017</p>
                 </div>
-                <p>Erste Schritte in Vanilla JavaScript</p>
+                <p>Erste Schritte in JavaScript</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
