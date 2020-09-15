@@ -7,18 +7,17 @@ export default function Impressum() {
             
             <h2>Impressum</h2>
             <h4>Angaben gemäß § 5 TMG:</h4>
-            Sascha Nabrotzky
-            Design-Atelier Nabrotzky
-            Koldefeld 11
-            49549 Ladbergen
+            <p>Sascha Nabrotzky</p>
+            <p>Koldefeld 11</p>
+            <p>49549 Ladbergen</p>
             
             <h4>Kontakt:</h4>
-            Telefon: 05485 207981
-            E-Mail:	web.dev.design(at)sascha-nabrotzky.de
+            <p> Telefon: 05485 207981</p>
+            <p> E-Mail:	web.dev.design(at)sascha-nabrotzky.de</p>
 
             <h4>Umsatzsteuer-ID:</h4>
-            Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-            DE267467596
+            <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:</p>
+            <p> DE267467596</p>
 
             <h3>Haftungsausschluss Disclaimer</h3>
             <h4>Haftung für Inhalte</h4> 

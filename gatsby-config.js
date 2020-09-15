@@ -6,10 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Frontend-Entwicklung und UX/UI-Design | Sascha Nabrotzky",
+    title: "Frontend-Entwicklung & UX-Design | Sascha Nabrotzky",
     description: "Analyse, Kreation und Optimierung der Nutzererfahrung - Komplexe Systeme auf eine Website gebracht!",
     url: "https://sascha-nabrotzky.github.io/",
-    image: "https://business.google.com/photos/l/18021322768714798492?hl=de",
+    image: "https://www.xn--kindertagespflege-lwenzahn-uvc.de/images/Website_Sascha_Nabrotzky.jpg",
     author: "Sascha Nabrotzky",
     keywords: "UX-Design, UI-Design, Webdesign, Frontend-Development"
   },
