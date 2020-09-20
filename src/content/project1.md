@@ -1,16 +1,23 @@
 ---
-title: "Kindertagespflege Löwenzahn"
+title: Neustart als Tagesmutter
 ---
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
-Die anfängliche **Ist-Situation und Konkurrenzanalyse** zeigte mir, dass man mit Informationen auf der Seite, nach denen Eltern häufig fragen, sich gut abheben kann, zudem wurden kleinere Animationen und ein buntes **Farbkonzept** als Blickfang eingeplant. Es sollte alles Wichtige auf einen Blick sichtbar und informativ sein, Termine und Aktionen sollten selber aktualisiert werden können.
+![Wireframe Kita Löwenzahn](../images/LoewWireframe.jpg)
 
-Das Logo für die Kita wurde zuerst digital gezeichnet, aber auch schnell **wieder verworfen** - Pixelgrafiken sehen zwar authentischer aus, lassen sich aber nicht wie Vektorgrafiken skalieren. Auch der Hauptteil der Seite verlief ursprünglich gerade senkrecht durch die Seite, das haben allerdings schon viele und somit entschied ich, den mittleren Content einfach leicht anzuwinkeln und ihm das Aussehen eines Blatt Papieres zu geben.
+**Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbständigkeit etablieren.**
 
-Das kinderfreundliche Gesamtbild, die wichtigsten Informationen auf einen Blick, das Kontaktformular und gute **SEO** brachten der Seite bis heute **beste Präsenz** in der lokalen Region, bei suchenden Müttern und auch im Google-Ranking.
+Die anfängliche **User-Research** zeigte mir, dass man mit Informationen auf der gewünschten Website, nach denen Eltern häufig suchen, sich gut abheben kann. Die Nutzer sind **Mütter zwischen 20 und 30,** die ihre Kinder in professionellen Händen wissen wollen. Diese Infos habe ich selbst beobachtet und von der Tagesmutter bestätigt bekommen. 
+Ein buntes, abgestimmtes **Farbkonzept** als Blickfang wurde eingeplant, es sollten auch alle wichtigen Infos für die Eltern sofort sichtbar sein, Termine und Aktionen sollten selber aktualisiert werden können. Auch der Hinweis auf die staatl. Prüfung durfte nicht fehlen, denn das war ihr **Alleinstellungsmerkmal** gegenüber den anderen Tagesmüttern.
 
-![Logo Kita Löwenzahn](../images/Loew_logovergleich.jpg)
+Das Logo für die Kita wurde zuerst digital gezeichnet, aber auch schnell **wieder verworfen** - Pixelgrafiken sehen zwar authentischer aus, lassen sich aber nicht wie Vektorgrafiken skalieren. Auch der Hauptteil der Seite verlief ursprünglich gerade senkrecht durch die Seite, das haben allerdings schon viele und deswegen wurde der Hauptbereich leicht angewinkelt und eingezogen, um ihm das Aussehen eines Blatt Papieres zu geben. In diesem Zuge wanderte das Menü nach oben neben das Logo, das sind die meisten User gewohnt und **kommen damit schneller im hektischen Alltag mit den Kindern klar.**
+
+Das kinderfreundliche Gesamtbild, die wichtigsten Informationen auf einen Blick, das Kontaktformular und gute **SEO** brachten der Seite bis heute **beste Präsenz und Resonanz** in der lokalen Region, bei suchenden Müttern und auch im Google-Ranking.
+
+![Logovergleich Kita Löwenzahn](../images/Loew_logovergleich.jpg)
 <p>Das ursprüngliche Logo (li.) wurde zugunsten des flexibleren Vektorlogos wieder verworfen.</p>
 
-<div style="text-align: right">Joomla! | HTML5 | CSS3</div>
+<div style="text-align: right">Techstack: UX | Joomla! | HTML5 | CSS3</div>
+
+<p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

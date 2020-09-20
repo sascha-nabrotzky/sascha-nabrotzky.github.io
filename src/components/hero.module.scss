@@ -48,7 +48,7 @@
     p {
         @include FiraHero;
         margin: 0;
-        animation: TextFlowIn 1.5s;
+        animation: TextFlowIn 1s;
 
         @keyframes TextFlowIn {
             0% {

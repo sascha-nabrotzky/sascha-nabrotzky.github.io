@@ -6,8 +6,8 @@ import contactStyles from "../components/contact.module.scss"
 export default function Contact() {
     return (
         <Layout> 
-            <h1>Du willst noch mehr wissen?</h1>
-            <p>Hier sind die wichtigsten Stellen im Internet, bei denen man weitere Arbeiten von mir findet oder mich erreicht.</p>
+            <h1>Verlink dich mit mir!</h1>
+            <p>Hier sind die wichtigsten Stellen im Internet, bei denen man mich erreicht oder weitere Arbeiten von mir findet.</p>
             <div className={contactStyles.socialBtnWrapper}>
             <a className={contactStyles.socialBtn} href="mailto:web.dev.design@sascha-nabrotzky.de" alt="Schreiben Sie mir direkt">
                     <p>E-Mail</p>

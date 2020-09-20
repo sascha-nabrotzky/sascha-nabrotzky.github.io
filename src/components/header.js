@@ -30,10 +30,10 @@ export default function Header() {
                         <Link className={headerStyles.navLink} activeClassName={headerStyles.activeNavLink} to="/">Home</Link>
                     </li>
                     <li>
-                        <Link className={headerStyles.navLink} activeClassName={headerStyles.activeNavLink} to="/about">Über</Link>
+                        <Link className={headerStyles.navLink} activeClassName={headerStyles.activeNavLink} to="/projects">Projekte</Link>
                     </li>
                     <li>
-                        <Link className={headerStyles.navLink} activeClassName={headerStyles.activeNavLink} to="/projects">Projekte</Link>
+                        <Link className={headerStyles.navLink} activeClassName={headerStyles.activeNavLink} to="/about">About</Link>
                     </li>
                     <li>
                         <Link className={headerStyles.navLink} activeClassName={headerStyles.activeNavLink} to="/contact">Kontakt</Link>

@@ -28,6 +28,7 @@ export default function Layout({ children }) {
 
             <div>
              <Helmet>
+                <title>{data.site.siteMetadata.title}</title>
                 <meta name="title" content={data.site.siteMetadata.title}/>
                 <meta name="description" content={data.site.siteMetadata.description}/>
                 <meta name="author" content={data.site.siteMetadata.author}/>
@@ -41,6 +42,7 @@ export default function Layout({ children }) {
                 <meta property="og:image" content={data.site.siteMetadata.image}/>
                 <meta property="og:url" content={data.site.siteMetadata.url}/>
                 <meta property="og:type" content="website"/>
+                <html lang="de" />
             </Helmet>
             </div>
 
