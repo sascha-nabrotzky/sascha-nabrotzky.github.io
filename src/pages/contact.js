@@ -18,10 +18,10 @@ export default function Contact() {
             <a className={contactStyles.socialBtn} href="https://www.xing.com/profile/Sascha_Nabrotzky/cv" alt="Xing-Profil" target="_blank" rel="noreferrer">
                     <p>Xing</p>
             </a>
-            <a className={contactStyles.socialBtn} href="https://www.instagram.com/frontenddev_design/" alt="Instagram - Blick hinter die Kulissen" target="_blank" rel="noreferrer">
+            <a className={contactStyles.socialBtn} href="https://www.instagram.com/UX_and_1Coffee/" alt="Instagram - Blick hinter die Kulissen" target="_blank" rel="noreferrer">
                     <p>Instagram</p>
             </a>
-            <a className={contactStyles.socialBtn} href="https://twitter.com/FrontendDevSN" alt="Meine News" target="_blank" rel="noreferrer">
+            <a className={contactStyles.socialBtn} href="https://twitter.com/UX_and_1Coffee" alt="Meine News" target="_blank" rel="noreferrer">
                     <p>Twitter</p>
             </a>
                 

@@ -11,9 +11,10 @@ export default function Home() {
   return (
     <Layout>
       <h1>Komplexe Systeme auf eine Website gebracht!</h1>
-      <p>Ich bin Sascha Nabrotzky und meine berufliche Passion ist das Programmieren von <strong>nutzerzentrierten Websites</strong> mit vorhergehender <strong>User-Research</strong> und dem Prototyping der Website. Die gewonnen Erkenntnisse fließen natürlich auch in die restlichen Werbematerialien ein.</p>
-      <p>Bei allen größeren Projekten, die ich umsetze, ist eine gute <strong>Nutzererfahrung</strong> (UX-Design) das Wichtigste, auf das ich achte. Die Nutzererfahrung geht weit über die eigentliche Website hinaus und fängt auch eher im ganzen Zusammenspiel der komplexen Systeme an.</p>
-      <p>Ich erstelle <strong>statische Websites</strong> in HTML5, SCSS und JavaScript - auch GatsbyJS und ReactJS kommen bei mir seit Neuestem zum Einsatz. Statische Seiten sind schnell und eignen sich gut für Portfolios oder Projekte in ähnlicher Größe.</p>
+      <p><strong>Durch User-Research Zusammenhänge verstehen, passenste Möglichkeiten durchspielen und dann perfekte Designs erstellen - das ist meine berufliche Passion!</strong></p>
+      <p>Hallo und herzlich willkommen auf meiner Seite, ich bin Sascha Nabrotzky.</p>
+      <p>Bei allen größeren Projekten, die ich umsetze, ist eine gute <strong>Nutzererfahrung</strong> (UX-Design) das Wichtigste, auf das ich achte. Die Nutzererfahrung geht weit über das visuelle Design hinaus und fängt auch viel eher im ganzen Zusammenspiel der komplexen Design-Systeme an.</p>
+      <p>Ich erstelle <strong>statische Websites</strong> in HTML5, SCSS und JavaScript - auch Gatsby JS und React JS kommen bei mir seit Neuestem zum Einsatz. Statische Seiten sind schnell und eignen sich gut für Portfolios oder Projekte in ähnlicher Größe.</p>
       <p><strong>Contentmanagement-Systeme,</strong> wie z. B. Joomla!, setze ich dann ein, wenn die Seite mit dem Unternehmen mitwachsen soll und mehrere Personen gleichzeitig auf einfache Art und Weise Berichte/Fotos veröffentlichen müssen oder ihre Internetpräsenz pflegen wollen.</p>
       <div className={indexStyle.logoWrapper}>
         <img src={logoJoomla} alt="Joomla!-Logo"></img>

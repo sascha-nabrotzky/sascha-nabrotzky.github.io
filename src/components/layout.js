@@ -2,7 +2,7 @@ import React from "react"
 import Footer from "../components/footer"
 import Header from "../components/header"
 import Hero from "./hero"
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import layoutStyles from "./layout.module.scss"

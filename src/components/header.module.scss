@@ -12,7 +12,7 @@
     left: 0;
     right: 0;
     background-color: rgba(255,255,255,1);
-    box-shadow: 0px 10px 10px rgba(0,0,0,.05);
+    box-shadow: 0px 10px 10px rgba(0,0,0,.08);
     z-index: 9999;
 
     @media ( max-width:600px ) {
@@ -37,7 +37,7 @@
                 height: 4em;
                 border-radius: 50%;
                 border-left: 7px solid rgba(218, 58, 218, .7);
-                border-right: 7px solid rgba(26, 171, 238, 0.7);
+                border-right: 7px solid rgba(26, 171, 238, .7);
                 transform: rotate(90deg);
                 filter: blur(1px);
                 z-index: 0;
