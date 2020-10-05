@@ -23,7 +23,7 @@ export default function Projects() {
     return (
         <Layout>
             <h1>Meine Projekte</h1>
-            <p>Hier ist eine Auswahl meiner etwas umfangreicheren Projekte, bei denen ich sowohl das <strong>UX-Design</strong> als auch die <strong>Gestaltung der restlichen Touchpoints</strong> umsetzen konnte.</p>
+            <p>Hier ist eine Auswahl meiner etwas umfangreicheren Projekte, bei denen ich sowohl die User-Research, das <strong>UX-Design</strong> als auch die <strong>Gestaltung der restlichen Touchpoints</strong> umsetzen konnte.</p>
 
             <ol>
                 {data.allMarkdownRemark.edges.map((edge) => {
