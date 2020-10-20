@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "UX-Design & Frontend-Entwicklung | Sascha Nabrotzky",
+    title: "Frontend-Entwicklung & UX-Design | Sascha Nabrotzky",
     description: "Analyse, Kreation und Optimierung der Nutzererfahrung - Komplexe Systeme auf eine Website gebracht!",
     url: "https://sascha-nabrotzky.github.io/",
     image: "https://www.xn--kindertagespflege-lwenzahn-uvc.de/images/SocialMedHeader.jpg",

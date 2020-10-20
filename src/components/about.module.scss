@@ -5,7 +5,12 @@ $light-grayBG: rgb(211, 209, 209);
     flex-flow: column;
     max-width: 30em;
     text-align: center;
-    margin: 0 auto
+    margin: 0 auto;
+
+    img {
+        border-radius: 50%;
+        margin-bottom: 1em;
+    }
 }
 
 .circleImg {

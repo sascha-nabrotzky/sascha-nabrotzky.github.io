@@ -1,16 +1,22 @@
 import React from "react"
 import Layout from "../components/layout"
 import aboutStyle from "../components/about.module.scss"
+import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
 
 export default function About() {
 
     return (
         <Layout> 
             <h1>Never stop learning!</h1>
-            <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich in einem Einfamilienhaus im ländlichen Ladbergen. Seit einigen Jahren ist die nutzerzentrierte Frontend-Entwicklung mein Interessengebiet, welches ich auch nebenberuflich für meine Weiterbildung betreibe, der Bereich UX-Design wurde zudem noch mehr in den Fokus genommen und zum zweiten Hauptbereich erklärt, um perfekte Websites und Werbemittel zu gestalten.</p>
-            <p><strong>Ich liebe es im Großen und Ganzen zu denken, Zusammenhänge zu erkennen und gewonnene Erkenntnisse ins Design einfließen zu lassen.</strong></p>
-            <p>Wenn ich mal nicht am PC sitze, dann bin ich häufig am fotografieren, am liebsten analog oder ich gehe Joggen.</p>
+            <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit einigen Jahren ist die nutzerzentrierte Frontend-Entwicklung mein Interessengebiet, welches ich auch nebenberuflich für meine Weiterbildung betreibe. Um wirklich perfekte Websites und Werbemittel zu gestalten, wurde zusätzlich das UX-Design immer mehr angewandt und nun zum zweiten Hauptbereich erklärt.</p>
+            <p>Wenn ich mal nicht am PC sitze, dann bin ich häufig am fotografieren oder ich gehe Joggen.</p>
 
+            <div className={aboutStyle.timeLinePoint}>
+                <div id="fotovonmir">
+                    <img src={fotoVonMir} alt="Foto von Sascha Nabrotzky"/>
+                </div>
+            </div>
+            
             <div className={aboutStyle.linie}></div>
 
             <div className={aboutStyle.timeLinePoint}>
