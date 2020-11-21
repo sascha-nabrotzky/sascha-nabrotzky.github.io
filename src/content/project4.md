@@ -1,20 +1,19 @@
 ---
-title: "Wachstum am Markt"
+title: "Programmieren in React/Gatsby/JavaScript"
 ---
 
-![alte Website für ein Küchenstudio](../images/WebsiteMockup_Kuechenexkl.jpg)
+![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
 
-**Eine ältere Website für ein Küchenstudio bei der es zu Anfang darauf ankam, sich am Markt zu etablieren und Vertrauen zu schaffen.**
+<div style="text-align: right">Techstack: UX | React JS | Gatsby JS | Visual Studio Code | Github | Affinity Designer</div>
 
-Gespräche mit den Stakeholdern zeigte, dass Kunden schnell Vertrauen fassen sollten, da die Konkurrenz recht stark ist, und durch die anschließende User-Research entwickelte sich die Idee, Herstellerlogos auf der Website und als Schaufensterfolierung recht präsent einzubinden, eigene Projekte zu zeigen und sich insgesamt modern darzustellen. 
+**Für meinen beruflichen Neustart habe ich mich komplett in Richtung Website-Programmierung fokussiert.**
 
-Dafür rutschte die übliche Slideshow eine Stufe nach unten und das Logo mit den Marken nach oben in den Fokus. Später kamen noch eigene Videos hinzu, die auch noch eingebunden wurden. Die Projekte wurden als Grid angelegt und man konnte mit einem Klick Modalboxen öffnen, die genauere Beschreibungen enthielten.
-Die Seite wurde als eine Art &raquo;Visitenkarte&laquo; angelegt, da keine Inhalte selber eingestellt werden sollten, also musste ein CMS, wie Joomla!, dafür nicht eingerichtet werden.
+Um mich voll und ganz auf das **Programmieren** als solches und auf das **Erstellen von Websites** zu konzentrieren, habe ich für mein neues Auftreten im Internet wie immer zuerst die **Zielgruppe analysiert,** die meine Kenntnisse am Besten gebrauchen kann und bei der ich mich am meisten wohlfühle - das sind etablierte Teams, bei denen ich mich als Programmierer weiterentwickeln kann.
 
-Das &raquo;X&laquo; im Logo wurde mit einem 3D-Programm entworfen, da das Unternehmen viel mit &raquo;Kastensystemen&laquo; arbeitet und diese durch diese Blockform am Besten rübergebracht wird.
+Meine alte Website wurde gelöscht und ein neuer Hoster gefunden, der primär ein Hub für ein Versionierungstool ist, das kam mir für einen professionellen Auftritt sehr gelegen, da ich mich mit diesem Schritt noch viel mehr nahtlos vernetzen konnte.
 
-**Aufbauend auf eine einzige Schrift und einem Logo mit Farbkonzept, wurde die gesamte Unternehmenspräsentation umgesetzt und unterstützte mit dem schlichten und sachlichen Aussehen Einstieg und Wachstum am Markt.**
+Die neue Website wurde mit **Gatsby.js** welches auf **React.js** aufbaut in **JavaScript** und **HTML** programmiert. Da ich alles ganz reduziert halten wollte, habe ich mich gegen ein echtes Logo und viele Bilder entschieden, es sollten mehr das programmiertechnische Funktionelle im Vordergrund stehen, auf das es nun in Zukunft ankommt.
 
-<div style="text-align: right">Techstack: UX | HTML5 | CSS3 | JavaScript</div>
+Soziale Medien wie Instagram, Twitter oder Xing sprechen jetzt zusammen mit der neuen Website durch die komplette Überarbeitung eine informative und visuelle Sprache.
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

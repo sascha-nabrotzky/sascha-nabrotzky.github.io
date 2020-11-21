@@ -6,9 +6,13 @@ title: Neustart als Tagesmutter
 
 ![Wireframe Kita Löwenzahn](../images/LoewWireframe.jpg)
 
+<div style="text-align: right">Techstack: UX | Joomla! | HTML5 | CSS3 | Visual Studio Code | Affinity Designer</div>
+
+[Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php) 
+
 **Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbständigkeit etablieren.**
 
-Die anfängliche **User-Research** zeigte mir, dass man mit Informationen auf der gewünschten Website, nach denen Eltern häufig suchen, sich gut abheben kann. Die Nutzer sind Mütter zwischen 20 und 30 Jahren, die ihre Kinder in professionellen Händen wissen wollen, eigene Beobachtungen und Interviews mit der Tagesmutter haben diese Erkenntnisse ebenfalls bestätigt. **Die Touchpoints** sind primär die Sozialen Medien, Google-Maps und ausliegende Flyer.
+Die anfängliche **User-Research** zeigte mir, dass man mit Informationen auf der gewünschten Website, nach denen Eltern häufig suchen, sich gut abheben kann. Die Nutzer sind Mütter zwischen 20 und 30 Jahren, die ihre Kinder in professionellen Händen wissen wollen, weitere Gespräche haben diese Erkenntnisse ebenfalls bestätigt. Die Berührungspunkte sind primär die Sozialen Medien, Google-Maps und ausliegende Flyer.
 
 Ein buntes, abgestimmtes Farbkonzept wurde erarbeitet, es sollten auch alle wichtigen Infos für die Eltern sofort sichtbar sein, Termine und Aktionen sollten selber aktualisiert werden können und für leichte Kontaktaufnahme kam ein Formular hinzu. Auch der Hinweis auf die staatl. Prüfung der Tagesmutter durfte nicht fehlen, denn das war ihr **Alleinstellungsmerkmal** gegenüber den anderen Tagesmüttern.
 
@@ -18,7 +22,5 @@ Das kinderfreundliche Gesamtbild, die **optimierte Informationsarchitektur** und
 
 ![Logovergleich Kita Löwenzahn](../images/Loew_logovergleich.jpg)
 <div>Das ursprüngliche Logo (li.) wurde zugunsten des flexibleren Vektorlogos wieder verworfen.<br><br></div>
-
-<div style="text-align: right">Techstack: UX | Joomla! | HTML5 | CSS3</div>
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

@@ -1,3 +1,18 @@
 .projects {
     margin-top: 5rem;
+
+    a {
+        text-decoration: none;
+        color:#ffffff;
+        font-size: .7em;
+        font-weight: bold;
+        background-color: #5d5d5d;
+        border-radius: .5em;
+        padding: .3em .7em;
+        opacity: .6;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
 }

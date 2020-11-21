@@ -6,6 +6,10 @@ title: "Mehr Spendengelder für guten Zweck"
 
 ![Wireframe Moorland-Festival](../images/MoorlandWireframe.jpg)
 
+<div style="text-align: right">Techstack: UX | HTML5 | CSS3 | JavaScript | Visual Studio Code</div>
+
+[Zur Website](http://www.moorland-festival.de)
+
 **Für das zweite Moorland-Festival sollten noch mehr Spendengelder für einem guten Zweck durch Besucher zusammenkommen.**
 
 Die **User-Research** zeigte, dass das Design für den **kompletten Bevölkerungsdurchschnitt** passen sollte, aber auch gleichzeitig rocken musste. Damit bei allen Touchpoints die Kommunikation und Werbung flüssig und eingängig funktioniert, musste eine **responsive Website** programmiert und ein **flexibles Farbschema** erstellt werden. Mit dem neuen Farbschema konnte man trendig auftreten, Kontrast und Aufmerksamkeit erzeugen bei gleichzeitiger Einhaltung der CI, auch das ursprüngliche Logo wurde dafür vektorisiert.
@@ -19,7 +23,5 @@ Da das Charity-Festival in allen Bereichen gut aufgestellt war und über zwei Ta
 ![Logovergleich Moorland-Festival](../images/Moorland_logovergleich.jpg)
 
 <div>Links das vorherige Logo, rechts das neue mit neuer Zurichtung der Buchstaben und der nötigen Qualität für großformatige Drucke oder Folierungen.<br><br></div>
-
-<div style="text-align: right">Techstack: UX | HTML5 | CSS3 | JavaScript</div>
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

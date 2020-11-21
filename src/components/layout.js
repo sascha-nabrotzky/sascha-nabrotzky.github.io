@@ -9,7 +9,6 @@ import socMedImg from "../images/socMedImg.jpg"
 import layoutStyles from "./layout.module.scss"
 
 export default function Layout({ children }) {
-
     const data = useStaticQuery(graphql`
         query SEOQuery {
             site {
@@ -21,8 +20,8 @@ export default function Layout({ children }) {
                     url
                 }
             }
-        }`
-        )
+        }
+        `)
 
     return (
         <div className={layoutStyles.container}>

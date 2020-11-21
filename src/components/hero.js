@@ -5,7 +5,7 @@ export default function Hero() {
     return(
         <div className={heroStyles.herocontainer}>
             <div><p>Webdesign</p></div>
-            <div><p>UX-Design</p></div>
+            <div><p>UI/UX-Design</p></div>
         </div>
     )
 
