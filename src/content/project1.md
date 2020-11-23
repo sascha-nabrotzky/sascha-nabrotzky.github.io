@@ -6,7 +6,7 @@ title: Neustart als Tagesmutter
 
 ![Wireframe Kita Löwenzahn](../images/LoewWireframe.jpg)
 
-<div style="text-align: right">Techstack: UX | Joomla! | HTML5 | CSS3 | Visual Studio Code | Affinity Designer</div>
+<div style="text-align: right">Technologien: UX | Joomla! | HTML5 | CSS3 | Visual Studio Code | Affinity Designer</div>
 
 [Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php) 
 

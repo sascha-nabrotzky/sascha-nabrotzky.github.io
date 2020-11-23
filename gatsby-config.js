@@ -6,12 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Frontend-Entwicklung & UI/UX-Design | Sascha Nabrotzky",
+    title: "Frontend-Entwicklung | Sascha Nabrotzky",
     description: "Analyse, Kreation und Optimierung der Nutzererfahrung - Komplexe Systeme auf eine Website gebracht!",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
-    keywords: "Frontend-Development, UX-Design, UI-Design, Webdesign"
+    keywords: "Frontend Development, Frontend-Entwicklung, Webdesign"
   },
 
   plugins: [

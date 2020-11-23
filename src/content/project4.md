@@ -4,7 +4,7 @@ title: "Programmieren in React/Gatsby/JavaScript"
 
 ![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
 
-<div style="text-align: right">Techstack: UX | React JS | Gatsby JS | Visual Studio Code | Github | Affinity Designer</div>
+<div style="text-align: right">Technologien: UX | React JS | Gatsby JS | Visual Studio Code | Github | Affinity Designer</div>
 
 **Für meinen beruflichen Neustart habe ich mich komplett in Richtung Website-Programmierung fokussiert.**
 

@@ -8,8 +8,8 @@ export default function About() {
     return (
         <Layout> 
             <h1>Never stop learning!</h1>
-            <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit einigen Jahren ist die nutzerzentrierte Frontend-Entwicklung mein Interessengebiet, welches ich auch nebenberuflich für meine Weiterbildung betreibe. Um wirklich perfekte Websites und Werbemittel zu gestalten, wurde zusätzlich das UX-Design immer mehr angewandt und nun zum zweiten Hauptbereich erklärt.</p>
-            <p>Wenn ich mal nicht am PC sitze, dann bin ich häufig am fotografieren oder ich gehe Joggen.</p>
+            <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit einigen Jahren ist die nutzerzentrierte Frontend-Entwicklung mein Interessengebiet, welches ich auch nebenberuflich für meine Weiterbildung betreibe. Um wirklich perfekte Websites und Werbemittel zu gestalten, wurde zusätzlich das UX-Design immer mehr angewandt und ist ein wichtiger Part in meiner Arbeit.</p>
+            <p>Wenn ich mal nicht am PC sitze, dann bin ich häufig am fotografieren oder ich gehe mit dem Recurvebogen raus.</p>
 
             <div className={aboutStyle.timeLinePoint}>
                 <div id="fotovonmir">

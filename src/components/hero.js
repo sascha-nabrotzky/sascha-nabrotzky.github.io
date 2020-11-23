@@ -4,8 +4,8 @@ import heroStyles from "./hero.module.scss"
 export default function Hero() {
     return(
         <div className={heroStyles.herocontainer}>
-            <div><p>Webdesign</p></div>
-            <div><p>UI/UX-Design</p></div>
+            <div><p>Frontend</p></div>
+            <div><p>Development</p></div>
         </div>
     )
 
