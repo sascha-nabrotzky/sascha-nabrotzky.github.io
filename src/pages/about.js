@@ -8,7 +8,8 @@ export default function About() {
     return (
         <Layout> 
             <h1>Never stop learning!</h1>
-            <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit einigen Jahren ist die nutzerzentrierte Frontend-Entwicklung mein Interessengebiet, welches ich auch nebenberuflich für meine Weiterbildung betreibe. Um wirklich perfekte Websites und Werbemittel zu gestalten, wurde zusätzlich das UX-Design immer mehr angewandt und ist ein wichtiger Part in meiner Arbeit.</p>
+            <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit Jahren ist die <strong>nutzerzentrierte Frontend-Entwicklung mein Interessengebiet,</strong> welches ich hauptberuflich und nebenberuflich betreibe.</p>
+            <p>Ich habe mir das Erstellen von Websites 2009 selber beigebracht und lerne zusätzlich durch Onlinekurse und vielen Büchern dazu, um fehlendes Wissen schnell und effektiv auch in freien Minuten anzueignen. <strong>Das ermöglicht es mir sehr zielgerichtet und zügig Probleme zu lösen.</strong></p>
             <p>Wenn ich mal nicht am PC sitze, dann bin ich häufig am fotografieren oder ich gehe mit dem Recurvebogen raus.</p>
 
             <div className={aboutStyle.timeLinePoint}>
@@ -21,9 +22,18 @@ export default function About() {
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
+                    <p>2021</p>
+                </div>
+                <p>PHP | SQL</p>
+            </div>
+            
+            <div className={aboutStyle.linie}></div>
+
+            <div className={aboutStyle.timeLinePoint}>
+                <div className={aboutStyle.circleImg}>
                     <p>2020</p>
                 </div>
-                <p>Website mit React JS, Gatsby JS, Git, Github, Node JS und npm programmiert | Weiterbildung in SCSS, React JS und JavaScript</p>
+                <p>Weiterbildung in React.js, Gatsby.js, Git, Github, Node.js, npm, SCSS und JavaScript</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -32,7 +42,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2019</p>
                 </div>
-                <p>Frontend-Entwickler/Mediengestalter bei einem Onlineshop eines Großhändlers |  Weiterbildung in UX/UI-Design, HTML5 und CSS3</p>
+                <p>Mediengestalter digital (Frontend-Entwickler) bei einem Onlineshop eines Großhändlers |  Weiterbildung in UX/UI-Design, HTML5 und CSS3</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -41,7 +51,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2017</p>
                 </div>
-                <p>Digitales Zeichnen: Licht und Farbe | Farbtheorie und Anwendung</p>
+                <p>Template-Entwicklung für Joomla!</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -57,7 +67,7 @@ export default function About() {
 
             <div className={aboutStyle.timeLinePoint}>
                 <div className={aboutStyle.circleImg}>
-                    <p>2011</p>
+                    <p>2009</p>
                 </div>
                 <p>Websites in HTML, CSS und JQuery erstellt.</p>
             </div>
@@ -68,7 +78,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2000</p>
                 </div>
-                <p>Mediengestalter bei einem Verlag</p>
+                <p>Mediengestalter bei einem großen Zeitungsverlag</p>
             </div>
 
             <div className={aboutStyle.linie}></div>

@@ -13,7 +13,7 @@
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
-    margin-top: 5.7em;
+    margin-top: 6.2em;
     
     @keyframes gradient {
         0% {
@@ -72,11 +72,13 @@
     }
 
     @media ( max-width:600px ) {
-        height: 30vh;
+        height: 20vh;
+        margin-top: 9.3em;
     }
 
-    @media ( min-width:768px ) {
-        height: 60vh;
+    @media ( max-width:768px ) {
+        height: 30vh;
+        margin-top: 6.3em;
     }
 }
   

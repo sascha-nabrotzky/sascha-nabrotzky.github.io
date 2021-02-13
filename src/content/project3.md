@@ -4,7 +4,8 @@ title: "Präsentation als Profi"
 
 ![Meine alte Website](../images/WebDevDesign_Website.jpg)
 
-<div style="text-align: right">Technologien: UX | HTML5 | CSS3 | JavaScript | Visual Studio Code</div>
+<div  style="text-align: right">Meine Rolle: Frontent-Entwickler</div>
+<div style="text-align: right">Technologien: HTML5 | CSS3 | JavaScript | VS Code</div>
 
 **Meine urspüngliche alte Website sollte mich selbst optimal als Fachkraft für Webdesign kombiniert mit Illustrationen präsentieren.**
 
