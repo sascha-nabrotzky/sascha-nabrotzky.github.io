@@ -15,6 +15,7 @@ module.exports = {
   },
 
   plugins: [
+    `gatsby-plugin-remove-fingerprints`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
