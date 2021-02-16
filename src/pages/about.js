@@ -33,7 +33,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2020</p>
                 </div>
-                <p>Weiterbildung in React.js, Gatsby.js, Git, Github, Node.js, npm, SCSS und JavaScript</p>
+                <p>Weiterbildung in JavaScript, React.js, Gatsby.js, Git, Github, Node.js, npm, und SCSS</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -42,7 +42,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2019</p>
                 </div>
-                <p>Mediengestalter digital (Frontend-Entwickler) bei einem Onlineshop eines Großhändlers |  Weiterbildung in UX/UI-Design, HTML5 und CSS3</p>
+                <p>Mediengestalter digital (Frontend-Entwickler) bei einem Onlineshop eines Großhändlers | Weiterbildung in UX/UI-Design | mehrere Website-Projekte</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -51,7 +51,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2017</p>
                 </div>
-                <p>Template-Entwicklung für Joomla!</p>
+                <p>Template-Entwicklung für Joomla! | Animationen mit CSS3</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -60,7 +60,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2016</p>
                 </div>
-                <p>Illustration von Kinderbüchern | digitale Fotos für iStock und Shutterstock |  Weiterbildung in Illustration | nutzerzentriertes Webdesign im Fokus</p>
+                <p>nutzerzentriertes Webdesign und HTML5 | Illustration von Kinderbüchern</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -69,7 +69,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2009</p>
                 </div>
-                <p>Websites in HTML, CSS und JQuery erstellt.</p>
+                <p>Portfolio-Websites mit Animationen in HTML, CSS3 und JQuery erstellt.</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
