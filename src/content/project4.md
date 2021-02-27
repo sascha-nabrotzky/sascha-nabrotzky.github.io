@@ -1,14 +1,28 @@
 ---
-title: "Programmieren in React/Gatsby/JavaScript"
+title: "Mehr Spendengelder für guten Zweck"
 ---
 
-![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
+![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
 
-<div  style="text-align: right">Meine Rolle: Frontent-Entwickler</div>
-<div style="text-align: right">Technologien: React.js | Gatsby.js | VS Code | Github | Affinity Designer</div>
+![Wireframe Moorland-Festival](../images/MoorlandWireframe.jpg)
 
-**Für meine berufliche Weiterbildung in neuen Technologien entwarf und programmierte ich mithilfe diverser Tutorials meine neue Portfolioseite in React.js und Gatsby.js.**
+<div  style="text-align: right">Meine Rolle: Frontend-Entwickler | UX-Designer | Mediengestalter</div>
+<div style="text-align: right">Technologien: HTML5 | CSS3 | JavaScript | VS Code</div>
 
-Ich habe für meine neue Website zuerst die **Zielgruppe analysiert,** der ich meine Kenntnisse zeigen und anbieten wollte, das sind etablierte Teams im Bereich Frontend-Entwicklung mit Designern und Entwicklern. Als Hoster und Versionierungssystem habe ich **GitHub** ausgewählt, das kam mir für einen professionellen Auftritt sehr gelegen, da ich mich mit diesem Schritt noch **leichter mit den passenden Berufsgruppen** vernetzen konnte. Ich wollte das ganze Design sehr reduziert halten, um eine schnell ladende Seite zu bekommen, es sollte mehr das programmiertechnische Funktionelle im Vordergrund stehen.
+[Zur Website](http://www.moorland-festival.de)
+
+**Für das zweite Moorland-Festival sollten noch mehr Spendengelder für einem guten Zweck durch Besucher zusammenkommen.**
+
+Die **User-Research** zeigte, dass bei allen Touchpoints die Kommunikation und Werbung flüssig und eingängig funktionieren muss, also habe ich eine **responsive Website ohne CMS programmiert** und ein **flexibles Farbschema** erstellt. Mit einem neuen Farbschema konnte man trendig auftreten, Kontrast und Aufmerksamkeit erzeugen **bei gleichzeitiger Einhaltung der CI,** auch das ursprüngliche Logo wurde dafür vektorisiert. 
+
+Die Website brauchte kein CMS im Backend oder »kostspielige« Module, da sie von mir für die Zeit gepflegt wurde, **so konnten weitere Kosten gespart werden.** Ich übernahm also den alten Account ohne Datenbank und setzte alles in HTML5, CSS3 und JavaScript um.
+
+Die **Informationsarchitektur** wurde so angelegt, dass man am Smartphone durch einfaches Scrollen alles nötige zum Fest erfährt, **SEO wurde so lange verbessert und getestet bis die Ladegeschwindigkeit passte** und man in den sozialen Medien die Seite optisch aufpoliert teilen kann.
+
+Da das Charity-Festival in allen Bereichen gut aufgestellt war und über zwei Tage ging, konnten die **Spendengelder verdoppelt** werden – 10.000 € kamen einem guten Zweck zugute.
+
+![Logovergleich Moorland-Festival](../images/Moorland_logovergleich.jpg)
+
+<div>Links das vorherige Logo, rechts das neue mit neuer Zurichtung der Buchstaben und der nötigen Qualität für großformatige Drucke oder Folierungen.<br><br></div>
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

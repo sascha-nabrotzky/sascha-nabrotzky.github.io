@@ -1,29 +1,16 @@
 ---
-title: Neustart als Tagesmutter
+title: "Programmieren in React/Gatsby/JavaScript"
 ---
 
-![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
+![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
 
-![Wireframe Kita Löwenzahn](../images/LoewWireframe.jpg)
+<div  style="text-align: right">Meine Rolle: Frontend-Entwickler</div>
+<div style="text-align: right">Technologien: React.js | Gatsby.js | GraphQL | VS Code | Github | Affinity Designer</div>
 
-<div  style="text-align: right">Meine Rolle: Frontent-Entwickler | UX-Designer | Mediengestalter</div>
-<div style="text-align: right">Technologien: Joomla! | JavaScript | PHP | HTML5 | CSS3 | VS Code | Affinity Designer</div>
+**Für meine berufliche Weiterbildung in neuen Technologien entwarf und programmierte ich mithilfe diverser Tutorials meine neue Portfolioseite in React.js und Gatsby.js.**
 
-[Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php) 
+Ich habe für meine neue Website zuerst die **Zielgruppe analysiert,** der ich meine Kenntnisse zeigen und anbieten wollte, das sind etablierte Teams im Bereich Frontend-Entwicklung mit Designern und Entwicklern. Als Hoster und Versionierungssystem habe ich **GitHub** ausgewählt, das kam mir für einen professionellen Auftritt sehr gelegen, da ich mich mit diesem Schritt noch **leichter mit den passenden Berufsgruppen** vernetzen konnte. Ich wollte das ganze Design sehr reduziert halten, um eine schnell ladende Seite zu bekommen, es sollte mehr das programmiertechnische Funktionelle im Vordergrund stehen. 
 
-**Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbständigkeit etablieren.**
-
-Nach der **User-Research** habe ich ein buntes aber abgestimmtes Farbkonzept erarbeitet, es sollten auch alle wichtigen Infos für die Eltern sofort sichtbar sein, Termine und Aktionen sollten selber aktualisiert werden können und für leichte Kontaktaufnahme wurde ein Formular eingeplant. 
-
-Das Logo für die Kita wurde zuerst digital gezeichnet, da der **»human Touch«,** das Menschliche besser rüberkommen sollte und später vektorisiert. 
-
-Für diese Seite habe ich ein sehr **schlankes Template für Joomla! entwickelt.** Dafür wurden in ein HTML5-Gerüst u.a. mehrere Modulpositionen per PHP gesetzt und danach via CSS3 responsiv gestaltet. 
-
-Das Menü kam für die Desktopversion nach oben neben das Logo. **Mithilfe von JavaScript programmierte ich ein komplett neues mobiles Menü,** das Script klont alle Links, gestaltet Sie per CSS und setzt sie an den Fuß des Smartphones in die Nähe des Daumens wieder ein. 
-
-Das kinderfreundliche Gesamtbild, die optimierte Informationsarchitektur und gute SEO **brachten der Seite bis heute beste Präsenz und Resonanz** in der lokalen Region, bei suchenden Müttern und auch im Google-Ranking.
-
-![Logovergleich Kita Löwenzahn](../images/Loew_logovergleich.jpg)
-<div>Das ursprüngliche Logo (li.) wurde zugunsten des flexibleren Vektorlogos wieder verworfen.<br><br></div>
+Die Daten für die einzelnen Projekte auf der Seite, werden mit **GraphQL** aus Markup-Dateien abgerufen und über eine ge"map"te Liste auf der Seite dargestellt, ursprünglich war Contenful als CMS im Einsatz, ich wollte mein Portfolio aber an einer Stelle weiter pflegen und aktuell halten.
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

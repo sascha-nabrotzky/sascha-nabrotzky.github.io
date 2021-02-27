@@ -24,7 +24,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2021</p>
                 </div>
-                <p>PHP | SQL</p>
+                <p>React-App | PHP | SQL</p>
             </div>
             
             <div className={aboutStyle.linie}></div>
@@ -33,7 +33,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2020</p>
                 </div>
-                <p>Weiterbildung in JavaScript, React.js, Gatsby.js, Git, Github, Node.js, npm, und SCSS</p>
+                <p>Weiterbildung in JavaScript, React.js, Gatsby.js, Github, npm, und SCSS</p>
             </div>
 
             <div className={aboutStyle.linie}></div>

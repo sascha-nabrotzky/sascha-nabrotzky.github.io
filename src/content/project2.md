@@ -1,28 +1,18 @@
 ---
-title: "Mehr Spendengelder für guten Zweck"
+title: "React-App und Daten via GraphQL"
 ---
 
-![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
+![Abfragen von Daten für eine Liste](../images/AbfragenListe.jpg)
 
-![Wireframe Moorland-Festival](../images/MoorlandWireframe.jpg)
+<div  style="text-align: right">Meine Rolle: Frontend-Entwickler</div>
+<div style="text-align: right">Technologien: React.js | Gatsby.js | GraphQL | VS Code | Github</div>
 
-<div  style="text-align: right">Meine Rolle: Frontent-Entwickler | UX-Designer | Mediengestalter</div>
-<div style="text-align: right">Technologien: HTML5 | CSS3 | JavaScript | VS Code</div>
+[Zur Website](http://www.sascha-nabrotzky.de)
 
-[Zur Website](http://www.moorland-festival.de)
+**Um zukünftige Projekte vollumfänglich auf neuesten technologischen Stand zu bringen, hatte ich eine React-App erstellt, die Daten einer anderen Seite abfragt und als Liste darstellt.**
 
-**Für das zweite Moorland-Festival sollten noch mehr Spendengelder für einem guten Zweck durch Besucher zusammenkommen.**
+Um endlich unabhängig von den bekannten Contentmanagement-Systemen, wie z. B. Wordpress und Joomla! zu sein, hatte ich während einer Aufgabe neben der reinen Gestaltung mit HTML5 und SCSS, gleichzeitig eine Web-App mit **React** gebaut. Zudem wollte ich mehrere Artikel via **GraphQL** von der Website **Contentful** abfragen, die dann als Liste in die Seite laufen. 
 
-Die **User-Research** zeigte, dass bei allen Touchpoints die Kommunikation und Werbung flüssig und eingängig funktionieren muss, also habe ich eine **responsive Website ohne CMS programmiert** und ein **flexibles Farbschema** erstellt. Mit einem neuen Farbschema konnte man trendig auftreten, Kontrast und Aufmerksamkeit erzeugen **bei gleichzeitiger Einhaltung der CI,** auch das ursprüngliche Logo wurde dafür vektorisiert. 
-
-Die Website brauchte kein CMS im Backend oder »kostspielige« Module, da sie von mir für die Zeit gepflegt wurde, **so konnten weitere Kosten gespart werden.** Ich übernahm also den alten Account ohne Datenbank und setzte alles in HTML5, CSS3 und JavaScript um.
-
-Die **Informationsarchitektur** wurde so angelegt, dass man am Smartphone durch einfaches Scrollen alles nötige zum Fest erfährt, **SEO wurde so lange verbessert und getestet bis die Ladegeschwindigkeit passte** und man in den sozialen Medien die Seite optisch aufpoliert teilen kann.
-
-Da das Charity-Festival in allen Bereichen gut aufgestellt war und über zwei Tage ging, konnten die **Spendengelder verdoppelt** werden – 10.000 € kamen einem guten Zweck zugute.
-
-![Logovergleich Moorland-Festival](../images/Moorland_logovergleich.jpg)
-
-<div>Links das vorherige Logo, rechts das neue mit neuer Zurichtung der Buchstaben und der nötigen Qualität für großformatige Drucke oder Folierungen.<br><br></div>
+Der Vorteil dieser Vorgehensweise ist der modulare Aufbau einer Präsenz im Internet, denn dadurch kann man Inhalt und Darstellung technologisch trennen und besser austauschen.
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

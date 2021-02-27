@@ -1,17 +1,29 @@
 ---
-title: "Präsentation als Profi"
+title: Neustart als Tagesmutter
 ---
 
-![Meine alte Website](../images/WebDevDesign_Website.jpg)
+![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
-<div  style="text-align: right">Meine Rolle: Frontent-Entwickler</div>
-<div style="text-align: right">Technologien: HTML5 | CSS3 | JavaScript | VS Code</div>
+![Wireframe Kita Löwenzahn](../images/LoewWireframe.jpg)
 
-**Meine urspüngliche alte Website sollte mich selbst optimal als Fachkraft für Webdesign kombiniert mit Illustrationen präsentieren.**
+<div  style="text-align: right">Meine Rolle: Frontend-Entwickler | UX-Designer | Mediengestalter</div>
+<div style="text-align: right">Technologien: Joomla! | JavaScript | PHP | HTML5 | CSS3 | VS Code | Affinity Designer</div>
 
-Die User-Research betrieb ich hauptsächlich durch **recherchieren im Internet und viel testen,** um herauszufinden, welche Stärken zu welchen Kunden passen und welches Angebot man nebenberuflich anbieten sollte. Ob alles Wirkung zeigt, überwachte ich mit Hilfe von Online-Analysetools. Von Anfang an habe ich das **Gesamtkonzept gedreht,** verworfen und immer wieder neu infrage gestellt. Ich reduzierte die angebotenen Leistungen und fokussierte mich auf zwei Sachen.
-Das Logo sollte mit dem handschriftlichen Charakter das Illustrative darstellen, die erodierten Zahlen mein Interesse für ungewöhnliches Design.
+[Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php) 
 
-Die Seite wurde von mir zu Anfang in <strong>HTML, CSS und JQuery</strong> erstellt, nach einiger Zeit stellte ich die Codestuktur auf das modernere HTML5, CSS3 um und JQuery wurde reines JavaScript ersetzt - auch Animationen wurden dort an einigen Stellen eingebracht und der Parallax-Effekt durfte auch nicht fehlen, aber die fehlende SSL Verbindung meiner Website war immer mehr ein Problem beim Ranking.
+**Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbständigkeit etablieren.**
+
+Nach der **User-Research** habe ich ein buntes aber abgestimmtes Farbkonzept erarbeitet, es sollten auch alle wichtigen Infos für die Eltern sofort sichtbar sein, Termine und Aktionen sollten selber aktualisiert werden können und für leichte Kontaktaufnahme wurde ein Formular eingeplant. 
+
+Das Logo für die Kita wurde zuerst digital gezeichnet, da der **»human Touch«,** das Menschliche besser rüberkommen sollte und später vektorisiert. 
+
+Für diese Seite habe ich ein sehr **schlankes Template für Joomla! entwickelt.** Dafür wurden in ein HTML5-Gerüst u.a. mehrere Modulpositionen per PHP gesetzt und danach via CSS3 responsiv gestaltet. 
+
+Das Menü kam für die Desktopversion nach oben neben das Logo. **Mithilfe von JavaScript programmierte ich ein komplett neues mobiles Menü,** das Script klont alle Links, gestaltet Sie per CSS und setzt sie an den Fuß des Smartphones in die Nähe des Daumens wieder ein. 
+
+Das kinderfreundliche Gesamtbild, die optimierte Informationsarchitektur und gute SEO **brachten der Seite bis heute beste Präsenz und Resonanz** in der lokalen Region, bei suchenden Müttern und auch im Google-Ranking.
+
+![Logovergleich Kita Löwenzahn](../images/Loew_logovergleich.jpg)
+<div>Das ursprüngliche Logo (li.) wurde zugunsten des flexibleren Vektorlogos wieder verworfen.<br><br></div>
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>
