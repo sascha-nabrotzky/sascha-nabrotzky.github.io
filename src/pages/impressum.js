@@ -12,12 +12,12 @@ export default function Impressum() {
             <p>49549 Ladbergen</p>
             
             <h4>Kontakt:</h4>
-            <p> Telefon: 05485 207981</p>
-            <p> E-Mail:	web.dev.design(at)sascha-nabrotzky.de</p>
+            <p>Telefon: 05485 207981</p>
+            <p>E-Mail:	sascha.nabrotzky(at)online.de</p>
 
             <h4>Umsatzsteuer-ID:</h4>
             <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:</p>
-            <p> DE267467596</p>
+            <p>DE267467596</p>
 
             <h3>Haftungsausschluss Disclaimer</h3>
             <h4>Haftung für Inhalte</h4> 

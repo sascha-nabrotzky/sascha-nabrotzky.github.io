@@ -13,4 +13,4 @@ export default function Hero() {
 
 setInterval(() => {
     changeHeroText();
-}, 8000); 
+}, 6000); 

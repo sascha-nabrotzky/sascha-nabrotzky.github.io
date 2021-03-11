@@ -26,7 +26,6 @@ export default function Layout({ children }) {
     return (
         <div className={layoutStyles.container}>
 
-            <div>
              <Helmet>
                 <title>{data.site.siteMetadata.title}</title>
                 <meta name="title" content={data.site.siteMetadata.title}/>
@@ -44,14 +43,13 @@ export default function Layout({ children }) {
                 <meta property="og:type" content="website"/>
                 <html lang="de" />
             </Helmet>
-            </div>
 
             <Header />
 
             <Hero />
-            <div className={layoutStyles.content}>
+            <main className={layoutStyles.content}>
                 {children}
-            </div>
+            </main>
             
             <Footer />
         </div>

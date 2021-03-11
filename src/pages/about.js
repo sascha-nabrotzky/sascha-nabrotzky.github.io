@@ -9,7 +9,7 @@ export default function About() {
         <Layout> 
             <h1>Never stop learning!</h1>
             <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit Jahren ist die <strong>nutzerzentrierte Frontend-Entwicklung mein Interessengebiet,</strong> welches ich hauptberuflich und nebenberuflich betreibe.</p>
-            <p>Ich habe mir das Erstellen von Websites 2009 selber beigebracht und lerne zusätzlich durch Onlinekurse und vielen Büchern dazu, um fehlendes Wissen schnell und effektiv auch in freien Minuten anzueignen. <strong>Das ermöglicht es mir sehr zielgerichtet und zügig Probleme zu lösen.</strong></p>
+            <p>Ich habe mir das Erstellen von Websites 2009 selber beigebracht und lerne ständig durch verschiedene Projekte in meiner Freizeit dazu, dadurch kann ich mich sehr zielgerichtet und schnell weiterbilden oder Probleme in Projekten lösen. Es gibt aber noch sehr viel zu lernen.</p>
             <p>Wenn ich mal nicht am PC sitze, dann bin ich häufig am fotografieren oder ich gehe mit dem Recurvebogen raus.</p>
 
             <div className={aboutStyle.timeLinePoint}>
@@ -24,7 +24,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2021</p>
                 </div>
-                <p>React-App | PHP | SQL</p>
+                <p>React-App | PHP | Web-Apps mit ReactJS und GraphQL</p>
             </div>
             
             <div className={aboutStyle.linie}></div>
@@ -33,7 +33,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2020</p>
                 </div>
-                <p>Weiterbildung in JavaScript, React.js, Gatsby.js, Github, npm, und SCSS</p>
+                <p>Weiterbildung in JavaScript, ReactJS, GatsbyJS, GraphQL, Github, npm, und SCSS</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
@@ -60,7 +60,7 @@ export default function About() {
                 <div className={aboutStyle.circleImg}>
                     <p>2016</p>
                 </div>
-                <p>nutzerzentriertes Webdesign und HTML5 | Illustration von Kinderbüchern</p>
+                <p>nutzerzentriertes Webdesign und HTML5 | Illustration</p>
             </div>
 
             <div className={aboutStyle.linie}></div>
