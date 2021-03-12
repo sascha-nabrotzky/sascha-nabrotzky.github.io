@@ -1,29 +1,8 @@
-@font-face {
-    font-family: 'Fira Sans SemiBdItal';
-    font-style: italic;
-    font-weight: 600;
-    font-display: swap;
-    src: local('Fira Sans SemiBold Italic'), local('FiraSans-SemiBoldItalic'), url("../../static/Fira-Sans-SemiBdItal.woff2") format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-@font-face {
-    font-family: 'Fira Sans Light';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local('Fira Sans Light'), local('FiraSans-Light'), url("../../static/Fira-Sans-Light.woff2") format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@mixin FiraItalBd {
-    font-family: 'Fira Sans SemiBdItal', sans-serif;
-    font-weight: 600;
-}
+@import './variables.scss';
 
 body {
-    font-family: "Fira Sans Light", sans-serif;
-    color: #333;
+    font-family: $mainfont;
+    color: $coldarkgray;
     margin: 0;
 
     h1 {
@@ -57,15 +36,7 @@ body {
         ol {
             padding: 0;
         }
-
-        @media ( max-width:640px ) {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-
-        @media ( min-width:768px ) {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
     }
 }
+
+@import './mediaquerys.scss';

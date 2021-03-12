@@ -5,8 +5,8 @@ import changeHeroText from "../components/changeHeroText"
 export default function Hero() {
     return(
         <div className={heroStyles.herocontainer}>
-            <div><p>Frontend</p></div>
-            <div><p>Entwicklung</p></div>
+            <div className={heroStyles.overflowcontainer}><p>Frontend</p></div>
+            <div className={heroStyles.overflowcontainer}><p>Entwicklung</p></div>
         </div>
     );
 }

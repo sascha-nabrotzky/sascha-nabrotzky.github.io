@@ -1,0 +1,42 @@
+@media ( max-width:640px ) {
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .herocontainer {
+        margin-top: 9.3em;
+        
+        .overflowcontainer {
+            margin-bottom: -.2em;
+        }
+    }
+
+    .content {
+        margin: 2em auto 0 !important;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .logoWrapper {
+        max-height: 2.5em !important;
+    }
+}
+
+@media ( min-width:768px ) {
+
+    .herocontainer {
+        div {
+            &:last-child {
+                margin-bottom: 0em;
+            }
+        }
+    }
+
+    .content {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

@@ -3,13 +3,11 @@
     max-height: 4em;
     margin-top: 3em;
 
-    @media ( max-width:600px ) {
-        max-height: 2em;
-    }
-
     img {
         flex: 1;
         min-width: 0;
         width: 100%;
     }
 }
+
+@import './mediaquerys.scss';

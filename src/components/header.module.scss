@@ -1,10 +1,8 @@
-@mixin FiraLogo {
-    font-family: "Fira Sans SemiBdItal";
-    color: #464646;
-}
+@import './variables.scss';
 
-.header {
-    padding: 1em 0 1em;
+header {
+    padding-top: 1em;
+    padding-bottom: 1em;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -15,12 +13,6 @@
     background-color: rgba(255,255,255,.6);
     box-shadow: 0px 10px 10px rgba(0,0,0,.08);
     z-index: 9999;
-
-    @media ( max-width:600px ) {
-        flex-direction: column;
-        align-items: center;
-        padding: 1em 0 0em;
-    }
 
     .logowrapper {
         display: flex;
@@ -84,19 +76,21 @@
     }
     
     .navLink {
-        color: #888;
+        color: $col-link;
         text-decoration: none;
         margin-right: 1.3rem;
     
         &:hover {
-            color: #555;
+            color: $col-link-hover;
         }
     }
     
     .activeNavLink {
         color: #444;
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid $col-link-active;
         padding-bottom: 0.5em;
     }
 
 }
+
+@import './mediaquerys.scss';

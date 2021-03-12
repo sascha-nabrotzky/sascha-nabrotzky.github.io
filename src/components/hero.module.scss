@@ -1,9 +1,4 @@
-@mixin FiraHero {
-    font-weight: 600;
-    color: #fff;
-    font-size: 15vw;
-    text-transform: uppercase;
-}
+@import './variables.scss';
 
 .herocontainer {
     display: flex;
@@ -26,30 +21,9 @@
             }
         }
 
-        div {
+        .overflowcontainer {
             overflow: hidden;
-            margin-bottom: -4em;
-
-            @media ( max-width:600px ) {
-                margin-bottom: -1em;
-            }
-
-            @media ( min-width:768px ) {
-                margin-bottom: -1em;
-            }
-
-            &:last-child {
-                margin-bottom: -1em;
-
-                @media ( max-width:600px ) {
-                    margin-bottom: 0em;
-                }
-
-                @media ( min-width:768px ) {
-                    margin-bottom: 0em;
-                }
-            }
-            
+            margin-bottom: -4em;            
         }
 
         p {
@@ -68,18 +42,7 @@
                         transform: translateY(0) rotate(0deg);
                     }
                 }
-
-            @media ( max-width:640px ) and (orientation: landscape) {
-                margin-top: .3em;
-            }
         }
-
-    @media ( max-width:640px ) {
-        margin-top: 9.3em;
-    }
-
-    @media ( max-width:640px ) and (orientation: landscape) {
-        margin-top: 6.2em;
-    }
 }
-  
+
+@import './mediaquerys.scss';
