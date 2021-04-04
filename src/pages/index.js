@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import indexStyle from "../components/index.module.scss"
+import * as indexStyle from "../components/index.module.scss"
 import logoJoomla from "../images/joomla-logo.svg"
 import logoReact from "../images/react-logo.svg"
 import logoGatsby from "../images/gatsby-logo.svg"

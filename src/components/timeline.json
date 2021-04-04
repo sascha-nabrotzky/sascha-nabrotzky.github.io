@@ -1,0 +1,36 @@
+{
+    "jahrtaetigkeit": [
+        {
+            "jahr": "2021",
+            "taetigkeit": "Web-Apps mit ReactJS und GraphQL programmiert"
+        },
+        {
+            "jahr": "2020",
+            "taetigkeit": "Weiterbildung in JavaScript, ReactJS, GatsbyJS, GraphQL, Github, npm, und SCSS"
+        },
+        {
+            "jahr": "2019",
+            "taetigkeit": "Mediengestalter digital (Frontend-Entwickler) bei einem Onlineshop eines Großhändlers | Weiterbildung in UX/UI-Design | mehrere Website-Projekte"
+        },
+        {
+            "jahr": "2017",
+            "taetigkeit": "Template-Entwicklung für Joomla! | Animationen mit CSS3"
+        },
+        {
+            "jahr": "2016",
+            "taetigkeit": "nutzerzentriertes Webdesign und HTML5 | Illustration"
+        },
+        {
+            "jahr": "2009",
+            "taetigkeit": "Portfolio-Websites mit Animationen in HTML, CSS3 und JQuery erstellt."
+        },
+        {
+            "jahr": "2000",
+            "taetigkeit": "Mediengestalter bei einem großen Zeitungsverlag"
+        },
+        {
+            "jahr": "1997",
+            "taetigkeit": "Ausbildung zum Schriftsetzer"
+        }
+    ]
+}

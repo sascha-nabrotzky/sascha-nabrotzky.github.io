@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-import contactStyles from "../components/contact.module.scss"
+import * as contactStyles from "../components/contact.module.scss"
 
 export default function Contact() {
     return (

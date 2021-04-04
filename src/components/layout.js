@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 import socMedImg from "../images/socMedImg.jpg"
 
-import layoutStyles from "./layout.module.scss"
+import * as layoutStyles from "./layout.module.scss"
 
 export default function Layout({ children }) {
     const data = useStaticQuery(graphql`

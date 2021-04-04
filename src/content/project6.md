@@ -1,17 +1,16 @@
 ---
-title: "Webdesign und Illustration"
+title: 'Web-App für "KiTaLa e.V."'
 ---
 
-![Meine alte Website](../images/WebDevDesign_Website.jpg)
+![Meine alte Website](../images/WebsiteMockup_KiTaLa.jpg)
 
 <div  style="text-align: right">Meine Rolle: Frontend-Entwickler</div>
-<div style="text-align: right">Technologien: HTML5 | CSS3 | JavaScript | VS Code</div>
+<div style="text-align: right">Technologien: React | SCSS | HTML5</div>
 
-**Meine urspüngliche alte Website sollte mich selbst optimal als Fachkraft für Webdesign kombiniert mit Illustrationen präsentieren.**
+**In Ladbergen haben die Tagesmütter einen Verein gegründet, ich erstellte die Website mit React, welche in Zukunft von mir weiter gepflegt und der Quellcode immer aktuell gehalten wird.**
 
-Die User-Research betrieb ich hauptsächlich durch **recherchieren im Internet und viel testen,** um herauszufinden, welche Stärken zu welchen Kunden passen und welches Angebot man nebenberuflich anbieten sollte. Ob alles Wirkung zeigt, überwachte ich mit Hilfe von Online-Analysetools. Von Anfang an habe ich das **Gesamtkonzept gedreht,** verworfen und immer wieder neu infrage gestellt. Ich reduzierte die angebotenen Leistungen und fokussierte mich auf zwei Sachen.
-Das Logo sollte mit dem handschriftlichen Charakter das Illustrative darstellen, die erodierten Zahlen mein Interesse für ungewöhnliches Design.
+Nach einer kurzen online User-Research, wie und was der Verein auf der Website kommunizieren sollte, plante ich mithilfe diverser Skizzen die einzelnen Bereiche der Seite. Ich sortierte nach **dynamischen und statischen React-Komponenten** und konnte somit recht schnell die grundsätzliche Struktur der Seite für das **Routing** planen.
 
-Die Seite wurde von mir zu Anfang in <strong>HTML, CSS und JQuery</strong> erstellt, nach einiger Zeit stellte ich die Codestuktur auf das modernere HTML5, CSS3 um und JQuery wurde reines JavaScript ersetzt - auch Animationen wurden dort an einigen Stellen eingebracht und der Parallax-Effekt durfte auch nicht fehlen, aber die fehlende SSL Verbindung meiner Website war immer mehr ein Problem beim Ranking.
+Da die Zielgruppe hauptsächlich junge und technikaffine Mütter sind, erstellte und optimierte ich **zuerst die mobile Ansicht,** das Menü brachte ich deswegen auch nach unten in **Daumennähe,** Texte kommen zum Aufklicken in Accordions. 
 
 <p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>

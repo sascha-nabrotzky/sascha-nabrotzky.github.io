@@ -1,7 +1,8 @@
-import React from "react"
-import Layout from "../components/layout"
-import aboutStyle from "../components/about.module.scss"
-import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
+import React from "react";
+import Layout from "../components/layout";
+import * as aboutStyle from "../components/about.module.scss";
+import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg";
+import TimeLineJSON from '../components/timeline.json';
 
 export default function About() {
 
@@ -18,77 +19,21 @@ export default function About() {
                 </div>
             </div>
             
-            <div className={aboutStyle.linie}></div>
+            {TimeLineJSON.jahrtaetigkeit.map( (point) => {
+                return (
+                    <section key={point.jahr.toString()}>
+                        <div className={aboutStyle.linie}></div>
 
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                    <p>2021</p>
-                </div>
-                <p>React-App | PHP | Web-Apps mit ReactJS und GraphQL</p>
-            </div>
-            
-            <div className={aboutStyle.linie}></div>
-
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                    <p>2020</p>
-                </div>
-                <p>Weiterbildung in JavaScript, ReactJS, GatsbyJS, GraphQL, Github, npm, und SCSS</p>
-            </div>
-
-            <div className={aboutStyle.linie}></div>
-
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                    <p>2019</p>
-                </div>
-                <p>Mediengestalter digital (Frontend-Entwickler) bei einem Onlineshop eines Großhändlers | Weiterbildung in UX/UI-Design | mehrere Website-Projekte</p>
-            </div>
-
-            <div className={aboutStyle.linie}></div>
-
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                    <p>2017</p>
-                </div>
-                <p>Template-Entwicklung für Joomla! | Animationen mit CSS3</p>
-            </div>
-
-            <div className={aboutStyle.linie}></div>
-
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                    <p>2016</p>
-                </div>
-                <p>nutzerzentriertes Webdesign und HTML5 | Illustration</p>
-            </div>
-
-            <div className={aboutStyle.linie}></div>
-
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                    <p>2009</p>
-                </div>
-                <p>Portfolio-Websites mit Animationen in HTML, CSS3 und JQuery erstellt.</p>
-            </div>
-
-            <div className={aboutStyle.linie}></div>
-
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                    <p>2000</p>
-                </div>
-                <p>Mediengestalter bei einem großen Zeitungsverlag</p>
-            </div>
-
-            <div className={aboutStyle.linie}></div>
-
-            <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
-                <p>1997</p>
-                </div>
-                <p>Ausbildung zum Schriftsetzer</p>
-            </div>
+                        <div className={aboutStyle.timeLinePoint}>
+                            <div className={aboutStyle.circleImg}>
+                                <p dangerouslySetInnerHTML={{ __html: point.jahr}}></p>
+                            </div>
+                            <p dangerouslySetInnerHTML={{ __html: point.taetigkeit}}></p>
+                        </div>
+                    </section>
+                    )
+                }) 
+            }
         </Layout>
     )
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
-import projectStyle from "../components/projects.module.scss"
+import * as projectStyle from "../components/projects.module.scss"
 
 export default function Projects() {
 
