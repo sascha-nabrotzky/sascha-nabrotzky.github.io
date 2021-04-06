@@ -2,10 +2,12 @@
 title: 'Web-App für "KiTaLa e.V."'
 ---
 
-![Meine alte Website](../images/WebsiteMockup_KiTaLa.jpg)
+![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
 <div  style="text-align: right">Meine Rolle: Frontend-Entwickler</div>
 <div style="text-align: right">Technologien: React | SCSS | HTML5</div>
+
+[Zur Website](https://kitala-ladbergen.de)
 
 **In Ladbergen haben die Tagesmütter einen Verein gegründet, ich erstellte die Website mit React, welche in Zukunft von mir weiter gepflegt und der Quellcode immer aktuell gehalten wird.**
 

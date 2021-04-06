@@ -19,6 +19,10 @@
         padding-left: 1em;
         padding-right: 1em;
     }
+
+    .projectsWrapper {
+        grid-template-columns: 1fr;
+    }
     
     .logoWrapper {
         max-height: 2.5em !important;
