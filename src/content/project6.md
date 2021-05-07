@@ -11,7 +11,7 @@ title: 'Web-App für "KiTaLa e.V."'
 
 **In Ladbergen haben die Tagesmütter einen Verein gegründet, ich erstellte die Website mit React, welche in Zukunft von mir weiter gepflegt und der Quellcode immer aktuell gehalten wird.**
 
-Nach einer kurzen online User-Research, wie und was der Verein auf der Website kommunizieren sollte, plante ich mithilfe diverser Skizzen die einzelnen Bereiche der Seite. Ich sortierte nach **dynamischen und statischen React-Komponenten** und konnte somit recht schnell die grundsätzliche Struktur der Seite für das **Routing** planen.
+Nach einer kurzen online User-Research, wie und was der Verein auf der Website idealerweise kommunizieren sollte, plante ich mithilfe diverser Skizzen die einzelnen Bereiche der Seite. Ich sortierte nach **dynamischen und statischen React-Komponenten** und konnte somit recht schnell die grundsätzliche Struktur der Seite für das **Routing** planen.
 
 Da die Zielgruppe hauptsächlich junge und technikaffine Mütter sind, erstellte und optimierte ich **zuerst die mobile Ansicht,** das Menü brachte ich deswegen auch nach unten in **Daumennähe,** Texte kommen zum Aufklicken in Accordions. 
 

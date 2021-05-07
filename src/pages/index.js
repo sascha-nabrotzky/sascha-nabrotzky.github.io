@@ -48,8 +48,8 @@ export default function Home() {
       <Layout>
         <h1>Komplexe Systeme in einer Web-App verwirklicht!</h1>
         <p>Hallo und herzlich willkommen auf meiner Seite, ich bin <strong>Sascha Nabrotzky.</strong></p>
-        <p>Ich habe viele Jahre Erfahrung im Online-Bereich und brachte mir das Programmieren von Web-APPs selber bei. Ich liebe das vernetzen und abrufen von Daten, ohne das Design aus den Augen zu verlieren.</p>
-        <p>Ich erstelle <strong>Web-APPs und headless CMSs</strong> mit ReactJS, GastyJS, SCSS und GraphQL. Contentmanagement-Systeme, wie z. B. <strong>Joomla!,</strong> setze ich dann ein, wenn eine datenbankgestützte Website erstellt werden muss.</p>
+        <p>Ich habe viele Jahre Erfahrung im Online-Bereich und brachte mir das Programmieren von Websites selber bei. Ich liebe das vernetzen und abrufen von Daten, ohne das Design aus den Augen zu verlieren.</p>
+        <p>Ich erstelle z. B. <strong>Websites als headless CMS</strong> mit ReactJS, GastyJS, SCSS und GraphQL. Contentmanagement-Systeme, wie z. B. <strong>Joomla!,</strong> setze ich dann ein, wenn eine datenbankgestützte Website erstellt werden muss.</p>
         <p>Bei allen größeren Projekten, die ich umsetze, ist gutes <strong>UX-Design</strong> sehr wichtig. Die Nutzererfahrung geht weit über das visuelle Design hinaus und fängt auch viel eher im ganzen Zusammenspiel der komplexen Design-Systeme an.</p>
         <GithubProjects />
         <div className={indexStyle.logoWrapper}>
