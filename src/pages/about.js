@@ -17,9 +17,9 @@ export default function About() {
             </Helmet>
             <Layout> 
                 <h1>Never stop learning!</h1>
-                <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit Jahren ist die <strong>nutzerzentrierte Frontend-Entwicklung mein Interessengebiet,</strong> welches ich hauptberuflich und nebenberuflich betreibe.</p>
+                <p>Als verheirateter Familienvater mit zwei Kindern, lebe ich im ländlichen Ladbergen. Seit Jahren ist die <strong>nutzerzentrierte Frontend-Entwicklung mein Interessengebiet,</strong> welches ich hauptberuflich betreibe.</p>
                 <p>Ich habe mir das Erstellen von Websites 2009 selber beigebracht und lerne ständig durch verschiedene Projekte in meiner Freizeit dazu, dadurch kann ich mich sehr zielgerichtet und schnell weiterbilden oder Probleme in Projekten lösen. Es gibt aber noch sehr viel zu lernen.</p>
-                <p>Wenn ich mal nicht am PC sitze, dann bin ich häufig am fotografieren oder ich gehe mit dem Recurvebogen raus.</p>
+                <p>Wenn ich mal nicht am PC sitze, dann erledige ich gerne Holzarbeiten oder gehe Schrauben.</p>
 
                 <div className={aboutStyle.timeLinePoint}>
                     <div id="fotovonmir">
