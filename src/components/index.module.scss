@@ -1,13 +1,13 @@
 .logoWrapper {
-    display: flex;
-    max-height: 4em;
-    margin-top: 5em;
+  display: flex;
+  max-height: 4em;
+  margin-top: 5em;
 
-    img {
-        flex: 1;
-        min-width: 0;
-        width: 100%;
-    }
+  img {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+  }
 }
 
-@import './mediaquerys.scss';
+@import "./mediaquerys.scss";

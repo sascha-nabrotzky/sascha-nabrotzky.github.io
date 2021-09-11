@@ -1,32 +1,32 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 .timeLinePoint {
-    display: flex;
-    flex-flow: column;
-    max-width: 30em;
-    text-align: center;
-    margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  max-width: 30em;
+  text-align: center;
+  margin: 0 auto;
 
-    img {
-        border-radius: 50%;
-        margin-bottom: 1em;
-    }
+  img {
+    border-radius: 50%;
+    margin-bottom: 1em;
+  }
 }
 
 .circleImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 6em;
-    height: 6em;
-    border: 2px solid $collightgray;
-    border-radius: 50%;
-    margin: 0 auto
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6em;
+  height: 6em;
+  border: 2px solid $collightgray;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .linie {
-    background-color: $collightgray;
-    width: 1px;
-    height: 2em;
-    margin: 0 auto 1em 
+  background-color: $collightgray;
+  width: 1px;
+  height: 2em;
+  margin: 0 auto 1em;
 }

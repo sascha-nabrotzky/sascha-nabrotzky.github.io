@@ -1,25 +1,25 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 footer {
-    margin: 3em 1em 0
+  margin: 3em 1em 0;
 }
 
 .footerNavList {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footerNavLink {
-    color: $col-link;
-    text-decoration: none;
-    margin-right: 1.3rem;
+  color: $col-link;
+  text-decoration: none;
+  margin-right: 1.3rem;
 
-    &:hover {
-        color: $col-link-hover;
-    }
+  &:hover {
+    color: $col-link-hover;
+  }
 }
 
 .activeFooterNavLink {
-    color: $col-link-active;
+  color: $col-link-active;
 }

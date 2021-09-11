@@ -1,32 +1,33 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 .projectsWrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2.5em 1em;
-    
-    a {
-        text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5em 1em;
+
+  a {
+    text-decoration: none;
+  }
+
+  .projectsBox {
+    background-color: #a0e6ff;
+    padding: 10px;
+    color: $coldarkgray;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    border-radius: 1em;
+
+    &:hover {
+      background-color: #23a6d5;
+      color: white;
     }
 
-    .projectsBox {
-        background-color: #a0e6ff;
-        padding: 10px;
-        color: $coldarkgray;
-        height: 100%;
-        transition: .2s ease-in-out;
-        border-radius: 1em;
-
-        &:hover {
-            background-color: #23a6d5;
-            color: white;
-        }
-
-        h4, p, date {
-            margin: .5em 1em 0;
-        }
-
+    h4,
+    p,
+    date {
+      margin: 0.5em 1em 0;
     }
+  }
 }
 
-@import './mediaquerys.scss';
+@import "./mediaquerys.scss";
