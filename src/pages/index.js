@@ -49,25 +49,25 @@ export default function Home() {
         <html lang="de" />
       </Helmet>
       <Layout>
-        <h1>Komplexe Systeme auf's Display gebracht!</h1>
+        <h1>Komplexe Systeme auf das Display gebracht!</h1>
         <p>
           Hallo und herzlich willkommen auf meiner Seite, ich bin{" "}
           <strong>Sascha Nabrotzky.</strong>
         </p>
         <p>
-          Ich habe viele Jahre Erfahrung im Online-Bereich und brachte mir das
-          Programmieren von Websites selber bei. Ich liebe das vernetzen und
-          abrufen von Daten, ohne das Design aus den Augen zu verlieren.
+          Ich brachte mir das Programmieren von Websites selber bei und bin
+          schon viele Jahre im Online-Bereich tätig. Ich liebe das Gestalten von
+          abgerufenen Daten, ohne das Design aus den Augen zu verlieren.
         </p>
         <p>
-          Ich erstelle z. B. Websites als <strong>headless CMS</strong> mit{" "}
+          Ich erstelle Websites/PWAs mit{" "}
           <strong>ReactJS, GastyJS, SCSS und GraphQL.</strong>{" "}
-          Contentmanagement-Systeme, wie z. B. <strong>Joomla!,</strong> setze
-          ich dann ein, wenn eine datenbankgestützte Website erstellt werden
-          muss.
+          Contentmanagement-Systeme setze ich dann ein, wenn eine
+          datenbankgestützte Website erstellt werden muss und setze diese gerne
+          als headless CMS um.
         </p>
         <p>
-          Bei allen größeren Projekten, die ich umsetze, ist gutes{" "}
+          Bei allen größeren Projekten, die ich programmiere, ist gutes{" "}
           <strong>UX-Design</strong> sehr wichtig. Die Nutzererfahrung geht weit
           über das visuelle Design hinaus und fängt auch viel eher im ganzen
           Zusammenspiel der komplexen Design-Systeme an.
