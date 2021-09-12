@@ -81,22 +81,22 @@ header {
     display: flex;
     padding: 0;
     font-size: 1.3em;
-  }
 
-  .navLink {
-    color: $col-link;
-    text-decoration: none;
-    margin-right: 1.3rem;
+    .navLink {
+      color: $col-link;
+      text-decoration: none;
+      margin-right: 1.3rem;
 
-    &:hover {
-      color: $col-link-hover;
+      &:hover {
+        color: $col-link-hover;
+      }
+
+      &.activeNavLink {
+        color: #444;
+        border-bottom: 1px solid $col-link-active;
+        padding-bottom: 0.5em;
+      }
     }
-  }
-
-  .activeNavLink {
-    color: #444;
-    border-bottom: 1px solid $col-link-active;
-    padding-bottom: 0.5em;
   }
 }
 
