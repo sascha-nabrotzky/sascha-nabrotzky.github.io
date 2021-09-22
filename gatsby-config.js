@@ -7,11 +7,13 @@
 module.exports = {
   siteMetadata: {
     title: "Frontend-Entwicklung | Sascha Nabrotzky",
-    description: "Programmierung von Web-Apps/Websites unter Beachtung optimaler User-Experience (UX)",
+    description:
+      "Programmierung von Websites/PWAs unter Beachtung optimaler User-Experience (UX)",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
-    keywords: "Frontend Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung"
+    keywords:
+      "Frontend Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung",
   },
 
   plugins: [
@@ -36,11 +38,10 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: false,
-            }
-          }
-        ]
-      }
-    }
-    
+            },
+          },
+        ],
+      },
+    },
   ],
 }
