@@ -39,12 +39,12 @@ export default function Contact() {
           </a>
           <a
             className={contactStyles.socialBtn}
-            href="https://github.com/sascha-nabrotzky"
-            alt="GitHub-Repositorys"
+            href="https://www.linkedin.com/in/sascha-nabrotzky-b7429521a/"
+            alt="LinkedIn-Profil"
             target="_blank"
             rel="noreferrer"
           >
-            <p>GitHub</p>
+            <p>LinkedIn</p>
           </a>
           <a
             className={contactStyles.socialBtn}
@@ -55,6 +55,16 @@ export default function Contact() {
           >
             <p>Xing</p>
           </a>
+          <a
+            className={contactStyles.socialBtn}
+            href="https://github.com/sascha-nabrotzky"
+            alt="GitHub-Repositorys"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p>GitHub</p>
+          </a>
+
           <a
             className={contactStyles.socialBtn}
             href="https://www.instagram.com/arrow_function0/"
