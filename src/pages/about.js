@@ -23,14 +23,36 @@ export default function About() {
           Als verheirateter Familienvater mit zwei Kindern lebe ich im
           ländlichen Ladbergen. Schon seit Jahren ist die{" "}
           <strong>
-            nutzerzentrierte Frontend-Entwicklung mein Interessengebiet,
+            nutzerzentrierte Frontend-Entwicklung mein Interessengebiet.
           </strong>{" "}
-          in dem ich mich weiterentickele und ständig etwas Neues lerne.
         </p>
         <p>
-          2009 brachte ich mir das Programmieren von Websites selber bei, durch
-          Projekte, die ich in meiner Freizeit betreue, bleibe ich immer auf dem
-          neuesten Stand der Technologien.
+          Computer und Gestaltung habe ich schon in der Schulzeit kombiniert,
+          darauf folgten jahrelange Erfahrung im grafischen Gewerbe und auch ein
+          paar Preise habe ich gewonnen, doch für meine größte Passion legte ich
+          mich noch weiter ins Zeug - ich lernte <strong>HTML5, SCSS</strong>{" "}
+          und vor allem
+          <strong>JavaScript,</strong> gefolgt von <strong>React.js</strong> und{" "}
+          <strong>Gatsby.js,</strong> Projekte wurden von mir umgesetzt und
+          optimiert - damit stieg ich schließlich vollständig in die
+          Frontend-Entwicklung ein. Mit jeder neuen Technologie eröffnen sich
+          mir unglaublich spannende Möglichkeiten, die mich herausfordern und
+          ich erschließen kann -{" "}
+          <strong>Typo3, Fluid, Bootstrap, Docker, DDEV, Git </strong>
+          und headless CMS sind ein paar davon.
+        </p>
+
+        <p>
+          Zurückblickend kann ich sagen, dass meine Stärken ganz klar in der
+          <strong>
+            Kombination von Programmierkenntnissen und Design
+          </strong>{" "}
+          liegen und ich konstant neue Programmiertechniken lerne oder vertiefe.
+        </p>
+
+        <p>
+          Da ich ja nicht nur in Quellcode herumtippen kann, bin ich sonst ganz
+          gerne mit meiner Familie oder diversen Holzarbeiten beschäftigt.
         </p>
         <p>
           Wenn ich mal nicht am PC sitze, dann erledige ich gerne Holzarbeiten
