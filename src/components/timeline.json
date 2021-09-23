@@ -1,8 +1,12 @@
 {
   "jahrtaetigkeit": [
     {
+      "jahr": "AKTUELL",
+      "taetigkeit": "Kenntnissvertiefung: JavaScript, Typo3 und Responsivität"
+    },
+    {
       "jahr": "2021",
-      "taetigkeit": "Mehrere Websites mit ReactJS und GraphQL programmiert | Frontend-Entwickler in einer Agentur"
+      "taetigkeit": "Mehrere Websites mit ReactJS und GraphQL programmiert | Docker | Typo3 | DDEV | Frontend-Entwickler in einer Agentur"
     },
     {
       "jahr": "2020",
