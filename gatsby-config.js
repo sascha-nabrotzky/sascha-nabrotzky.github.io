@@ -8,12 +8,12 @@ module.exports = {
   siteMetadata: {
     title: "Frontend-Entwicklung | Sascha Nabrotzky",
     description:
-      "Programmierung von Websites/PWAs unter Beachtung optimaler User-Experience (UX)",
+      "Programmierung von Websites/PWAs, UX-Design und integration von Content Management Systemen",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
     keywords:
-      "Frontend Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung",
+      "Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung",
   },
 
   plugins: [
