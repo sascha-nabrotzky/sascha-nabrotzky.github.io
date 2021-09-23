@@ -1,12 +1,17 @@
-@media (max-width: 640px) {
+@media screen and (max-width: 767px) {
   .header {
     flex-direction: column;
     align-items: center;
     padding-bottom: 0;
+
+    .logowrapper {
+      margin-left: 0.5em;
+    }
   }
 
   .herocontainer {
     margin-top: 9.3em;
+    padding-left: 0;
 
     .overflowcontainer {
       margin-bottom: -0.2em;
@@ -21,10 +26,6 @@
 
   .projectsWrapper {
     grid-template-columns: 1fr;
-  }
-
-  .logoWrapper {
-    max-height: 2.5em !important;
   }
 }
 
