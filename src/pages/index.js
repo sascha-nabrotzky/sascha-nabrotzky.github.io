@@ -73,13 +73,13 @@ export default function Home() {
           Zusammenspiel der komplexen Design-Systeme an.
         </p>
         <GithubProjects />
-        <div className={indexStyle.logoWrapper}>
+        <aside className={indexStyle.techStackWrapper}>
           <img src={logoReact} alt="React-Logo"></img>
           <img src={logoGatsby} alt="Gatsby-Logo"></img>
           <img src={logoJs} alt="JS-Logo"></img>
           <img src={logoSass} alt="SASS-Logo"></img>
           <img src={logoJoomla} alt="Joomla!-Logo"></img>
-        </div>
+        </aside>
       </Layout>
     </>
   )

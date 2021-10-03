@@ -21,7 +21,7 @@ export default function About() {
         <h1>Never stop learning!</h1>
         <p>
           Als verheirateter Familienvater mit zwei Kindern lebe ich im
-          ländlichen Ladbergen. Schon seit Jahren ist die{" "}
+          ländlichen Ladbergen, schon seit Jahren ist die{" "}
           <strong>
             nutzerzentrierte Frontend-Entwicklung mein Interessengebiet.
           </strong>{" "}
@@ -43,20 +43,14 @@ export default function About() {
         </p>
 
         <p>
-          Zurückblickend kann ich sagen, dass meine Stärken ganz klar in der
-          <strong>
-            Kombination von Programmierkenntnissen und Design
-          </strong>{" "}
+          Zurückblickend kann ich sagen, dass meine Stärken ganz klar in der{" "}
+          <strong>Kombination von Programmierkenntnissen und Design</strong>{" "}
           liegen und ich konstant neue Programmiertechniken lerne oder vertiefe.
         </p>
 
         <p>
           Da ich ja nicht nur in Quellcode herumtippen kann, bin ich sonst ganz
           gerne mit meiner Familie oder diversen Holzarbeiten beschäftigt.
-        </p>
-        <p>
-          Wenn ich mal nicht am PC sitze, dann erledige ich gerne Holzarbeiten
-          oder gehe Schrauben.
         </p>
 
         <div className={aboutStyle.timeLinePoint}>

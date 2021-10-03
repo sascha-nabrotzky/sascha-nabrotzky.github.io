@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import * as heroStyles from "./hero.module.scss"
 
 export default function Hero() {
-  const textArray = ["Frontend-", "Web-", "PWA-", "Design-"]
+  const textArray = ["Frontend-", "Web/PWA-", "Design-"]
   let [state, setState] = useState(textArray[0])
 
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function Hero() {
           setState(item)
         }, i * 1500)
       })
-    }, 6000)
+    }, 4500)
   }, [])
 
   return (

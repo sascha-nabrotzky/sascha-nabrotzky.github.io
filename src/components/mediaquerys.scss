@@ -11,7 +11,7 @@
 
   .herocontainer {
     margin-top: 9.3em;
-    padding-left: 0;
+    padding-left: 0.5rem;
 
     .overflowcontainer {
       margin-bottom: -0.2em;
@@ -26,6 +26,10 @@
 
   .projectsWrapper {
     grid-template-columns: 1fr;
+  }
+
+  .techStackWrapper {
+    max-height: 3.5em;
   }
 }
 
