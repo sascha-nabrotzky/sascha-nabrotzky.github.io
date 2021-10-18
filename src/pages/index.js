@@ -8,6 +8,7 @@ import logoReact from "../images/react-logo.svg"
 import logoGatsby from "../images/gatsby-logo.svg"
 import logoSass from "../images/sass-logo.svg"
 import logoJs from "../images/js-logo.svg"
+import logoDocker from "../images/docker-logo.svg"
 import { useStaticQuery, graphql } from "gatsby"
 import socMedImg from "../images/socMedImg.jpg"
 
@@ -57,7 +58,7 @@ export default function Home() {
         <p>
           Ich brachte mir das Programmieren von Websites selber bei und bin
           schon viele Jahre im Online-Bereich tätig. Ich liebe das Gestalten von
-          abgerufenen Daten, ohne das Design aus den Augen zu verlieren.
+          Websites und Daten, ohne das Design aus den Augen zu verlieren.
         </p>
         <p>
           Ich erstelle Websites/PWAs mit{" "}
@@ -79,6 +80,7 @@ export default function Home() {
           <img src={logoJs} alt="JS-Logo"></img>
           <img src={logoSass} alt="SASS-Logo"></img>
           <img src={logoJoomla} alt="Joomla!-Logo"></img>
+          <img src={logoDocker} alt="Docker-Logo"></img>
         </aside>
       </Layout>
     </>
