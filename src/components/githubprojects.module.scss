@@ -1,5 +1,9 @@
 @import "./variables.scss";
 
+h2 {
+  margin-top: 5rem;
+}
+
 .projectsWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

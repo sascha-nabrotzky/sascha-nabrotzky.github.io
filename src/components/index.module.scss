@@ -1,12 +1,17 @@
 .techStackWrapper {
   display: flex;
-  max-height: 4em;
-  margin-top: 5em;
+  flex-flow: column;
+  margin-top: 2em;
 
-  img {
-    flex: 1;
-    min-width: 0;
-    width: 100%;
+  .logoWrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+
+    img {
+      height: 4rem;
+    }
   }
 }
 

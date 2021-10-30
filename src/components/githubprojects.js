@@ -16,7 +16,7 @@ export default function FetchGithubProjects(props) {
 
   return (
     <section>
-      <h3>Projekte auf Github</h3>
+      <h2>Projekte auf Github</h2>
       <div className={gitProjectStyles.projectsWrapper}>
         {data.map(project => {
           return (
