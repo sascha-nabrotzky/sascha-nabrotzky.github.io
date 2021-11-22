@@ -8,12 +8,12 @@ module.exports = {
   siteMetadata: {
     title: "Frontend-Entwicklung | Sascha Nabrotzky",
     description:
-      "Programmierung von Websites/PWAs, UX-Design und integration von Content Management Systemen",
+      "Programmierung von TYPO3- und React-Websites, static sites mit Gatsby.JS",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
     keywords:
-      "Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung",
+      "TYPO3, CMS, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung",
   },
 
   plugins: [

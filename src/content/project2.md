@@ -1,5 +1,5 @@
 ---
-title: "Eigene Portfolio-Seite als React-App"
+title: "Eigene Portfolio-Seite als React-Website"
 ---
 
 ![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)

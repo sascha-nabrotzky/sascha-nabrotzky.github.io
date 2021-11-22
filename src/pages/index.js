@@ -63,8 +63,8 @@ export default function Home() {
           von Websites und Daten, ohne das Design aus den Augen zu verlieren.
         </p>
         <p>
-          Ich erstelle Websites/PWAs mit{" "}
-          <strong>ReactJS, GastyJS, SCSS und GraphQL.</strong> Das
+          Ich erstelle Websites mit{" "}
+          <strong>React.JS, Gasty.JS, SCSS und GraphQL.</strong> Das
           Enterprise-CMS <strong>TYPO3</strong> setze ich dann ein, wenn eine
           datenbankgestützte und sichere Website erstellt werden muss, auch
           Headless-CMS kann ich umsetzen.
@@ -77,7 +77,7 @@ export default function Home() {
         </p>
         <GithubProjects />
         <aside className={indexStyle.techStackWrapper}>
-          <h2>Eingesetzte Technologien</h2>
+          <h2>Skills</h2>
           <div className={indexStyle.logoWrapper}>
             <img src={logoReact} alt="React-Logo"></img>
             <img src={logoGatsby} alt="Gatsby-Logo"></img>

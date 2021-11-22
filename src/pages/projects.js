@@ -37,7 +37,7 @@ export default function Projects() {
         <p>
           Hier ist eine Auswahl meiner umfangreicheren{" "}
           <strong>Website-Projekte,</strong> bei denen ich alles{" "}
-          <strong>von Grund auf planen und erstellen</strong> und auch die
+          <strong>von Grund auf planen, erstellen</strong> und auch die
           Nutzererfahrung optimieren konnte, häufig gestaltete ich ebenfalls die
           restlichen Werbemittel.
         </p>
