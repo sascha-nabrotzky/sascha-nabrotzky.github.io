@@ -66,8 +66,7 @@ export default function Home() {
           Ich erstelle Websites mit{" "}
           <strong>React.JS, Gasty.JS, SCSS und GraphQL.</strong> Das
           Enterprise-CMS <strong>TYPO3</strong> setze ich dann ein, wenn eine
-          datenbankgestützte und sichere Website erstellt werden muss, auch
-          Headless-CMS kann ich umsetzen.
+          datenbankgestützte und sichere Website erstellt werden muss.
         </p>
         <p>
           Bei allen größeren Projekten, die ich programmiere, ist gutes{" "}

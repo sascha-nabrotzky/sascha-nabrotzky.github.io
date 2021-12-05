@@ -32,11 +32,9 @@ export default function About() {
           paar Preise habe ich gewonnen. Ich brachte mir autodidaktisch{" "}
           <strong>HTML5, SCSS</strong> und vor allem
           <strong> JavaScript,</strong> gefolgt von <strong>React.js</strong>{" "}
-          und <strong>Gatsby.js</strong> bei und verschiedene Projekte wurden
-          von mir umgesetzt und optimiert - damit stieg ich schließlich
-          vollständig in die Frontend-Entwicklung ein. Mit jeder neuen
-          Technologie eröffnen sich mir unglaublich spannende Möglichkeiten, die
-          mich herausfordern und ich erschließen kann -{" "}
+          und <strong>Gatsby.js</strong> bei. Mit jeder neuen Technologie
+          eröffnen sich mir unglaublich spannende Möglichkeiten, die mich
+          herausfordern und ich erschließen kann -{" "}
           <strong>Typo3, Fluid, Bootstrap, Docker, DDEV, Git </strong>
           und headless CMS sind ein paar davon.
         </p>
