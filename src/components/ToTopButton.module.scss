@@ -1,0 +1,35 @@
+.totopbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 0.9rem;
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  font-weight: 700;
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+  transform: rotate(90deg);
+  cursor: pointer;
+  color: #279580;
+}
+
+.buttonHidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 0.9rem;
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  font-weight: 700;
+  opacity: 0;
+  transform: rotate(90deg);
+  color: #279580;
+}
+
+@import "./mediaquerys.scss";
