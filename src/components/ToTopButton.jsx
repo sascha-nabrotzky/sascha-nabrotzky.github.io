@@ -1,16 +1,24 @@
-import React, { useRef, useState } from "react"
+import React, { useEffect, useState } from "react"
 import * as styles from "./ToTopButton.module.scss"
 
 function ToTopButton() {
   const [currentClass, setClass] = useState(`${styles.totopbutton}`)
 
-  const button = useRef(null)
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setClass(
+        window.scrollY > 200
+          ? `${styles.totopbutton}`
+          : `${styles.buttonHidden}`
+      )
+    })
+  })
 
-  window.addEventListener("scroll", () => {
+  /*   window.addEventListener("scroll", () => {
     setClass(
       window.scrollY > 200 ? `${styles.totopbutton}` : `${styles.buttonHidden}`
     )
-  })
+  }) */
 
   function toTop() {
     window.scrollTo({
@@ -21,7 +29,7 @@ function ToTopButton() {
   }
 
   return (
-    <button className={currentClass} ref={button} onClick={toTop}>
+    <button className={currentClass} onClick={toTop}>
       &laquo;
     </button>
   )
