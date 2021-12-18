@@ -14,12 +14,6 @@ function ToTopButton() {
     })
   })
 
-  /*   window.addEventListener("scroll", () => {
-    setClass(
-      window.scrollY > 200 ? `${styles.totopbutton}` : `${styles.buttonHidden}`
-    )
-  }) */
-
   function toTop() {
     window.scrollTo({
       top: 0,
