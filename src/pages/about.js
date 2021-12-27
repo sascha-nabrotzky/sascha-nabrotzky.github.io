@@ -19,35 +19,16 @@ export default function About() {
       </Helmet>
       <Layout>
         <h1>Never stop learning!</h1>
-        <p>
-          Als verheirateter Familienvater mit zwei Kindern lebe ich im
-          ländlichen Ladbergen, schon seit Jahren ist die{" "}
-          <strong>
-            nutzerzentrierte Frontend-Entwicklung mein Interessengebiet.
-          </strong>{" "}
-        </p>
-        <p>
-          Computer und Gestaltung habe ich schon in der Schulzeit kombiniert,
-          darauf folgten jahrelange Erfahrung im grafischen Gewerbe und auch ein
-          paar Preise habe ich gewonnen. Ich brachte mir autodidaktisch{" "}
-          <strong>HTML5, SCSS</strong> und vor allem
-          <strong> JavaScript,</strong> gefolgt von <strong>React.js</strong>{" "}
-          und <strong>Gatsby.js</strong> bei. Mit jeder neuen Technologie
-          eröffnen sich mir unglaublich spannende Möglichkeiten, die mich
-          herausfordern und ich erschließen kann -{" "}
-          <strong>Typo3, Fluid, Bootstrap, Docker, DDEV, Git </strong>
-          und headless CMS sind ein paar davon.
-        </p>
 
+        <p>Eine kleine Übersicht meines bisherigen Werdegangs.</p>
         <p>
-          Zurückblickend kann ich sagen, dass meine Stärken ganz klar in der{" "}
-          <strong>Kombination von Programmierkenntnissen und Design</strong>{" "}
-          liegen und ich konstant neue Programmiertechniken lerne oder vertiefe.
+          Autodidaktisch brachte ich mir ursprünglich HTML5, SCSS und JavaScript
+          gefolgt von React bei. Mittlerweile arbeite ich hauptberuflich fest
+          angestellt in einer Agentur.
         </p>
-
         <p>
-          Da ich ja nicht nur in Quellcode herumtippen kann, bin ich sonst ganz
-          gerne mit meiner Familie oder diversen Holzarbeiten beschäftigt.
+          Ein paar private Projekte pflege ich nebenbei noch weiter, um eigene
+          Ideen auszuprobieren und weiterzuentwicklen.
         </p>
 
         <div className={aboutStyle.timeLinePoint}>

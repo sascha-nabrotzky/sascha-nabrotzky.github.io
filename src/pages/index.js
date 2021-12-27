@@ -55,37 +55,33 @@ export default function Home() {
         <h1>Komplexe Systeme auf das Display gebracht!</h1>
         <p>
           Hallo und herzlich willkommen auf meiner Seite, ich bin{" "}
-          <strong>Sascha Nabrotzky.</strong>
+          <strong>Sascha Nabrotzky. </strong>
+          Als verheirateter Familienvater mit zwei Kindern lebe ich im
+          ländlichen Ladbergen, schon seit Jahren ist die{" "}
+          <strong>
+            nutzerzentrierte Frontend-Entwicklung mein Interessengebiet.
+          </strong>{" "}
         </p>
         <p>
-          Ich brachte mir das Programmieren von Websites selber bei und bin
-          schon einige Jahre im Online-Bereich tätig. Ich liebe das Gestalten
-          von Websites und Daten, ohne das Design aus den Augen zu verlieren.
-        </p>
-        <p>
-          Ich erstelle Websites mit{" "}
-          <strong>React.JS, Gasty.JS, SCSS und GraphQL.</strong> Das
-          Enterprise-CMS <strong>TYPO3</strong> setze ich dann ein, wenn eine
-          datenbankgestützte und sichere Website erstellt werden muss.
-        </p>
-        <p>
-          Bei allen größeren Projekten, die ich programmiere, ist gutes{" "}
-          <strong>UX-Design</strong> sehr wichtig. Die Nutzererfahrung geht weit
-          über das visuelle Design hinaus und fängt auch viel eher im ganzen
-          Zusammenspiel der komplexen Design-Systeme an.
+          {" "}
+          Mit jeder neuen Technologie eröffnen sich mir unglaublich spannende
+          Möglichkeiten, die mich herausfordern und ich erschließen kann -{" "}
+          <strong>Typo3, React, Fluid, Bootstrap, Docker, DDEV, Git </strong>
+          mit Technologien, wie <strong>JavaScript, SCSS </strong>und HTML sind
+          ein paar davon.
         </p>
         <GithubProjects />
         <aside className={indexStyle.techStackWrapper}>
-          <h2>Skills</h2>
+          <h2>Meine Skills</h2>
           <div className={indexStyle.logoWrapper}>
-            <img src={logoReact} alt="React-Logo"></img>
-            <img src={logoGatsby} alt="Gatsby-Logo"></img>
-            <img src={logoJs} alt="JS-Logo"></img>
-            <img src={logoHTML5} alt="HTML5-Logo"></img>
-            <img src={logoSass} alt="SASS-Logo"></img>
-            <img src={logoGit} alt="Git-Logo"></img>
-            <img src={logoDocker} alt="Docker-Logo"></img>
-            <img src={logoTypo3} alt="TYPO3-Logo"></img>
+            <img src={logoReact} alt="React-Logo" loading="lazy"></img>
+            <img src={logoGatsby} alt="Gatsby-Logo" loading="lazy"></img>
+            <img src={logoJs} alt="JS-Logo" loading="lazy"></img>
+            <img src={logoHTML5} alt="HTML5-Logo" loading="lazy"></img>
+            <img src={logoSass} alt="SASS-Logo" loading="lazy"></img>
+            <img src={logoGit} alt="Git-Logo" loading="lazy"></img>
+            <img src={logoDocker} alt="Docker-Logo" loading="lazy"></img>
+            <img src={logoTypo3} alt="TYPO3-Logo" loading="lazy"></img>
           </div>
         </aside>
       </Layout>
