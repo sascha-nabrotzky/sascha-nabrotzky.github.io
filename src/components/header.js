@@ -22,7 +22,7 @@ export default function Header() {
           <div className={headerStyles.circle2}></div>
           <p>s/n</p>
         </Link>
-        <p>{data.site.siteMetadata.author}</p>
+        <p className={headerStyles.author}>{data.site.siteMetadata.author}</p>
       </div>
       <nav>
         <ul className={headerStyles.navList}>

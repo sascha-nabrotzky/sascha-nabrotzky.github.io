@@ -1,35 +1,31 @@
+@import "./variables.scss";
+
 .totopbutton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
+  width: 3rem;
+  height: 3rem;
   bottom: 1.5rem;
   right: 0.9rem;
-  background-color: transparent;
-  border: none;
+  background-color: $col-blue;
   font-size: 3rem;
   font-weight: 700;
   transition: 0.5s ease-in-out;
   opacity: 1;
-  transform: rotate(90deg);
   cursor: pointer;
-  color: #279580;
+  color: #fff;
+  border-radius: 50%;
+  background: {
+    image: url("../images/arrow_up.svg");
+    size: 2rem;
+    repeat: no-repeat;
+    position: center 35%;
+  }
 }
 
 .buttonHidden {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 1.5rem;
-  right: 0.9rem;
-  background-color: transparent;
-  border: none;
-  font-size: 3rem;
-  font-weight: 700;
   opacity: 0;
+  border-radius: 50%;
   transform: rotate(90deg);
-  color: #279580;
 }
 
 @import "./mediaquerys.scss";

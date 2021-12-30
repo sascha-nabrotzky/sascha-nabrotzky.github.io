@@ -67,15 +67,6 @@ export default function Contact() {
 
           <a
             className={contactStyles.socialBtn}
-            href="https://www.instagram.com/arrow_function0/"
-            alt="Instagram - Blick hinter die Kulissen"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p>Instagram</p>
-          </a>
-          <a
-            className={contactStyles.socialBtn}
             href="https://twitter.com/Arrow_Function0"
             alt="Meine News"
             target="_blank"

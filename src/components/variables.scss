@@ -35,6 +35,7 @@
 
 @mixin FiraItalBd {
   font-family: "Fira Sans Condensed";
+  font-style: italic;
   font-weight: 600;
 }
 
@@ -58,3 +59,5 @@ $coldarkgray: #333;
 $col-link: #888;
 $col-link-hover: #555;
 $col-link-active: #333;
+
+$col-blue: #23a6d5;

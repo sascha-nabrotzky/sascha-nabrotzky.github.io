@@ -22,11 +22,7 @@ function ToTopButton() {
     })
   }
 
-  return (
-    <button className={currentClass} onClick={toTop}>
-      &laquo;
-    </button>
-  )
+  return <div className={currentClass} onClick={toTop} />
 }
 
 export default ToTopButton

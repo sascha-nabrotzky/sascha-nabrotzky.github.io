@@ -75,6 +75,11 @@ header {
         z-index: 2;
       }
     }
+
+    .author {
+      @include FiraItalBd;
+      font-size: 1.5em;
+    }
   }
 
   .navList {
@@ -86,14 +91,18 @@ header {
       color: $col-link;
       text-decoration: none;
       margin-right: 1.3rem;
+      border-bottom: 2px solid transparent;
+      transition: 0.3s ease-in-out;
 
       &:hover {
+        padding-bottom: 0.5em;
         color: $col-link-hover;
+        border-bottom: 2px solid $col-blue;
       }
 
       &.activeNavLink {
-        color: #444;
-        border-bottom: 1px solid $col-link-active;
+        color: $col-link-active;
+        border-bottom: 2px solid $col-blue;
         padding-bottom: 0.5em;
       }
     }

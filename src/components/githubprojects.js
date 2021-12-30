@@ -30,7 +30,7 @@ export default function FetchGithubProjects(props) {
                 <p
                   dangerouslySetInnerHTML={{ __html: project.description }}
                 ></p>
-                <div className={gitProjectStyles.updated}>
+                <div>
                   <p>Updated at:</p>
                   <date
                     dangerouslySetInnerHTML={{ __html: project.updated_at }}

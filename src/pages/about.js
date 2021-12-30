@@ -23,12 +23,10 @@ export default function About() {
         <p>Eine kleine Übersicht meines bisherigen Werdegangs.</p>
         <p>
           Autodidaktisch brachte ich mir ursprünglich HTML5, SCSS und JavaScript
-          gefolgt von React bei. Mittlerweile arbeite ich hauptberuflich fest
-          angestellt in einer Agentur.
-        </p>
-        <p>
-          Ein paar private Projekte pflege ich nebenbei noch weiter, um eigene
-          Ideen auszuprobieren und weiterzuentwicklen.
+          gefolgt von React bei. Mittlerweile arbeite ich ausschließlich
+          hauptberuflich fest angestellt als TYPO3 Integrator in einer Agentur,
+          ein paar private Projekte pflege ich aber nebenbei noch weiter, um
+          eigene Ideen auszuprobieren und weiterzuentwickeln.
         </p>
 
         <div className={aboutStyle.timeLinePoint}>
