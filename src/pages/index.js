@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Layout from "../components/layout"
 import { Helmet } from "react-helmet"
 import GithubProjects from "../components/githubprojects"
@@ -29,6 +29,22 @@ export default function Home() {
     }
   `)
 
+  useEffect(() => {
+    let i = 0
+    const text = "Hallo und herzlich willkommen auf meiner Seite"
+    const speed = 100
+
+    function typewriter() {
+      if (i < text.length) {
+        document.querySelector("h2").innerHTML += text.charAt(i)
+        i++
+        setTimeout(typewriter, speed)
+      }
+    }
+
+    typewriter()
+  })
+
   return (
     <>
       <Helmet>
@@ -53,9 +69,9 @@ export default function Home() {
       </Helmet>
       <Layout>
         <h1>Komplexe Systeme auf das Display gebracht!</h1>
+        <h2></h2>
         <p>
-          Hallo und herzlich willkommen auf meiner Seite, ich bin{" "}
-          <strong>Sascha Nabrotzky. </strong>
+          Ich bin <strong>Sascha Nabrotzky. </strong>
           Als verheirateter Familienvater mit zwei Kindern lebe ich im
           ländlichen Ladbergen, schon seit Jahren ist die{" "}
           <strong>
