@@ -22,7 +22,13 @@ function ToTopButton() {
     })
   }
 
-  return <div className={currentClass} onClick={toTop} />
+  return (
+    <button
+      className={currentClass}
+      onClick={toTop}
+      aria-label="Scroll to top"
+    />
+  )
 }
 
 export default ToTopButton
