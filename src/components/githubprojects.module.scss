@@ -28,8 +28,15 @@ h2 {
 
     h4,
     p,
-    date {
-      margin: 0.5em 1em 0;
+    time {
+      margin: 0.5em 1rem 0;
+    }
+
+    .projectTime {
+      p,
+      time {
+        font-size: 1rem;
+      }
     }
   }
 }
