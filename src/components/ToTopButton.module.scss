@@ -9,10 +9,11 @@
   background-color: $col-blue;
   font-size: 3rem;
   font-weight: 700;
-  transition: 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
   opacity: 1;
   cursor: pointer;
   color: #fff;
+  border: none;
   border-radius: 50%;
   background: {
     image: url("../images/arrow_up.svg");
@@ -25,7 +26,5 @@
 .buttonHidden {
   opacity: 0;
   border-radius: 50%;
-  transform: rotate(90deg);
+  background-position: center 35%;
 }
-
-@import "./mediaquerys.scss";
