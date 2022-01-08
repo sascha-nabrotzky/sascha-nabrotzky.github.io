@@ -1,7 +1,16 @@
+main {
+  & > h2 {
+    margin-top: 2rem;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
 .techStackWrapper {
   display: flex;
   flex-flow: column;
-  margin-top: 2em;
 
   .logoWrapper {
     display: flex;
@@ -11,6 +20,13 @@
 
     img {
       height: 4rem;
+
+      &[alt="Npm-Logo"] {
+        max-width: 4.375rem;
+      }
+      &[alt="TYPO3-Logo"] {
+        max-width: 9rem;
+      }
     }
   }
 }

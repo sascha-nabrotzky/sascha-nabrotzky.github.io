@@ -11,6 +11,9 @@ import logoHTML5 from "../images/HTML5_logo.svg"
 import logoJs from "../images/js-logo.svg"
 import logoDocker from "../images/docker-logo.svg"
 import logoGit from "../images/git-quad-logo.svg"
+import logoCSS3 from "../images/CSS3_Logo-min.svg"
+import logoBootstrap from "../images/bootstrap-logo-min.svg"
+import logoNpm from "../images/npm-logo-min.svg"
 import { useStaticQuery, graphql } from "gatsby"
 import socMedImg from "../images/socMedImg.jpg"
 
@@ -43,7 +46,7 @@ export default function Home() {
     }
 
     typewriter()
-  })
+  }, [])
 
   return (
     <>
@@ -83,23 +86,83 @@ export default function Home() {
           Mit jeder neuen Technologie eröffnen sich mir unglaublich spannende
           Möglichkeiten, die mich herausfordern und ich erschließen kann -{" "}
           <strong>Typo3, React, Fluid, Bootstrap, Docker, DDEV, Git </strong>
-          mit Technologien, wie <strong>JavaScript, SCSS </strong>und HTML sind
-          ein paar davon.
+          und auch Technologien, wie <strong>JavaScript</strong> und{" "}
+          <strong>SCSS </strong>sind ein paar davon.
         </p>
-        <GithubProjects />
+
         <aside className={indexStyle.techStackWrapper}>
           <h2>Meine Skills</h2>
           <div className={indexStyle.logoWrapper}>
-            <img src={logoReact} alt="React-Logo" loading="lazy"></img>
-            <img src={logoGatsby} alt="Gatsby-Logo" loading="lazy"></img>
-            <img src={logoJs} alt="JS-Logo" loading="lazy"></img>
-            <img src={logoHTML5} alt="HTML5-Logo" loading="lazy"></img>
-            <img src={logoSass} alt="SASS-Logo" loading="lazy"></img>
-            <img src={logoGit} alt="Git-Logo" loading="lazy"></img>
-            <img src={logoDocker} alt="Docker-Logo" loading="lazy"></img>
-            <img src={logoTypo3} alt="TYPO3-Logo" loading="lazy"></img>
+            <img
+              src={logoHTML5}
+              title="HTML5"
+              alt="HTML5-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoCSS3}
+              title="CSS3"
+              alt="CSS3-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoSass}
+              title="SASS/SCSS Preprozessor"
+              alt="SASS-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoJs}
+              title="JavaScript"
+              alt="JS-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoReact}
+              title="React"
+              alt="React-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoGatsby}
+              title="Gatsby - A Static Site Generator"
+              alt="Gatsby-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoGit}
+              title="Git - Versionierung"
+              alt="Git-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoTypo3}
+              title="TYPO3 CMS"
+              alt="TYPO3-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoBootstrap}
+              title="Bootstrap 5 Framework"
+              alt="Bootstrap-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoNpm}
+              title="npm - node package manager"
+              alt="Npm-Logo"
+              loading="lazy"
+            ></img>
+            <img
+              src={logoDocker}
+              title="Docker"
+              alt="Docker-Logo"
+              loading="lazy"
+            ></img>
           </div>
         </aside>
+
+        <GithubProjects />
       </Layout>
     </>
   )

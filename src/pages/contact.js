@@ -26,8 +26,7 @@ export default function Contact() {
         <h1>Verlink dich mit mir!</h1>
         <p>
           Hier sind die wichtigsten Stellen im Internet, unter denen man mich
-          erreicht oder weitere Arbeiten von mir findet. Physisch hier:{" "}
-          <strong>Koldefeld 11, 49549 Ladbergen.</strong>
+          erreicht oder weitere Arbeiten von mir findet.
         </p>
         <div className={contactStyles.socialBtnWrapper}>
           <a

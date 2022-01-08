@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import * as styles from "./ToTopButton.module.scss"
 
 function ToTopButton() {
-  const [currentClass, setClass] = useState(`${styles.totopbutton}`)
+  const [currentClass, setClass] = useState(`${styles.buttonHidden}`)
 
   useEffect(() => {
     window.addEventListener("scroll", () => {

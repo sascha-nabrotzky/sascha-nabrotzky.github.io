@@ -14,19 +14,20 @@ export default function Impressum() {
       <Layout>
         <h2>Impressum</h2>
         <h4>Angaben gemäß § 5 TMG:</h4>
-        <p>Sascha Nabrotzky</p>
-        <p>Koldefeld 11</p>
-        <p>49549 Ladbergen</p>
+        <p>
+          Sascha Nabrotzky
+          <br />
+          Koldefeld 11
+          <br />
+          49549 Ladbergen
+        </p>
 
         <h4>Kontakt:</h4>
-        <p>Telefon: 05485 207981</p>
-        <p>E-Mail: sascha.nabrotzky(at)online.de</p>
-
-        <h4>Umsatzsteuer-ID:</h4>
         <p>
-          Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
+          Telefon: 05485 207979
+          <br />
+          E-Mail: sascha.nabrotzky (at) online.de
         </p>
-        <p>DE267467596</p>
 
         <h3>Haftungsausschluss Disclaimer</h3>
         <h4>Haftung für Inhalte</h4>

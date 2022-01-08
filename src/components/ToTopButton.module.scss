@@ -6,20 +6,17 @@
   height: 3rem;
   bottom: 1.5rem;
   right: 0.9rem;
-  background-color: $col-blue;
-  font-size: 3rem;
-  font-weight: 700;
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
   cursor: pointer;
   color: #fff;
   border: none;
-  border-radius: 50%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   background: {
-    image: url("../images/arrow_up.svg");
-    size: 2rem;
+    image: url("../images/arrow_up.svg"),
+      linear-gradient(45deg, $col-blue, $col-magenta);
     repeat: no-repeat;
-    position: center 35%;
+    position: center 40%;
   }
 }
 
