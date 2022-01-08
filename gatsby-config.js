@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Frontend-Entwicklung | Sascha Nabrotzky",
+    title: "Sascha Nabrotzky | Frontend-Entwickler",
     description:
       "Programmierung von TYPO3- und React-Websites, static sites mit Gatsby.JS",
     url: "https://sascha-nabrotzky.github.io/",
