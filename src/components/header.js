@@ -48,9 +48,9 @@ export default function Header() {
             <Link
               className={headerStyles.navLink}
               activeClassName={headerStyles.activeNavLink}
-              to="/about"
+              to="/timeline"
             >
-              About
+              Timeline
             </Link>
           </li>
           <li>

@@ -12,6 +12,12 @@ function ToTopButton() {
           : `${styles.buttonHidden}`
       )
     })
+
+    window.addEventListener("keydown", keyevent => {
+      if (keyevent.key === "Enter") {
+        toTop()
+      }
+    })
   })
 
   function toTop() {

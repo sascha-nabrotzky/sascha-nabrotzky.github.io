@@ -33,6 +33,7 @@ export default function Home() {
   `)
 
   useEffect(() => {
+    // Variables must be outside of typewriter function
     let i = 0
     const text = "Hallo und herzlich willkommen auf meiner Seite"
     const speed = 100
@@ -46,6 +47,11 @@ export default function Home() {
     }
 
     typewriter()
+
+    // Cleanup function for useEffect to prevent
+    return () => {
+      i = text.length
+    }
   }, [])
 
   return (

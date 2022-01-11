@@ -7,7 +7,12 @@ export default function FetchGithubProjects(props) {
   useEffect(() => {
     async function fetchMyAPI() {
       let responseFromUrl = await fetch(
-        "https://api.github.com/users/sascha-nabrotzky/repos"
+        "https://api.github.com/users/sascha-nabrotzky/repos",
+        {
+          headers: {
+            Accept: "application/vnd.github.v3+json",
+          },
+        }
       )
       let commits = await responseFromUrl.json()
       setData(commits)
@@ -37,7 +42,9 @@ export default function FetchGithubProjects(props) {
                 <div className={gitProjectStyles.projectTime}>
                   <p>Updated at:</p>
                   <time
-                    dangerouslySetInnerHTML={{ __html: project.updated_at }}
+                    dangerouslySetInnerHTML={{
+                      __html: project.updated_at.split("T"),
+                    }}
                   ></time>
                 </div>
               </div>

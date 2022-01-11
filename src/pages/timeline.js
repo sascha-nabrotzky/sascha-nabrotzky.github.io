@@ -1,16 +1,16 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
-import * as aboutStyle from "../components/about.module.scss"
+import * as aboutStyle from "../components/timeline.module.scss"
 import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
 import TimeLineJSON from "../components/timeline.json"
 
-export default function About() {
+export default function Timeline() {
   return (
     <>
       <Helmet>
-        <title>About | Sascha Nabrotzky</title>
-        <meta name="title" content="About | Sascha Nabrotzky" />
+        <title>Timeline | Sascha Nabrotzky</title>
+        <meta name="title" content="Timeline | Sascha Nabrotzky" />
         <meta
           name="description"
           content="Timeline meiner beruflichen Qualifikation"
@@ -21,13 +21,6 @@ export default function About() {
         <h1>Never stop learning!</h1>
 
         <p>Eine kleine Übersicht meines bisherigen Werdegangs.</p>
-        <p>
-          Autodidaktisch brachte ich mir ursprünglich HTML5, SCSS und JavaScript
-          gefolgt von React bei. Mittlerweile arbeite ich ausschließlich
-          hauptberuflich fest angestellt als TYPO3 Integrator in einer Agentur,
-          ein paar private Projekte pflege ich aber nebenbei noch weiter, um
-          eigene Ideen auszuprobieren und weiterzuentwickeln.
-        </p>
 
         <div className={aboutStyle.timeLinePoint}>
           <div id="fotovonmir">
