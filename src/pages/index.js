@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
 import Layout from "../components/layout"
+import LineSvg from "../components/line-svg"
 import { Helmet } from "react-helmet"
 import GithubProjects from "../components/githubprojects"
 import * as indexStyle from "../components/index.module.scss"
@@ -77,6 +78,7 @@ export default function Home() {
         <html lang="de" />
       </Helmet>
       <Layout>
+        <LineSvg />
         <h1>Komplexe Systeme auf das Display gebracht!</h1>
         <h2></h2>
         <p>
