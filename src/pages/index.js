@@ -78,7 +78,6 @@ export default function Home() {
         <html lang="de" />
       </Helmet>
       <Layout>
-        <LineSvg />
         <h1>Komplexe Systeme auf das Display gebracht!</h1>
         <h2></h2>
         <p>
@@ -169,7 +168,7 @@ export default function Home() {
             ></img>
           </div>
         </aside>
-
+        <LineSvg />
         <GithubProjects />
       </Layout>
     </>
