@@ -27,6 +27,8 @@ export default function FetchGithubProjects(props) {
       <h2>Projekte auf Github</h2>
       <div className={gitProjectStyles.projectsWrapper}>
         {data.map(project => {
+          let [day, time] = project.updated_at.split("T")
+
           return (
             <a
               href={project.clone_url}
@@ -40,12 +42,8 @@ export default function FetchGithubProjects(props) {
                   dangerouslySetInnerHTML={{ __html: project.description }}
                 ></p>
                 <div className={gitProjectStyles.projectTime}>
-                  <p>Updated at:</p>
-                  <time
-                    dangerouslySetInnerHTML={{
-                      __html: project.updated_at.split("T"),
-                    }}
-                  ></time>
+                  <span>Updated at: </span>
+                  <time>{day}</time>
                 </div>
               </div>
             </a>

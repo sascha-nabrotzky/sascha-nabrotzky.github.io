@@ -92,11 +92,12 @@ export default function Home() {
           {" "}
           Mit jeder neuen Technologie eröffnen sich mir unglaublich spannende
           Möglichkeiten, die mich herausfordern und ich erschließen kann -{" "}
-          <strong>Typo3, React, Fluid, Bootstrap, Docker, DDEV, Git </strong>
-          und auch Technologien, wie <strong>JavaScript</strong> und{" "}
-          <strong>SCSS </strong>sind ein paar davon.
+          <strong>JavaScript, SCSS, Typo3, React </strong>
+          und auch Technologien, wie{" "}
+          <strong>Fluid, Bootstrap, Docker, DDEV</strong> und{" "}
+          <strong>Git</strong> sind ein paar davon.
         </p>
-
+        <LineSvg />
         <aside className={indexStyle.techStackWrapper}>
           <h2>Meine Skills</h2>
           <div className={indexStyle.logoWrapper}>
@@ -168,7 +169,6 @@ export default function Home() {
             ></img>
           </div>
         </aside>
-        <LineSvg />
         <GithubProjects />
       </Layout>
     </>

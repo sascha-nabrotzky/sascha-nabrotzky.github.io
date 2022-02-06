@@ -1,0 +1,12 @@
+user.name=Sascha Nabrotzky
+user.email=sascha.nabrotzky@online.de
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=git@github.com:sascha-nabrotzky/sascha-nabrotzky.github.io
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.dev.remote=origin
+branch.dev.merge=refs/heads/dev

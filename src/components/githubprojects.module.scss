@@ -14,6 +14,8 @@ h2 {
   }
 
   .projectsBox {
+    display: flex;
+    flex-flow: column;
     background-color: #a0e6ff;
     padding: 10px;
     color: $coldarkgray;
@@ -21,22 +23,29 @@ h2 {
     transition: 0.2s ease-in-out;
     border-radius: 1em;
 
-    &:hover {
-      background-color: #23a6d5;
-      color: white;
-    }
-
     h4,
-    p,
-    time {
+    p {
       margin: 0.5em 1rem 0;
     }
 
     .projectTime {
+      margin-top: auto;
+      margin-left: 1rem;
+      margin-bottom: .5rem;
+
       p,
       time {
         font-size: 1rem;
       }
+    }
+  }
+
+  @for $i from 1 through 7 {
+    a:nth-child(#{$i}) .projectsBox:hover {
+      background-color: $col-blue;
+      color: white;
+      box-shadow: 5px 5px 30px $col-blue, inset 5px 5px 30px rgba($col-magenta, 50%);
+      transform: scale(1.07) rotate(-#{random(15)}deg);
     }
   }
 }

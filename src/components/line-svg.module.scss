@@ -1,7 +1,18 @@
-.path {
+.pathSvg {
+  margin-top: 3rem;
+}
+
+.pathLine {
   /* fill: none; */
   fill-rule: evenodd;
+  fill: none;
   stroke: #000;
-  stroke-dasharray: 2915.624755859375 2915.624755859375;
+  stroke-width: 0.9993255999999999;
+  stroke-dasharray: 2183.94189453125 2183.94189453125;
   transition: 2s ease-in-out;
+}
+
+.pathFill {
+  transition: 2s ease-in-out;
+  fill: black;
 }
