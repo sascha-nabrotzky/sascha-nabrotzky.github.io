@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react"
 import * as heroStyles from "./hero.module.scss"
-import Snowflakes from "./snowflakes"
 
 export default function Hero() {
-  const textArray = ["Frontend-", "TYPO3-", "UX-Design-"]
+  const textArray = ["Frontend-", "TYPO3-", "Web-"]
   let [state, setState] = useState(textArray[0])
 
   useEffect(() => {
@@ -18,7 +17,6 @@ export default function Hero() {
 
   return (
     <section className={heroStyles.herocontainer}>
-      <Snowflakes />
       <div className={heroStyles.overflowcontainer}>
         <p dangerouslySetInnerHTML={{ __html: state }}></p>
       </div>

@@ -31,13 +31,6 @@ export default function Contact() {
         <div className={contactStyles.socialBtnWrapper}>
           <a
             className={contactStyles.socialBtn}
-            href="mailto:sascha.nabrotzky@online.de"
-            alt="Schreiben Sie mir direkt"
-          >
-            <p>E-Mail</p>
-          </a>
-          <a
-            className={contactStyles.socialBtn}
             href="https://www.linkedin.com/in/sascha-nabrotzky-b7429521a/"
             alt="LinkedIn-Profil"
             target="_blank"
@@ -72,6 +65,13 @@ export default function Contact() {
             rel="noreferrer"
           >
             <p>Twitter</p>
+          </a>
+          <a
+            className={contactStyles.socialBtn}
+            href="mailto:sascha.nabrotzky@online.de"
+            alt="Schreiben Sie mir direkt"
+          >
+            <p>E-Mail</p>
           </a>
         </div>
       </Layout>
