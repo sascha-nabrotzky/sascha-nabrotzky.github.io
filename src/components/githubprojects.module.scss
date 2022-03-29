@@ -31,7 +31,7 @@ h2 {
     .projectTime {
       margin-top: auto;
       margin-left: 1rem;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       p,
       time {
@@ -40,11 +40,12 @@ h2 {
     }
   }
 
-  @for $i from 1 through 7 {
+  @for $i from 1 through 8 {
     a:nth-child(#{$i}) .projectsBox:hover {
       background-color: $col-blue;
       color: white;
-      box-shadow: 5px 5px 30px $col-blue, inset 5px 5px 30px rgba($col-magenta, 50%);
+      box-shadow: 5px 5px 30px $col-blue,
+        inset 5px 5px 30px rgba($col-magenta, 50%);
       transform: scale(1.07) rotate(-#{random(15)}deg);
     }
   }
