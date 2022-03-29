@@ -7,8 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "Sascha Nabrotzky | Frontend-Entwickler",
-    description:
-      "Programmierung von TYPO3- und React-Websites, static sites mit Gatsby.JS",
+    description: "Webentwicklung von TYPO3-Websites und Apps mit Vue",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
