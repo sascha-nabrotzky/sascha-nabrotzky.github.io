@@ -11,7 +11,7 @@ export default function LineSvg() {
     const svgImage = document.querySelector("svg")
     window.addEventListener("scroll", () => {
       let bounding = svgImage.getBoundingClientRect()
-      if (bounding.top >= 0 && bounding.bottom < window.innerHeight - 100) { 
+      if (bounding.top >= 0 && bounding.bottom < window.innerHeight - 100) {
         setOffset(0)
         setTimeout(() => {
           setColor("rgba(35, 166, 213,1)")
@@ -25,11 +25,11 @@ export default function LineSvg() {
       className={style.pathSvg}
       viewBox="0 0 800 240"
       xmlns="http://www.w3.org/2000/svg"
-      fill-rule="evenodd"
-      clip-rule="evenodd"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-miterlimit="1.5"
+      fillRule="evenodd"
+      clipRule="evenodd"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="1.5"
     >
       <path
         id="pathFill"
