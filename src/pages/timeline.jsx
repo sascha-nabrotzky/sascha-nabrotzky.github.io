@@ -1,9 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
-import * as aboutStyle from "../components/timeline.module.scss"
+import * as timelineStyle from "../styling/timeline.module.scss"
 import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
-import TimeLineJSON from "../components/timeline.json"
+import TimeLineJSON from "../content/timeline.json"
 
 export default function Timeline() {
   return (
@@ -22,7 +22,7 @@ export default function Timeline() {
 
         <p>Eine kleine Übersicht meines bisherigen Werdegangs.</p>
 
-        <div className={aboutStyle.timeLinePoint}>
+        <div className={timelineStyle.timeLinePoint}>
           <div id="fotovonmir">
             <img src={fotoVonMir} alt="Foto von Sascha Nabrotzky" />
           </div>
@@ -31,10 +31,10 @@ export default function Timeline() {
         {TimeLineJSON.jahrtaetigkeit.map(point => {
           return (
             <section key={point.jahr.toString()}>
-              <div className={aboutStyle.linie}></div>
+              <div className={timelineStyle.linie}></div>
 
-              <div className={aboutStyle.timeLinePoint}>
-                <div className={aboutStyle.circleImg}>
+              <div className={timelineStyle.timeLinePoint}>
+                <div className={timelineStyle.circleImg}>
                   <p dangerouslySetInnerHTML={{ __html: point.jahr }}></p>
                 </div>
                 <p dangerouslySetInnerHTML={{ __html: point.taetigkeit }}></p>

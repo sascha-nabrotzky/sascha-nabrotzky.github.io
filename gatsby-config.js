@@ -7,12 +7,12 @@
 module.exports = {
   siteMetadata: {
     title: "Sascha Nabrotzky | Frontend-Entwickler",
-    description: "Webentwicklung von TYPO3-Websites und Apps mit Vue",
+    description: "Entwicklung und Programmierung von TYPO3- und React-Websites",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
     keywords:
-      "TYPO3, CMS, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung",
+      "TYPO3, CMS, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
   },
 
   plugins: [
@@ -37,6 +37,8 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: false,
+              quality: 80,
+              loading: "lazy",
             },
           },
         ],

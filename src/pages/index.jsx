@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import LineSvg from "../components/line-svg"
 import { Helmet } from "react-helmet"
 import GithubProjects from "../components/githubprojects"
-import * as indexStyle from "../components/index.module.scss"
+import * as indexStyle from "../styling/index.module.scss"
 import logoTypo3 from "../images/TYPO3_Logo.svg"
 import logoReact from "../images/react-logo.svg"
 import logoGatsby from "../images/gatsby-logo.svg"
@@ -85,7 +85,7 @@ export default function Home() {
           Als verheirateter Familienvater mit zwei Kindern lebe ich im
           ländlichen Ladbergen, schon seit Jahren ist die{" "}
           <strong>
-            nutzerzentrierte Frontend-Entwicklung mein Interessengebiet.
+            nutzerzentrierte Web-Entwicklung mein Interessengebiet.
           </strong>{" "}
         </p>
         <p>

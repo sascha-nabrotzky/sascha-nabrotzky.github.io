@@ -1,6 +1,6 @@
 @import "./variables.scss";
 
-header {
+.header {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   display: flex;
@@ -109,4 +109,22 @@ header {
   }
 }
 
-@import "./mediaquerys.scss";
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+
+    .logowrapper {
+      margin-left: 0.5em;
+    }
+
+    .navList {
+      margin-top: 0.5rem;
+
+      .navLink {
+        margin-inline: 0.5rem;
+      }
+    }
+  }
+}

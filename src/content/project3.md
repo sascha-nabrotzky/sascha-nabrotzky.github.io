@@ -2,10 +2,10 @@
 title: "React-Website und Daten via GraphQL"
 ---
 
-![Abfragen von Daten für eine Liste](../images/AbfragenListe.jpg)
+![Abfragen von Daten für eine Tabelle](../images/AbfragenListe.jpg)
 
 <div  style="text-align: right">Meine Rolle: Frontend-Entwickler</div>
-<div style="text-align: right">Technologien: ReactJS | GatsbyJS | GraphQL | VS Code | Github</div>
+<div style="text-align: right">Technologien: ReactJS | GatsbyJS | SCSS | GraphQL</div>
 
 **Um zukünftige Projekte vollumfänglich auf neuesten technologischen Stand zu bringen, hatte ich eine React-App erstellt, die Daten einer anderen Seite abfragt und als Liste darstellt.**
 

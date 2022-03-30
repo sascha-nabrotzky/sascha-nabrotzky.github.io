@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import * as gitProjectStyles from "../components/githubprojects.module.scss"
+import * as gitProjectStyles from "../styling/githubprojects.module.scss"
 
 export default function FetchGithubProjects(props) {
   let [data, setData] = useState(null) //data auf null setzen, danach mit Funkt. setData die commits fetchen und Projektdaten mappen

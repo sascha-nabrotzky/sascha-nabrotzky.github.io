@@ -1,9 +1,9 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Footer from "./footer"
+import Header from "./header"
 import Hero from "./hero"
 import ToTopButton from "./ToTopButton"
-import * as layoutStyles from "./layout.module.scss"
+import * as layoutStyles from "../styling/layout.module.scss"
 
 export default function Layout({ children }) {
   return (

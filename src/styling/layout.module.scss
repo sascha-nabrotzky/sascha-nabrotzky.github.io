@@ -46,4 +46,17 @@ body {
   }
 }
 
-@import "./mediaquerys.scss";
+@media screen and (max-width: 767px) {
+  .content {
+    margin: 2em auto 0 !important;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

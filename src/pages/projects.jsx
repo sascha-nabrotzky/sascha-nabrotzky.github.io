@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
-import * as projectStyle from "../components/projects.module.scss"
+import * as projectStyle from "../styling/projects.module.scss"
 
 export default function Projects() {
   const data = useStaticQuery(graphql`

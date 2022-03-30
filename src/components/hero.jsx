@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
-import * as heroStyles from "./hero.module.scss"
+import * as heroStyles from "../styling/hero.module.scss"
 
 export default function Hero() {
-  const textArray = ["Frontend-", "TYPO3-", "Web-"]
+  const textArray = ["TYPO3-", "React-App-", "Web-/Design-"]
   let [state, setState] = useState(textArray[0])
 
   useEffect(() => {

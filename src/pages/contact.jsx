@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { Helmet } from "react-helmet"
 
-import * as contactStyles from "../components/contact.module.scss"
+import * as contactStyles from "../styling/contact.module.scss"
 
 export default function Contact() {
   return (

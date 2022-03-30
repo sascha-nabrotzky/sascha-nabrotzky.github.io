@@ -47,4 +47,24 @@
   }
 }
 
-@import "./mediaquerys.scss";
+@media screen and (max-width: 767px) {
+  .herocontainer {
+    margin-top: 9em;
+    padding-left: 0.5rem;
+
+    .overflowcontainer {
+      margin-bottom: -0.2em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .herocontainer {
+    div {
+      &:last-child {
+        margin-bottom: 0;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
