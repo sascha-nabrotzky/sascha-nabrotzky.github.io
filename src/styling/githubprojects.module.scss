@@ -20,11 +20,15 @@ h2 {
     color: $coldarkgray;
     height: 100%;
     transition: 0.2s ease-in-out;
-    border-radius: 1em;
+    border-radius: 0.5rem;
 
     h4,
     p {
       margin: 0.5em 1rem 0;
+    }
+
+    p {
+      text-align: left;
     }
 
     .projectTime {

@@ -9,6 +9,7 @@ body {
   h2 {
     @include FiraItalBd;
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   p,
@@ -19,6 +20,7 @@ body {
 
   p {
     line-height: 1.4em;
+    text-align: justify;
   }
 
   li {
@@ -32,12 +34,14 @@ body {
   min-height: 100vh;
 
   .content {
-    margin: 3em auto 0;
+    margin: 3rem auto 0;
     flex-grow: 1;
     max-width: 50em;
 
     h3 {
+      @include FiraItalBd;
       font-size: 1.7em;
+      text-align: center;
     }
 
     ol {
@@ -46,17 +50,16 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .content {
-    margin: 2em auto 0 !important;
     padding-left: 1em;
     padding-right: 1em;
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 577px) {
   .content {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }

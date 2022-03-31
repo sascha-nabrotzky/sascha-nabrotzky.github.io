@@ -1,6 +1,9 @@
 @import "./variables.scss";
 
 .totopbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   width: 3rem;
   height: 3rem;
@@ -12,11 +15,13 @@
   color: #fff;
   border: none;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  background: {
-    image: url("../images/arrow_up.svg"),
-      linear-gradient(45deg, $col-blue, $col-magenta);
-    repeat: no-repeat;
-    position: center 40%;
+  background-image: linear-gradient(45deg, $col-blue, $col-magenta);
+
+  .icon {
+    width: 1.5rem;
+    height: 1rem;
+    background-image: url("../images/arrow_up.svg");
+    background-repeat: no-repeat;
   }
 }
 

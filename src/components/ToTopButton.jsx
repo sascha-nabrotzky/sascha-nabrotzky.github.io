@@ -29,11 +29,9 @@ function ToTopButton() {
   }
 
   return (
-    <button
-      className={currentClass}
-      onClick={toTop}
-      aria-label="Scroll to top"
-    />
+    <button className={currentClass} onClick={toTop} aria-label="Scroll to top">
+      <div className={styles.icon}></div>
+    </button>
   )
 }
 
