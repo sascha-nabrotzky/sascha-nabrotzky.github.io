@@ -18,10 +18,7 @@ export default function FetchGithubProjects(props) {
       )
       let commits = await responseFromUrl.json()
       setData(commits)
-    }
-    fetchMyAPI()
 
-    setTimeout(() => {
       var slider = tns({
         container: ".projectSlider",
         items: 1,
@@ -41,7 +38,8 @@ export default function FetchGithubProjects(props) {
           },
         },
       })
-    }, 500)
+    }
+    fetchMyAPI()
   }, [])
 
   if (!data) return <p>Loading ...</p>
