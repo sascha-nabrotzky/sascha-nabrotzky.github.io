@@ -19,25 +19,28 @@ export default function FetchGithubProjects(props) {
       let commits = await responseFromUrl.json()
       setData(commits)
 
-      var slider = tns({
-        container: ".projectSlider",
-        items: 1,
-        slideBy: "page",
-        nav: false,
-        autoplay: true,
-        autoplayButtonOutput: false,
-        controlsPosition: "bottom",
-        gutter: 20,
-        controlsText: ["&lang;", "&rang;"],
-        responsive: {
-          640: {
-            items: 2,
+      // Wenn commits vorhanden, dann wird Slider aufgebaut
+      if (commits) {
+        var slider = tns({
+          container: ".projectSlider",
+          items: 1,
+          slideBy: "page",
+          nav: false,
+          autoplay: true,
+          autoplayButtonOutput: false,
+          controlsPosition: "bottom",
+          gutter: 20,
+          controlsText: ["&lang;", "&rang;"],
+          responsive: {
+            640: {
+              items: 2,
+            },
+            900: {
+              items: 3,
+            },
           },
-          900: {
-            items: 3,
-          },
-        },
-      })
+        })
+      }
     }
     fetchMyAPI()
   }, [])

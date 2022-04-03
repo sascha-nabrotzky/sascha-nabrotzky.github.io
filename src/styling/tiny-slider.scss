@@ -1,4 +1,6 @@
 // Version: 2.9.4
+// Ab Dart-Sass ist Division mit / deprecated
+// Dann z.B. "Math.div(ag-param(grid-size), 2)" nehmen
 
 .tns-outer {
   padding: 0 !important; // remove padding: clientWidth = width + padding (0) = width
