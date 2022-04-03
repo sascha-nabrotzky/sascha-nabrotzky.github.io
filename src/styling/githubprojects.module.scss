@@ -4,10 +4,11 @@ h2 {
   margin-top: 5rem;
 }
 
-.projectsWrapper {
-  display: grid;
-  gap: 2.5em 1em;
+.tns-controls {
+  text-align: center;
+}
 
+.boxWrapper {
   a {
     text-decoration: none;
   }
@@ -15,12 +16,17 @@ h2 {
   .projectsBox {
     display: flex;
     flex-flow: column;
+    min-height: 187px;
     background-color: #a0e6ff;
     padding: 10px;
     color: $coldarkgray;
-    height: 100%;
     transition: 0.2s ease-in-out;
     border-radius: 0.5rem;
+
+    &:hover {
+      background-color: $col-blue;
+      color: white;
+    }
 
     h4,
     p {
@@ -41,32 +47,5 @@ h2 {
         font-size: 1rem;
       }
     }
-  }
-
-  @for $i from 1 through 8 {
-    a:nth-child(#{$i}) .projectsBox:hover {
-      background-color: $col-blue;
-      color: white;
-      box-shadow: 5px 5px 30px $col-blue;
-      transform: scale(1.07) rotate(-#{random(15)}deg);
-    }
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .projectsWrapper {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (min-width: 577px) {
-  .projectsWrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .projectsWrapper {
-    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -34,9 +34,8 @@ body {
   min-height: 100vh;
 
   .content {
-    margin: 3rem auto 0;
-    flex-grow: 1;
-    max-width: 50em;
+    margin-top: 3rem;
+    // max-width: 50em;
 
     h3 {
       @include FiraItalBd;
@@ -61,5 +60,26 @@ body {
   .content {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .content {
+    padding-left: 25%;
+    padding-right: 25%;
   }
 }
