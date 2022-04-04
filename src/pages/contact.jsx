@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SocialButton from "../styled-components/social-button"
 import { Helmet } from "react-helmet"
 
 import * as contactStyles from "../styling/contact.module.scss"
@@ -29,50 +30,36 @@ export default function Contact() {
           erreicht oder weitere Arbeiten von mir findet.
         </p>
         <div className={contactStyles.socialBtnWrapper}>
-          <a
-            className={contactStyles.socialBtn}
+          <SocialButton
             href="https://www.linkedin.com/in/sascha-nabrotzky-b7429521a/"
-            alt="LinkedIn-Profil"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p>LinkedIn</p>
-          </a>
-          <a
-            className={contactStyles.socialBtn}
-            href="https://www.xing.com/profile/Sascha_Nabrotzky/cv"
-            alt="Xing-Profil"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p>Xing</p>
-          </a>
-          <a
-            className={contactStyles.socialBtn}
+            alttext="LinkedIn-Profil"
+            label="LinkedIn"
+          />
+          <SocialButton
+            href="https://www.xing.com/label/Sascha_Nabrotzky/cv"
+            alttext="Xing-Profil"
+            label="Xing"
+          />
+          <SocialButton
             href="https://github.com/sascha-nabrotzky"
-            alt="GitHub-Repositorys"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p>GitHub</p>
-          </a>
-
-          <a
-            className={contactStyles.socialBtn}
+            alttext="GitHub-Repositorys"
+            label="GitHub"
+          />
+          <SocialButton
             href="https://twitter.com/Arrow_Function0"
-            alt="Meine News"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p>Twitter</p>
-          </a>
-          <a
-            className={contactStyles.socialBtn}
+            alttext="Meine News"
+            label="Twitter"
+          />
+          <SocialButton
+            href="https://www.instagram.com/arrow_function0"
+            alttext="Meine Illustrationen"
+            label="Instagram"
+          />
+          <SocialButton
             href="mailto:sascha.nabrotzky@online.de"
-            alt="Schreiben Sie mir direkt"
-          >
-            <p>E-Mail</p>
-          </a>
+            alttext="Schreiben Sie mir direkt"
+            label="E-Mail"
+          />
         </div>
       </Layout>
     </>
