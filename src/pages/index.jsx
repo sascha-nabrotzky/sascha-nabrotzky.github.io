@@ -1,7 +1,8 @@
 import React, { useEffect } from "react"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import LineSvg from "../components/line-svg"
-import { Helmet } from "react-helmet"
 import GithubProjects from "../components/githubprojects"
 import * as indexStyle from "../styling/index.module.scss"
 import logoTypo3 from "../images/TYPO3_Logo.svg"
@@ -16,7 +17,7 @@ import logoCSS3 from "../images/CSS3_Logo-min.svg"
 import logoBootstrap from "../images/bootstrap-logo-min.svg"
 import logoNpm from "../images/npm-logo-min.svg"
 import logoDDEV from "../images/DDEV-Logo_min.svg"
-import { useStaticQuery, graphql } from "gatsby"
+import socMedImg from "../images/socMedImg.jpg"
 
 export default function Home() {
   const data = useStaticQuery(graphql`
@@ -63,16 +64,16 @@ export default function Home() {
         <meta name="description" content={data.site.siteMetadata.description} />
         <meta name="author" content={data.site.siteMetadata.author} />
         <meta name="keywords" content={data.site.siteMetadata.keywords} />
-        <meta name="image" content={data.site.siteMetadata.image} />
+        <meta name="image" content={socMedImg} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={data.site.siteMetadata.title} />
-        <meta name="twitter:image" content={data.site.siteMetadata.image} />
+        <meta name="twitter:image" content={socMedImg} />
         <meta property="og:title" content={data.site.siteMetadata.title} />
         <meta
           property="og:description"
           content={data.site.siteMetadata.description}
         />
-        <meta property="og:image" content={data.site.siteMetadata.image} />
+        <meta property="og:image" content={socMedImg} />
         <meta property="og:url" content={data.site.siteMetadata.url} />
         <meta property="og:type" content="website" />
         <html lang="de" />
