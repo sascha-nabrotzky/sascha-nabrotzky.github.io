@@ -61,5 +61,6 @@ $col-link-hover: #555;
 $col-link-active: #333;
 
 $col-blue: #23a6d5;
+$col-light-blue: lighten($col-blue, 35%);
 $col-magenta: #e73c7e;
 $col-green: #23d5ab;
