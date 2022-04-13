@@ -62,7 +62,6 @@ export default function FetchGithubProjects(props) {
                 href={project.clone_url}
                 rel="noreferrer noopener"
                 target="_blank"
-                aria-hidden="true"
                 key={project.id}
               >
                 <div className={gitProjectStyles.projectsBox}>
