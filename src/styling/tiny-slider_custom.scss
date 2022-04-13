@@ -1,0 +1,28 @@
+@import "variables.scss";
+// Version: 2.9.4
+// Ab Dart-Sass ist Division mit / deprecated
+// Dann z.B. "Math.div(ag-param(grid-size), 2)" nehmen
+
+.tns-outer {
+  .tns-controls {
+    text-align: center;
+
+    button {
+      margin: 2rem 0.7rem 0;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 50%;
+      background-color: $col-blue;
+      width: 3rem;
+      height: 3rem;
+      color: white;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        outline: $col-light-blue solid 5px;
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { tns } from "../../node_modules/tiny-slider/src/tiny-slider"
-import "../styling/tiny-slider.scss"
+import "../../node_modules/tiny-slider/src/tiny-slider.scss"
+import "../styling/tiny-slider_custom.scss"
 import * as gitProjectStyles from "../styling/githubprojects.module.scss"
 
 export default function FetchGithubProjects(props) {
@@ -61,6 +62,7 @@ export default function FetchGithubProjects(props) {
                 href={project.clone_url}
                 rel="noreferrer noopener"
                 target="_blank"
+                aria-hidden="true"
                 key={project.id}
               >
                 <div className={gitProjectStyles.projectsBox}>
