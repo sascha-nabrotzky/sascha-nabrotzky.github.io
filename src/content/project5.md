@@ -7,6 +7,8 @@ title: "Mehr Spendengelder für guten Zweck"
 <div  style="text-align: right">Meine Rolle: Frontend-Entwickler</div>
 <div style="text-align: right">Technologien: HTML5 | CSS3 | JavaScript</div>
 
+[Zur Website](http://www.sascha-nabrotzky.de/moorland/index.html)
+
 **Für das zweite Moorland-Festival sollten noch mehr Spendengelder für einem guten Zweck durch Besucher zusammenkommen.**
 
 Die **User-Research** zeigte, dass bei allen Touchpoints die Kommunikation und Werbung flüssig und eingängig funktionieren muss, also habe ich eine **responsive Website ohne CMS programmiert** und ein **flexibles Farbschema** erstellt. Mit einem neuen Farbschema konnte man trendig auftreten, Kontrast und Aufmerksamkeit erzeugen **bei gleichzeitiger Einhaltung der CI.**

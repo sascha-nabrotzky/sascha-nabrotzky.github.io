@@ -7,7 +7,8 @@
 module.exports = {
   siteMetadata: {
     title: "Sascha Nabrotzky | Frontend-Entwickler",
-    description: "Entwicklung und Programmierung von TYPO3- und React-Websites",
+    description:
+      "Entwicklung und Programmierung von responsiven TYPO3- und React/Vue-Websites",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
@@ -35,9 +36,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800,
+              maxWidth: 960,
               linkImagesToOriginal: false,
-              quality: 80,
+              quality: 85,
               loading: "lazy",
             },
           },
