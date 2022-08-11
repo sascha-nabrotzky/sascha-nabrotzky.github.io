@@ -3,7 +3,7 @@ import * as heroStyles from "../styling/hero.module.scss"
 
 export default function Hero() {
   const textFirstLine = ["TYPO3 CMS", "CSS3-Design-", "Responsive"]
-  const textSecondLine = ["React/Vue", "System", "Websites"]
+  const textSecondLine = ["React", "System", "Websites"]
   let [state, setState] = useState(textFirstLine[0])
   let [state2, setState2] = useState(textSecondLine[0])
 
