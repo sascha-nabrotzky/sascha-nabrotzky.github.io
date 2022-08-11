@@ -7,12 +7,10 @@ import GithubProjects from "../components/githubprojects"
 import * as indexStyle from "../styling/index.module.scss"
 import logoTypo3 from "../images/TYPO3_Logo.svg"
 import logoReact from "../images/react-logo.svg"
-import logoVue from "../images/Vue-logo.svg"
 import logoGatsby from "../images/gatsby-logo.svg"
 import logoSass from "../images/sass-logo.svg"
 import logoHTML5 from "../images/HTML5_logo.svg"
 import logoJs from "../images/js-logo.svg"
-import logoDocker from "../images/docker-logo.svg"
 import logoGit from "../images/git-quad-logo.svg"
 import logoCSS3 from "../images/CSS3_Logo-min.svg"
 import logoBootstrap from "../images/bootstrap-logo-min.svg"
@@ -166,12 +164,6 @@ export default function Home() {
                 src={logoGatsby}
                 title="Gatsby - A Static Site Generator"
                 alt="Gatsby-Logo"
-                loading="lazy"
-              ></img>
-              <img
-                src={logoVue}
-                title="Vue"
-                alt="Vue-Logo"
                 loading="lazy"
               ></img>
               <img
