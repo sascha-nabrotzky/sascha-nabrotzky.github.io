@@ -18,7 +18,6 @@ import logoCSS3 from "../images/CSS3_Logo-min.svg"
 import logoBootstrap from "../images/bootstrap-logo-min.svg"
 import logoNpm from "../images/npm-logo-min.svg"
 import logoDDEV from "../images/DDEV-Logo_min.svg"
-import logoTailwind from "../images/TailwindCSS_Logo.svg"
 import socMedImg from "../images/socMedImg.jpg"
 
 export default function Home() {
@@ -173,12 +172,6 @@ export default function Home() {
                 src={logoVue}
                 title="Vue"
                 alt="Vue-Logo"
-                loading="lazy"
-              ></img>
-              <img
-                src={logoTailwind}
-                title="Tailwind-CSS"
-                alt="Tailwind-CSS"
                 loading="lazy"
               ></img>
               <img
