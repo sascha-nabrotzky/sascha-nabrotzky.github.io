@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+.sidemenu {
+  display: none;
+  position: fixed;
+  bottom: 10vh;
+  left: 0;
+  padding-left: 0;
+  box-shadow: 0px 0 20px #0000005e;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+
+.menuitem {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  background-color: $col-white;
+}
+
+.menulink {
+  color: $col-link;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: $col-link-hover;
+  }
+}

@@ -2,35 +2,27 @@
   "jahrtaetigkeit": [
     {
       "jahr": "AKTUELL",
-      "taetigkeit": "Im Fokus: JavaScript, Typo3"
+      "taetigkeit": "Im Fokus: Typo3, Bootstrap"
     },
     {
       "jahr": "2021",
-      "taetigkeit": "Mehrere Websites mit ReactJS und GraphQL programmiert | Docker | Typo3 | DDEV | Frontend-Entwickler in einer Agentur"
+      "taetigkeit": "Frontend-Entwickler in einer Agentur | Projekte mit Typo3, Fluid-Templating-Engine, Bootstrap, SCSS, DDEV"
     },
     {
       "jahr": "2020",
-      "taetigkeit": "Weiterbildung in JavaScript, ReactJS, GatsbyJS, GraphQL, Github und SCSS | Website mit Gatsby/React erstellt"
+      "taetigkeit": "Nebenprojekte mit ReactJS, GatsbyJS, Github und SCSS"
     },
     {
       "jahr": "2019",
-      "taetigkeit": "Mediengestalter digital (Frontend-Entwickler) bei einem Onlineshop eines Großhändlers | Weiterbildung in UX/UI-Design | mehrere Website-Projekte"
-    },
-    {
-      "jahr": "2017",
-      "taetigkeit": "Template-Entwicklung für Joomla! | Animationen mit CSS3"
-    },
-    {
-      "jahr": "2016",
-      "taetigkeit": "nutzerzentriertes Webdesign und HTML5 | Illustration"
+      "taetigkeit": "Mediengestalter bei einem Onlineshop eines Beschlag-Großhändlers | Weiterbildung in UX/UI-Design"
     },
     {
       "jahr": "2009",
-      "taetigkeit": "Portfolio-Websites mit Animationen in HTML, CSS3 und JQuery erstellt."
+      "taetigkeit": "Erste Website mit HTML, CSS3 und Animationen"
     },
     {
       "jahr": "2000",
-      "taetigkeit": "Mediengestalter bei einem großen Zeitungsverlag"
+      "taetigkeit": "Mediengestalter bei der Neuen Osnabrücker Zeitung"
     },
     {
       "jahr": "1997",

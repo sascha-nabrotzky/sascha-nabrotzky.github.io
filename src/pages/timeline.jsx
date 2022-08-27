@@ -20,8 +20,6 @@ export default function Timeline() {
       <Layout>
         <h1>Never stop learning!</h1>
 
-        <p>Eine kleine Übersicht meines bisherigen Werdegangs.</p>
-
         <div className={timelineStyle.timeLinePoint}>
           <div id="fotovonmir">
             <img src={fotoVonMir} alt="Foto von Sascha Nabrotzky" />

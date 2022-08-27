@@ -1,5 +1,9 @@
 @import "./variables.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $mainfont, sans-serif;
   color: $coldarkgray;

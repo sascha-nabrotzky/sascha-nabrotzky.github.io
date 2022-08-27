@@ -89,13 +89,13 @@ export default function Home() {
           </strong>{" "}
         </p>
         <p>
-          {" "}
-          Mit jeder neuen Technologie eröffnen sich mir unglaublich spannende
-          Möglichkeiten, die mich herausfordern und ich erschließen kann -{" "}
-          <strong>JavaScript, SCSS, Typo3, React </strong>
-          und auch Technologien, wie{" "}
-          <strong>Fluid, Bootstrap, Docker, DDEV</strong> und{" "}
-          <strong>Git</strong> sind ein paar davon.
+          Als ausgebildeter Mediengestalter habe ich mich autodidaktisch in den
+          wichtigsten Web-Technologien weitergebildet und dadurch auf responsive
+          <strong> Frontend-Entwicklung mit durchdachtem Design</strong>{" "}
+          spezialisiert.
+          <br />
+          Wenn ich nicht am Coden bin, dann findet man mich beim Illustrieren
+          von Charakteren oder Logos.
         </p>
         <LineSvg />
         <aside className={indexStyle.techStackWrapper}>

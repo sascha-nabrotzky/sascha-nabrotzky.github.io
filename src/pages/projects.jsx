@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
+import Sidemenu from "../components/sidemenu"
 import * as projectStyle from "../styling/projects.module.scss"
 
 export default function Projects() {
@@ -49,13 +50,16 @@ export default function Projects() {
                 className={projectStyle.projects}
                 key={edge.node.id.toString()}
               >
-                <h3>{edge.node.frontmatter.title}</h3>
+                <h3 id={edge.node.id.toString()}>
+                  {edge.node.frontmatter.title}
+                </h3>
                 <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
               </li>
             )
           })}
         </ol>
       </Layout>
+      <Sidemenu />
     </>
   )
 }
