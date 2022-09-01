@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import * as timelineStyle from "../styling/timeline.module.scss"
@@ -6,6 +6,27 @@ import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
 import TimeLineJSON from "../content/timeline.json"
 
 export default function Timeline() {
+  useEffect(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px 0px 0px 0px",
+      threshold: 0.5,
+    }
+
+    let callback = entries => {
+      entries.forEach(entry => {
+        entry.target.classList.toggle("scale", entry.isIntersecting)
+      })
+    }
+
+    let targets = document.querySelectorAll("section")
+    let observer = new IntersectionObserver(callback, options)
+
+    targets.forEach(target => {
+      observer.observe(target)
+    })
+  }, [])
+
   return (
     <>
       <Helmet>

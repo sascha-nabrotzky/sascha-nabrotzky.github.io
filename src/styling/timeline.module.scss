@@ -6,6 +6,7 @@
   max-width: 30em;
   text-align: center;
   margin: 0 auto;
+  transition: 1s linear;
 
   img {
     border-radius: 50%;
@@ -15,6 +16,10 @@
   p {
     text-align: center;
   }
+}
+
+.scale {
+  transform: scale(1.5);
 }
 
 .circleImg {
