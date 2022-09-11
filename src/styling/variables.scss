@@ -1,5 +1,10 @@
 :root {
-  --col-white: #ececec;
+  --rw: 245;
+  --gw: 245;
+  --bw: 245;
+  --col-white: rgb(var(--rw), var(--bw), var(--bw));
+  --col-white-rgb: var(--rw), var(--bw), var(--bw);
+
   --col-lightgray: #d3d1d1;
   --col-midgray: #444;
   --col-darkgray: #333;
