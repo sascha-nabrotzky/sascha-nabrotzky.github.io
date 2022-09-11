@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@import "./fonts.module.scss";
 
 .header {
   padding-top: 0.5rem;
@@ -88,7 +88,7 @@
     font-size: 1.3em;
 
     .navLink {
-      color: $col-link;
+      color: var(--col-link);
       text-decoration: none;
       margin-right: 1.3rem;
       border-bottom: 2px solid transparent;
@@ -96,13 +96,13 @@
 
       &:hover {
         padding-bottom: 0.5em;
-        color: $col-link-hover;
-        border-bottom: 2px solid $col-blue;
+        color: var(--col-midgray);
+        border-bottom: 2px solid var(--col-blue);
       }
 
       &.activeNavLink {
-        color: $col-link-active;
-        border-bottom: 2px solid $col-blue;
+        color: var(--col-link-active);
+        border-bottom: 2px solid var(--col-blue);
         padding-bottom: 0.5em;
       }
     }

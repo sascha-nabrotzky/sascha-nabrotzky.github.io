@@ -1,5 +1,3 @@
-@import "./variables.scss";
-
 footer {
   margin: 3em 1em 0;
 }
@@ -11,15 +9,15 @@ footer {
 }
 
 .footerNavLink {
-  color: $col-link;
+  color: var(--col-link);
   text-decoration: none;
   margin-right: 1.3rem;
 
   &:hover {
-    color: $col-link-hover;
+    color: var(--col-midgray);
   }
 }
 
 .activeFooterNavLink {
-  color: $col-link-active;
+  color: var(--col-link-active);
 }

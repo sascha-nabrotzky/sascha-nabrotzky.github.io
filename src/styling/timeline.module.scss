@@ -1,5 +1,3 @@
-@import "./variables.scss";
-
 .timeLinePoint {
   display: flex;
   flex-flow: column;
@@ -30,13 +28,13 @@
   height: 6em;
   border-radius: 50%;
   margin: 0 auto;
-  background-color: $col-green;
+  background-color: var(--col-green);
   color: white;
   font-weight: 700;
 }
 
 .linie {
-  background-color: $collightgray;
+  background-color: var(--col-lightgray);
   width: 1px;
   height: 2em;
   margin: 0 auto 1em;

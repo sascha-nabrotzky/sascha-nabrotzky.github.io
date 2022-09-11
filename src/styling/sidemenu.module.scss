@@ -1,5 +1,3 @@
-@import "./variables.scss";
-
 .sidemenu {
   display: none;
   position: fixed;
@@ -15,15 +13,15 @@
 
 .menuitem {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
-  background-color: $col-white;
+  background-color: var(--col-white);
 }
 
 .menulink {
-  color: $col-link;
+  color: var(--col-link);
   text-decoration: none;
   transition: 0.3s ease-in-out;
 
   &:hover {
-    color: $col-link-hover;
+    color: var(--col-midgray);
   }
 }
