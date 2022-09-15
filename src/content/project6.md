@@ -4,7 +4,7 @@ title: 'React-Website für "KiTaLa e.V."'
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
-<div  style="text-align: right">Meine Rolle: Frontend-Entwickler | UX-Designer | Mediengestalter | Illustrator</div>
+<div  style="text-align: right">Meine Rolle: UX-Engineer | Mediengestalter | Illustrator</div>
 <div style="text-align: right">Technologien: React | SCSS | HTML5</div>
 
 [Zur Website](https://kitala-ladbergen.de)

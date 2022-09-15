@@ -4,7 +4,7 @@ title: Neustart als Tagesmutter
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
-<div  style="text-align: right">Meine Rolle: Frontend-Entwickler | UX-Designer | Mediengestalter</div>
+<div  style="text-align: right">Meine Rolle: UX-Engineer | Mediengestalter</div>
 <div style="text-align: right">Technologien: Joomla! | HTML5 | CSS3 | JavaScript</div>
 
 [Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php)
