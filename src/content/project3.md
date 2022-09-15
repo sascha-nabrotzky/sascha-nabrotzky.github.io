@@ -1,5 +1,5 @@
 ---
-title: "Vue 3 | Portfolio-Website für meine Illustrationen"
+title: "Portfolio-Website für meine Illustrationen"
 ---
 
 ![Website um meine Illustrationen zu präsentieren](../images/Website_Illustrationen.jpg)

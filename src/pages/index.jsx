@@ -91,11 +91,8 @@ export default function Home() {
         <p>
           Als ausgebildeter Mediengestalter habe ich mich autodidaktisch in den
           wichtigsten Web-Technologien weitergebildet und dadurch auf responsive
-          <strong> Frontend-Entwicklung mit durchdachtem Design</strong>{" "}
-          spezialisiert.
-          <br />
-          Wenn ich nicht am Coden bin, dann findet man mich beim Illustrieren
-          von Charakteren oder Logos.
+          <strong> Frontend-Entwicklung und UX-Design</strong> spezialisiert -
+          zusammengefasst ist das ein UX-Engineer.
         </p>
         <LineSvg />
         <aside className={indexStyle.techStackWrapper}>

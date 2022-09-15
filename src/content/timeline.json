@@ -2,15 +2,15 @@
   "jahrtaetigkeit": [
     {
       "jahr": "AKTUELL",
-      "taetigkeit": "Im Fokus: Typo3, Bootstrap"
+      "taetigkeit": "Im Fokus: CSS3/SCSS, Bootstrap und UX-Design"
     },
     {
       "jahr": "2021",
-      "taetigkeit": "Frontend-Entwickler in einer Agentur | Projekte mit Typo3, Fluid-Templating-Engine, Bootstrap, SCSS, DDEV"
+      "taetigkeit": "Frontend-Entwickler in einer Agentur | Projekte mit Typo3, Fluid (Template-Engine), Bootstrap, SCSS, DDEV"
     },
     {
       "jahr": "2020",
-      "taetigkeit": "Nebenprojekte mit ReactJS, GatsbyJS, Github und SCSS"
+      "taetigkeit": "Nebenprojekte mit React.js, Gatsby.js, Github und SCSS"
     },
     {
       "jahr": "2019",

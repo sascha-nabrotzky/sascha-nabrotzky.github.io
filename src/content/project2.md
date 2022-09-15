@@ -4,8 +4,8 @@ title: "Eigene Portfolio-Seite als React-Website"
 
 ![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
 
-<div  style="text-align: right">Meine Rolle: Frontend-Entwickler</div>
-<div style="text-align: right">Technologien: ReactJS | GatsbyJS | SCSS | GraphQL</div>
+<div  style="text-align: right">Meine Rolle: Frontend-Entwickler | UX-Designer</div>
+<div style="text-align: right">Technologien: React.js | Gatsby.js | SCSS | GraphQL</div>
 
 **Für meine berufliche Weiterbildung in neuen Technologien entwarf und programmierte ich meine neue Portfolioseite in ReactJS und GatsbyJS.**
 
