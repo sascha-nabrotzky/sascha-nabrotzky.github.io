@@ -15,4 +15,6 @@ Nach der **User-Research** habe ich ein buntes aber abgestimmtes Farbkonzept era
 
 Das kinderfreundliche Gesamtbild, die optimierte Informationsarchitektur und gute SEO **brachten der Seite bis heute beste Präsenz und Resonanz** in der lokalen Region, bei suchenden Müttern und auch im Google-Ranking.
 
-<p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>
+![Wireframe der Website](../images/LoewWireframe.jpg)
+
+<p>&bull; &bull; &bull;</p>

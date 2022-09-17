@@ -17,4 +17,6 @@ Die **Informationsarchitektur** wurde so angelegt, dass man am Smartphone durch 
 
 Da das Charity-Festival in allen Bereichen gut aufgestellt war und über zwei Tage ging, konnten die **Spendengelder verdoppelt** werden – 10.000 € kamen einem guten Zweck zugute.
 
-<p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>
+![Wireframe der Website Moorland-Festival](../images/MoorlandWireframe.jpg)
+
+<p>&bull; &bull; &bull;</p>

@@ -37,10 +37,10 @@ export default function Projects() {
         <h1>Meine Projekte</h1>
         <p>
           Hier ist eine Auswahl meiner umfangreicheren{" "}
-          <strong>Website-Projekte,</strong> bei denen ich alles{" "}
-          <strong>von Grund auf planen, erstellen</strong> und auch die
-          Nutzererfahrung optimieren konnte, häufig gestaltete ich ebenfalls die
-          restlichen Werbemittel.
+          <strong>Website-Projekte,</strong> bei denen ich vieles von Grund auf
+          planen, erstellen und mit <strong>UX-Design</strong> optimieren
+          konnte. Bei einigen Projekten habe ich zusätzlich{" "}
+          <strong>Werbemittel</strong> erstellt.
         </p>
 
         <ol>

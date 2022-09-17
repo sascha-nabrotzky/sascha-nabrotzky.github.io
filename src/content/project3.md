@@ -13,4 +13,4 @@ title: "Portfolio-Website für meine Illustrationen"
 
 Für diese Seite habe ich zudem ein eigenes CSS-Design-System erstellt, um nah an der Basis zu bleiben. Da die Seite sich noch im Aufbau befindet kann ich im Moment noch nicht viel mehr dazu sagen, sie wird jedenfalls immer mehr gefüllt, wenn ich passende Illustrationen gefunden habe.
 
-<p style="text-align: center;margin-top: 40px;">&bull; &bull; &bull;</p>
+<p>&bull; &bull; &bull;</p>
