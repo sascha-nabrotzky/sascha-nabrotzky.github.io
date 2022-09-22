@@ -11,6 +11,6 @@ title: "Portfolio-Seite für eine Tagesmutter"
 
 **Für diese neue Portfolio-Seite brauchte ich kein herkömmliches CMS mehr und konnte alles auf einer modernen Basis programmieren**
 
-Für eine Tagesmutter habe ich eine App programmiert, die bei Bedarf Daten von Socialmedia-Accounts abgreifen und auf die Seite laden kann. Die einzelnen „Seiten“ werden über das **React-Routing** gesteuert.
+Für eine Tagesmutter habe ich eine Website programmiert, die bei Bedarf Daten von Socialmedia-Accounts abgreifen und auf die Seite laden kann. Die einzelnen „Seiten“ werden über das **React-Routing** gesteuert.
 
 <p>&bull; &bull; &bull;</p>
