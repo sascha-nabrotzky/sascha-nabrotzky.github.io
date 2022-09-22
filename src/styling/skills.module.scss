@@ -1,0 +1,28 @@
+.techStackWrapper {
+  display: flex;
+  flex-flow: column;
+
+  h2 {
+    font-size: var(--fs-h2);
+  }
+
+  .logoWrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin-top: 1rem;
+
+    img {
+      height: 4rem;
+      max-width: 11rem;
+
+      &[alt="Npm-Logo"] {
+        max-width: 4.375rem;
+      }
+      &[alt="TYPO3-Logo"] {
+        max-width: 9rem;
+      }
+    }
+  }
+}

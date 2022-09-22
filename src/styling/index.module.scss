@@ -1,41 +1,15 @@
-main {
-  & > h2 {
-    margin-top: 2rem;
+.blink {
+  margin-top: 2rem;
 
-    &::after {
-      display: inline-block;
-      margin-left: 0.313rem;
-      width: 0.125rem;
-      height: 1.313rem;
-      content: "";
-      background-color: gray;
-      transform: translateY(0.125rem);
-      animation: blink 1s steps(2, start) infinite;
-    }
-  }
-}
-
-.techStackWrapper {
-  display: flex;
-  flex-flow: column;
-
-  .logoWrapper {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    gap: 1.5rem;
-
-    img {
-      height: 4rem;
-      max-width: 11rem;
-
-      &[alt="Npm-Logo"] {
-        max-width: 4.375rem;
-      }
-      &[alt="TYPO3-Logo"] {
-        max-width: 9rem;
-      }
-    }
+  &::after {
+    display: inline-block;
+    margin-left: 0.313rem;
+    width: 0.125rem;
+    height: 1.313rem;
+    content: "";
+    background-color: gray;
+    transform: translateY(0.125rem);
+    animation: blink 1s steps(2, start) infinite;
   }
 }
 
