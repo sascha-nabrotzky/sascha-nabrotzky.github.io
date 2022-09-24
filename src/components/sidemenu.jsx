@@ -35,18 +35,6 @@ export default function Sidemenu() {
           {listItem[3].innerText}
         </a>
       </li>
-      <li className={style.menuitem}>
-        <a className={style.menulink} href={`#${listItem[4].id}`}>
-          {" "}
-          {listItem[4].innerText}
-        </a>
-      </li>
-      <li className={style.menuitem}>
-        <a className={style.menulink} href={`#${listItem[5].id}`}>
-          {" "}
-          {listItem[5].innerText}
-        </a>
-      </li>
     </ul>
   )
 }

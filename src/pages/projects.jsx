@@ -38,7 +38,7 @@ export default function Projects() {
         <p>
           Hier ist eine Auswahl meiner umfangreicheren{" "}
           <strong>Website-Projekte,</strong> bei denen ich vieles von Grund auf
-          planen, erstellen und mit <strong>UX-Design</strong> optimieren
+          entwickeln, <strong>UX-Design</strong> anwenden und programmieren
           konnte. Bei einigen Projekten habe ich zusätzlich{" "}
           <strong>Werbemittel</strong> erstellt.
         </p>

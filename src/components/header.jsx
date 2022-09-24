@@ -32,7 +32,7 @@ export default function Header() {
               activeClassName={headerStyles.activeNavLink}
               to="/"
             >
-              Home
+              About
             </Link>
           </li>
           <li>

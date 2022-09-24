@@ -26,7 +26,7 @@ export default function Impressum() {
         <p>
           Telefon: 05485 207979
           <br />
-          E-Mail: sascha.nabrotzky (at) online.de
+          E-Mail: sascha.nabrotzky (at) online (dot) de
         </p>
 
         <h3>Haftungsausschluss Disclaimer</h3>
