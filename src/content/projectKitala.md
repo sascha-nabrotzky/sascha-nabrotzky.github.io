@@ -8,7 +8,7 @@ title: "Professionellere Wahrnehmung der Tagesmütter"
 
 [Zur Website](https://kitala-ladbergen.de)
 
-**Herausforderung:** Die Tagesmütter haben sich zu einem Verein zusammengeschlossen, damit man gemeinsam stärker auftreten kann und professioneller wahrgenommen wird. Dafür muss das Design professionell erscheinen und es mussten genau die Informationen herausgefunden werden, nach denen immer gesucht wird, damit die Website einen Mehrwert bekommt.
+**Herausforderung:** Die Tagesmütter haben sich zu einem Verein zusammengeschlossen, damit man gemeinsam stärker auftreten kann und professioneller wahrgenommen wird. Um das zu erreichen, muss das Design der Website professionell erscheinen und sie muss genau die Informationen enthalten, nach denen immer gesucht wird, damit sie, auch im Sinne von SEO, einen Mehrwert bekommt.
 
 **Vorgehen:** Nach einer **online User-Research** nach häufigen Suchbegriffen der Eltern wusste ich, wie und was der Verein auf der Website idealerweise kommunizieren sollte, danach plante ich mit Hilfe diverser Skizzen die einzelnen Bereiche der Seite. Ich sortierte nach **dynamischen und statischen React-Komponenten** und konnte somit recht schnell die grundsätzliche Informationsarchitektur der Seite für das **Routing** planen.
 

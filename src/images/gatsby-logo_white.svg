@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="38.791927"
+   height="38.791622"
+   viewBox="0 0 38.791927 38.791622"
+   version="1.1"
+   xml:space="preserve"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   id="svg342"
+   sodipodi:docname="gatsby-logo_white.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs346">
+        
+    
+            
+            
+        </defs><sodipodi:namedview
+   id="namedview344"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:pageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="14.10678"
+   inkscape:cx="8.6483235"
+   inkscape:cy="17.899194"
+   inkscape:window-width="1920"
+   inkscape:window-height="970"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg342" />
+    <g
+   transform="scale(0.15153096)"
+   id="g337"
+   style="fill:#ffffff">
+                <path
+   d="M 128,0 C 57.308,0 0,57.307 0,128 0,198.693 57.308,256 128,256 198.693,256 256,198.693 256,128 256,57.307 198.693,0 128,0 Z M 27.504,129.334 126.665,228.496 C 72.214,227.786 28.213,183.785 27.504,129.334 Z M 150.496,225.983 30.017,105.504 C 40.233,60.823 80.222,27.487 128,27.487 c 33.397,0 62.985,16.293 81.263,41.359 l -13.917,12.28 C 180.52,59.864 155.887,45.949 128,45.949 c -35.505,0 -65.74,22.552 -77.169,54.113 l 105.108,105.107 c 25.525,-9.243 45.156,-30.79 51.731,-57.477 H 164.103 V 128 h 45.948 v 0 h 18.462 v 0 c 0,47.778 -33.336,87.767 -78.017,97.983 z"
+   style="fill:#ffffff;fill-rule:nonzero"
+   id="path335" />
+            </g>
+</svg>

@@ -9,7 +9,7 @@ Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
 [Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php)
 
-**Herausforderung:** Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbstständigkeit etablieren, dafür wurde eine Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
+**Herausforderung:** Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbstständigkeit etablieren, dafür wurde neben Flyern auch eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
 
 **Vorgehen:** Für die **User-Research** habe ich mich mit junge Eltern und der Tagesmutter über häufig nachgefragten, benötigten oder fehlenden Informationen unterhalten, zudem zog ich diverse Online-Tools zu Hilfe, die mir die am meisten gesuchten Begriffe im Bereich Tagesmutter zeigten. Mit den Wünschen der Eltern und der Tagesmutter konnte ich nun eine **Informationsarchitektur** erstellen und die Seite planen.
 

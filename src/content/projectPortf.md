@@ -7,7 +7,7 @@ title: "Eigenes Skillset professionell präsentieren"
 <p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UX-Designer<br/>
 Technologien: React.js | Gatsby.js | SCSS | GraphQL</p>
 
-**Herausforderung:** Mein berufliches Skillset sollte bestmöglich präsentiert werden, sowohl die Programmier- als auch meine Design-Fähigkeiten mussten dabei deutlich sichtbar und die Informationen von z. B. Recruitern schnell erfassbar sein.
+**Herausforderung:** Mein berufliches Skillset sollte bestmöglich präsentiert werden, sowohl die Programmier- als auch meine Design-Fähigkeiten mussten dabei deutlich sichtbar auf der neuen Website erscheinen und die Informationen von z. B. Recruitern schnell erfassbar sein.
 
 **Vorgehen:** Durch **User-Research** im Bereich Recruiter und Portfolio-Aufbau setzte ich Texte über mich für den ersten Überblick auf die Startseite, meine Skills bekamen mit einer Timeline eine eigene Seite, somit hatte ich etwas mehr Gestaltungsmöglichkeiten in den einzelnen Bereichen. Ich wollte ursprünglich das ganze Design sehr reduziert halten, es sollte mehr das programmatisch Funktionelle im Vordergrund stehen. Da meine **CSS3-Design-Skills** allerdings ebenfalls präsentiert werden müssen, entschied ich mich gegen ein zu reduziertes Design und arbeitete mit mehr Farbverläufen und Effekten die mit **JavaScript** und **CSS3** realisiert wurden. Einige Informationen werden aus Markdown-Dateien mit **GraphQL** oder per JavaScript aus JSON-Dateien ausgelesen und ins Frontend gebracht.
 

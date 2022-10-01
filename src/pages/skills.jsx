@@ -31,7 +31,7 @@ export default function Skills() {
   return (
     <>
       <Helmet>
-        <title>Timeline | Sascha Nabrotzky</title>
+        <title>Skills | Sascha Nabrotzky</title>
         <meta name="title" content="Skills | Sascha Nabrotzky" />
         <meta
           name="description"
