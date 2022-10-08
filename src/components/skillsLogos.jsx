@@ -13,7 +13,7 @@ import logoDDEV from "../images/DDEV-Logo_quad_white.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoInDesign from "../images/InDesign-Logo_weiss.svg"
-import logoXd from "../images/XD_Logo_weiss.svg"
+import logoPenpot from "../images/penpot_Logo.svg"
 import logoUXUI from "../images/ux-ui-design.svg"
 import logoUXResearch from "../images/ux-research.svg"
 import logoInkscape from "../images/inkscape-Logo_white.svg"
@@ -227,15 +227,15 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoXd}
-            title="Adobe Xd"
-            alt="Adobe Xd"
+            src={logoPenpot}
+            title="Penpot Prototyping"
+            alt="Penpot Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            Xd
+            Penpot
             <br />
-            <span style={{ opacity: 0.3 }}>*</span>
+            <span>*</span>
           </p>
         </div>
         <div className={style.skill}>
