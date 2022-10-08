@@ -13,7 +13,9 @@ import logoDDEV from "../images/DDEV-Logo_quad_white.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoInDesign from "../images/InDesign-Logo_weiss.svg"
+import logoXd from "../images/XD_Logo_weiss.svg"
 import logoUXUI from "../images/ux-ui-design.svg"
+import logoUXResearch from "../images/ux-research.svg"
 import logoInkscape from "../images/inkscape-Logo_white.svg"
 import * as style from "../styling/skills.module.scss"
 
@@ -21,7 +23,7 @@ export default function SkillsLogos() {
   return (
     <div className={style.logoWrapper}>
       <div className={style.logosMain}>
-        <h2 className={style.headline}>Hauptberuflich</h2>
+        <h2 className={style.headline}>Primäre Technologien</h2>
         <div className={style.skill}>
           <img
             src={logoTypo3}
@@ -32,7 +34,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             TYPO3 CMS
             <br />
-            *****
+            ***
           </p>
         </div>
         <div className={style.skill}>
@@ -45,7 +47,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             Bootstrap 5
             <br />
-            *****
+            ***
           </p>
         </div>
         <div className={style.skill}>
@@ -58,7 +60,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             HTML5
             <br />
-            ****
+            ***
           </p>
         </div>
         <div className={style.skill}>
@@ -66,7 +68,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             CSS3
             <br />
-            *****
+            ****
           </p>
         </div>
         <div className={style.skill}>
@@ -79,7 +81,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             SASS/SCSS
             <br />
-            *****
+            ****
           </p>
         </div>
         <div className={style.skill}>
@@ -92,20 +94,19 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             Git
             <br />
-            ***
+            **
           </p>
         </div>
         <div className={style.skill}>
           <img src={logoDDEV} title="DDEV" alt="DDEV-Logo" loading="lazy"></img>
           <p className={style.rating}>
             DDEV
-            <br />
-            **
+            <br />*
           </p>
         </div>
       </div>
       <div className={style.logosMain}>
-        <h2 className={style.headline}>Nebenprojekte</h2>
+        <h2 className={style.headline}>Sekundäre Technologien</h2>
         <div className={style.skill}>
           <img
             src={logoJs}
@@ -128,8 +129,7 @@ export default function SkillsLogos() {
           ></img>
           <p className={style.rating}>
             React.js
-            <br />
-            **
+            <br />*
           </p>
         </div>
         <div className={style.skill}>
@@ -141,8 +141,7 @@ export default function SkillsLogos() {
           ></img>
           <p className={style.rating}>
             Gatsby.js
-            <br />
-            **
+            <br />*
           </p>
         </div>
         <div className={style.skill}>
@@ -155,12 +154,12 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             npm
             <br />
-            ***
+            **
           </p>
         </div>
       </div>
       <div className={style.logosMain}>
-        <h2 className={style.headline}>Design</h2>
+        <h2 className={style.headline}>Design / Tools</h2>
         <div className={style.skill}>
           <img
             src={logoUXUI}
@@ -171,7 +170,20 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             UX-Design
             <br />
-            ***
+            **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoUXResearch}
+            title="UX-Research"
+            alt="UX-Research"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            UX-Research
+            <br />
+            **
           </p>
         </div>
         <div className={style.skill}>
@@ -184,7 +196,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             Photoshop
             <br />
-            *****
+            ****
           </p>
         </div>
         <div className={style.skill}>
@@ -210,7 +222,20 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             InDesign
             <br />
-            ***
+            ****
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoXd}
+            title="Adobe Xd"
+            alt="Adobe Xd"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            Xd
+            <br />
+            <span style={{ opacity: 0.3 }}>*</span>
           </p>
         </div>
         <div className={style.skill}>
@@ -227,6 +252,10 @@ export default function SkillsLogos() {
           </p>
         </div>
       </div>
+      <span class={style.legend}>
+        * Grundkenntnisse; ** Erweiterte Grundkenntnisse; *** Gute Kenntnisse;
+        **** Sehr gute Kenntnisse
+      </span>
     </div>
   )
 }

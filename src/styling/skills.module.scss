@@ -55,3 +55,11 @@
   color: var(--col-white);
   text-align: center;
 }
+
+.legend {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  color: var(--col-midgray);
+  text-align: right;
+}

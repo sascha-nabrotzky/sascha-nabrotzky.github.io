@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | UX-Engineer",
+    title: "Sascha Nabrotzky | Frontend-Entwickler/UX-Designer",
     description:
       "Entwicklung und Programmierung von nutzerzentrierten responsiven Websites in TYPO3 und React mit CSS3/SCSS, Fluid und Bootstrap",
     url: "https://sascha-nabrotzky.github.io/",
