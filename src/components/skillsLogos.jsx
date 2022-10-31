@@ -1,5 +1,6 @@
 import React from "react"
 import logoTypo3 from "../images/TYPO3_Logo_white.svg"
+import logoJoomla from "../images/joomla-logo_icon_weiss.svg"
 import logoReact from "../images/react-logo_white.svg"
 import logoGatsby from "../images/gatsby-logo_white.svg"
 import logoSass from "../images/sass-logo_white.svg"
@@ -17,24 +18,35 @@ import logoPenpot from "../images/penpot_Logo.svg"
 import logoUXUI from "../images/ux-ui-design.svg"
 import logoUXResearch from "../images/ux-research.svg"
 import logoInkscape from "../images/inkscape-Logo_white.svg"
+import logoUbuntu from "../images/Ubuntu-Logo_weiss.svg"
+import logoContent from "../images/content.svg"
+import logoMedien from "../images/Mediengestaltung.svg"
 import * as style from "../styling/skills.module.scss"
 
 export default function SkillsLogos() {
   return (
     <div className={style.logoWrapper}>
       <div className={style.logosMain}>
-        <h2 className={style.headline}>Primäre Technologien</h2>
+        <h2 className={style.headline}>Web-Entwicklung</h2>
+        <div className={style.skill}>
+          <img src={logoCSS3} title="CSS3" alt="CSS3-Logo" loading="lazy"></img>
+          <p className={style.rating}>
+            CSS3
+            <br />
+            ****
+          </p>
+        </div>
         <div className={style.skill}>
           <img
-            src={logoTypo3}
-            title="TYPO3 CMS"
-            alt="TYPO3-Logo"
+            src={logoSass}
+            title="SASS/SCSS Preprozessor"
+            alt="SASS-Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            TYPO3 CMS
+            SASS/SCSS
             <br />
-            ***
+            ****
           </p>
         </div>
         <div className={style.skill}>
@@ -64,24 +76,42 @@ export default function SkillsLogos() {
           </p>
         </div>
         <div className={style.skill}>
-          <img src={logoCSS3} title="CSS3" alt="CSS3-Logo" loading="lazy"></img>
+          <img
+            src={logoTypo3}
+            title="TYPO3 CMS"
+            alt="TYPO3-Logo"
+            loading="lazy"
+          ></img>
           <p className={style.rating}>
-            CSS3
+            TYPO3 CMS
             <br />
-            ****
+            **
           </p>
         </div>
         <div className={style.skill}>
           <img
-            src={logoSass}
-            title="SASS/SCSS Preprozessor"
-            alt="SASS-Logo"
+            src={logoJoomla}
+            title="Joomla! CMS"
+            alt="Joomla-Logo CMS"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            SASS/SCSS
+            Joomla!
             <br />
-            ****
+            **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoJs}
+            title="JavaScript"
+            alt="JS-Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            JavaScript
+            <br />
+            **
           </p>
         </div>
         <div className={style.skill}>
@@ -98,24 +128,14 @@ export default function SkillsLogos() {
           </p>
         </div>
         <div className={style.skill}>
-          <img src={logoDDEV} title="DDEV" alt="DDEV-Logo" loading="lazy"></img>
-          <p className={style.rating}>
-            DDEV
-            <br />*
-          </p>
-        </div>
-      </div>
-      <div className={style.logosMain}>
-        <h2 className={style.headline}>Sekundäre Technologien</h2>
-        <div className={style.skill}>
           <img
-            src={logoJs}
-            title="JavaScript"
-            alt="JS-Logo"
+            src={logoNpm}
+            title="npm - node package manager"
+            alt="Npm-Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            JavaScript
+            npm
             <br />
             **
           </p>
@@ -145,30 +165,50 @@ export default function SkillsLogos() {
           </p>
         </div>
         <div className={style.skill}>
-          <img
-            src={logoNpm}
-            title="npm - node package manager"
-            alt="Npm-Logo"
-            loading="lazy"
-          ></img>
+          <img src={logoDDEV} title="DDEV" alt="DDEV-Logo" loading="lazy"></img>
           <p className={style.rating}>
-            npm
-            <br />
-            **
+            DDEV
+            <br />*
           </p>
         </div>
       </div>
       <div className={style.logosMain}>
-        <h2 className={style.headline}>Design / Tools</h2>
+        <h2 className={style.headline}>Design</h2>
         <div className={style.skill}>
           <img
-            src={logoUXUI}
-            title="UX-Design"
-            alt="UX-Design"
+            src={logoMedien}
+            title="Mediengestaltung"
+            alt="Mediengestaltung Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            UX-Design
+            Mediengestaltung
+            <br />
+            ****
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoUXUI}
+            title="UX/UI-Design"
+            alt="UX/UI-Design Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            UX/UI-Design
+            <br />
+            ***
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoContent}
+            title="Content Strategy (UX)"
+            alt="Content Strategy Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            Content Strategy
             <br />
             **
           </p>
@@ -182,10 +222,12 @@ export default function SkillsLogos() {
           ></img>
           <p className={style.rating}>
             UX-Research
-            <br />
-            **
+            <br />*
           </p>
         </div>
+      </div>
+      <div className={style.logosMain}>
+        <h2 className={style.headline}>Tools</h2>
         <div className={style.skill}>
           <img
             src={logoPhotoshop}
@@ -249,6 +291,19 @@ export default function SkillsLogos() {
             Inkscape
             <br />
             ***
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoUbuntu}
+            title="Ubuntu Linux"
+            alt="Ubuntu Logo Linus"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            Ubuntu
+            <br />
+            **
           </p>
         </div>
       </div>

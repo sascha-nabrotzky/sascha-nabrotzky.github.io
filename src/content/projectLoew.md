@@ -21,10 +21,10 @@ Die Website programmierte ich in **Joomla!** und **CSS3,** das mobile Menü mit 
 
 ![Wireframe der Website](../images/LoewWireframe.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Wireframing auf Papier</p>
+<p style="font-size: var(--fs-small-text);text-align: justify;">Wireframing auf Papier</p>
 
 ![Suchbegriffe im Bereich Tagesmütter](../images/SearchWordsCSV_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Exportierte CSV-Datei der Suchbegriffe eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte der Website aufbauen.</p>
+<p style="font-size: var(--fs-small-text);text-align: justify;">Exportierte CSV-Datei der Suchbegriffe eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte der Website aufbauen.</p>
 
 <p>&bull; &bull; &bull;</p>
