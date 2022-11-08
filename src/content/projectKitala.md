@@ -4,19 +4,21 @@ title: "Professionellere Wahrnehmung der Tagesmütter"
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UX-Designer | Mediengestalter<br/>Technologien: React | SCSS | HTML5</p>
+<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UI/UX-Designer | Mediengestalter<br/>Technologien: React | SCSS | HTML5</p>
 
 [Zur Website](https://kitala-ladbergen.de)
 
-**Herausforderung:** Die Tagesmütter haben sich zu einem Verein zusammengeschlossen, damit man gemeinsam stärker auftreten kann und professioneller wahrgenommen wird. Um das zu erreichen, muss das Design der Website professionell erscheinen und sie muss genau die Informationen enthalten, nach denen immer gesucht wird, damit sie, auch im Sinne von SEO, einen Mehrwert bekommt.
+**Herausforderung:** Die Tagesmütter haben sich zu einem Verein zusammengeschlossen, damit man gemeinsam stärker auftreten kann und professioneller von Behörden wahrgenommen wird. Um das zu erreichen, muss das Design der Website professionell erscheinen und nicht zu verspielt wirken.
 
-**Vorgehen:** Nach einer **online User-Research** nach häufigen Suchbegriffen der Eltern wusste ich, wie und was der Verein auf der Website idealerweise kommunizieren sollte, danach plante ich mit Hilfe diverser Skizzen die einzelnen Bereiche der Seite. Ich sortierte nach **dynamischen und statischen React-Komponenten** und konnte somit recht schnell die grundsätzliche Informationsarchitektur der Seite für das **Routing** planen.
+**Vorgehen:** Das Design hielt ich sehr reduziert und entfernte alle unnötigen Spielereien, die ich normalerweise auf Seiten in diesem Bereich setzen würde. Ich sortierte nach **dynamischen und statischen React-Komponenten** und konnte, da ich schon einige Texte bekommen habe, recht schnell die grundsätzliche Informationsarchitektur der Seite für das **Routing** planen.
 
 Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt.** Das Menü brachte ich nach unten in **Daumennähe,** da meist mit dem Smartphone nach Informationen über Tagesmütter gesucht wird.
 
-Es wurden für die Startseite nur Vektor-Illustrationen verwendet und das Gesamtdesign ist auf das Wichtigste reduziert, somit bekommt die React-Website einen kleinen Schub im Ranking der Suchmaschinen, Fotos werden erst später dargestellt.
-
 **Resultat:** Die Seite hat bei den wichtigsten Suchbegriffen **beste Platzierung** in den Suchergebnissen und der Verein wird durch das saubere Design professioneller wahrgenommen. Auch die Drucksachen wirken durch das konsistente CI **hochwertig.**
+
+![Planung und Vorzeichnung](../images/Kitala_PlanungZeichnung.jpg)
+
+<p style="font-size: var(--fs-small-text);text-align: right;">Stichwortsuche nach Begriffen, die für die Website wichtig für Informationgehalt werden und anschließender Zeichnung der Startseite.</p>
 
 ![Logoskizzen und Farbschemen](../images/LogoMockup_KiTaLa.jpg)
 

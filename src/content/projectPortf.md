@@ -4,7 +4,7 @@ title: "Eigenes Skillset professionell präsentieren"
 
 ![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UX-Designer<br/>
+<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UI/UX-Designer<br/>
 Technologien: React.js | Gatsby.js | SCSS | GraphQL</p>
 
 **Herausforderung:** Mein berufliches Skillset sollte bestmöglich präsentiert werden, sowohl die Programmier- als auch meine Design-Fähigkeiten mussten dabei deutlich sichtbar auf der neuen Website erscheinen und die Informationen von z. B. Recruitern schnell erfassbar sein.

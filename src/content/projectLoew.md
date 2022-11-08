@@ -4,7 +4,7 @@ title: Neustart als Tagesmutter
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UX-Designer | Mediengestalter<br/>
+<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UI/UX-Designer | Mediengestalter<br/>
 Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
 [Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php)
@@ -21,10 +21,10 @@ Die Website programmierte ich in **Joomla!** und **CSS3,** das mobile Menü mit 
 
 ![Wireframe der Website](../images/LoewWireframe.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Wireframing auf Papier</p>
+<p style="font-size: var(--fs-small-text);text-align: justify;">Ideation und Wireframing von den ersten Entwürfen auf Papier</p>
 
 ![Suchbegriffe im Bereich Tagesmütter](../images/SearchWordsCSV_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Exportierte CSV-Datei der Suchbegriffe eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte der Website aufbauen.</p>
+<p style="font-size: var(--fs-small-text);text-align: justify;">Exportierte CSV-Datei der Suchbegriffe eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen.</p>
 
 <p>&bull; &bull; &bull;</p>

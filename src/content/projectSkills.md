@@ -4,7 +4,7 @@ title: "Überarbeitung der Darstellung meiner Fähigkeiten"
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UX-Designer<br/>Technologien: Gatsby | SCSS | Inkscape</p>
+<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UI/UX-Designer<br/>Technologien: Gatsby | SCSS | Inkscape</p>
 
 [Zur Website](https://sascha-nabrotzky.github.io/skills)
 
