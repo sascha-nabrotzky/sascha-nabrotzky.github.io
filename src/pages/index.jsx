@@ -71,24 +71,23 @@ export default function Home() {
         <h2 className={style.blink}></h2>
         <p>
           Ich bin <strong>Sascha Nabrotzky. </strong>
-          Die Kombination von Programmier-/UX-Kenntnissen ist meine Stärke. Ich
-          liebe es Dinge zu <strong>hinterfragen,</strong> zu{" "}
-          <strong>optimieren</strong> und eigenen Design-Systemen{" "}
-          <strong>"Leben" einzuprogrammieren.</strong>{" "}
+          Die Kombination von <strong>
+            Programmier-/Design-Kenntnissen
+          </strong>{" "}
+          ist meine Stärke. Ich liebe es Dinge zu hinterfragen, zu optimieren
+          und nutzerzentrierten Design-Systemen{" "}
+          <strong>"Leben" einzuprogrammieren.</strong> Beständiges Lernen,
+          Neugierde und viel Kreativität zeichnen mich ebenfalls aus.
         </p>
 
         <LineSvg />
 
         <p>
-          Als ausgebildeter Mediengestalter habe ich mich autodidaktisch in den
-          wichtigsten Web-Technologien weitergebildet und dadurch auf
-          <strong> Frontend-Entwicklung</strong> responsiver Websites und{" "}
-          <strong>UX-Design</strong> spezialisiert.
-        </p>
-        <p>
-          Aktuell arbeite ich als Frontend-Entwickler in einer Agentur im Herzen
-          von Münster und setze in einem interdiszipliären und internationalen
-          Team TYPO3-Projekte um.
+          Als ausgebildeter Mediengestalter habe ich mich zusätzlich
+          autodidaktisch in den wichtigsten Web-Technologien weitergebildet und
+          dadurch auf <strong>UI-/UX-Design </strong>
+          und <strong> Frontend-Entwicklung</strong> responsiver Websites
+          spezialisiert.
         </p>
         <p>
           Verheiratet und als Familienvater mit zwei Kindern lebe ich im

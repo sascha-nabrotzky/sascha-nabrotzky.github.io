@@ -6,14 +6,14 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | Frontend-Entwickler/UX-Designer",
+    title: "Sascha Nabrotzky | Digital Design | Frontend-Entwickler",
     description:
       "Entwicklung und Programmierung von nutzerzentrierten responsiven Websites in TYPO3 und React mit CSS3/SCSS, Fluid und Bootstrap",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
     keywords:
-      "UX-Engineer, UX-Design, ux engineer, TYPO3, React, Gatsby, CMS, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
+      "UX-Engineer, UX-Design, ux engineer, UI-Design, UI, TYPO3, React, Gatsby, CMS, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
   },
 
   plugins: [

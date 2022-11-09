@@ -10,14 +10,20 @@ title: "Online-Shop wieder konkurrenzfähig machen"
 
 **Herausforderung:** Der Shop musste in vielen Bereichen aktualisiert und besser strukturiert werden, um sich abzuheben und wieder konkurrenzfähig zu sein. Die ganze CI musste zudem vereinheitlicht werden.
 
-**Vorgehen:** Die User-Research (Fragen an Kundenbetreuer, Vertreter, Kunden) und **Auswertung von Google-Analytics** zeigte auf, dass Produktbilder für eine Bestellung fehlten und der Anmeldeprozess sowie die Kommunikation zum Unternehmen zu kompliziert war.<br/>
-Zuerst wurde ein harmonierendes Farbschema erarbeitet, da die primären Farben nicht ausgetauscht werden sollten, Harmonierende Schriftpaare habe ich gefunden und somit konnte ich dann die Corporate Identity erstellen.<br/>
-Für die Kommunikation wurde ein ein Chat-Modul eingerichtet, da so direkt Probleme und Fragen der Kunden leichter beseitigt werden konnten und ein Newsletter-Modul wurde installiert, das kostspielige Flyer ersetzt. Als nächstes wurden Landingpages mit **HTML5/CSS3** für Shopanbindungen erstellt, damit die Kunden Bescheid wissen und ihre Bestellungen direkt in ihrer Planungs-Software tätigen konnten.<br/>
+**Vorgehen:** Die qualitative **User-Research** (Fragen an Kundenbetreuer, Vertreter, Kunden) und quantitative **Auswertung von Google-Analytics-Daten** zeigte auf, auf welchen Seiten die Absprungrate zu hoch war und anhand der Resonanz der Kundenbetreuer, dass zu viele Produktbilder für Bestellungen fehlten und der Anmeldeprozess sowie die Kommunikation zum Unternehmen zu kompliziert war.<br/>
+Zuerst habe ich eine **Proto-Persona** erstellt und das Farbschema harmonisch erweitert, da die primären Farben nicht ausgetauscht werden sollten, harmonierende Schriftpaare habe ich ebenfalls gefunden und somit konnte ich dann die **Corporate Identity** erstellen.<br/>
+Für die Kommunikation wurde ein ein Chat-Modul eingerichtet, da so direkt Probleme und Fragen der Kunden leichter beseitigt werden konnten und ein Newsletter-Modul wurde installiert, das kostspielige Flyer ersetzt. Als Nächstes wurden Landingpages mit **HTML5/CSS3**, um vorhandene Shopanbindungen zu bewerben, erstellt. Mit den Anbindungen können die Kunden ihre Bestellungen direkt in ihrer Planungssoftware tätigen.<br/>
 Slider, Teaser und jede digitale Werbemaßnahme bekam dadurch ein einheitliches aussehen, die Informations-Architektur der eigentlichen **Joomla!**-Homepage wurde überarbeitet und die Seiten bekamen dadurch ein abgestimmtes, zielgerichtetes Aussehen ohne verstreute Informationen.<br/>
 
-**Resultat:** Nach der kompletten Bandbreite an Optimierungen vor allem in **Produktpflege,** aber auch **UX/UI-Design,** optimierter Informationsarchitektur und Werbemaßnahmen, hatte der Onlineshop das erste Mal **Rekordumsätze von bis zu 30%** zu verzeichnen und man erhielt durchweg positive Resonanz, sogar ein **Konkurrent versucht den Onlineshop zu kopieren.**
+**Testen und Validieren:** Getestet wurden die Maßnahmen zuerst mittels **Heuristic Markup** und monatlich die steigenden Umsätze im Online-Shop registriert, zudem habe ich jede Änderung mit Hilfe des **5-Sekunden-Tests** überprüft.
 
-![Corporate Identity von K + S](../images/KS-CI.jpg)
+**Resultat:** Nach der kompletten Bandbreite an Optimierungen, vor allem im Bereich **Produktpflege,** aber auch **UX/UI-Design,** optimierter Informationsarchitektur und Werbemaßnahmen, hatte der Onlineshop das erste Mal **Rekordumsätze von bis zu 30%** zu verzeichnen und man erhielt durchweg positive Resonanz, sogar ein **Konkurrent versucht das Styling des Onlineshops zu kopieren.**
+
+![Proto-Persona für den generellen Kundenstamm](../images/ProtopersonaKS.jpg)
+
+<p style="font-size: var(--fs-small-text);text-align: justify;">Proto-Persona zur Planung für meine Designs und dem generellen Überblick über den Kunden und was gerne Bestellt wird.</p>
+
+![CCorporate Identity des Online-Shops](../images/KS-CI.jpg)
 
 <p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen des erweiterten Farbschemas auf Basis der ursprünglichen Logo-Farben (schwarz/gelb) und abgleichen möglichst passender Schriften für Print und Online.</p>
 

@@ -9,7 +9,7 @@ Technologien: HTML5 | CSS3 | JavaScript</p>
 
 [Zur Website](http://www.sascha-nabrotzky.de/moorland/index.html)
 
-**Herausforderung:** Das zweite Moorland-Festival sollte noch größer werden und dadurch noch mehr Spendengelder für einen guten Zweck zusammenkommen, doch dafür musste die Kommunikation und Werbung bei allen Touchpoints flüssig und eingängig funktionieren, auch die ursprünglichen Farben sollten bestehen bleiben.
+**Herausforderung:** Das zweite Moorland-Festival sollte noch größer werden und dadurch noch mehr Spendengelder für einen guten Zweck zusammenkommen, doch dafür musste die Kommunikation und Werbung bei allen **Touchpoints** flüssig und eingängig funktionieren, auch die ursprünglichen Farben sollten bestehen bleiben.
 
 **Vorgehen:** Zuerst habe ich die alten Farben erweitert und ein neues **Farbschema** entwickelt. Mit diesem Farbschema konnte ich flexibler und grafischer gestalten und durch den Farbkontrast die nötige Aufmerksamkeit erzeugen bei gleichzeitiger **Einhaltung der ursprünglichen CI.** Als nächstes habe ich eine schlanke, **responsive Website** in **HTML5, CSS3** und **JavaScript** programmiert, welche auf allen Smartphones funktioniert, somit konnte wirklich jeder seine Info abrufen.
 

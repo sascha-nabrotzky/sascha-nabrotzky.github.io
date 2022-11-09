@@ -5,6 +5,7 @@ import * as timelineStyle from "../styling/timeline.module.scss"
 import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
 import TimeLineJSON from "../content/timeline.json"
 import SkillsLogos from "../components/skillsLogos"
+import socMedImg from "../images/socMedImg.jpg"
 
 export default function Skills() {
   useEffect(() => {
@@ -41,6 +42,18 @@ export default function Skills() {
           name="keywords"
           content="Skills, Timeline, Werdegang, Qualifikation"
         />
+        <meta name="image" content={socMedImg} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Skills | Sascha Nabrotzky" />
+        <meta name="twitter:image" content={socMedImg} />
+        <meta property="og:title" content="Skills | Sascha Nabrotzky" />
+        <meta
+          property="og:description"
+          content="Auflistung meiner Skills und beruflichen Qualifikationen"
+        />
+        <meta property="og:image" content={socMedImg} />
+        <meta property="og:type" content="website" />
+        <html lang="de" />
       </Helmet>
       <Layout>
         <h1>Never stop learning!</h1>

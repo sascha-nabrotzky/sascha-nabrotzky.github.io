@@ -14,6 +14,8 @@ title: "Professionellere Wahrnehmung der Tagesmütter"
 
 Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt.** Das Menü brachte ich nach unten in **Daumennähe,** da meist mit dem Smartphone nach Informationen über Tagesmütter gesucht wird.
 
+**Test und Validierung:** Auch hier habe ich die Content-Strategie mit **Heuristic Markup** und dem **5-Sekunden-Test** überprüft und optimiert.
+
 **Resultat:** Die Seite hat bei den wichtigsten Suchbegriffen **beste Platzierung** in den Suchergebnissen und der Verein wird durch das saubere Design professioneller wahrgenommen. Auch die Drucksachen wirken durch das konsistente CI **hochwertig.**
 
 ![Planung und Vorzeichnung](../images/Kitala_PlanungZeichnung.jpg)

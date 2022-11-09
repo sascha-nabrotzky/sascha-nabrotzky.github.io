@@ -22,6 +22,7 @@ export default function Contact() {
           name="keywords"
           content="Kontakt, Social Media, Xing, Instagram, Twitter, Github"
         />
+        <html lang="de" />
       </Helmet>
       <Layout>
         <h1>Verlink dich mit mir!</h1>

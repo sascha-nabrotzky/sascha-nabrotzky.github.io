@@ -19,6 +19,10 @@ Die Website programmierte ich in **Joomla!** und **CSS3,** das mobile Menü mit 
 
 **Resultat:** Das kinderfreundliche Gesamtbild, die Informationsarchitektur und gute SEO brachten der Seite **beste Präsenz und Resonanz** in der lokalen Region und vor allem bei suchenden Eltern.
 
+![Proto-Persona der Eltern/Mütter](../images/ProtopersonaLoew.jpg)
+
+<p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen einer Proto-Persona mit weiteren Infos, wie Kita gefunden wurde.</p>
+
 ![Wireframe der Website](../images/LoewWireframe.jpg)
 
 <p style="font-size: var(--fs-small-text);text-align: justify;">Ideation und Wireframing von den ersten Entwürfen auf Papier</p>
