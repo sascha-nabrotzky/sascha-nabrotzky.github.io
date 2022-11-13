@@ -17,14 +17,10 @@ Slider, Teaser und jede digitale Werbemaßnahme bekam dadurch ein einheitliches 
 
 **Testen und Validieren:** Getestet wurden die Maßnahmen zuerst mittels **Heuristic Markup** und monatlich die steigenden Umsätze im Online-Shop registriert, zudem habe ich jede Änderung mit Hilfe des **5-Sekunden-Tests** überprüft.
 
-**Resultat:** Nach der kompletten Bandbreite an Optimierungen, vor allem im Bereich **Produktpflege,** aber auch **UX/UI-Design,** optimierter Informationsarchitektur und Werbemaßnahmen, hatte der Onlineshop das erste Mal **Rekordumsätze von bis zu 30%** zu verzeichnen und man erhielt durchweg positive Resonanz, sogar ein **Konkurrent versucht das Styling des Onlineshops zu kopieren.**
+**Resultat:** Nach der kompletten Bandbreite an Optimierungen, vor allem im Bereich **Produktpflege,** aber auch **UX/UI-Design,** optimierter Informationsarchitektur und Werbemaßnahmen, hatte der Onlineshop das erste Mal **Rekordumsätze von bis zu 30%** zu verzeichnen und man erhielt durchweg positive Resonanz, sogar ein Mitbewerber hat sich vom Styling des Onlineshops inpirieren lassen.
 
-![Proto-Persona für den generellen Kundenstamm](../images/ProtopersonaKS.jpg)
+![Proto-Persona für den generellen Kundenstamm](../images/KS-CI.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Proto-Persona zur Planung für meine Designs und dem generellen Überblick über den Kunden und was gerne Bestellt wird.</p>
-
-![CCorporate Identity des Online-Shops](../images/KS-CI.jpg)
-
-<p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen des erweiterten Farbschemas auf Basis der ursprünglichen Logo-Farben (schwarz/gelb) und abgleichen möglichst passender Schriften für Print und Online.</p>
+<p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen des erweiterten Farbschemas auf Basis der ursprünglichen Logo-Farben (schwarz/gelb) und abgleichen möglichst passender Schriften für Print und Online (li.). Proto-Persona zur Planung für meine Designs und dem generellen Überblick über den Kunden und was gerne Bestellt wird (re).</p>
 
 <p>&bull; &bull; &bull;</p>

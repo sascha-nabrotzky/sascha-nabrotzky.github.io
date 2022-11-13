@@ -21,14 +21,10 @@ Die Website programmierte ich in **Joomla!** und **CSS3,** das mobile Menü mit 
 
 ![Proto-Persona der Eltern/Mütter](../images/ProtopersonaLoew.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen einer Proto-Persona mit weiteren Infos, wie Kita gefunden wurde.</p>
+<p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen einer Proto-Persona mit weiteren Infos, wie Kita gefunden wurde (li). Logoentwicklung mit Vorabskizze (re).</p>
 
-![Wireframe der Website](../images/LoewWireframe.jpg)
+![Suchbegriffe im Bereich Tagesmütter](../images/LoewWireframe.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Ideation und Wireframing von den ersten Entwürfen auf Papier</p>
-
-![Suchbegriffe im Bereich Tagesmütter](../images/SearchWordsCSV_KiTaLa.jpg)
-
-<p style="font-size: var(--fs-small-text);text-align: justify;">Exportierte CSV-Datei der Suchbegriffe eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen.</p>
+<p style="font-size: var(--fs-small-text);text-align: justify;">Exportierte CSV-Datei der Suchbegriffe eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen (li.). Ideation und Wireframing von den ersten Entwürfen auf Papier (re).</p>
 
 <p>&bull; &bull; &bull;</p>

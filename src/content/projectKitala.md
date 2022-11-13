@@ -20,14 +20,14 @@ Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche *
 
 ![Planung und Vorzeichnung](../images/Kitala_PlanungZeichnung.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Stichwortsuche nach Begriffen, die für die Website wichtig für Informationgehalt werden und anschließender Zeichnung der Startseite.</p>
+<p style="font-size: var(--fs-small-text);">Stichwortsuche nach Begriffen, die für die Website wichtig für Informationgehalt werden und anschließender Zeichnung der Startseite.</p>
 
 ![Logoskizzen und Farbschemen](../images/LogoMockup_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Anfertigen von Skizzen für das Logo und anschließender Umsetzung im Grafikprogramm bei gleichzeitiger Entwicklung des Farbschemas.</p>
+<p style="font-size: var(--fs-small-text);">Anfertigen von Skizzen für das Logo und anschließender Umsetzung im Grafikprogramm bei gleichzeitiger Entwicklung des Farbschemas.</p>
 
 ![Aktionswoche](../images/Aktion_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Von mir mit eigenen Illustrationen gestaltete Socialmedia-Posts, die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
+<p style="font-size: var(--fs-small-text);">Von mir mit eigenen Illustrationen gestaltete Socialmedia-Posts, die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
 
 <p>&bull; &bull; &bull;</p>
