@@ -15,11 +15,12 @@ import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoInDesign from "../images/InDesign-Logo_weiss.svg"
 import logoPenpot from "../images/penpot_Logo.svg"
-import logoUXUI from "../images/ux-ui-design.svg"
+import logoUX from "../images/ux-design.svg"
+import logoUI from "../images/ui-design.svg"
 import logoUXResearch from "../images/ux-research.svg"
 import logoInkscape from "../images/inkscape-Logo_white.svg"
 import logoUbuntu from "../images/Ubuntu-Logo_weiss.svg"
-import logoContent from "../images/content.svg"
+import logoInformArchi from "../images/content.svg"
 import logoMedien from "../images/Mediengestaltung.svg"
 import * as style from "../styling/skills.module.scss"
 
@@ -176,41 +177,41 @@ export default function SkillsLogos() {
         <h2 className={style.headline}>Design</h2>
         <div className={style.skill}>
           <img
-            src={logoMedien}
-            title="Mediengestaltung"
-            alt="Mediengestaltung Logo"
+            src={logoUI}
+            title="UI-Design"
+            alt="UI-Design Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            Mediengestaltung
+            UI-Design
             <br />
             ****
           </p>
         </div>
         <div className={style.skill}>
           <img
-            src={logoUXUI}
-            title="UX/UI-Design"
-            alt="UX/UI-Design Logo"
+            src={logoUX}
+            title="UX-Design"
+            alt="UX-Design Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            UX/UI-Design
+            UX-Design
             <br />
             ***
           </p>
         </div>
         <div className={style.skill}>
           <img
-            src={logoContent}
-            title="Content Strategy (UX)"
-            alt="Content Strategy Logo"
+            src={logoInformArchi}
+            title="Informations-Architektur (UX)"
+            alt="Informations-Architektur Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            Content Strategy
+            Inform.-Architekt.
             <br />
-            **
+            ****
           </p>
         </div>
         <div className={style.skill}>
@@ -222,7 +223,21 @@ export default function SkillsLogos() {
           ></img>
           <p className={style.rating}>
             UX-Research
-            <br />*
+            <br />
+            **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoMedien}
+            title="Mediengestaltung"
+            alt="Mediengestaltung Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            Mediengestaltung
+            <br />
+            ****
           </p>
         </div>
       </div>
@@ -277,7 +292,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             Penpot
             <br />
-            <span>*</span>
+            <span>**</span>
           </p>
         </div>
         <div className={style.skill}>

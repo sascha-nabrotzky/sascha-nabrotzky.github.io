@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | Digital Design | Frontend-Entwickler",
+    title: "Sascha Nabrotzky | UI/UX-Designer | Frontend-Entwickler",
     description:
-      "Entwicklung und Programmierung von nutzerzentrierten responsiven Websites in TYPO3 und React mit CSS3/SCSS, Fluid und Bootstrap",
+      "Entwicklung und Programmierung von nutzerzentrierten, responsiven Websites in TYPO3 und React mit CSS3/SCSS und Bootstrap. Optimierung der Informations-Architektur.",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
