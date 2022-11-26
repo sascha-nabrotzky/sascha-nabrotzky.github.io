@@ -11,17 +11,20 @@ export default function Skills() {
   useEffect(() => {
     let options = {
       root: null,
-      rootMargin: "0px 0px 0px 0px",
-      threshold: 0.5,
+      rootMargin: "-100px 0px -100px 0px",
+      threshold: 1,
     }
 
     let callback = entries => {
       entries.forEach(entry => {
-        entry.target.classList.toggle("scale", entry.isIntersecting)
+        entry.target.classList.toggle(
+          `${timelineStyle.scale}`,
+          entry.isIntersecting
+        )
       })
     }
 
-    let targets = document.querySelectorAll("section")
+    let targets = document.querySelectorAll(`.${timelineStyle.circle}`)
     let observer = new IntersectionObserver(callback, options)
 
     targets.forEach(target => {
@@ -77,7 +80,7 @@ export default function Skills() {
               <div className={timelineStyle.linie}></div>
 
               <div className={timelineStyle.timeLinePoint}>
-                <div className={timelineStyle.circleImg}>
+                <div className={timelineStyle.circle}>
                   <p dangerouslySetInnerHTML={{ __html: point.jahr }}></p>
                 </div>
                 <p dangerouslySetInnerHTML={{ __html: point.taetigkeit }}></p>

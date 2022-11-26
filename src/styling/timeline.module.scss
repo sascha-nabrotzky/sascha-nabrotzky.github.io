@@ -20,11 +20,7 @@
   font-size: var(--fs-h2);
 }
 
-.scale {
-  transform: scale(1.5);
-}
-
-.circleImg {
+.circle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,6 +31,14 @@
   background-color: var(--col-green);
   color: white;
   font-weight: 700;
+  opacity: 0.5;
+  transition: 1s ease-in;
+  transform: scale(0.5);
+}
+
+.scale {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .linie {

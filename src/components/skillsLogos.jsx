@@ -26,7 +26,7 @@ import * as style from "../styling/skills.module.scss"
 
 export default function SkillsLogos() {
   return (
-    <div className={style.logoWrapper}>
+    <div>
       <div className={style.logosMain}>
         <h2 className={style.headline}>Web-Entwicklung</h2>
         <div className={style.skill}>
