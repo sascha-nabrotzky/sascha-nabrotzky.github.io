@@ -1,5 +1,4 @@
-
-# "I'm a Frontend Developer and learning programming React/JavaScript"
+# "I'm a UI/UX-Designer and Frontend Developer, with this project i'm learning programming with React/JavaScript"
 
 I created this website with Gatsby.js and it will be further optimized depending on the level of knowledge.
 

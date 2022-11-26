@@ -15,20 +15,24 @@ h2 {
     display: flex;
     flex-flow: column;
     min-height: 187px;
-    background-color: #a0e6ff;
     padding: 10px;
     color: var(--col-darkgray);
     transition: 0.2s ease-in-out;
     border-radius: 0.5rem;
+    background-image: linear-gradient(45deg, var(--col-blue), var(--col-green));
 
     &:hover {
-      background-color: var(--col-blue);
-      color: var(--col-white);
+      background-image: linear-gradient(
+        90deg,
+        var(--col-blue),
+        var(--col-green)
+      );
     }
 
     h4,
     p {
       margin: 0.5em 1rem 0;
+      color: var(--col-white);
     }
 
     p {
@@ -39,6 +43,7 @@ h2 {
       margin-top: auto;
       margin-left: 1rem;
       margin-bottom: 0.5rem;
+      color: var(--col-white);
 
       p,
       time {

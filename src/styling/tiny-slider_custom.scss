@@ -18,9 +18,29 @@
       height: 3rem;
       color: white;
       transition: 0.2s ease-in-out;
+      background-image: linear-gradient(
+        45deg,
+        var(--col-blue),
+        var(--col-magenta)
+      );
+      background-size: 400% 400%;
+      background-position: 0% 50%;
 
       &:hover {
         outline: var(--col-light-blue) solid 5px;
+        animation: gradient 2s ease;
+
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
       }
     }
   }
