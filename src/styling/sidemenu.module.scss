@@ -1,5 +1,5 @@
 .sidemenu {
-  --sidemenu-height: 400px;
+  --sidemenu-height: 435px;
   display: none;
   position: fixed;
   bottom: calc(50vh - (var(--sidemenu-height) / 2));
@@ -10,6 +10,11 @@
   @media screen and (min-width: 1200px) {
     display: block;
   }
+}
+
+.sidemenuHeader {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  background-color: rgba(var(--col-white-rgb), 0.5);
 }
 
 .menuitem {

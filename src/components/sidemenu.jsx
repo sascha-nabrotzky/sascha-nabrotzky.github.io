@@ -23,5 +23,12 @@ export default function Sidemenu() {
     setListItem(liElements)
   }, [setListItem])
 
-  return <ul className={style.sidemenu}>{listItem}</ul>
+  return (
+    <ul className={style.sidemenu}>
+      <li className={style.sidemenuHeader}>
+        <strong>Projektemenü</strong>
+      </li>
+      {listItem}
+    </ul>
+  )
 }
