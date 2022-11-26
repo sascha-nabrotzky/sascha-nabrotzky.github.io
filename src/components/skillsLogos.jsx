@@ -1,6 +1,6 @@
 import React from "react"
 import logoTypo3 from "../images/TYPO3_Logo_white.svg"
-import logoJoomla from "../images/joomla-logo_icon_weiss.svg"
+import logoGraphQL from "../images/graphql-logo_white.svg"
 import logoReact from "../images/react-logo_white.svg"
 import logoGatsby from "../images/gatsby-logo_white.svg"
 import logoSass from "../images/sass-logo_white.svg"
@@ -78,32 +78,6 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoTypo3}
-            title="TYPO3 CMS"
-            alt="TYPO3-Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            TYPO3 CMS
-            <br />
-            **
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
-            src={logoJoomla}
-            title="Joomla! CMS"
-            alt="Joomla-Logo CMS"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            Joomla!
-            <br />
-            **
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
             src={logoJs}
             title="JavaScript"
             alt="JS-Logo"
@@ -113,6 +87,44 @@ export default function SkillsLogos() {
             JavaScript
             <br />
             **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoReact}
+            title="React"
+            alt="React-Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            React.js
+            <br />
+            **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoGatsby}
+            title="Gatsby - A Static Site Generator"
+            alt="Gatsby-Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            Gatsby.js
+            <br />
+            **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoGraphQL}
+            title="GraphQL"
+            alt="GraphQL-Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            GraphQL
+            <br />*
           </p>
         </div>
         <div className={style.skill}>
@@ -142,34 +154,23 @@ export default function SkillsLogos() {
           </p>
         </div>
         <div className={style.skill}>
-          <img
-            src={logoReact}
-            title="React"
-            alt="React-Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            React.js
-            <br />*
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
-            src={logoGatsby}
-            title="Gatsby - A Static Site Generator"
-            alt="Gatsby-Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            Gatsby.js
-            <br />*
-          </p>
-        </div>
-        <div className={style.skill}>
           <img src={logoDDEV} title="DDEV" alt="DDEV-Logo" loading="lazy"></img>
           <p className={style.rating}>
             DDEV
             <br />*
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoTypo3}
+            title="TYPO3 CMS"
+            alt="TYPO3-Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            TYPO3 CMS
+            <br />
+            **
           </p>
         </div>
       </div>
