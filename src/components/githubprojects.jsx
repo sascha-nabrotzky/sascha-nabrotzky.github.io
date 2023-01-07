@@ -4,7 +4,7 @@ import "../../node_modules/tiny-slider/src/tiny-slider.scss"
 import "../styling/tiny-slider_custom.scss"
 import * as gitProjectStyles from "../styling/githubprojects.module.scss"
 
-export default function FetchGithubProjects(props) {
+export default function FetchGithubProjects() {
   let [data, setData] = useState(null) //data auf null setzen, danach mit Funkt. setData die commits fetchen und Projektdaten mappen
 
   useEffect(() => {
@@ -22,25 +22,29 @@ export default function FetchGithubProjects(props) {
 
       // Wenn commits vorhanden, dann wird Slider aufgebaut
       if (commits) {
-        var slider = tns({
-          container: ".projectSlider",
-          items: 1,
-          slideBy: "page",
-          nav: false,
-          autoplay: true,
-          autoplayButtonOutput: false,
-          controlsPosition: "bottom",
-          gutter: 20,
-          controlsText: ["&lang;", "&rang;"],
-          responsive: {
-            640: {
-              items: 2,
+        function setupTinyOptions() {
+          tns({
+            container: ".projectSlider",
+            items: 1,
+            slideBy: "page",
+            nav: false,
+            autoplay: true,
+            autoplayButtonOutput: false,
+            controlsPosition: "bottom",
+            gutter: 20,
+            controlsText: ["&lang;", "&rang;"],
+            responsive: {
+              640: {
+                items: 2,
+              },
+              900: {
+                items: 3,
+              },
             },
-            900: {
-              items: 3,
-            },
-          },
-        })
+          })
+        }
+        // TODO setTimeout weil class nicht gefunden, wieder entfernen
+        setTimeout(setupTinyOptions, 100)
       }
     }
     fetchMyAPI()
@@ -52,17 +56,16 @@ export default function FetchGithubProjects(props) {
     <section>
       <h2>Projekte auf Github</h2>
 
-      <div class="projectSlider">
+      <div className="projectSlider">
         {data.map(project => {
           let [day] = project.updated_at.split("T")
 
           return (
-            <div className={gitProjectStyles.boxWrapper}>
+            <div className={gitProjectStyles.boxWrapper} key={project.id}>
               <a
                 href={project.clone_url}
                 rel="noreferrer noopener"
                 target="_blank"
-                key={project.id}
               >
                 <div className={gitProjectStyles.projectsBox}>
                   <h4 dangerouslySetInnerHTML={{ __html: project.name }}></h4>
