@@ -1,5 +1,4 @@
 import React from "react"
-import logoTypo3 from "../images/TYPO3_Logo_white.svg"
 import logoGraphQL from "../images/graphql-logo_white.svg"
 import logoReact from "../images/react-logo_white.svg"
 import logoGatsby from "../images/gatsby-logo_white.svg"
@@ -10,7 +9,6 @@ import logoGit from "../images/git-quad-logo_white.svg"
 import logoCSS3 from "../images/CSS3_Logo_weiss.svg"
 import logoBootstrap from "../images/bootstrap-logo_white.svg"
 import logoNpm from "../images/npm-logo_white.svg"
-import logoDDEV from "../images/DDEV-Logo_quad_white.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoInDesign from "../images/InDesign-Logo_weiss.svg"
@@ -45,7 +43,7 @@ export default function SkillsLogos() {
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            SASS/SCSS
+            SASS
             <br />
             ****
           </p>
@@ -153,26 +151,6 @@ export default function SkillsLogos() {
             **
           </p>
         </div>
-        <div className={style.skill}>
-          <img src={logoDDEV} title="DDEV" alt="DDEV-Logo" loading="lazy"></img>
-          <p className={style.rating}>
-            DDEV
-            <br />*
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
-            src={logoTypo3}
-            title="TYPO3 CMS"
-            alt="TYPO3-Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            TYPO3 CMS
-            <br />
-            **
-          </p>
-        </div>
       </div>
       <div className={style.logosMain}>
         <h2 className={style.headline}>Design</h2>
@@ -212,7 +190,7 @@ export default function SkillsLogos() {
           <p className={style.rating}>
             Inform.-Architekt.
             <br />
-            ****
+            ***
           </p>
         </div>
         <div className={style.skill}>
