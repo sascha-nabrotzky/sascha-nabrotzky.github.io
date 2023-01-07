@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SocialButton from "../styled-components/social-button"
+import MailToButton from "../styled-components/mailto-button"
 import { Helmet } from "react-helmet"
 
 import * as contactStyles from "../styling/contact.module.scss"
@@ -56,7 +57,7 @@ export default function Contact() {
             alttext="Meine Illustrationen"
             label="Instagram"
           />
-          <SocialButton
+          <MailToButton
             href="mailto:sascha.nabrotzky@online.de"
             alttext="Schreiben Sie mir direkt"
             label="E-Mail"
