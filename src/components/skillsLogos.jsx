@@ -301,7 +301,7 @@ export default function SkillsLogos() {
           </p>
         </div>
       </div>
-      <span class={style.legend}>
+      <span className={style.legend}>
         * Grundkenntnisse; ** Erweiterte Grundkenntnisse; *** Gute Kenntnisse;
         **** Sehr gute Kenntnisse
       </span>
