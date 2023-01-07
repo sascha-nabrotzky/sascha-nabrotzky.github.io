@@ -83,11 +83,19 @@ export default function Home() {
         <LineSvg />
 
         <p>
-          Als ausgebildeter Mediengestalter habe ich mich zusätzlich
+          Als ausgebildeter Mediengestalter hatte ich mich zusätzlich
           autodidaktisch in den wichtigsten Web-Technologien weitergebildet und
           dadurch auf <strong>UI-/UX-Design </strong>
           und <strong> Frontend-Entwicklung</strong> responsiver Websites
           spezialisiert.
+        </p>
+        <p>
+          Aktuell arbeite ich als "Webdesigner UI/UX" im Wellnessbereich bei
+          einem enorm aufstrebenden Unternehmen. Ich erarbeite dort für Apps,
+          Websites und Displays die optimalste <strong>User-Experience,</strong>{" "}
+          danach designe ich das <strong>User-Interface</strong> und
+          anschließend programmiere ich das Frontend mit <strong>React</strong>{" "}
+          und <strong>SCSS/CSS3.</strong>
         </p>
         <p>
           Verheiratet und als Familienvater mit zwei Kindern lebe ich im
