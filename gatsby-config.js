@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | UI/UX-Design u. Frontend-Entwicklung",
+    title: "Sascha Nabrotzky | Webdesigner UI/UX",
     description:
       "UI-Designer & Front-End-Entwickler mit Erfahrung in UX-Design und Informations-Architektur. Entwicklung und Programmierung von nutzerzentrierten, responsiven React-Websites",
     url: "https://sascha-nabrotzky.github.io/",
