@@ -1,0 +1,28 @@
+:root {
+  --rw: 245;
+  --gw: 245;
+  --bw: 245;
+  --col-white: rgb(var(--rw), var(--bw), var(--bw));
+  --col-white-rgb: var(--rw), var(--bw), var(--bw);
+
+  --col-lightgray: #d3d1d1;
+  --col-midgray: #444;
+  --col-darkgray: #333;
+
+  --col-link: #666;
+  --col-link-active: var(--col-darkgray);
+
+  --col-blue: #23a6d5;
+  --col-light-blue: lighten(var(--col-blue), 35%);
+  --col-magenta: #e73c7e;
+  --col-green: #23d5ab;
+  --col-orange: #ee7752;
+
+  --ff-sans-cond: "Fira Sans Condensed";
+  --fw-600: 600;
+  --fw-400: 400;
+  --fs-h2: 1.7em;
+  --fs-small-text: 1rem;
+
+  --br-normal: 0.5rem;
+}

@@ -1,0 +1,76 @@
+@import "./fonts.module.scss";
+
+.herocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(
+    -45deg,
+    var(--col-orange),
+    var(--col-magenta),
+    var(--col-blue),
+    var(--col-green)
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  margin-top: 6.2em;
+  padding-left: 1.5rem;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .overflowcontainer {
+    overflow: hidden;
+    margin-bottom: -4em;
+  }
+
+  p {
+    @include FiraHero;
+    margin: 0;
+    animation: TextFlowIn 1s;
+    line-height: 1.2;
+
+    @keyframes TextFlowIn {
+      0% {
+        transform: translateY(3em) rotate(18deg);
+      }
+      50% {
+        transform: translateY(3em) rotate(18deg);
+      }
+      100% {
+        transform: translateY(0) rotate(0deg);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .herocontainer {
+    margin-top: 9em;
+    padding-left: 0.5rem;
+
+    .overflowcontainer {
+      margin-bottom: -0.2em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .herocontainer {
+    div {
+      &:last-child {
+        margin-bottom: 0;
+        margin-top: 2rem;
+      }
+    }
+  }
+}

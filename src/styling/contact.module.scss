@@ -1,0 +1,12 @@
+.socialBtnWrapper {
+  display: grid;
+  gap: 2rem;
+  margin-top: 3em;
+
+  @media screen and (max-width: 576px) {
+    grid-template-columns: 1fr;
+  }
+  @media screen and (min-width: 577px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

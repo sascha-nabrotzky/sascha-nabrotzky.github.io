@@ -1,0 +1,23 @@
+footer {
+  margin: 3em 1em 0;
+}
+
+.footerNavList {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerNavLink {
+  color: var(--col-link);
+  text-decoration: none;
+  margin-right: 1.3rem;
+
+  &:hover {
+    color: var(--col-midgray);
+  }
+}
+
+.activeFooterNavLink {
+  color: var(--col-link-active);
+}

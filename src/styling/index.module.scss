@@ -1,0 +1,20 @@
+.blink {
+  margin-top: 2rem;
+
+  &::after {
+    display: inline-block;
+    margin-left: 0.313rem;
+    width: 0.125rem;
+    height: 1.313rem;
+    content: "";
+    background-color: gray;
+    transform: translateY(0.125rem);
+    animation: blink 1s steps(2, start) infinite;
+  }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
