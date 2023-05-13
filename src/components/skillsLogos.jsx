@@ -86,18 +86,6 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoTS}
-            title="TypeScript"
-            alt="TypeScript Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            TypeScript
-            <br />*
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
             src={logoReact}
             title="React"
             alt="React-Logo"
