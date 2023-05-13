@@ -1,5 +1,4 @@
 import React from "react"
-import logoGraphQL from "../images/graphql-logo_white.svg"
 import logoReact from "../images/react-logo_white.svg"
 import logoGatsby from "../images/gatsby-logo_white.svg"
 import logoSass from "../images/sass-logo_white.svg"
@@ -12,15 +11,14 @@ import logoNpm from "../images/npm-logo_white.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoInDesign from "../images/InDesign-Logo_weiss.svg"
-import logoPenpot from "../images/penpot_Logo.svg"
+import logoXd from "../images/Adobe_XD_Logo_weiss.svg"
+import logoTS from "../images/Typescript_logo_white.svg"
 import logoUX from "../images/ux-design.svg"
 import logoUI from "../images/ui-design.svg"
 import logoUXResearch from "../images/ux-research.svg"
-import logoInkscape from "../images/inkscape-Logo_white.svg"
 import logoUbuntu from "../images/Ubuntu-Logo_weiss.svg"
 import logoInformArchi from "../images/content.svg"
-import logoMedien from "../images/Mediengestaltung.svg"
-import * as style from "../styling/skills.module.scss"
+import * as style from "../styles/skills.module.scss"
 
 export default function SkillsLogos() {
   return (
@@ -89,6 +87,18 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
+            src={logoTS}
+            title="TypeScript"
+            alt="TypeScript Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            TypeScript
+            <br />*
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
             src={logoReact}
             title="React"
             alt="React-Logo"
@@ -111,18 +121,6 @@ export default function SkillsLogos() {
             Gatsby.js
             <br />
             **
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
-            src={logoGraphQL}
-            title="GraphQL"
-            alt="GraphQL-Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            GraphQL
-            <br />*
           </p>
         </div>
         <div className={style.skill}>
@@ -206,19 +204,6 @@ export default function SkillsLogos() {
             **
           </p>
         </div>
-        <div className={style.skill}>
-          <img
-            src={logoMedien}
-            title="Mediengestaltung"
-            alt="Mediengestaltung Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            Mediengestaltung
-            <br />
-            ****
-          </p>
-        </div>
       </div>
       <div className={style.logosMain}>
         <h2 className={style.headline}>Tools</h2>
@@ -263,28 +248,15 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoPenpot}
-            title="Penpot Prototyping"
-            alt="Penpot Logo"
+            src={logoXd}
+            title="Adobe Xd Prototyping"
+            alt="Adobe Xd Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            Penpot
+            Xd
             <br />
             <span>**</span>
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
-            src={logoInkscape}
-            title="Inkscape"
-            alt="Inkscape Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            Inkscape
-            <br />
-            ***
           </p>
         </div>
         <div className={style.skill}>

@@ -4,7 +4,7 @@ import Header from "./header"
 import Hero from "./hero"
 import ToTopButton from "./ToTopButton"
 import Snowflakes from "../components/snowflakes"
-import * as layoutStyles from "../styling/layout.module.scss"
+import * as layoutStyles from "../styles/layout.module.scss"
 
 export default function Layout({ children }) {
   return (

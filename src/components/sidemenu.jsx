@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import * as style from "../styling/sidemenu.module.scss"
+import * as style from "../styles/sidemenu.module.scss"
 
 export default function Sidemenu() {
   const [listItem, setListItem] = useState("sidemenu")

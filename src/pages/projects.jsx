@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Sidemenu from "../components/sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
-import * as projectStyle from "../styling/projects.module.scss"
+import * as projectStyle from "../styles/projects.module.scss"
 
 export default function Projects() {
   const data = useStaticQuery(graphql`

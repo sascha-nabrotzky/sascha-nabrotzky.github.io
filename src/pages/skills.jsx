@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
-import * as timelineStyle from "../styling/timeline.module.scss"
+import * as timelineStyle from "../styles/timeline.module.scss"
 import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
 import TimeLineJSON from "../content/timeline.json"
 import SkillsLogos from "../components/skillsLogos"
@@ -62,7 +62,8 @@ export default function Skills() {
         <h1>Never stop learning!</h1>
         <p>
           Ich stelle hier kurz meine wichtigsten Skills vor, die ich am meisten
-          bei meinen ganzen Projekten anwende und worauf meist mein Fokus liegt.
+          bei meinen privaten Projekten anwende oder worauf hauptberuflich mein
+          Fokus liegt.
           <br />
           <br />
         </p>

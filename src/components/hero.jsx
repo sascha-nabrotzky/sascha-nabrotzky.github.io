@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react"
-import * as heroStyles from "../styling/hero.module.scss"
+import * as heroStyles from "../styles/hero.module.scss"
 
 export default function Hero() {
-  const textFirstLine = ["Digital Design", "Frontend-", "UI/UX-Design"]
-  const textSecondLine = ["Design Thinking", "Entwicklung", "UX-Research"]
+  const textFirstLine = ["Frontend-", "UI/UX-Design", "Design"]
+  const textSecondLine = ["Entwicklung", "Digital Design", "Thinking"]
   let [state, setState] = useState(textFirstLine[0])
   let [state2, setState2] = useState(textSecondLine[0])
 
