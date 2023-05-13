@@ -6,13 +6,12 @@ import logoHTML5 from "../images/HTML5_logo_weiss.svg"
 import logoJs from "../images/js-logo_white.svg"
 import logoGit from "../images/git-quad-logo_white.svg"
 import logoCSS3 from "../images/CSS3_Logo_weiss.svg"
-import logoBootstrap from "../images/bootstrap-logo_white.svg"
-import logoNpm from "../images/npm-logo_white.svg"
+import logoTailwind from "../images/tailwind-logo_white.svg"
+import logoTypescript from "../images/typescript-logo_white.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoInDesign from "../images/InDesign-Logo_weiss.svg"
-import logoXd from "../images/Adobe_XD_Logo_weiss.svg"
-import logoTS from "../images/Typescript_logo_white.svg"
+import logoXd from "../images/Xd-logo_white.svg"
 import logoUX from "../images/ux-design.svg"
 import logoUI from "../images/ui-design.svg"
 import logoUXResearch from "../images/ux-research.svg"
@@ -48,13 +47,13 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoBootstrap}
-            title="Bootstrap 5 Framework"
-            alt="Bootstrap-Logo"
+            src={logoTailwind}
+            title="Tailwind CSS"
+            alt="Tailwind-Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            Bootstrap 5
+            Tailwind CSS
             <br />
             ***
           </p>
@@ -112,6 +111,18 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
+            src={logoTypescript}
+            title="React"
+            alt="React-Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            TypeScript
+            <br />*
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
             src={logoGatsby}
             title="Gatsby - A Static Site Generator"
             alt="Gatsby-Logo"
@@ -132,19 +143,6 @@ export default function SkillsLogos() {
           ></img>
           <p className={style.rating}>
             Git
-            <br />
-            **
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
-            src={logoNpm}
-            title="npm - node package manager"
-            alt="Npm-Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            npm
             <br />
             **
           </p>
@@ -249,7 +247,7 @@ export default function SkillsLogos() {
         <div className={style.skill}>
           <img
             src={logoXd}
-            title="Adobe Xd Prototyping"
+            title="Adobe Xd"
             alt="Adobe Xd Logo"
             loading="lazy"
           ></img>

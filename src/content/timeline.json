@@ -1,8 +1,12 @@
 {
   "jahrtaetigkeit": [
     {
+      "jahr": "AKTUELL",
+      "taetigkeit": "Im Fokus: React, Typescript"
+    },
+    {
       "jahr": "2023",
-      "taetigkeit": "Webdesigner UI/UX | Projekte mit React.js, SCSS und TypeScript | UX-Design"
+      "taetigkeit": "Webdesigner UI/UX im Spa-Erlebnisbereich | Apps mit React, Typescript, Tailwind, Storybook, SCSS"
     },
     {
       "jahr": "2021",

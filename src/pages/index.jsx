@@ -76,7 +76,7 @@ export default function Home() {
           </strong>{" "}
           ist meine Stärke. Ich liebe es Dinge zu hinterfragen, zu optimieren
           und nutzerzentrierten Design-Systemen{" "}
-          <strong>"Leben" einzuprogrammieren.</strong> Beständiges Lernen,
+          <strong>&ldquo;Leben&rdquo; einzuprogrammieren.</strong> Beständiges Lernen,
           Neugierde und viel Kreativität zeichnen mich ebenfalls aus.
         </p>
 
@@ -86,16 +86,15 @@ export default function Home() {
           Als ausgebildeter Mediengestalter hatte ich mich zusätzlich
           autodidaktisch in den wichtigsten Web-Technologien weitergebildet und
           dadurch auf <strong>UI-/UX-Design </strong>
-          und <strong> Frontend-Entwicklung</strong> responsiver Websites
+          und <strong> Frontend-Entwicklung</strong> responsiver Websites/User-Interfaces
           spezialisiert.
         </p>
         <p>
-          Aktuell arbeite ich als "Webdesigner UI/UX" im Wellnessbereich bei
-          einem enorm aufstrebenden Unternehmen. Ich erarbeite dort für Apps,
+          Aktuell arbeite ich als &ldquo;Webdesigner UI/UX&rdquo; in einem Unternehmen im Wellness/Spa-Erlebnis-Bereich. Ich erarbeite dort für Apps,
           Websites und Displays die optimalste <strong>User-Experience,</strong>{" "}
-          danach designe ich das <strong>User-Interface</strong> und
-          anschließend programmiere ich das Frontend mit <strong>React</strong>{" "}
-          und <strong>SCSS/CSS3.</strong>
+          designe das <strong>User-Interface</strong> und
+          programmiere das Frontend mit <strong>React, Typoscript, Tailwind</strong>{" "}
+          und <strong>SCSS/CSS3.</strong>. Zudem entwickle ich im Team das Design-System mit und programmiere die Komponenten-Bibliothek für die Entwickler.
         </p>
         <p>
           Verheiratet und als Familienvater mit zwei Kindern lebe ich im
