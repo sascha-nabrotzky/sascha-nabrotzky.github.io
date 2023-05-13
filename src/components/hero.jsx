@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import * as heroStyles from "../styling/hero.module.scss"
+import * as heroStyles from "../styles/hero.module.scss"
 
 export default function Hero() {
   const textFirstLine = ["Frontend-", "UI/UX-Design", "Digital Design"]

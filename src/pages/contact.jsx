@@ -4,7 +4,7 @@ import SocialButton from "../styled-components/social-button"
 import MailToButton from "../styled-components/mailto-button"
 import { Helmet } from "react-helmet"
 
-import * as contactStyles from "../styling/contact.module.scss"
+import * as contactStyles from "../styles/contact.module.scss"
 
 export default function Contact() {
   return (

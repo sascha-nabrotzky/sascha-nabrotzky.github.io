@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import * as contactStyle from "../styling/social-button.module.scss"
+import * as contactStyle from "../styles/social-button.module.scss"
 
 export default function SocialButton(props) {
   const [currentMail, setMail] = useState("")

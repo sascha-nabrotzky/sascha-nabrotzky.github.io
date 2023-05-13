@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { tns } from "../../node_modules/tiny-slider/src/tiny-slider"
 import "../../node_modules/tiny-slider/src/tiny-slider.scss"
-import "../styling/tiny-slider_custom.scss"
-import * as gitProjectStyles from "../styling/githubprojects.module.scss"
+import "../styles/tiny-slider_custom.scss"
+import * as gitProjectStyles from "../styles/githubprojects.module.scss"
 
 export default function FetchGithubProjects() {
   let [data, setData] = useState(null) //data auf null setzen, danach mit Funkt. setData die commits fetchen und Projektdaten mappen
