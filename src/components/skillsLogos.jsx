@@ -8,6 +8,7 @@ import logoGit from "../images/git-quad-logo_white.svg"
 import logoCSS3 from "../images/CSS3_Logo_weiss.svg"
 import logoTailwind from "../images/tailwind-logo_white.svg"
 import logoTypescript from "../images/typescript-logo_white.svg"
+import logoStorybook from "../images/storybook.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoInDesign from "../images/InDesign-Logo_weiss.svg"
@@ -120,6 +121,18 @@ export default function SkillsLogos() {
             Gatsby.js
             <br />
             **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <img
+            src={logoStorybook}
+            title="Storybook - Component library"
+            alt="Storybook-Logo"
+            loading="lazy"
+          ></img>
+          <p className={style.rating}>
+            Storybook.js
+            <br />*
           </p>
         </div>
         <div className={style.skill}>
