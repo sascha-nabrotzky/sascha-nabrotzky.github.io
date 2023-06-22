@@ -70,41 +70,28 @@ export default function Home() {
         <h1>Komplexe Systeme auf das Display gebracht!</h1>
         <h2 className={style.blink}></h2>
         <p>
-          Ich bin <strong>Sascha Nabrotzky. </strong>
-          Die Kombination von <strong>
-            Programmier-/Design-Kenntnissen
-          </strong>{" "}
-          ist meine Stärke. Ich liebe es Dinge zu hinterfragen, zu optimieren
-          und nutzerzentrierten Design-Systemen{" "}
-          <strong>&ldquo;Leben&rdquo; einzuprogrammieren.</strong> Beständiges
-          Lernen, Neugierde und viel Kreativität zeichnen mich ebenfalls aus.
+          Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei Kindern lebe ich im
+          ländlichen Ladbergen. Als <strong>Fullstack-Designer </strong> ist es die Kombination von <strong>Frontend-Entwicklung</strong> und <strong>UI/UX-Design-Kenntnissen, </strong>
+          mit der ich messbare Erfolge erziele. Ich liebe es Website/PWA-Projekte umzusetzen, nutzerzentrierte Designs zu entwicklen oder Projekte auf gute Nutzbarkeit zu optimieren.
         </p>
 
         <LineSvg />
 
         <p>
-          Als ausgebildeter Mediengestalter hatte ich mich zusätzlich
-          autodidaktisch in den wichtigsten Web-Technologien weitergebildet und
-          dadurch auf <strong>UI-/UX-Design </strong>
-          und <strong> Frontend-Entwicklung</strong> responsiver
-          Websites/User-Interfaces spezialisiert.
+          Ursprünglich als Mediengestalter ausgebildet, hatte ich mich zusätzlich
+          in den wichtigsten Web-Technologien weitergebildet und
+          dadurch auf Design und Programmierung responsiver Websites oder Displays spezialisiert.
         </p>
         <p>
-          Aktuell arbeite ich als &ldquo;Webdesigner UI/UX&rdquo; in einem
-          Unternehmen im Wellness/Spa-Erlebnis-Bereich. Ich erarbeite dort für
-          Apps, Websites und Displays die optimalste{" "}
-          <strong>User-Experience,</strong> designe das{" "}
-          <strong>User-Interface</strong> und programmiere das Frontend mit{" "}
-          <strong>React, Typoscript, Tailwind</strong> und{" "}
-          <strong>SCSS/CSS3,</strong> zudem entwickle ich im Team das
-          Design-System mit und programmiere die Komponenten-Bibliothek für die
-          Entwickler.
+          Am liebsten entwickle ich Websites mit <strong>React.js, </strong>setze das Design mit <strong>CSS3/SCSS</strong> oder 
+          <strong> Tailwind CSS</strong> um, ich habe auch mit <strong>Storybook.js</strong> eine Komponenten-Bibliothek eingerichtet, die unternehmensweit zum Einsatz kommt. 
+          Dadurch bin ich auch mit der Entwicklung eines <strong>Design-Systems</strong> vertraut.
         </p>
         <p>
-          Verheiratet und als Familienvater mit zwei Kindern lebe ich im
-          ländlichen Ladbergen, wenn ich mal nicht am coden bin, dann findet man
-          mich beim Fotografieren ... oder im Garten ... oder beim Illustrieren.
+           ... und wenn ich mal nicht am coden bin, dann findet man
+          mich beim erstellen von Illustrationen.
         </p>
+        
 
         <GithubProjects />
       </Layout>

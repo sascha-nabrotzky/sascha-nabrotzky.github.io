@@ -6,14 +6,14 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | Webdesigner UI/UX",
+    title: "Sascha Nabrotzky | Fullstack-Designer",
     description:
       "Design und Programmierung von nutzerzentrierten, responsiven Websites mit React.js, Tailwind und CSS3/SCSS",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
     keywords:
-      "UX-Engineer, UX-Design, ux engineer, UI-Design, UI, React, Gatsby, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
+      "Full-Stack Designer, UX-Engineer, UX-Design, ux engineer, UI-Design, UI, React, Gatsby, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
   },
 
   plugins: [
