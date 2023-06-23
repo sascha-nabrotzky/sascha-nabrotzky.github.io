@@ -2,8 +2,8 @@
   --rw: 245;
   --gw: 245;
   --bw: 245;
-  --col-white: rgb(var(--rw), var(--bw), var(--bw));
-  --col-white-rgb: var(--rw), var(--bw), var(--bw);
+  --col-white: rgb(var(--rw), var(--gw), var(--bw));
+  --col-white-rgb: var(--rw), var(--gw), var(--bw);
 
   --col-lightgray: #d3d1d1;
   --col-midgray: #444;
@@ -19,8 +19,6 @@
   --col-orange: #ee7752;
 
   --ff-sans-cond: "Fira Sans Condensed";
-  --fw-600: 600;
-  --fw-400: 400;
   --fs-h2: 1.7em;
   --fs-small-text: 1rem;
 

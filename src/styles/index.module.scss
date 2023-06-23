@@ -3,13 +3,13 @@
 
   &::after {
     display: inline-block;
+    transform: translateY(0.125rem);
     margin-left: 0.313rem;
+    background-color: gray;
     width: 0.125rem;
     height: 1.313rem;
-    content: "";
-    background-color: gray;
-    transform: translateY(0.125rem);
     animation: blink 1s steps(2, start) infinite;
+    content: "";
   }
 }
 
