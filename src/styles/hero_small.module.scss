@@ -1,0 +1,38 @@
+@import "./fonts.module.scss";
+
+.herocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(
+    -45deg,
+    var(--col-orange),
+    var(--col-magenta),
+    var(--col-blue),
+    var(--col-green)
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  margin-top: 6.2em;
+  padding-left: 1.5rem;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.heroSmallHeading {
+  color: var(--col-white);
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
