@@ -12,17 +12,13 @@ export default function Layout({ children }) {
 
   return (
     <div className={layoutStyles.container}>
-      <Snowflakes />
       <Header />
-
       <Location>
         {({ location }) => {
           if (location.pathname === '/') return <Hero />
           return <HeroSmall />
         }}
       </Location>
-
-      
       <main className={layoutStyles.content}>{children}</main>
       <ToTopButton />
       <Footer />
