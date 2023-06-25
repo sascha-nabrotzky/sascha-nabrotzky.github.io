@@ -3,7 +3,7 @@
 .herocontainer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
   background: linear-gradient(
     -45deg,
     var(--col-orange),
@@ -14,7 +14,6 @@
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   margin-top: 6.2em;
-  padding-left: 1.5rem;
 
   @keyframes gradient {
     0% {
@@ -56,10 +55,9 @@
 @media screen and (max-width: 767px) {
   .herocontainer {
     margin-top: 9em;
-    padding-left: 0.5rem;
 
     .overflowcontainer {
-      margin-bottom: -0.2em;
+      margin-bottom: -0.2rem;
     }
   }
 }

@@ -6,14 +6,11 @@ export default function Hero() {
 
   return (
     <section className={style.herocontainer}>
-      <h3 className={style.heroSmallHeading}>
       <Location>
         {({ location }) => {
-              return <h3>{location.pathname}</h3>
+              return <h3 className={style.heroSmallHeading}>{location.pathname}</h3>
         }}
       </Location>
-
-      </h3>
     </section>
   )
 }

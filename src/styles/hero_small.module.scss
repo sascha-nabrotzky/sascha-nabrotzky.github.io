@@ -1,5 +1,3 @@
-@import "./fonts.module.scss";
-
 .herocontainer {
   display: flex;
   flex-direction: column;
@@ -13,8 +11,6 @@
   );
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  margin-top: 6.2em;
-  padding-left: 1.5rem;
 
   @keyframes gradient {
     0% {
@@ -27,12 +23,27 @@
       background-position: 0% 50%;
     }
   }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 9rem;
+  }
+  @media screen and (min-width: 768px) {
+    margin-top: 6.2rem;
+  }
 }
 
 .heroSmallHeading {
   color: var(--col-white);
   text-align: center;
-  font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 400;
+
+  @media screen and (max-width: 767px) {
+    margin-block: 1.5rem;
+    font-size: 2rem;
+  }
+  @media screen and (min-width: 768px) {
+    margin-block: 3rem;
+    font-size: 3rem;
+  }
 }
