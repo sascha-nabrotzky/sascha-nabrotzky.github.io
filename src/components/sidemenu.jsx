@@ -9,11 +9,9 @@ export default function Sidemenu() {
     const headlinesArray = Array.from(headlines)
 
     const liElements = headlinesArray.map(item => {
-      // Map awaits a return
       return (
         <li className={style.menuitem} key={item.id}>
           <a className={style.menulink} href={`#${item.id}`}>
-            {" "}
             {item.innerText}
           </a>
         </li>

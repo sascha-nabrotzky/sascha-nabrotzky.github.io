@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | Fullstack-Designer",
+    title: "Sascha Nabrotzky | Full-Stack Designer",
     description:
       "Design und Programmierung von nutzerzentrierten, responsiven Websites mit React.js, Tailwind und CSS3/SCSS",
     url: "https://sascha-nabrotzky.github.io/",
