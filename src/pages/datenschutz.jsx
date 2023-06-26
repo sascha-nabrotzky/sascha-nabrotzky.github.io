@@ -1,24 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Helmet } from "react-helmet"
 
 export default function Impressum() {
   return (
-    <>
-      <Helmet>
-        <title>Datenschutz | Sascha Nabrotzky</title>
-        <meta name="title" content="Datenschutz | Sascha Nabrotzky" />
-        <meta name="description" content="Datenschutz" />
-        <meta name="keywords" content="Datenschutz" />
-      </Helmet>
       <Layout>
         <h1>Datenschutzerklärung</h1>
 
         <p>
           Ich freue mich sehr über Ihr Interesse an unserem Unternehmen.
           Datenschutz hat einen besonders hohen Stellenwert für den
-          Frontend-Entwickler Sascha Nabrotzky. Eine Nutzung der Internetseiten
-          von Frontend-Entwickler Sascha Nabrotzky ist grundsätzlich ohne jede
+          Full-Stack Designer Sascha Nabrotzky. Eine Nutzung der Internetseiten
+          von Full-Stack Designer Sascha Nabrotzky ist grundsätzlich ohne jede
           Angabe personenbezogener Daten möglich. Sofern eine betroffene Person
           besondere Services unseres Unternehmens über unsere Internetseite in
           Anspruch nehmen möchte, könnte jedoch eine Verarbeitung
@@ -32,7 +24,7 @@ export default function Impressum() {
           Die Verarbeitung personenbezogener Daten, beispielsweise des Namens,
           der Anschrift, E-Mail-Adresse oder Telefonnummer einer betroffenen
           Person, erfolgt stets im Einklang mit der Datenschutz-Grundverordnung
-          und in Übereinstimmung mit den für Frontend-Entwickler Sascha
+          und in Übereinstimmung mit den für Full-Stack Designer Sascha
           Nabrotzky geltenden landesspezifischen Datenschutzbestimmungen.
           Mittels dieser Datenschutzerklärung möchte unser Unternehmen die
           Öffentlichkeit über Art, Umfang und Zweck der von uns erhobenen,
@@ -42,7 +34,7 @@ export default function Impressum() {
         </p>
 
         <p>
-          Frontend-Entwickler Sascha Nabrotzky hat als für die Verarbeitung
+          Full-Stack Designer Sascha Nabrotzky hat als für die Verarbeitung
           Verantwortlicher zahlreiche technische und organisatorische Maßnahmen
           umgesetzt, um einen möglichst lückenlosen Schutz der über diese
           Internetseite verarbeiteten personenbezogenen Daten sicherzustellen.
@@ -55,7 +47,7 @@ export default function Impressum() {
 
         <h4>1. Begriffsbestimmungen</h4>
         <p>
-          Die Datenschutzerklärung von Frontend-Entwickler Sascha Nabrotzky
+          Die Datenschutzerklärung von Full-Stack Designer Sascha Nabrotzky
           beruht auf den Begrifflichkeiten, die durch den Europäischen
           Richtlinien- und Verordnungsgeber beim Erlass der
           Datenschutz-Grundverordnung (DS-GVO) verwendet wurden. Unsere
@@ -211,7 +203,7 @@ export default function Impressum() {
           Charakter ist die:
         </p>
 
-        <p>Frontend-Entwickler Sascha Nabrotzky</p>
+        <p>Full-Stack Designer Sascha Nabrotzky</p>
         <p>Koldefeld, 11</p>
         <p>49549 Ladbergen</p>
         <p>Deutschland</p>
@@ -221,7 +213,7 @@ export default function Impressum() {
 
         <h4>3. Erfassung von allgemeinen Daten und Informationen</h4>
         <p>
-          Die Internetseite der Frontend-Entwickler Sascha Nabrotzky erfasst mit
+          Die Internetseite der Full-Stack Designer Sascha Nabrotzky erfasst mit
           jedem Aufruf der Internetseite durch eine betroffene Person oder ein
           automatisiertes System eine Reihe von allgemeinen Daten und
           Informationen. Diese allgemeinen Daten und Informationen werden in den
@@ -240,7 +232,7 @@ export default function Impressum() {
 
         <p>
           Bei der Nutzung dieser allgemeinen Daten und Informationen zieht die
-          Frontend-Entwickler Sascha Nabrotzky keine Rückschlüsse auf die
+          Full-Stack Designer Sascha Nabrotzky keine Rückschlüsse auf die
           betroffene Person. Diese Informationen werden vielmehr benötigt, um
           (1) die Inhalte unserer Internetseite korrekt auszuliefern, (2) die
           Inhalte unserer Internetseite sowie die Werbung für diese zu
@@ -249,7 +241,7 @@ export default function Impressum() {
           Internetseite zu gewährleisten sowie (4) um Strafverfolgungsbehörden
           im Falle eines Cyberangriffes die zur Strafverfolgung notwendigen
           Informationen bereitzustellen. Diese anonym erhobenen Daten und
-          Informationen werden durch die Frontend-Entwickler Sascha Nabrotzky
+          Informationen werden durch die Full-Stack Designer Sascha Nabrotzky
           daher einerseits statistisch und ferner mit dem Ziel ausgewertet, den
           Datenschutz und die Datensicherheit in unserem Unternehmen zu erhöhen,
           um letztlich ein optimales Schutzniveau für die von uns verarbeiteten
@@ -448,20 +440,20 @@ export default function Impressum() {
             <p>
               Sofern einer der oben genannten Gründe zutrifft und eine
               betroffene Person die Löschung von personenbezogenen Daten, die
-              bei der Frontend-Entwickler Sascha Nabrotzky gespeichert sind,
+              bei der Full-Stack Designer Sascha Nabrotzky gespeichert sind,
               veranlassen möchte, kann sie sich hierzu jederzeit an einen
               Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der
-              Mitarbeiter der Frontend-Entwickler Sascha Nabrotzky wird
+              Mitarbeiter der Full-Stack Designer Sascha Nabrotzky wird
               veranlassen, dass dem Löschverlangen unverzüglich nachgekommen
               wird.
             </p>
 
             <p>
-              Wurden die personenbezogenen Daten von der Frontend-Entwickler
+              Wurden die personenbezogenen Daten von der Full-Stack Designer
               Sascha Nabrotzky öffentlich gemacht und ist unser Unternehmen als
               Verantwortlicher gemäß Art. 17 Abs. 1 DS-GVO zur Löschung der
               personenbezogenen Daten verpflichtet, so trifft die
-              Frontend-Entwickler Sascha Nabrotzky unter Berücksichtigung der
+              Full-Stack Designer Sascha Nabrotzky unter Berücksichtigung der
               verfügbaren Technologie und der Implementierungskosten angemessene
               Maßnahmen, auch technischer Art, um andere für die
               Datenverarbeitung Verantwortliche, welche die veröffentlichten
@@ -471,7 +463,7 @@ export default function Impressum() {
               zu diesen personenbezogenen Daten oder von Kopien oder
               Replikationen dieser personenbezogenen Daten verlangt hat, soweit
               die Verarbeitung nicht erforderlich ist. Der Mitarbeiter der
-              Frontend-Entwickler Sascha Nabrotzky wird im Einzelfall das
+              Full-Stack Designer Sascha Nabrotzky wird im Einzelfall das
               Notwendige veranlassen.
             </p>
           </li>
@@ -514,10 +506,10 @@ export default function Impressum() {
             <p>
               Sofern eine der oben genannten Voraussetzungen gegeben ist und
               eine betroffene Person die Einschränkung von personenbezogenen
-              Daten, die bei der Frontend-Entwickler Sascha Nabrotzky
+              Daten, die bei der Full-Stack Designer Sascha Nabrotzky
               gespeichert sind, verlangen möchte, kann sie sich hierzu jederzeit
               an einen Mitarbeiter des für die Verarbeitung Verantwortlichen
-              wenden. Der Mitarbeiter der Frontend-Entwickler Sascha Nabrotzky
+              wenden. Der Mitarbeiter der Full-Stack Designer Sascha Nabrotzky
               wird die Einschränkung der Verarbeitung veranlassen.
             </p>
           </li>
@@ -554,7 +546,7 @@ export default function Impressum() {
             <p>
               Zur Geltendmachung des Rechts auf Datenübertragbarkeit kann sich
               die betroffene Person jederzeit an einen Mitarbeiter der
-              Frontend-Entwickler Sascha Nabrotzky wenden.
+              Full-Stack Designer Sascha Nabrotzky wenden.
             </p>
           </li>
           <li>
@@ -570,7 +562,7 @@ export default function Impressum() {
             </p>
 
             <p>
-              Die Frontend-Entwickler Sascha Nabrotzky verarbeitet die
+              Die Full-Stack Designer Sascha Nabrotzky verarbeitet die
               personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es
               sei denn, wir können zwingende schutzwürdige Gründe für die
               Verarbeitung nachweisen, die den Interessen, Rechten und
@@ -580,15 +572,15 @@ export default function Impressum() {
             </p>
 
             <p>
-              Verarbeitet die Frontend-Entwickler Sascha Nabrotzky
+              Verarbeitet die Full-Stack Designer Sascha Nabrotzky
               personenbezogene Daten, um Direktwerbung zu betreiben, so hat die
               betroffene Person das Recht, jederzeit Widerspruch gegen die
               Verarbeitung der personenbezogenen Daten zum Zwecke derartiger
               Werbung einzulegen. Dies gilt auch für das Profiling, soweit es
               mit solcher Direktwerbung in Verbindung steht. Widerspricht die
-              betroffene Person gegenüber der Frontend-Entwickler Sascha
+              betroffene Person gegenüber der Full-Stack Designer Sascha
               Nabrotzky der Verarbeitung für Zwecke der Direktwerbung, so wird
-              die Frontend-Entwickler Sascha Nabrotzky die personenbezogenen
+              die Full-Stack Designer Sascha Nabrotzky die personenbezogenen
               Daten nicht mehr für diese Zwecke verarbeiten.
             </p>
 
@@ -596,7 +588,7 @@ export default function Impressum() {
               Zudem hat die betroffene Person das Recht, aus Gründen, die sich
               aus ihrer besonderen Situation ergeben, gegen die sie betreffende
               Verarbeitung personenbezogener Daten, die bei der
-              Frontend-Entwickler Sascha Nabrotzky zu wissenschaftlichen oder
+              Full-Stack Designer Sascha Nabrotzky zu wissenschaftlichen oder
               historischen Forschungszwecken oder zu statistischen Zwecken gemäß
               Art. 89 Abs. 1 DS-GVO erfolgen, Widerspruch einzulegen, es sei
               denn, eine solche Verarbeitung ist zur Erfüllung einer im
@@ -605,7 +597,7 @@ export default function Impressum() {
 
             <p>
               Zur Ausübung des Rechts auf Widerspruch kann sich die betroffene
-              Person direkt an jeden Mitarbeiter der Frontend-Entwickler Sascha
+              Person direkt an jeden Mitarbeiter der Full-Stack Designer Sascha
               Nabrotzky oder einen anderen Mitarbeiter wenden. Der betroffenen
               Person steht es ferner frei, im Zusammenhang mit der Nutzung von
               Diensten der Informationsgesellschaft, ungeachtet der Richtlinie
@@ -642,7 +634,7 @@ export default function Impressum() {
               eines Vertrags zwischen der betroffenen Person und dem
               Verantwortlichen erforderlich oder (2) erfolgt sie mit
               ausdrücklicher Einwilligung der betroffenen Person, trifft die
-              Frontend-Entwickler Sascha Nabrotzky angemessene Maßnahmen, um die
+              Full-Stack Designer Sascha Nabrotzky angemessene Maßnahmen, um die
               Rechte und Freiheiten sowie die berechtigten Interessen der
               betroffenen Person zu wahren, wozu mindestens das Recht auf
               Erwirkung des Eingreifens einer Person seitens des
@@ -785,6 +777,17 @@ export default function Impressum() {
           Christian Solmecke erstellt.
         </p>
       </Layout>
+  )
+}
+
+export const Head = () => {
+  return (
+    <>
+       <title>Datenschutz | Sascha Nabrotzky</title>
+        <meta name="title" content="Datenschutz | Sascha Nabrotzky" />
+        <meta name="description" content="Datenschutz" />
+        <meta name="keywords" content="Datenschutz" />
+        <html lang="de" />
     </>
   )
 }

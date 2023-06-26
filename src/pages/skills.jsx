@@ -1,5 +1,4 @@
 import React, { useEffect } from "react"
-import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import * as timelineStyle from "../styles/timeline.module.scss"
 import fotoVonMir from "../images/Sascha_Nabrotzky_sw.jpg"
@@ -33,31 +32,6 @@ export default function Skills() {
   }, [])
 
   return (
-    <>
-      <Helmet>
-        <title>Skills | Sascha Nabrotzky</title>
-        <meta name="title" content="Skills | Sascha Nabrotzky" />
-        <meta
-          name="description"
-          content="Auflistung meiner Skills und beruflichen Qualifikationen"
-        />
-        <meta
-          name="keywords"
-          content="Skills, Timeline, Werdegang, Qualifikation"
-        />
-        <meta name="image" content={socMedImg} />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Skills | Sascha Nabrotzky" />
-        <meta name="twitter:image" content={socMedImg} />
-        <meta property="og:title" content="Skills | Sascha Nabrotzky" />
-        <meta
-          property="og:description"
-          content="Auflistung meiner Skills und beruflichen Qualifikationen"
-        />
-        <meta property="og:image" content={socMedImg} />
-        <meta property="og:type" content="website" />
-        <html lang="de" />
-      </Helmet>
       <Layout>
         <h1>Never stop learning!</h1>
         <p>
@@ -90,6 +64,34 @@ export default function Skills() {
           )
         })}
       </Layout>
+  )
+}
+
+export const Head = () => {
+  return (
+    <>
+      <title>Skills | Sascha Nabrotzky</title>
+      <meta name="title" content="Skills | Sascha Nabrotzky" />
+      <meta
+        name="description"
+        content="Auflistung meiner Skills und beruflichen Qualifikationen"
+      />
+      <meta
+        name="keywords"
+        content="Skills, Timeline, Werdegang, Qualifikation"
+      />
+      <meta name="image" content={socMedImg} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Skills | Sascha Nabrotzky" />
+      <meta name="twitter:image" content={socMedImg} />
+      <meta property="og:title" content="Skills | Sascha Nabrotzky" />
+      <meta
+        property="og:description"
+        content="Auflistung meiner Skills und beruflichen Qualifikationen"
+      />
+      <meta property="og:image" content={socMedImg} />
+      <meta property="og:type" content="website" />
+      <html lang="de" />
     </>
   )
 }
