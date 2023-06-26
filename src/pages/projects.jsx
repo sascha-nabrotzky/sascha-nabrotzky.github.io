@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Sidemenu from "../components/sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
@@ -25,32 +24,6 @@ export default function Projects() {
 
   return (
     <>
-      <Helmet>
-        <title>Projekte | Sascha Nabrotzky</title>
-        <meta name="title" content="Projekte | Sascha Nabrotzky" />
-        <meta
-          name="description"
-          content="Hier ist eine Auswahl meiner Projekte, bei denen mir gute
-          Nutzererfahrung wichtig war und auch das UI-Design planen und umsetzen konnte."
-        />
-        <meta
-          name="keywords"
-          content="Projekte, Projects, React, Gatsby, JavaScript, UI/UX-Design"
-        />
-        <meta name="image" content={socMedImg} />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Projekte | Sascha Nabrotzky" />
-        <meta name="twitter:image" content={socMedImg} />
-        <meta property="og:title" content="Projekte | Sascha Nabrotzky" />
-        <meta
-          property="og:description"
-          content="Hier ist eine Auswahl meiner Projekte, bei denen mir gute
-          Nutzererfahrung wichtig war und auch das UI-Design planen und umsetzen konnte."
-        />
-        <meta property="og:image" content={socMedImg} />
-        <meta property="og:type" content="website" />
-        <html lang="de" />
-      </Helmet>
       <Layout>
         <h1>Meine Projekte</h1>
         <p>
@@ -84,6 +57,37 @@ export default function Projects() {
         </ol>
       </Layout>
       <Sidemenu />
+    </>
+  )
+}
+
+export const Head = () => {
+  return (
+    <>
+      <html lang="de" />
+      <title>Projekte | Sascha Nabrotzky</title>
+      <meta name="title" content="Projekte | Sascha Nabrotzky" />
+      <meta
+        name="description"
+        content="Hier ist eine Auswahl meiner Projekte, bei denen mir gute
+        Nutzererfahrung wichtig war und auch das UI-Design planen und umsetzen konnte."
+      />
+      <meta
+        name="keywords"
+        content="Projekte, Projects, React, Gatsby, JavaScript, UI/UX-Design"
+      />
+      <meta name="image" content={socMedImg} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Projekte | Sascha Nabrotzky" />
+      <meta name="twitter:image" content={socMedImg} />
+      <meta property="og:title" content="Projekte | Sascha Nabrotzky" />
+      <meta
+        property="og:description"
+        content="Hier ist eine Auswahl meiner Projekte, bei denen mir gute
+        Nutzererfahrung wichtig war und auch das UI-Design planen und umsetzen konnte."
+      />
+      <meta property="og:image" content={socMedImg} />
+      <meta property="og:type" content="website" />
     </>
   )
 }

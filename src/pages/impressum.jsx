@@ -1,16 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Helmet } from "react-helmet"
 
 export default function Impressum() {
   return (
-    <>
-      <Helmet>
-        <title>Impressum | Sascha Nabrotzky</title>
-        <meta name="title" content="Impressum | Sascha Nabrotzky" />
-        <meta name="description" content="Impressum" />
-        <meta name="keywords" content="Impressum" />
-      </Helmet>
       <Layout>
         <h2>Impressum</h2>
         <h4>Angaben gemäß § 5 TMG:</h4>
@@ -75,6 +67,17 @@ export default function Impressum() {
           werden wir derartige Inhalte umgehend entfernen.
         </p>
       </Layout>
+  )
+}
+
+export const Head = () => {
+  return (
+    <>
+        <title>Impressum | Sascha Nabrotzky</title>
+        <meta name="title" content="Impressum | Sascha Nabrotzky" />
+        <meta name="description" content="Impressum" />
+        <meta name="keywords" content="Impressum" />
+        <html lang="de" />
     </>
   )
 }

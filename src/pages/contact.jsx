@@ -2,29 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import SocialButton from "../styled-components/social-button"
 import MailToButton from "../styled-components/mailto-button"
-import { Helmet } from "react-helmet"
-
 import * as contactStyles from "../styles/contact.module.scss"
 
 export default function Contact() {
   return (
-    <>
-      <Helmet>
-        <title>Kontakt | Sascha Nabrotzky</title>
-        <meta
-          name="title"
-          content="Kontakt & Social Media | Sascha Nabrotzky"
-        />
-        <meta
-          name="description"
-          content="Schreib mich an oder erfahre mehr über mich"
-        />
-        <meta
-          name="keywords"
-          content="Kontakt, Social Media, Xing, Instagram, Twitter, Github"
-        />
-        <html lang="de" />
-      </Helmet>
       <Layout>
         <h1>Verlink dich mit mir!</h1>
         <p>
@@ -64,6 +45,26 @@ export default function Contact() {
           />
         </div>
       </Layout>
+  )
+}
+
+export const Head = () => {
+  return (
+    <>
+      <title>Kontakt | Sascha Nabrotzky</title>
+        <meta
+          name="title"
+          content="Kontakt & Social Media | Sascha Nabrotzky"
+        />
+        <meta
+          name="description"
+          content="Schreib mich an oder erfahre mehr über mich"
+        />
+        <meta
+          name="keywords"
+          content="Kontakt, Social Media, Xing, Instagram, Twitter, Github"
+        />
+        <html lang="de" />
     </>
   )
 }

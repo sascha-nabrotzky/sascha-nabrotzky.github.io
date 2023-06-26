@@ -11,3 +11,15 @@ export default function About() {
     </Layout>
   )
 }
+
+export const Head = () => {
+  return (
+    <>
+        <title>404 | Sascha Nabrotzky</title>
+        <meta name="title" content="404 | Sascha Nabrotzky" />
+        <meta name="description" content="404" />
+        <meta name="keywords" content="404" />
+        <html lang="de" />
+    </>
+  )
+}
