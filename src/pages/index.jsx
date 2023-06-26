@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <h1>Komplexe Systeme auf das Display gebracht!</h1>
+        <h1>Webdesign und Programmierung von responsiven Websites</h1>
         <h2 className={style.blink}></h2>
         <p>
           Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei Kindern lebe ich im
