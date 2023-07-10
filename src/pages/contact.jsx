@@ -34,7 +34,7 @@ export default function Contact() {
             label="Twitter"
           />
           <SocialButton
-            href="https://www.instagram.com/sascha_nabrotzky"
+            href="https://www.instagram.com/sascha.illustrates"
             alttext="Meine Illustrationen"
             label="Instagram"
           />
