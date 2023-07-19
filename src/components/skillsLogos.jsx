@@ -8,16 +8,13 @@ import logoGit from "../images/git-quad-logo_white.svg"
 import logoCSS3 from "../images/CSS3_Logo_weiss.svg"
 import logoTailwind from "../images/tailwind-logo_white.svg"
 import logoTypescript from "../images/typescript-logo_white.svg"
-import logoStorybook from "../images/storybook.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
-import logoInDesign from "../images/InDesign-Logo_weiss.svg"
-import logoXd from "../images/Xd-logo_white.svg"
+import logoFigma from "../images/Figma-Logo.svg"
 import logoUX from "../images/ux-design.svg"
 import logoUI from "../images/ui-design.svg"
 import logoUXResearch from "../images/ux-research.svg"
 import logoUbuntu from "../images/Ubuntu-Logo_weiss.svg"
-import logoInformArchi from "../images/content.svg"
 import * as style from "../styles/skills.module.scss"
 
 export default function SkillsLogos() {
@@ -125,18 +122,6 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoStorybook}
-            title="Storybook - Component library"
-            alt="Storybook-Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            Storybook.js
-            <br />*
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
             src={logoGit}
             title="Git - Versionierung"
             alt="Git-Logo"
@@ -153,19 +138,6 @@ export default function SkillsLogos() {
         <h2 className={style.headline}>Design</h2>
         <div className={style.skill}>
           <img
-            src={logoUI}
-            title="UI-Design"
-            alt="UI-Design Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            UI-Design
-            <br />
-            ****
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
             src={logoUX}
             title="UX-Design"
             alt="UX-Design Logo"
@@ -179,15 +151,15 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoInformArchi}
-            title="Informations-Architektur (UX)"
-            alt="Informations-Architektur Logo"
+            src={logoUI}
+            title="UI-Design"
+            alt="UI-Design Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            Inform.-Architekt.
+            UI-Design
             <br />
-            ***
+            ****
           </p>
         </div>
         <div className={style.skill}>
@@ -234,26 +206,13 @@ export default function SkillsLogos() {
         </div>
         <div className={style.skill}>
           <img
-            src={logoInDesign}
-            title="Adobe InDesign"
-            alt="Adobe InDesign Logo"
+            src={logoFigma}
+            title="Figma"
+            alt="Figma Logo"
             loading="lazy"
           ></img>
           <p className={style.rating}>
-            InDesign
-            <br />
-            ****
-          </p>
-        </div>
-        <div className={style.skill}>
-          <img
-            src={logoXd}
-            title="Adobe Xd"
-            alt="Adobe Xd Logo"
-            loading="lazy"
-          ></img>
-          <p className={style.rating}>
-            Xd
+            Figma
             <br />
             <span>**</span>
           </p>

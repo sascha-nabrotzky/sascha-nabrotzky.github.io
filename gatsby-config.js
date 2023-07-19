@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: "Sascha Nabrotzky | Full-Stack Designer",
     description:
-      "Design und Programmierung von nutzerzentrierten, responsiven Websites mit React.js, Tailwind und CSS3/SCSS",
+      "Leidenschaft für Design und Technologie - Entwicklung von innovativen Lösungen, um Produkte zu schaffen, die die Erwartungen der Benutzer übertreffen.",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
