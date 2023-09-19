@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | Full-Stack Designer",
+    title: "Sascha Nabrotzky | UX-Engineer",
     description:
       "Leidenschaft für Design und Technologie - Entwicklung von innovativen Lösungen, um Produkte zu schaffen, die die Erwartungen der Benutzer übertreffen.",
     url: "https://sascha-nabrotzky.github.io/",
