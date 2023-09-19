@@ -37,11 +37,11 @@ export default function Home() {
         <p>
           Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
           Kindern lebe ich im ländlichen Ladbergen. Als{" "}
-          <strong>Full-Stack Designer</strong> mit Schwerpunkt auf{" "}
+          <strong>UX-Engineer</strong> mit Schwerpunkt auf{" "}
           <strong>Frontend-Entwicklung</strong> und{" "}
           <strong>UI/UX-Design</strong> habe ich umfangreiche Erfahrung in der
           Gestaltung und Entwicklung responsiver Apps und PWAs für die Steuerung
-          von Saunen, Küchen und Kassensystemen per Touchscreen und Tablet.
+          von Saunen, Küchen- und Kassensystemen per Touchscreen und Tablet.
         </p>
 
         <LineSvg />
