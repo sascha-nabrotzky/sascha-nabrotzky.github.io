@@ -13,7 +13,7 @@ module.exports = {
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
     keywords:
-      "Full-Stack Designer, UX-Engineer, UX-Design, ux engineer, UI-Design, UI, React, Gatsby, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
+      "UX-Engineer, UX-Design, ux engineer, UI-Design, UI, React, Gatsby, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
   },
 
   plugins: [
