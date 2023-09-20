@@ -4,7 +4,7 @@ title: "Online-Shop wieder konkurrenzfähig machen"
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Mediengestalter<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
+<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
 
 [Zur Website](https://shop.ks-info.com/shop.php)
 

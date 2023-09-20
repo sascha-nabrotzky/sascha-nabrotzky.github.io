@@ -4,7 +4,7 @@ title: "Mehr Spendengelder für guten Zweck"
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UI/UX-Designer | Mediengestalter<br/>
+<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer | Mediengestalter<br/>
 Technologien: HTML5 | CSS3 | JavaScript</p>
 
 [Zur Website](http://www.sascha-nabrotzky.de/moorland/index.html)

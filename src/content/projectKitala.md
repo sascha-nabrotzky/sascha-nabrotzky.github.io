@@ -4,7 +4,7 @@ title: "Professionellere Wahrnehmung der Tagesmütter"
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Frontend-Entwickler | UI/UX-Designer | Mediengestalter<br/>Technologien: React | SCSS | HTML5</p>
+<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer<br/>Technologien: React | SCSS | HTML5</p>
 
 [Zur Website](https://kitala-ladbergen.de)
 
