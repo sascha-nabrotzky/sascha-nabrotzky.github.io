@@ -13,7 +13,6 @@
   );
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  margin-top: 6.2em;
 
   @keyframes gradient {
     0% {
@@ -54,8 +53,6 @@
 
 @media screen and (max-width: 767px) {
   .herocontainer {
-    margin-top: 9em;
-
     .overflowcontainer {
       margin-bottom: -0.2rem;
     }

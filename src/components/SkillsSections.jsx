@@ -7,7 +7,7 @@ import logoJs from "../images/js-logo_white.svg"
 import logoGit from "../images/git-quad-logo_white.svg"
 import logoCSS3 from "../images/CSS3_Logo_weiss.svg"
 import logoTailwind from "../images/tailwind-logo_white.svg"
-import logoTypescript from "../images/typescript-logo_white.svg"
+import logoTypescript from "../images/Typescript_Logo_white.svg"
 import logoPhotoshop from "../images/Photoshop-Logo_weiss.svg"
 import logoIllustrator from "../images/Illustrator-Logo_weiss.svg"
 import logoFigma from "../images/Figma-Logo.svg"
@@ -17,9 +17,9 @@ import logoUXResearch from "../images/ux-research.svg"
 import logoUbuntu from "../images/Ubuntu-Logo_weiss.svg"
 import * as style from "../styles/skills.module.scss"
 
-export default function SkillsLogos() {
+const SkillsSections = () => {
   return (
-    <div>
+    <div className={style.wrapper}>
       <div className={style.logosMain}>
         <h2 className={style.headline}>Web-Entwicklung</h2>
         <div className={style.skill}>
@@ -238,3 +238,5 @@ export default function SkillsLogos() {
     </div>
   )
 }
+
+export default SkillsSections

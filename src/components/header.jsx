@@ -1,8 +1,10 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import * as headerStyles from "../styles/header.module.scss"
+import LinkedInLogo from "../images/LinkedIn-logo.svg"
+import XingLogo from "../images/Xing-Logo.svg"
+import * as styles from "../styles/header.module.scss"
 
-export default function Header() {
+const Header = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
       site {
@@ -14,56 +16,90 @@ export default function Header() {
     }
   `)
 
-  return (
-    <header className={headerStyles.header}>
-      <div className={headerStyles.logowrapper}>
-        <Link className={headerStyles.logo} to="/">
-          <div className={headerStyles.circle1}></div>
-          <div className={headerStyles.circle2}></div>
+  const Logo = () => {
+    return (
+      <div className={styles.logowrapper}>
+        <Link className={styles.logo} to="/">
+          <div className={styles.circle1}></div>
+          <div className={styles.circle2}></div>
           <p>s/n</p>
         </Link>
-        <p className={headerStyles.author}>{data.site.siteMetadata.author}</p>
+        <p className={styles.author}>{data.site.siteMetadata.author}</p>
       </div>
-      <nav>
-        <ul className={headerStyles.navList}>
-          <li>
-            <Link
-              className={headerStyles.navLink}
-              activeClassName={headerStyles.activeNavLink}
-              to="/"
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={headerStyles.navLink}
-              activeClassName={headerStyles.activeNavLink}
-              to="/skills"
-            >
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={headerStyles.navLink}
-              activeClassName={headerStyles.activeNavLink}
-              to="/projects"
-            >
-              Projekte
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={headerStyles.navLink}
-              activeClassName={headerStyles.activeNavLink}
-              to="/contact"
-            >
-              Kontakt
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    )
+  }
+
+  const LogoMobile = () => {
+    return (
+      <div className={styles.logowrapperMobile}>
+        <Link className={styles.logo} to="/">
+          <div className={styles.circle1}></div>
+          <div className={styles.circle2}></div>
+          <p>s/n</p>
+        </Link>
+        <p className={styles.author}>{data.site.siteMetadata.author}</p>
+      </div>
+    )
+  }
+
+  return (
+    <>
+      <LogoMobile />
+
+      <div className={styles.navListWrapper}>
+        <Logo />
+        <nav className={styles.navList}>
+          <a
+            href="https://www.linkedin.com/in/sascha-nabrotzky"
+            className={styles.socialmediaLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={LinkedInLogo}
+              alt="LinkedIn-Logo"
+              className={styles.socialmediaLogo}
+            />
+          </a>
+          <a
+            href="https://www.xing.com/profile/Sascha_Nabrotzky/cv"
+            className={styles.socialmediaLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={XingLogo}
+              alt="Xing-Logo"
+              className={styles.socialmediaLogo}
+            />
+          </a>
+        </nav>
+        <nav className={styles.navList}>
+          <Link
+            className={styles.navLink}
+            activeClassName={styles.activeNavLink}
+            to="/"
+          >
+            About
+          </Link>
+          <Link
+            className={styles.navLink}
+            activeClassName={styles.activeNavLink}
+            to="/skills"
+          >
+            Skills
+          </Link>
+          <Link
+            className={styles.navLink}
+            activeClassName={styles.activeNavLink}
+            to="/projects"
+          >
+            Projekte
+          </Link>
+        </nav>
+      </div>
+    </>
   )
 }
+
+export default Header
