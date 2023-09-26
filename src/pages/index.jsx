@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
+import TimeLine from "../components/TimeLine"
 import * as style from "../styles/index.module.scss"
 import socMedImg from "../images/socMedImg.jpg"
 
@@ -73,6 +74,7 @@ const Home = () => {
           Produkte zu schaffen, die die{" "}
           <strong>Erwartungen der Benutzer übertreffen.</strong>
         </p>
+        <TimeLine />
       </Layout>
     </>
   )
