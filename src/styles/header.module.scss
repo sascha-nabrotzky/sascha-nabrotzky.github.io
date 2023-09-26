@@ -1,112 +1,135 @@
 @import "./fonts.module.scss";
 
-.header {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.logowrapper {
   display: flex;
-  justify-content: space-between;
-  position: fixed;
+  margin-block: 0.5rem;
+  padding-left: 2.5rem;
+
+  &Mobile {
+    display: none;
+    margin-inline: auto;
+    margin-top: 0.5rem;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+  text-decoration: none;
+
+  p {
+    @include FiraLogo;
+    font-size: 2em;
+    margin: 0;
+    z-index: 2;
+  }
+}
+
+.circle1 {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  border-left: 7px solid rgba(218, 58, 218, 0.7);
+  border-right: 7px solid rgba(26, 171, 238, 0.7);
+  transform: rotate(90deg);
+  filter: blur(1px);
+  z-index: 0;
+  position: absolute;
+  animation: spin1 5s infinite linear;
+}
+
+.circle2 {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  border-left: 7px solid rgba(218, 58, 218, 0.4);
+  border-right: 7px solid rgba(26, 238, 157, 0.4);
+  filter: blur(1px);
+  z-index: 1;
+  position: absolute;
+  animation: spin2 2s infinite linear;
+}
+
+@keyframes spin1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.author {
+  @include FiraItalBd;
+  font-size: 1.5em;
+}
+
+.navListWrapper {
+  display: flex;
+  align-items: center;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
+  gap: 1.5rem;
+  width: 100%;
   backdrop-filter: blur(8px);
   background-color: rgba(var(--col-white-rgb), 0.6);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
-  z-index: 9999;
+}
 
-  .logowrapper {
-    display: flex;
-    margin-left: 2.5em;
+.navList {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.3em;
 
-    .logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 2em;
-      text-decoration: none;
-
-      .circle1 {
-        width: 4em;
-        height: 4em;
-        border-radius: 50%;
-        border-left: 7px solid rgba(218, 58, 218, 0.7);
-        border-right: 7px solid rgba(26, 171, 238, 0.7);
-        transform: rotate(90deg);
-        filter: blur(1px);
-        z-index: 0;
-        position: absolute;
-        animation: spin1 5s infinite linear;
-      }
-
-      .circle2 {
-        width: 4em;
-        height: 4em;
-        border-radius: 50%;
-        border-left: 7px solid rgba(218, 58, 218, 0.4);
-        border-right: 7px solid rgba(26, 238, 157, 0.4);
-        filter: blur(1px);
-        z-index: 1;
-        position: absolute;
-        animation: spin2 2s infinite linear;
-      }
-
-      @keyframes spin1 {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
-
-      @keyframes spin2 {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
-
-      p {
-        @include FiraLogo;
-        font-size: 2em;
-        margin: 0;
-        z-index: 2;
-      }
-    }
-
-    .author {
-      @include FiraItalBd;
-      font-size: 1.5em;
-    }
+  &:last-of-type {
+    margin-left: auto;
+    padding-right: 2.5rem;
   }
+}
 
-  .navList {
-    display: flex;
-    padding: 0;
-    font-size: 1.3em;
+.navLink {
+  transition: border-bottom 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  color: var(--col-link);
 
-    .navLink {
-      color: var(--col-link);
-      text-decoration: none;
-      margin-right: 1.3rem;
-      border-bottom: 2px solid transparent;
-      transition: 0.3s ease-in-out;
-
-      &:hover {
-        padding-bottom: 0.5em;
-        color: var(--col-midgray);
-        border-bottom: 2px solid var(--col-blue);
-      }
-
-      &.activeNavLink {
-        color: var(--col-link-active);
-        border-bottom: 2px solid var(--col-blue);
-        padding-bottom: 0.5em;
-      }
-    }
+  &:hover {
+    border-bottom: 2px solid var(--col-blue);
+    padding-bottom: 0.5rem;
+    color: var(--col-midgray);
   }
+}
+
+.activeNavLink {
+  border-bottom: 2px solid var(--col-blue);
+  padding-bottom: 0.5rem;
+  color: var(--col-link-active);
+}
+
+.socialmediaLink {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.socialmediaLogo {
+  height: 1.5rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -115,16 +138,33 @@
     align-items: center;
     padding-bottom: 0;
 
-    .logowrapper {
-      margin-left: 0.5em;
+    &Mobile {
+      display: flex;
     }
+  }
 
-    .navList {
-      margin-top: 0.5rem;
+  .logowrapper {
+    margin-left: 0.5rem;
+    display: none;
 
-      .navLink {
-        margin-inline: 0.5rem;
-      }
+    &Mobile {
+      display: flex;
+    }
+  }
+
+  .navListWrapper {
+    padding-block: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navList {
+    gap: 1rem;
+
+    &:last-of-type {
+      margin-right: auto;
+      padding-right: unset;
     }
   }
 }
