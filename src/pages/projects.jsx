@@ -1,11 +1,12 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Sidemenu from "../components/sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
+import GithubProjects from "../components/githubprojects"
 import * as projectStyle from "../styles/projects.module.scss"
 
-export default function Projects() {
+const Projects = () => {
   const data = useStaticQuery(graphql`
     query projectsQuery {
       allMarkdownRemark {
@@ -55,11 +56,15 @@ export default function Projects() {
             )
           })}
         </ol>
+
+        <GithubProjects />
       </Layout>
       <Sidemenu />
     </>
   )
 }
+
+export default Projects
 
 export const Head = () => {
   return (

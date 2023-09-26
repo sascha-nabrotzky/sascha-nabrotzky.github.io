@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import * as style from "../styles/sidemenu.module.scss"
 
-export default function Sidemenu() {
+const Sidemenu = () => {
   const [listItem, setListItem] = useState("sidemenu")
 
   useEffect(() => {
@@ -30,3 +30,5 @@ export default function Sidemenu() {
     </ul>
   )
 }
+
+export default Sidemenu

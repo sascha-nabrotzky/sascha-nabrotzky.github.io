@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as footerStyles from "../styles/footer.module.scss"
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer>
       <ul className={footerStyles.footerNavList}>
@@ -28,3 +28,5 @@ export default function Footer() {
     </footer>
   )
 }
+
+export default Footer

@@ -1,23 +1,27 @@
 import React, { useEffect, useState } from "react"
 import * as style from "../styles/line-svg.module.scss"
 
-export default function LineSvg() {
+const SvgAnimation = () => {
   const length = 2183.94189453125
-
   const [pathOffset, setOffset] = useState(length)
   const [currentColor, setColor] = useState("rgba(35, 166, 213, 0)")
 
   useEffect(() => {
     const svgImage = document.querySelector("svg")
-    window.addEventListener("scroll", () => {
-      let bounding = svgImage.getBoundingClientRect()
-      if (bounding.top >= 0 && bounding.bottom < window.innerHeight - 100) {
-        setOffset(0)
-        setTimeout(() => {
-          setColor("rgba(35, 166, 213,1)")
-        }, 1500)
-      }
+    window.addEventListener("load", () => {
+      //// For use with IntersectionObserver
+      // let bounding = svgImage.getBoundingClientRect()
+      // if (bounding.top >= 0 && bounding.bottom < window.innerHeight - 100) {
+      //   setOffset(0)
+      //   setTimeout(() => {
+      //     setColor("rgba(35, 166, 213,1)")
+      //   }, 1500)
+      // }
     })
+    setOffset(0)
+    setTimeout(() => {
+      setColor("rgba(35, 166, 213,1)")
+    }, 1500)
   }, [])
 
   return (
@@ -46,3 +50,5 @@ export default function LineSvg() {
     </svg>
   )
 }
+
+export default SvgAnimation

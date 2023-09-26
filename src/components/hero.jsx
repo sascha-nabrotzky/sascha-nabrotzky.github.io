@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import * as heroStyles from "../styles/hero.module.scss"
 
-export default function Hero() {
+const Hero = () => {
   const textFirstLine = ["User-Experience", "Frontend-", "Grafik /"]
   const textSecondLine = ["Engineer", "Entwicklung", "Illustration"]
   let [state, setState] = useState(textFirstLine[0])
@@ -33,3 +33,5 @@ export default function Hero() {
     </section>
   )
 }
+
+export default Hero

@@ -1,12 +1,10 @@
 import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import * as style from "../styles/index.module.scss"
-import LineSvg from "../components/line-svg"
-import GithubProjects from "../components/githubprojects"
 import socMedImg from "../images/socMedImg.jpg"
 
-export default function Home() {
+const Home = () => {
   useEffect(() => {
     // Variables must be outside of typewriter function
     let i = 0
@@ -44,8 +42,6 @@ export default function Home() {
           von Saunen, Küchen- und Kassensystemen per Touchscreen und Tablet.
         </p>
 
-        <LineSvg />
-
         <p>
           Meine Fähigkeiten umfassen die Entwicklung von{" "}
           <strong>interaktiven Highfidelity-Prototypen</strong> sowie die{" "}
@@ -77,12 +73,12 @@ export default function Home() {
           Produkte zu schaffen, die die{" "}
           <strong>Erwartungen der Benutzer übertreffen.</strong>
         </p>
-
-        <GithubProjects />
       </Layout>
     </>
   )
 }
+
+export default Home
 
 export const Head = () => {
   const data = useStaticQuery(graphql`

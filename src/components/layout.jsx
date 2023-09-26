@@ -1,21 +1,19 @@
 import React from "react"
-import { Location } from '@reach/router'
-import Footer from "./footer"
-import Header from "./header"
-import Hero from "./hero"
-import HeroSmall from "./hero_small"
+import { Location } from "@reach/router"
+import Footer from "./Footer"
+import Header from "./Header"
+import Hero from "./Hero"
+import HeroSmall from "./HeroSmall"
 import ToTopButton from "./ToTopButton"
-import Snowflakes from "../components/snowflakes"
 import * as layoutStyles from "../styles/layout.module.scss"
 
-export default function Layout({ children }) {
-
+const Layout = ({ children }) => {
   return (
     <div className={layoutStyles.container}>
       <Header />
       <Location>
         {({ location }) => {
-          if (location.pathname === '/') return <Hero />
+          if (location.pathname === "/") return <Hero />
           return <HeroSmall />
         }}
       </Location>
@@ -25,3 +23,5 @@ export default function Layout({ children }) {
     </div>
   )
 }
+
+export default Layout

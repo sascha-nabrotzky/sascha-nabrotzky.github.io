@@ -17,9 +17,9 @@ import logoUXResearch from "../images/ux-research.svg"
 import logoUbuntu from "../images/Ubuntu-Logo_weiss.svg"
 import * as style from "../styles/skills.module.scss"
 
-export default function SkillsLogos() {
+const SkillsSections = () => {
   return (
-    <div>
+    <div className={style.wrapper}>
       <div className={style.logosMain}>
         <h2 className={style.headline}>Web-Entwicklung</h2>
         <div className={style.skill}>
@@ -238,3 +238,5 @@ export default function SkillsLogos() {
     </div>
   )
 }
+
+export default SkillsSections

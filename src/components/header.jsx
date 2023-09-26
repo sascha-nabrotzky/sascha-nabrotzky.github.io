@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import * as headerStyles from "../styles/header.module.scss"
 
-export default function Header() {
+const Header = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
       site {
@@ -53,17 +53,10 @@ export default function Header() {
               Projekte
             </Link>
           </li>
-          <li>
-            <Link
-              className={headerStyles.navLink}
-              activeClassName={headerStyles.activeNavLink}
-              to="/contact"
-            >
-              Kontakt
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>
   )
 }
+
+export default Header
