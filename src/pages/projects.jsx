@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import Sidemenu from "../components/sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
 import GithubProjects from "../components/githubprojects"
-import * as projectStyle from "../styles/projects.module.scss"
+import * as styles from "../styles/projects.module.scss"
 
 const Projects = () => {
   const data = useStaticQuery(graphql`
@@ -27,35 +27,18 @@ const Projects = () => {
     <>
       <Layout>
         <h1>Meine Projekte</h1>
-        <p>
-          Hier ist eine Auswahl meiner Projekte, bei denen mir gute
-          <strong> Nutzererfahrung </strong>wichtig war und auch das{" "}
-          <strong>UI-Design</strong> planen und umsetzen konnte. Mir ist es
-          immer wichtig auf einer guten qualitativen und quantitativen
-          Daten-/Informationslage das Design zu erstellen und mit modernsten
-          Technologien zu <strong>programmieren.</strong> Grundsätzlich teste
-          ich alle Seiten und Änderungen mit Hilfe von{" "}
-          <strong>"Heuristic Markup"</strong> und dem{" "}
-          <strong>5-Sekunden-Test.</strong> Bei einigen Projekten habe ich
-          weitere <strong>Werbemittel</strong> und{" "}
-          <strong>Illustrationen</strong> erstellt.
-        </p>
-
-        <ol>
+        <section>
           {data.allMarkdownRemark.edges.map(edge => {
             return (
-              <li
-                className={projectStyle.projects}
-                key={edge.node.id.toString()}
-              >
+              <div className={styles.projects} key={edge.node.id.toString()}>
                 <h3 id={edge.node.id.toString()}>
                   {edge.node.frontmatter.title}
                 </h3>
                 <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
-              </li>
+              </div>
             )
           })}
-        </ol>
+        </section>
 
         <GithubProjects />
       </Layout>

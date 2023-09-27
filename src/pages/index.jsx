@@ -7,9 +7,8 @@ import socMedImg from "../images/socMedImg.jpg"
 
 const Home = () => {
   useEffect(() => {
-    // Variables must be outside of typewriter function
     let i = 0
-    const text = "Hallo und herzlich willkommen auf meiner Seite"
+    const text = "Ausgebuchte Plätze durch gelungene Umsetzung der Seite"
     const speed = 100
 
     function typewriter() {
@@ -22,7 +21,7 @@ const Home = () => {
 
     typewriter()
 
-    // Cleanup function for useEffect to prevent
+    // Cleanup function for useEffect
     return () => {
       i = text.length
     }
@@ -32,7 +31,9 @@ const Home = () => {
     <>
       <Layout>
         <h1>Design und Programmierung von responsiven Websites</h1>
-        <h2 className={style.blink}></h2>
+        <h2 className={style.typewriter}>
+          <span className={style.firstQuote}>&ldquo; </span>
+        </h2>
         <p>
           Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
           Kindern lebe ich im ländlichen Ladbergen. Als{" "}

@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import LinkedInLogo from "../images/LinkedIn-logo.svg"
-import XingLogo from "../images/Xing-Logo.svg"
+import LinkedInLogo from "../icons/LinkedIn-Logo.svg"
+import XingLogo from "../icons/Xing-Logo.svg"
+import MailIcon from "../icons/mail-icon.svg"
 import * as styles from "../styles/header.module.scss"
 
 const Header = () => {
@@ -9,7 +10,6 @@ const Header = () => {
     query MyQuery {
       site {
         siteMetadata {
-          title
           author
         }
       }
@@ -42,6 +42,12 @@ const Header = () => {
     )
   }
 
+  const [currentMail, setMail] = useState("")
+
+  function addMail() {
+    setMail("sascha.nabrotzky@online.de")
+  }
+
   return (
     <>
       <LogoMobile />
@@ -70,6 +76,18 @@ const Header = () => {
             <img
               src={XingLogo}
               alt="Xing-Logo"
+              className={styles.socialmediaLogo}
+            />
+          </a>
+          <a
+            className={styles.socialmediaLink}
+            href={`mailto:${currentMail}`}
+            alt={`E-Mail an Sascha senden`}
+            onClick={addMail}
+          >
+            <img
+              src={MailIcon}
+              alt="mail icon"
               className={styles.socialmediaLogo}
             />
           </a>

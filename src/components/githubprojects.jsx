@@ -53,7 +53,7 @@ const GithubProjects = () => {
   if (!data) return <p>Loading ...</p>
 
   return (
-    <section>
+    <aside>
       <h2>Projekte auf Github</h2>
 
       <div className="projectSlider">
@@ -82,7 +82,7 @@ const GithubProjects = () => {
           )
         })}
       </div>
-    </section>
+    </aside>
   )
 }
 

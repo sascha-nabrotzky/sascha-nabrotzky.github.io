@@ -1,14 +1,14 @@
 .timeLinePoint {
   display: flex;
   flex-flow: column;
+  transition: 1s linear;
+  margin: 0 auto;
   max-width: 30em;
   text-align: center;
-  margin: 0 auto;
-  transition: 1s linear;
 
   img {
-    border-radius: 50%;
     margin-bottom: 1em;
+    border-radius: 50%;
   }
 
   p {
@@ -17,6 +17,7 @@
 }
 
 .headline {
+  text-align: center;
   font-size: var(--fs-h2);
 }
 
@@ -24,16 +25,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: scale(0.5);
+  transition: 1s ease-in;
+  opacity: 0.5;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: var(--col-green);
   width: 6em;
   height: 6em;
-  border-radius: 50%;
-  margin: 0 auto;
-  background-color: var(--col-green);
   color: white;
   font-weight: 700;
-  opacity: 0.5;
-  transition: 1s ease-in;
-  transform: scale(0.5);
 }
 
 .scale {
@@ -42,8 +43,8 @@
 }
 
 .linie {
+  margin: 0 auto 1em;
   background-color: var(--col-lightgray);
   width: 1px;
   height: 2em;
-  margin: 0 auto 1em;
 }
