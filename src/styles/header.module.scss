@@ -12,6 +12,17 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .logowrapper {
+    margin-left: 0.5rem;
+    display: none;
+
+    &Mobile {
+      display: flex;
+    }
+  }
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -100,6 +111,24 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .navListWrapper {
+    padding-block: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navList {
+    gap: 1rem;
+
+    &:last-of-type {
+      margin-right: auto;
+      padding-right: unset;
+    }
+  }
+}
+
 .navLink {
   transition: border-bottom 0.3s ease-in-out;
   border-bottom: 2px solid transparent;
@@ -130,41 +159,4 @@
 
 .socialmediaLogo {
   height: 1.5rem;
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 0;
-
-    &Mobile {
-      display: flex;
-    }
-  }
-
-  .logowrapper {
-    margin-left: 0.5rem;
-    display: none;
-
-    &Mobile {
-      display: flex;
-    }
-  }
-
-  .navListWrapper {
-    padding-block: 1rem;
-    gap: 1rem;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .navList {
-    gap: 1rem;
-
-    &:last-of-type {
-      margin-right: auto;
-      padding-right: unset;
-    }
-  }
 }

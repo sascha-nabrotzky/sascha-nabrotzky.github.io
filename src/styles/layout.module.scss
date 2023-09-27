@@ -14,7 +14,6 @@ body {
   h1,
   h2 {
     @include FiraItalBd;
-    text-align: center;
   }
 
   p,
@@ -25,7 +24,6 @@ body {
 
   p {
     line-height: 1.4em;
-    text-align: justify;
   }
 
   li {

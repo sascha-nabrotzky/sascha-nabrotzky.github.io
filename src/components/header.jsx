@@ -9,7 +9,6 @@ const Header = () => {
     query MyQuery {
       site {
         siteMetadata {
-          title
           author
         }
       }

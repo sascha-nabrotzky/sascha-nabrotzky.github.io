@@ -1,13 +1,14 @@
-.blink {
+.typewriter {
   margin-top: 2rem;
+  font-size: 4rem;
 
   &::after {
     display: inline-block;
     transform: translateY(0.125rem);
-    margin-left: 0.313rem;
+    margin-left: 0.8rem;
     background-color: gray;
-    width: 0.125rem;
-    height: 1.313rem;
+    width: 0.2rem;
+    height: 3.2rem;
     animation: blink 1s steps(2, start) infinite;
     content: "";
   }
@@ -17,4 +18,8 @@
   to {
     visibility: hidden;
   }
+}
+
+.firstQuote {
+  color: var(--col-magenta);
 }
