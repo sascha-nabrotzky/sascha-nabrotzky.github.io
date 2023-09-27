@@ -1,12 +1,12 @@
 .snowflake {
-  --size: 1vw;
-  width: var(--size);
-  height: var(--size);
-  background: rgb(255, 243, 218);
-  border-radius: 50%;
   position: absolute;
   top: -5vh;
+  border-radius: 50%;
+  background: rgb(255, 243, 218);
+  width: var(--size);
+  height: var(--size);
   pointer-events: none;
+  --size: 1vw;
 }
 
 @keyframes snowfall {

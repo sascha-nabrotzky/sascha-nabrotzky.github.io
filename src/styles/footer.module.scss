@@ -4,14 +4,14 @@ footer {
 
 .footerNavList {
   display: flex;
-  list-style-type: none;
   padding: 0;
+  list-style-type: none;
 }
 
 .footerNavLink {
-  color: var(--col-link);
-  text-decoration: none;
   margin-right: 1.3rem;
+  text-decoration: none;
+  color: var(--col-link);
 
   &:hover {
     color: var(--col-midgray);
