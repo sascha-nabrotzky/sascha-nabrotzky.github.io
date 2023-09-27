@@ -1,5 +1,5 @@
 ---
-title: "Überarbeitung der Darstellung meiner Fähigkeiten"
+title: "Eigenes Skillset wird leichter verstanden"
 ---
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)

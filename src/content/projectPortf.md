@@ -1,5 +1,5 @@
 ---
-title: "Eigenes Skillset professionell präsentieren"
+title: "Professionelles Auffallen durch optimierte Portfolioseite"
 ---
 
 ![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)

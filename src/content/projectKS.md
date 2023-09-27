@@ -1,5 +1,5 @@
 ---
-title: "Online-Shop wieder konkurrenzfähig machen"
+title: "30% Umsatzsteigerung durch Optimierung in allen Bereichen"
 ---
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)

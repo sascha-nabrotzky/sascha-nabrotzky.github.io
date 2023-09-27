@@ -1,8 +1,6 @@
 ---
-title: Neustart als Tagesmutter
+title: Alle Kita-Plätze über lange Zeit im Vorraus ausgebucht
 ---
-
-![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
 <p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer<br/>
 Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>

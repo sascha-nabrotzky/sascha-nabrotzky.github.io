@@ -1,5 +1,5 @@
 ---
-title: "Mehr Spendengelder für guten Zweck"
+title: "Verdoppelte Spendengelder für guten Zweck"
 ---
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)

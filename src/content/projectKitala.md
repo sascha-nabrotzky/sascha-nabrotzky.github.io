@@ -1,5 +1,5 @@
 ---
-title: "Professionellere Wahrnehmung der Tagesmütter"
+title: "Tagesmütter werden mit durchdachtem Design an allen Touchpoints als professnionell wahrgenommen"
 ---
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
