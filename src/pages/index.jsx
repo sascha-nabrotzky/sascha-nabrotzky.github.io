@@ -1,83 +1,57 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import TimeLine from "../components/TimeLine"
-import * as style from "../styles/index.module.scss"
+import TypewriterText from "../components/TypewriterText"
 import socMedImg from "../images/socMedImg.jpg"
 
 const Home = () => {
-  useEffect(() => {
-    let i = 0
-    const text = "Ausgebuchte Plätze durch gelungene Umsetzung der Seite"
-    const speed = 100
-
-    function typewriter() {
-      if (i < text.length) {
-        document.querySelector("h2").innerHTML += text.charAt(i)
-        i++
-        setTimeout(typewriter, speed)
-      }
-    }
-
-    typewriter()
-
-    // Cleanup function for useEffect
-    return () => {
-      i = text.length
-    }
-  }, [])
-
   return (
-    <>
-      <Layout>
-        <h1>Design und Programmierung von responsiven Websites</h1>
-        <h2 className={style.typewriter}>
-          <span className={style.firstQuote}>&ldquo; </span>
-        </h2>
-        <p>
-          Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
-          Kindern lebe ich im ländlichen Ladbergen. Als{" "}
-          <strong>UX-Engineer</strong> mit Schwerpunkt auf{" "}
-          <strong>Frontend-Entwicklung</strong> und{" "}
-          <strong>UI/UX-Design</strong> habe ich umfangreiche Erfahrung in der
-          Gestaltung und Entwicklung responsiver Apps und PWAs für die Steuerung
-          von Saunen, Küchen- und Kassensystemen per Touchscreen und Tablet.
-        </p>
+    <Layout>
+      <h1>Design und Programmierung von responsiven Websites</h1>
+      <TypewriterText text="Ausgebuchte Plätze durch gelungene Umsetzung der Seite" />
+      <p>
+        Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
+        Kindern lebe ich im ländlichen Ladbergen. Als{" "}
+        <strong>UX-Engineer</strong> mit Schwerpunkt auf{" "}
+        <strong>Frontend-Entwicklung</strong> und <strong>UI/UX-Design</strong>{" "}
+        habe ich umfangreiche Erfahrung in der Gestaltung und Entwicklung
+        responsiver Apps und PWAs für die Steuerung von Saunen, Küchen- und
+        Kassensystemen per Touchscreen und Tablet.
+      </p>
 
-        <p>
-          Meine Fähigkeiten umfassen die Entwicklung von{" "}
-          <strong>interaktiven Highfidelity-Prototypen</strong> sowie die{" "}
-          <strong>Optimierung der Nutzererfahrung</strong> in einem
-          interdisziplinären Team. In meiner Rolle als Frontend-Entwickler habe
-          ich maßgeschneiderte Lösungen entwickelt, um sicherzustellen, dass die
-          Benutzeroberflächen reibungslos funktionieren und auf verschiedenen
-          Geräten und Bildschirmgrößen optimal angezeigt werden. Dabei habe ich
-          moderne Technologien wie{" "}
-          <strong>HTML, CSS, JavaScript und React</strong> eingesetzt, um
-          ansprechende und benutzerfreundliche Apps zu erstellen.
-        </p>
-        <p>
-          Darüber hinaus habe ich umfangreiche Erfahrung im UI/UX-Design
-          gesammelt. Ich habe interaktive Highfidelity-Prototypen erstellt, um
-          das Designkonzept zu visualisieren und die Benutzererfahrung zu
-          optimieren. Dabei habe ich eng mit einem interdisziplinären Team
-          zusammengearbeitet, um sicherzustellen, dass das Design den
-          Anforderungen der Benutzer entspricht und gleichzeitig die
-          Geschäftsziele unterstützt. Dabei setze ich auch auf{" "}
-          <strong>KI-gestützte User-Research,</strong> um die Bedürfnisse der
-          Nutzer optimal zu verstehen.
-        </p>
-        <p>
-          <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
-          mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional
-          als auch ästhetisch ansprechend sind. Ich bin stets bestrebt, die
-          neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
-          Produkte zu schaffen, die die{" "}
-          <strong>Erwartungen der Benutzer übertreffen.</strong>
-        </p>
-        <TimeLine />
-      </Layout>
-    </>
+      <p>
+        Meine Fähigkeiten umfassen die Entwicklung von{" "}
+        <strong>interaktiven Highfidelity-Prototypen</strong> sowie die{" "}
+        <strong>Optimierung der Nutzererfahrung</strong> in einem
+        interdisziplinären Team. In meiner Rolle als Frontend-Entwickler habe
+        ich maßgeschneiderte Lösungen entwickelt, um sicherzustellen, dass die
+        Benutzeroberflächen reibungslos funktionieren und auf verschiedenen
+        Geräten und Bildschirmgrößen optimal angezeigt werden. Dabei habe ich
+        moderne Technologien wie{" "}
+        <strong>HTML, CSS, JavaScript und React</strong> eingesetzt, um
+        ansprechende und benutzerfreundliche Apps zu erstellen.
+      </p>
+      <p>
+        Darüber hinaus habe ich umfangreiche Erfahrung im UI/UX-Design
+        gesammelt. Ich habe interaktive Highfidelity-Prototypen erstellt, um das
+        Designkonzept zu visualisieren und die Benutzererfahrung zu optimieren.
+        Dabei habe ich eng mit einem interdisziplinären Team zusammengearbeitet,
+        um sicherzustellen, dass das Design den Anforderungen der Benutzer
+        entspricht und gleichzeitig die Geschäftsziele unterstützt. Dabei setze
+        ich auch auf <strong>KI-gestützte User-Research,</strong> um die
+        Bedürfnisse der Nutzer optimal zu verstehen.
+      </p>
+      <p>
+        <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
+        mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional
+        als auch ästhetisch ansprechend sind. Ich bin stets bestrebt, die
+        neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
+        Produkte zu schaffen, die die{" "}
+        <strong>Erwartungen der Benutzer übertreffen.</strong>
+      </p>
+      <TimeLine />
+    </Layout>
   )
 }
 
