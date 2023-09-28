@@ -23,3 +23,14 @@
 .firstQuote {
   color: var(--col-magenta);
 }
+
+@media screen and (max-width: 767px) {
+  .typewriter {
+    font-size: 2.5rem;
+    line-height: 1.2;
+
+    &::after {
+      height: 2.2rem;
+    }
+  }
+}

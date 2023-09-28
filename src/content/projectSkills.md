@@ -1,5 +1,5 @@
 ---
-title: "Eigenes Skillset wird leichter verstanden"
+title: "Skillset und Erfahrungen wird jetzt leichter verstanden"
 ---
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)

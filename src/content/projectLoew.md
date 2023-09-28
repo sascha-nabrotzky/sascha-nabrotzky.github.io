@@ -5,7 +5,7 @@ title: Alle Kita-Plätze über lange Zeit im Vorraus ausgebucht
 <p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer<br/>
 Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
-[Zur Website](https://xn--kindertagespflege-lwenzahn-uvc.de/index.php)
+![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
 **Herausforderung:** Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbstständigkeit etablieren, dafür wurde neben Flyern auch eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
 
