@@ -2,10 +2,10 @@
 title: "Verdoppelte Spendengelder für guten Zweck"
 ---
 
-![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
-
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer | Mediengestalter<br/>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer | Mediengestalter<br/>
 Technologien: HTML5 | CSS3 | JavaScript</p>
+
+![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
 
 [Zur Website](http://www.sascha-nabrotzky.de/moorland/index.html)
 

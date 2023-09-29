@@ -2,9 +2,9 @@
 title: "Skillset und Erfahrungen wird jetzt leichter verstanden"
 ---
 
-![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
+<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>Technologien: React | Gatsby | SCSS</p>
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer<br/>Technologien: Gatsby | SCSS | Inkscape</p>
+![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
 [Zur Website](https://sascha-nabrotzky.github.io/skills)
 

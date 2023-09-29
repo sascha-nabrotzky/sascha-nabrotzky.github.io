@@ -2,10 +2,10 @@
 title: "Professionelles Auffallen durch optimierte Portfolioseite"
 ---
 
-![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
-
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer<br/>
+<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
 Technologien: React.js | Gatsby.js | SCSS | GraphQL</p>
+
+![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
 
 **Herausforderung:** Mein berufliches Skillset sollte bestmöglich präsentiert werden, sowohl die Programmier- als auch meine Design-Fähigkeiten mussten dabei deutlich sichtbar auf der neuen Website erscheinen und die Informationen von z. B. Recruitern schnell erfassbar sein.
 

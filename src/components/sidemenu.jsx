@@ -1,12 +1,17 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import * as style from "../styles/sidemenu.module.scss"
 
 const Sidemenu = () => {
   const [listItem, setListItem] = useState("sidemenu")
 
+  const sidemenuRef = useRef(null)
+  console.log(sidemenuRef)
+
   useEffect(() => {
-    const headlines = document.querySelectorAll("main h3")
+    const headlines = document.querySelectorAll("h2")
     const headlinesArray = Array.from(headlines)
+
+    const scrollHeight = sidemenuRef.scrollHeight
 
     const liElements = headlinesArray.map(item => {
       return (
@@ -22,7 +27,7 @@ const Sidemenu = () => {
   }, [setListItem])
 
   return (
-    <ul className={style.sidemenu}>
+    <ul className={style.sidemenu} ref={sidemenuRef}>
       <li className={style.sidemenuHeader}>
         <strong>Projektemenü</strong>
       </li>

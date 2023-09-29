@@ -2,11 +2,9 @@
 title: "30% Umsatzsteigerung durch Optimierung in allen Bereichen"
 ---
 
+<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
+
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
-
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
-
-[Zur Website](https://shop.ks-info.com/shop.php)
 
 **Herausforderung:** Der Shop musste in vielen Bereichen aktualisiert und besser strukturiert werden, um sich abzuheben und wieder konkurrenzfähig zu sein. Die ganze CI musste zudem vereinheitlicht werden.
 
@@ -21,6 +19,6 @@ Slider, Teaser und jede digitale Werbemaßnahme bekam dadurch ein einheitliches 
 
 ![Proto-Persona für den generellen Kundenstamm](../images/KS-CI.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen des erweiterten Farbschemas auf Basis der ursprünglichen Logo-Farben (schwarz/gelb) und abgleichen möglichst passender Schriften für Print und Online (li.). Proto-Persona zur Planung für meine Designs und dem generellen Überblick über den Kunden und was gerne Bestellt wird (re).</p>
+<p style="font-size: var(--fs-small-text)">&#8593;  <strong>Anlegen des erweiterten Farbschemas</strong> auf Basis der ursprünglichen Logo-Farben (schwarz/gelb) und abgleichen möglichst passender Schriften für Print und Online (li.). Proto-Persona zur Planung für meine Designs und dem generellen Überblick über den Kunden und was gerne Bestellt wird (re).</p>
 
 <p>&bull; &bull; &bull;</p>

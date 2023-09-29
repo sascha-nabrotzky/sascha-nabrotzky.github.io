@@ -1,10 +1,10 @@
 ---
-title: "Tagesmütter werden mit durchdachtem Design an allen Touchpoints als professnionell wahrgenommen"
+title: "Tagesmütter werden an allen Touchpoints als professionell wahrgenommen"
 ---
 
-![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
+<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer | Illustrator<br/>Technologien: React | SCSS | HTML5</p>
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer<br/>Technologien: React | SCSS | HTML5</p>
+![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
 [Zur Website](https://kitala-ladbergen.de)
 
@@ -20,14 +20,14 @@ Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche *
 
 ![Planung und Vorzeichnung](../images/Kitala_PlanungZeichnung.jpg)
 
-<p style="font-size: var(--fs-small-text);">Stichwortsuche nach Begriffen, die für die Website wichtig für Informationgehalt werden und anschließender Zeichnung der Startseite.</p>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Stichwortsuche nach Begriffen,</strong> die für die Website wichtig für Informationgehalt werden und anschließender Zeichnung der Startseite.</p>
 
 ![Logoskizzen und Farbschemen](../images/LogoMockup_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);">Anfertigen von Skizzen für das Logo und anschließender Umsetzung im Grafikprogramm bei gleichzeitiger Entwicklung des Farbschemas.</p>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Anfertigen von Skizzen</strong> für das Logo und anschließender Umsetzung im Grafikprogramm bei gleichzeitiger Entwicklung des Farbschemas.</p>
 
 ![Aktionswoche](../images/Aktion_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text);">Von mir mit eigenen Illustrationen gestaltete Socialmedia-Posts, die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Illustrationen für Socialmedia-Posts,</strong> die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
 
 <p>&bull; &bull; &bull;</p>

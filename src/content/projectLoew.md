@@ -2,7 +2,7 @@
 title: Alle Kita-Plätze über lange Zeit im Vorraus ausgebucht
 ---
 
-<p style="font-size: var(--fs-small-text);text-align: right;">Meine Rolle: UX-Engineer<br/>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
 Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
@@ -19,10 +19,10 @@ Die Website programmierte ich in **Joomla!** und **CSS3,** das mobile Menü mit 
 
 ![Proto-Persona der Eltern/Mütter](../images/ProtopersonaLoew.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Anlegen einer Proto-Persona mit weiteren Infos, wie Kita gefunden wurde (li). Logoentwicklung mit Vorabskizze (re).</p>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Anlegen einer Proto-Persona</strong> mit weiteren Infos, wie Kita gefunden wurde (li). Logoentwicklung mit Vorabskizze (re).</p>
 
 ![Suchbegriffe im Bereich Tagesmütter](../images/LoewWireframe.jpg)
 
-<p style="font-size: var(--fs-small-text);text-align: justify;">Exportierte CSV-Datei der Suchbegriffe eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen (li.). Ideation und Wireframing von den ersten Entwürfen auf Papier (re).</p>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Exportierte CSV-Datei der Suchbegriffe</strong> eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen (li.). Ideation und Wireframing von den ersten Entwürfen auf Papier (re).</p>
 
 <p>&bull; &bull; &bull;</p>

@@ -7,7 +7,9 @@ const HeroSmall = () => {
     <section className={style.herocontainer}>
       <Location>
         {({ location }) => {
-          return <h3 className={style.heroSmallHeading}>{location.pathname}</h3>
+          return (
+            <span className={style.heroSmallHeading}>{location.pathname}</span>
+          )
         }}
       </Location>
     </section>
