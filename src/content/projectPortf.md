@@ -1,20 +1,18 @@
----
-title: "Professionelles Auffallen durch optimierte Portfolioseite"
----
+##### Mein berufliches Skillset sollte bestmöglich für Recruiter erfassbar optimiert werden
+
+## Professionelles Auffallen durch optimierte Portfolioseite und weiterer Online-Präsenzen
 
 <p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
 Technologien: React.js | Gatsby.js | SCSS | GraphQL</p>
 
 ![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)
 
-**Herausforderung:** Mein berufliches Skillset sollte bestmöglich präsentiert werden, sowohl die Programmier- als auch meine Design-Fähigkeiten mussten dabei deutlich sichtbar auf der neuen Website erscheinen und die Informationen von z. B. Recruitern schnell erfassbar sein.
+**Herausforderung**
 
-**Vorgehen:** Durch **User-Research** im Bereich Recruiter und Portfolio-Aufbau setzte ich Texte über mich für den ersten Überblick auf die Startseite, meine Skills bekamen mit einer Timeline eine eigene Seite, somit hatte ich etwas mehr Gestaltungsmöglichkeiten in den einzelnen Bereichen. Ich wollte ursprünglich das ganze Design sehr reduziert halten, es sollte mehr das programmatisch Funktionelle im Vordergrund stehen. Da meine **CSS3-Design-Skills** allerdings ebenfalls präsentiert werden müssen, entschied ich mich gegen ein zu reduziertes Design und arbeitete mit mehr Farbverläufen und Effekten die mit **JavaScript** und **CSS3** realisiert wurden. Einige Informationen werden aus Markdown-Dateien mit **GraphQL** oder per JavaScript aus JSON-Dateien ausgelesen und ins Frontend gebracht.
+Sowohl die Programmier- als auch meine UX-Design-Fähigkeiten mussten dabei deutlich sichtbar auf der neuen Website erscheinen.
 
-**Test und Validierung:** Die gesamte Seitenstruktur und Content-Strategie habe ich mit **Heuristic Markup** und einem **5-Sekunden-Test** überprüft und optimiert.
+**Vorgehen**
 
-Als Hoster und Versionierungssystem habe ich **GitHub** ausgewählt, das kam mir für einen fachlich professionelleren Auftritt sehr gelegen, da ich mich mit diesem Schritt noch mehr das Versionierungstool benutzen und den Umgang mit damit zeigen kann.
-
-**Resultat:** Ich habe jetzt einen Job in einer Agentur als Frontend-Entwickler mit der Spezialisierung in TYPO3, CSS/SCSS und Bootstrap.
-
-<p>&bull; &bull; &bull;</p>
+1. **User-Research** im Bereich Recruiter und Personalvermittler, um die Anforderungen an eine Portfolio-Seite zu ermitteln.
+2. Design und Entwicklung einer **Portfolio-Seite** mit **Gatsby.js** und **React.js**.
+3. **Test und Validierung** der Seitenstruktur und Content-Strategie mit **Heuristic Markup** und einem **5-Sekunden-Test**.

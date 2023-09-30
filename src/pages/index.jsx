@@ -8,8 +8,11 @@ import socMedImg from "../images/socMedImg.jpg"
 const Home = () => {
   return (
     <Layout>
-      <h1>Design und Programmierung von responsiven Websites</h1>
-      <TypewriterText text="Ausgebuchte Plätze durch gelungene Umsetzung der Website" />
+      <h1>
+        Design und Programmierung von gut geplanten und grafisch auffallenden
+        Websites
+      </h1>
+      <TypewriterText text="Viele Anmeldungen durch gelungene Umsetzung der Kita-Website" />
       <p>
         Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
         Kindern lebe ich im ländlichen Ladbergen. Als{" "}

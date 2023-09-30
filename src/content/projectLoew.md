@@ -1,21 +1,23 @@
----
-title: Kita-Plätze über lange Zeit im Vorraus ausgebucht
----
+##### Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbstständigkeit etablieren
+
+## Durch auffälliges Design haben Eltern schnell Vertrauen und Kita-Plätze sind über lange Zeit im Vorraus ausgebucht
 
 <p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
 Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
-**Herausforderung:** Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbstständigkeit etablieren, dafür wurde neben Flyern auch eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
+**Herausforderung**
 
-**Vorgehen:** Für die **User-Research** habe ich mich mit junge Eltern und der Tagesmutter über häufig nachgefragten, benötigten oder fehlenden Informationen unterhalten, zudem zog ich diverse Online-Tools zu Hilfe, die mir die am meisten gesuchten Begriffe im Bereich Tagesmutter zeigten. Mit den Wünschen der Eltern und der Tagesmutter konnte ich nun eine **Informationsarchitektur** erstellen und die Seite planen.
+Es wurde neben Flyern auch eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
 
-Es sollten auch alle wichtigen Infos für die Eltern sofort sichtbar sein, Termine und Aktionen sollten selber aktualisiert werden können und für leichte Kontaktaufnahme wurde ein Formular eingeplant, zudem wurde ein buntes, aber abgestimmtes, reduziertes Farbkonzept mit grün als Basisfarbe erarbeitet.
+**Vorgehen**
 
-Die Website programmierte ich in **Joomla!** und **CSS3,** das mobile Menü mit **JavaScript** und es wurden **CSS-Animationen** erstellt.
-
-**Resultat:** Das kinderfreundliche Gesamtbild, die Informationsarchitektur und gute SEO brachten der Seite **beste Präsenz und Resonanz** in der lokalen Region und vor allem bei suchenden Eltern.
+1. **User-Research** mit Eltern, Tagesmutter und Online-Tools
+2. **Informationsarchitektur** und **Wireframing**
+3. Es wurde ein buntes, aber abgestimmtes, reduziertes Farbkonzept mit grün als Basisfarbe erarbeitet
+4. **Logoentwicklung** mit Vorabskizze
+5. Die Website programmierte ich in **Joomla!** und **CSS3,** und es wurden auffallende **CSS-Animationen** erstellt.
 
 ![Proto-Persona der Eltern/Mütter](../images/ProtopersonaLoew.jpg)
 
@@ -24,5 +26,3 @@ Die Website programmierte ich in **Joomla!** und **CSS3,** das mobile Menü mit 
 ![Suchbegriffe im Bereich Tagesmütter](../images/LoewWireframe.jpg)
 
 <p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Exportierte CSV-Datei der Suchbegriffe</strong> eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen (li.). Ideation und Wireframing von den ersten Entwürfen auf Papier (re).</p>
-
-<p>&bull; &bull; &bull;</p>

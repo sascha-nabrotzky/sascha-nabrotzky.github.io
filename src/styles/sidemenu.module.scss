@@ -5,6 +5,8 @@
   left: 0;
   padding-left: 0;
   max-width: 11rem;
+  --fs-base: 1rem;
+  --lh-base: 1.3rem;
   --sidemenu-height: 546px;
 
   @media screen and (min-width: 1200px) {
