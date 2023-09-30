@@ -1,5 +1,5 @@
 ---
-title: Alle Kita-Plätze über lange Zeit im Vorraus ausgebucht
+title: Kita-Plätze über lange Zeit im Vorraus ausgebucht
 ---
 
 <p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
