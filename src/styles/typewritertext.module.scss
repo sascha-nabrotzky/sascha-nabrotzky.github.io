@@ -1,4 +1,7 @@
+@import "./fonts.module.scss";
+
 .typewriter {
+  @include FiraItalBd;
   margin-top: 2rem;
   font-size: 4rem;
 

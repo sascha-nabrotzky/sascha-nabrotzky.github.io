@@ -1,6 +1,13 @@
 .projects {
   margin-top: 5rem;
 
+  h5 {
+    color: var(--col-link);
+    max-width: 75%;
+    border-left: 2px solid var(--col-link);
+    padding-left: 1.2rem;
+  }
+
   a {
     opacity: 0.6;
     border-radius: 0.5em;
@@ -16,7 +23,7 @@
     }
   }
 
-  p:last-of-type {
+  .points {
     margin-top: 5rem;
     text-align: center;
   }

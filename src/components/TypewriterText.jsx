@@ -1,7 +1,10 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
 import * as style from "../styles/typewritertext.module.scss"
 
 const TypewriterText = props => {
+  const typewriterDiv = useRef(null)
+  console.log(typewriterDiv)
+
   useEffect(() => {
     let i = 0
     const [text] = [props.text]
@@ -9,7 +12,7 @@ const TypewriterText = props => {
 
     function typewriter() {
       if (i < text.length) {
-        document.querySelector("h2").innerHTML += text.charAt(i)
+        typewriterDiv.current.innerHTML += text.charAt(i)
         i++
         setTimeout(typewriter, speed)
       }
@@ -24,9 +27,9 @@ const TypewriterText = props => {
   }, [props.text])
 
   return (
-    <h2 className={style.typewriter}>
+    <div className={style.typewriter} ref={typewriterDiv}>
       <span className={style.firstQuote}>&ldquo; </span>
-    </h2>
+    </div>
   )
 }
 

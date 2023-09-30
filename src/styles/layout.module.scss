@@ -10,25 +10,47 @@ body {
   background-color: var(--col-white);
   color: var(--col-darkgray);
   font-family: $mainfont, sans-serif;
+}
 
-  h1,
-  h2 {
-    @include FiraItalBd;
-  }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @include FiraItalBd;
+}
 
-  p,
-  h4,
-  date {
-    font-size: 1.3em;
-  }
+h1 {
+  font-size: 2.5rem;
+}
 
-  p {
-    line-height: 1.4em;
-  }
+h2 {
+  font-size: 2.2rem;
+}
 
-  li {
-    list-style-type: none;
-  }
+h3 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+p,
+date,
+li {
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+}
+
+ol,
+ul {
+  margin: 0;
 }
 
 .container {
@@ -39,16 +61,6 @@ body {
   .content {
     margin-top: 3rem;
     max-width: 60rem;
-
-    h3 {
-      @include FiraItalBd;
-      font-size: 1.7em;
-    }
-
-    ol,
-    ul {
-      padding: 0;
-    }
   }
 }
 

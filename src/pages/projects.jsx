@@ -31,10 +31,8 @@ const Projects = () => {
           {data.allMarkdownRemark.edges.map(edge => {
             return (
               <div className={styles.projects} key={edge.node.id.toString()}>
-                <h3 id={edge.node.id.toString()}>
-                  {edge.node.frontmatter.title}
-                </h3>
                 <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
+                <p className={styles.points}>&bull; &bull; &bull;</p>
               </div>
             )
           })}

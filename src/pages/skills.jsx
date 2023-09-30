@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Layout from "../components/Layout"
 import SkillsSections from "../components/SkillsSections"
 import socMedImg from "../images/socMedImg.jpg"

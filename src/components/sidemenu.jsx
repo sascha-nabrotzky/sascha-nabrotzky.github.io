@@ -5,7 +5,7 @@ const Sidemenu = () => {
   const [listItem, setListItem] = useState("sidemenu")
 
   useEffect(() => {
-    const headlines = document.querySelectorAll("main h3")
+    const headlines = document.querySelectorAll("h2")
     const headlinesArray = Array.from(headlines)
 
     const liElements = headlinesArray.map(item => {
