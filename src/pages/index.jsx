@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Layout>
       <h1>Design und Programmierung von responsiven Websites</h1>
-      <TypewriterText text="Ausgebuchte Plätze durch gelungene Umsetzung der Seite" />
+      <TypewriterText text="Ausgebuchte Plätze durch gelungene Umsetzung der Website" />
       <p>
         Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
         Kindern lebe ich im ländlichen Ladbergen. Als{" "}

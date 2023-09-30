@@ -22,7 +22,7 @@ const Sidemenu = () => {
   }, [setListItem])
 
   return (
-    <ul className={style.sidemenu} ref={sidemenuRef}>
+    <ul className={style.sidemenu}>
       <li className={style.sidemenuHeader}>
         <strong>Projektemenü</strong>
       </li>

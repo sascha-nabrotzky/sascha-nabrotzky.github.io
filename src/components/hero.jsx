@@ -20,7 +20,7 @@ const Hero = () => {
         }, i * 1500)
       })
     }, 4500)
-  }, [])
+  }, [textFirstLine, textSecondLine])
 
   return (
     <section className={heroStyles.herocontainer}>

@@ -7,17 +7,17 @@ const SvgAnimation = () => {
   const [currentColor, setColor] = useState("rgba(35, 166, 213, 0)")
 
   useEffect(() => {
-    const svgImage = document.querySelector("svg")
-    window.addEventListener("load", () => {
-      //// For use with IntersectionObserver
-      // let bounding = svgImage.getBoundingClientRect()
-      // if (bounding.top >= 0 && bounding.bottom < window.innerHeight - 100) {
-      //   setOffset(0)
-      //   setTimeout(() => {
-      //     setColor("rgba(35, 166, 213,1)")
-      //   }, 1500)
-      // }
-    })
+    // const svgImage = document.querySelector("svg")
+    // window.addEventListener("load", () => {
+    //// For use with IntersectionObserver
+    // let bounding = svgImage.getBoundingClientRect()
+    // if (bounding.top >= 0 && bounding.bottom < window.innerHeight - 100) {
+    //   setOffset(0)
+    //   setTimeout(() => {
+    //     setColor("rgba(35, 166, 213,1)")
+    //   }, 1500)
+    // }
+    // })
     setOffset(0)
     setTimeout(() => {
       setColor("rgba(35, 166, 213,1)")
