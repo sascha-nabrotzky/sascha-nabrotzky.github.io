@@ -2,8 +2,6 @@
 
 .typewriter {
   @include FiraItalBd;
-  margin-top: 2rem;
-  font-size: 4rem;
 
   &::after {
     display: inline-block;
@@ -27,13 +25,35 @@
   color: var(--col-magenta);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .typewriter {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.2;
 
     &::after {
       height: 2.2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .typewriter {
+    font-size: 3rem;
+    line-height: 1.2;
+
+    &::after {
+      height: 2.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typewriter {
+    margin-top: 2rem;
+    font-size: 4rem;
+
+    &::after {
+      height: 3.5rem;
     }
   }
 }

@@ -1,6 +1,6 @@
-##### Die Tagesmütter hatten das Problem, dass sie nicht professionell wahrgenommen wurden und deshalb nicht genug Mitspracherecht in der Gemeinde hatten.
+##### Tagesmütter wurden nicht als professionell wahrgenommen und hatten wenig Mitspracherecht in der Gemeinde.
 
-## Tagesmütter werden durch den Zusammenschluss und das gelungene Design jetzt professioneller wahrgenommen und bei Entscheidungen in der Gemeinde mit einbezogen
+## Tagesmütter werden durch das gelungene Design professioneller wahrgenommen und bei Entscheidungen in der Gemeinde mit einbezogen
 
 <p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer | Illustrator<br/>Technologien: React | SCSS | HTML5</p>
 
