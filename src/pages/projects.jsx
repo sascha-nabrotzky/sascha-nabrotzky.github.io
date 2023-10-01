@@ -1,7 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
-import Sidemenu from "../components/sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
 import GithubProjects from "../components/GithubProjects"
 import * as styles from "../styles/projects.module.scss"
