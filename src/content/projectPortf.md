@@ -1,6 +1,6 @@
 ##### Mein berufliches Skillset sollte bestmöglich für Recruiter erfassbar optimiert werden
 
-## Professionelles Auffallen durch optimierte Portfolioseite und weiterer Online-Präsenzen
+## Professionelles Auffallen durch optimierte Portfolioseite
 
 <p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer<br/>
 Technologien: React.js | Gatsby.js | SCSS | GraphQL</p>

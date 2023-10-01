@@ -12,9 +12,6 @@ const Projects = () => {
       allMarkdownRemark {
         edges {
           node {
-            frontmatter {
-              title
-            }
             html
             id
           }
@@ -40,7 +37,6 @@ const Projects = () => {
 
         <GithubProjects />
       </Layout>
-      <Sidemenu />
     </>
   )
 }
