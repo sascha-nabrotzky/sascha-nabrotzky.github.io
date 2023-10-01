@@ -1,5 +1,5 @@
 footer {
-  margin: 3em 1em 0;
+  margin: 3em 1em 1em;
 }
 
 .footerNavList {
@@ -11,7 +11,7 @@ footer {
 .footerNavLink {
   margin-right: 1.3rem;
   text-decoration: none;
-  color: var(--col-link);
+  color: var(--col-gray);
 
   &:hover {
     color: var(--col-midgray);
