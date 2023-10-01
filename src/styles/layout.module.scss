@@ -55,9 +55,14 @@ h5 {
 
 p,
 date,
-li {
+li,
+button {
   font-size: var(--fs-base);
   line-height: var(--lh-base);
+}
+
+button {
+  cursor: pointer;
 }
 
 ol,
@@ -108,5 +113,40 @@ ul {
   .content {
     padding-right: 25%;
     padding-left: 25%;
+  }
+}
+
+dialog {
+  max-width: 40rem;
+  border: none;
+  padding: 2em;
+  overflow-y: scroll;
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+  }
+
+  > div:first-child {
+    text-align: right;
+    position: sticky;
+    top: 0;
+    right: 0;
+
+    button {
+      background: none;
+      border: none;
+
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  dialog {
+    margin: 1em;
   }
 }

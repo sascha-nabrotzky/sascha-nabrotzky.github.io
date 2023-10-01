@@ -2,7 +2,7 @@
 
 ## Durch auffälliges Design haben Eltern schnell Vertrauen und Kita-Plätze sind über lange Zeit im Vorraus ausgebucht
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer<br/>
 Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)

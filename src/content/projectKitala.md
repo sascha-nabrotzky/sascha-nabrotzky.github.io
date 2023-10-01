@@ -2,7 +2,7 @@
 
 ## Tagesmütter werden durch das gelungene Design professioneller wahrgenommen und bei Entscheidungen in der Gemeinde mit einbezogen
 
-<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer | Illustrator<br/>Technologien: React | SCSS | HTML5</p>
+<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer | Illustrator<br/>Technologien: React | SCSS | HTML5</p>
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 

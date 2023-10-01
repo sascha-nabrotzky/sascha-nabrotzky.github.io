@@ -2,7 +2,7 @@
 
 ## 30% Umsatzsteigerung durch Optimierung in allen Bereichen des Online-Shops
 
-<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
+<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
 

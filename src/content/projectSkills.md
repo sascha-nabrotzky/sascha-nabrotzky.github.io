@@ -2,7 +2,7 @@
 
 ## Skillset und Erfahrungen sind schnell erfassbar und werden jetzt leichter verstanden
 
-<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>Technologien: React | Gatsby | SCSS</p>
+<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer<br/>Technologien: React | Gatsby | SCSS</p>
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 

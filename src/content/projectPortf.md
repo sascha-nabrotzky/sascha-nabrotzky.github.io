@@ -2,7 +2,7 @@
 
 ## Professionelles Auffallen durch optimierte Portfolioseite und weiterer Online-Präsenzen
 
-<p style="font-size: var(--fs-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
+<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer<br/>
 Technologien: React.js | Gatsby.js | SCSS | GraphQL</p>
 
 ![Neustart in Richtung Programmieren](../images/WebsiteMockup_UIUXDesign.jpg)

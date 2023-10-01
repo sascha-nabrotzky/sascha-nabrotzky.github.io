@@ -4,61 +4,103 @@ import Layout from "../components/Layout"
 import TimeLine from "../components/TimeLine"
 import TypewriterText from "../components/TypewriterText"
 import socMedImg from "../images/socMedImg.jpg"
+import CloseIcon from "../icons/close.svg"
+import * as styles from "../styles/index.module.scss"
 
-const Home = () => {
+const Index = () => {
+  const modalRef1 = React.useRef(null)
+
+  const openModal1 = () => {
+    if (modalRef1.current != null) {
+      modalRef1.current.showModal()
+    }
+  }
+  const closeModal1 = () => {
+    if (modalRef1.current != null) {
+      modalRef1.current.close()
+    }
+  }
+
   return (
-    <Layout>
-      <h1>
-        Design und Programmierung von gut geplanten und grafisch auffallenden
-        Websites
-      </h1>
-      <TypewriterText text="Viele Anmeldungen durch gelungene Umsetzung der Kita-Website" />
-      <p>
-        Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
-        Kindern lebe ich im ländlichen Ladbergen. Als{" "}
-        <strong>UX-Engineer</strong> mit Schwerpunkt auf{" "}
-        <strong>Frontend-Entwicklung</strong> und <strong>UI/UX-Design</strong>{" "}
-        habe ich umfangreiche Erfahrung in der Gestaltung und Entwicklung
-        responsiver Apps und PWAs für die Steuerung von Saunen, Küchen- und
-        Kassensystemen per Touchscreen und Tablet.
-      </p>
+    <>
+      <Layout>
+        <h1>
+          Design und Programmierung von gut geplanten und grafisch auffallenden
+          Websites
+        </h1>
+        <TypewriterText text="Viele Anmeldungen durch gelungene Umsetzung der Kita-Website" />
+        <div className={styles.portfolioImageWrapper}>
+          <img
+            src="https://placehold.co/800x300"
+            alt="random"
+            className={styles.portfolioImage}
+          />
+          <button onClick={openModal1} className={styles.openModalBtn}>
+            Mehr Infos
+          </button>
+        </div>
+        <p>
+          <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
+          mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional
+          als auch ästhetisch ansprechend sind. Ich bin stets bestrebt, die
+          neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
+          Produkte zu schaffen, die die{" "}
+          <strong>Erwartungen der Benutzer übertreffen.</strong>
+          <br />
+          <br />
+        </p>
 
-      <p>
-        Meine Fähigkeiten umfassen die Entwicklung von{" "}
-        <strong>interaktiven Highfidelity-Prototypen</strong> sowie die{" "}
-        <strong>Optimierung der Nutzererfahrung</strong> in einem
-        interdisziplinären Team. In meiner Rolle als Frontend-Entwickler habe
-        ich maßgeschneiderte Lösungen entwickelt, um sicherzustellen, dass die
-        Benutzeroberflächen reibungslos funktionieren und auf verschiedenen
-        Geräten und Bildschirmgrößen optimal angezeigt werden. Dabei habe ich
-        moderne Technologien wie{" "}
-        <strong>HTML, CSS, JavaScript und React</strong> eingesetzt, um
-        ansprechende und benutzerfreundliche Apps zu erstellen.
-      </p>
-      <p>
-        Darüber hinaus habe ich umfangreiche Erfahrung im UI/UX-Design
-        gesammelt. Ich habe interaktive Highfidelity-Prototypen erstellt, um das
-        Designkonzept zu visualisieren und die Benutzererfahrung zu optimieren.
-        Dabei habe ich eng mit einem interdisziplinären Team zusammengearbeitet,
-        um sicherzustellen, dass das Design den Anforderungen der Benutzer
-        entspricht und gleichzeitig die Geschäftsziele unterstützt. Dabei setze
-        ich auch auf <strong>KI-gestützte User-Research,</strong> um die
-        Bedürfnisse der Nutzer optimal zu verstehen.
-      </p>
-      <p>
-        <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
-        mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional
-        als auch ästhetisch ansprechend sind. Ich bin stets bestrebt, die
-        neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
-        Produkte zu schaffen, die die{" "}
-        <strong>Erwartungen der Benutzer übertreffen.</strong>
-      </p>
-      <TimeLine />
-    </Layout>
+        <TimeLine />
+      </Layout>
+
+      <dialog ref={modalRef1}>
+        <div>
+          <button onClick={closeModal1}>
+            <img src={CloseIcon} alt="close icon" />
+          </button>
+        </div>
+        <div>
+          <p>
+            Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
+            Kindern lebe ich im ländlichen Ladbergen. Als{" "}
+            <strong>UX-Engineer</strong> mit Schwerpunkt auf{" "}
+            <strong>Frontend-Entwicklung</strong> und{" "}
+            <strong>UI/UX-Design</strong> habe ich umfangreiche Erfahrung in der
+            Gestaltung und Entwicklung responsiver Apps und PWAs für die
+            Steuerung von Saunen, Küchen- und Kassensystemen per Touchscreen und
+            Tablet.
+          </p>
+
+          <p>
+            Meine Fähigkeiten umfassen die Entwicklung von{" "}
+            <strong>interaktiven Highfidelity-Prototypen</strong> sowie die{" "}
+            <strong>Optimierung der Nutzererfahrung</strong> in einem
+            interdisziplinären Team. In meiner Rolle als Frontend-Entwickler
+            habe ich maßgeschneiderte Lösungen entwickelt, um sicherzustellen,
+            dass die Benutzeroberflächen reibungslos funktionieren und auf
+            verschiedenen Geräten und Bildschirmgrößen optimal angezeigt werden.
+            Dabei habe ich moderne Technologien wie{" "}
+            <strong>HTML, CSS, JavaScript und React</strong> eingesetzt, um
+            ansprechende und benutzerfreundliche Apps zu erstellen.
+          </p>
+          <p>
+            Darüber hinaus habe ich umfangreiche Erfahrung im UI/UX-Design
+            gesammelt. Ich habe interaktive Highfidelity-Prototypen erstellt, um
+            das Designkonzept zu visualisieren und die Benutzererfahrung zu
+            optimieren. Dabei habe ich eng mit einem interdisziplinären Team
+            zusammengearbeitet, um sicherzustellen, dass das Design den
+            Anforderungen der Benutzer entspricht und gleichzeitig die
+            Geschäftsziele unterstützt. Dabei setze ich auch auf{" "}
+            <strong>KI-gestützte User-Research,</strong> um die Bedürfnisse der
+            Nutzer optimal zu verstehen.
+          </p>
+        </div>
+      </dialog>
+    </>
   )
 }
 
-export default Home
+export default Index
 
 export const Head = () => {
   const data = useStaticQuery(graphql`

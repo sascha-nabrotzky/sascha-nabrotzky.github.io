@@ -2,7 +2,7 @@
 
 ## Verdoppeltes Spendengeld von 10000 € für guten Zweck gesammelt
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-link)">Meine Rolle: UX-Engineer<br/>
+<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer<br/>
 Technologien: HTML5 | CSS3 | JavaScript</p>
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
