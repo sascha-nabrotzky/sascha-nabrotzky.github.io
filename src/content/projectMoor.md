@@ -1,6 +1,6 @@
 ##### Das Erscheinungsbild musste bei allen Touchpoints flüssig und eingängig funktionieren und professionell wirken, um die Spendengelder zu maximieren.
 
-## Verdoppeltes Spendengeld von 10000 € für guten Zweck gesammelt
+## Verdoppeltes Spendengeld von 10.000 € für guten Zweck gesammelt
 
 <p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer<br/>
 Technologien: HTML5 | CSS3 | JavaScript</p>
