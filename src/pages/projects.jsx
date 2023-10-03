@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
+import Sidemenu from "../components/Sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
 import GithubProjects from "../components/GithubProjects"
 import * as styles from "../styles/projects.module.scss"
@@ -24,9 +25,13 @@ const Projects = () => {
       <Layout>
         <h1>Meine Projekte</h1>
         <section>
-          {data.allMarkdownRemark.edges.map(edge => {
+          {data.allMarkdownRemark.edges.map((edge, index) => {
             return (
-              <div className={styles.projects} key={edge.node.id.toString()}>
+              <div
+                className={styles.projects}
+                key={edge.node.id.toString()}
+                id={index}
+              >
                 <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
                 <p className={styles.points}>&bull; &bull; &bull;</p>
               </div>
@@ -35,6 +40,7 @@ const Projects = () => {
         </section>
 
         <GithubProjects />
+        <Sidemenu />
       </Layout>
     </>
   )

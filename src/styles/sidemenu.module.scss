@@ -3,28 +3,22 @@
   position: fixed;
   bottom: calc(50vh - (var(--sidemenu-height) / 2));
   left: 0;
-  padding-left: 0;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  background-color: rgba(var(--col-white-rgb), 0.5);
+  border-radius: 0 0.3rem 0.3rem 0;
   max-width: 11rem;
   --fs-base: 1rem;
   --lh-base: 1.3rem;
-  --sidemenu-height: 611px;
+  --sidemenu-height: 482px;
 
   @media screen and (min-width: 1200px) {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 
-.sidemenuHeader {
-  background-color: rgba(var(--col-white-rgb), 0.5);
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
-}
-
-.menuitem {
-  background-color: rgba(var(--col-white-rgb), 0.5);
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
-}
-
-.menulink {
+.menuLink {
   transition: 0.3s ease-in-out;
   text-decoration: none;
   color: var(--col-gray);
