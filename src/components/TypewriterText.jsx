@@ -3,7 +3,6 @@ import * as style from "../styles/typewritertext.module.scss"
 
 const TypewriterText = props => {
   const typewriterDiv = useRef(null)
-  console.log(typewriterDiv)
 
   useEffect(() => {
     let i = 0
