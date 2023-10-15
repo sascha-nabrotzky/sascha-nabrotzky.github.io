@@ -3,6 +3,7 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import { ReactComponent as LinkedInLogo } from "../icons/LinkedIn-Logo.svg"
 import { ReactComponent as XingLogo } from "../icons/Xing-Logo.svg"
 import { ReactComponent as MailIcon } from "../icons/mail-icon.svg"
+import { ReactComponent as GithubLogo } from "../icons/github-logo.svg"
 import * as styles from "../styles/header.module.css"
 
 function Header() {
@@ -70,6 +71,14 @@ function Header() {
             rel="noreferrer"
           >
             <XingLogo className={styles.socialmediaLogo} />
+          </a>
+          <a
+            href="https://github.com/sascha-nabrotzky"
+            className={styles.socialmediaLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GithubLogo className={styles.socialmediaLogo} />
           </a>
           <a
             className={styles.socialmediaLink}
