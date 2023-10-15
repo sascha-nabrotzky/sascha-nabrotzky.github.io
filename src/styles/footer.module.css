@@ -12,10 +12,10 @@ footer {
   margin-right: 1.3rem;
   text-decoration: none;
   color: var(--col-gray);
+}
 
-  &:hover {
-    color: var(--col-midgray);
-  }
+.footerNavLink:hover {
+  color: var(--col-midgray);
 }
 
 .activeFooterNavLink {

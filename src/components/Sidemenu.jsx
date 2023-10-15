@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import * as styles from "../styles/sidemenu.module.scss"
+import * as styles from "../styles/sidemenu.module.css"
 
 function Sidemenu() {
   const [headlines, setHeadlines] = useState([])

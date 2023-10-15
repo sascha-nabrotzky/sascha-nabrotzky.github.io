@@ -1,0 +1,66 @@
+.herocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    -45deg,
+    var(--col-orange),
+    var(--col-magenta),
+    var(--col-blue),
+    var(--col-green)
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.overflowcontainer {
+  margin-bottom: -4em;
+  overflow: hidden;
+}
+
+.overflowcontainer p {
+  text-transform: uppercase;
+  color: var(--col-white);
+  font-size: 13vw;
+  font-weight: 400;
+  margin: 0;
+  animation: TextFlowIn 1s;
+  line-height: 1.2;
+}
+
+@keyframes TextFlowIn {
+  0% {
+    transform: translateY(3em) rotate(18deg);
+  }
+  50% {
+    transform: translateY(3em) rotate(18deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .overflowcontainer {
+    margin-bottom: -0.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .herocontainer div:last-child {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+}

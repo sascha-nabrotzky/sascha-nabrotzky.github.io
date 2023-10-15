@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import * as style from "../styles/line-svg.module.scss"
+import * as style from "../styles/line-svg.module.css"
 
 function SvgAnimation() {
   const length = 2183.94189453125

@@ -1,15 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
-import * as footerStyles from "../styles/footer.module.scss"
+import * as styles from "../styles/footer.module.css"
 
 function Footer() {
   return (
     <footer>
-      <ul className={footerStyles.footerNavList}>
+      <ul className={styles.footerNavList}>
         <li>
           <Link
-            className={footerStyles.footerNavLink}
-            activeClassName={footerStyles.activeFooterNavLink}
+            className={styles.footerNavLink}
+            activeClassName={styles.activeFooterNavLink}
             to="/impressum"
           >
             Impressum
@@ -17,8 +17,8 @@ function Footer() {
         </li>
         <li>
           <Link
-            className={footerStyles.footerNavLink}
-            activeClassName={footerStyles.activeFooterNavLink}
+            className={styles.footerNavLink}
+            activeClassName={styles.activeFooterNavLink}
             to="/datenschutz"
           >
             Datenschutz

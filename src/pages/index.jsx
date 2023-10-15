@@ -5,7 +5,7 @@ import TimeLine from "../components/TimeLine"
 import TypewriterText from "../components/TypewriterText"
 import socMedImg from "../images/socMedImg.jpg"
 import CloseIcon from "../icons/close.svg"
-import * as styles from "../styles/index.module.scss"
+import * as styles from "../styles/index.module.css"
 
 function Index() {
   const modalRef1 = React.useRef(null)

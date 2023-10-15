@@ -15,7 +15,7 @@ import logoUX from "../icons/ux-design.svg"
 import logoUI from "../icons/ui-design.svg"
 import logoUXResearch from "../icons/ux-research.svg"
 import logoUbuntu from "../icons/Ubuntu-Logo_weiss.svg"
-import * as style from "../styles/skills.module.scss"
+import * as style from "../styles/skills.module.css"
 
 function SkillsSections() {
   return (
@@ -23,7 +23,7 @@ function SkillsSections() {
       <div className={style.logosMain}>
         <h2 className={style.headline}>Web-Entwicklung</h2>
         <div className={style.skill}>
-          <img src={logoCSS3} title="CSS3" alt="CSS3-Logo" loading="lazy"></img>
+          <img src={logoCSS3} title="CSS3" alt="CSS3-Logo" loading="lazy" />
           <p className={style.rating}>
             CSS3
             <br />

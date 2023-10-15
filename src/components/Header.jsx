@@ -3,7 +3,7 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import LinkedInLogo from "../icons/LinkedIn-Logo.svg"
 import XingLogo from "../icons/Xing-Logo.svg"
 import MailIcon from "../icons/mail-icon.svg"
-import * as styles from "../styles/header.module.scss"
+import * as styles from "../styles/header.module.css"
 
 function Header() {
   const data = useStaticQuery(graphql`

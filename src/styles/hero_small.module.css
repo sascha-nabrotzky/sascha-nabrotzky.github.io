@@ -11,17 +11,17 @@
   );
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
+}
 
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
@@ -30,12 +30,16 @@
   letter-spacing: 2px;
   color: var(--col-white);
   font-weight: 400;
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .heroSmallHeading {
     font-size: 2rem;
     margin-block: 1.5rem;
   }
-  @media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+  .heroSmallHeading {
     font-size: 3rem;
     margin-block: 3rem;
   }

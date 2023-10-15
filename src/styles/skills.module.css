@@ -1,3 +1,7 @@
+.wrapper {
+  margin-top: 2rem;
+}
+
 .logosMain {
   display: grid;
   justify-items: center;
@@ -6,40 +10,40 @@
   background-image: linear-gradient(45deg, var(--col-blue), var(--col-green));
   padding: 1rem;
   gap: 1.5rem;
+}
 
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
+  .logosMain {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  @media screen and (min-width: 577px) {
+}
+@media screen and (min-width: 577px) {
+  .logosMain {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  @media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+  .logosMain {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-  @media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1024px) {
+  .logosMain {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-
-  img {
-    max-width: 11rem;
-    height: 4rem;
-
-    &[alt="Npm-Logo"] {
-      max-width: 4.375rem;
-    }
-    &[alt="TYPO3-Logo"] {
-      max-width: 9rem;
-    }
-  }
 }
 
-.wrapper {
-  margin-top: 2rem;
+.logosMain img {
+  max-width: 11rem;
+  height: 4rem;
 }
 
-.skill {
-  display: grid;
-  justify-items: center;
+.logosMain img[alt="Npm-Logo"] {
+  max-width: 4.375rem;
+}
+
+.logosMain img[alt="TYPO3-Logo"] {
+  max-width: 9rem;
 }
 
 .headline {
@@ -51,6 +55,11 @@
   height: 100%;
   text-align: center;
   color: var(--col-white);
+}
+
+.skill {
+  display: grid;
+  justify-items: center;
 }
 
 .rating {

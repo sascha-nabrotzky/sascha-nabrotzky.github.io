@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import * as styles from "../styles/timeline.module.scss"
+import * as styles from "../styles/timeline.module.css"
 import TimeLineJSON from "../content/timeline.json"
 
 function TimeLine() {

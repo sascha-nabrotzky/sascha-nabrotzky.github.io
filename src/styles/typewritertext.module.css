@@ -1,0 +1,59 @@
+.typewriter {
+  font-family: var(--ff-sans-cond);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.typewriter::after {
+  display: inline-block;
+  transform: translateY(0.125rem);
+  margin-left: 0.8rem;
+  background-color: gray;
+  width: 0.2rem;
+  height: 3.2rem;
+  animation: blink 1s steps(2, start) infinite;
+  content: "";
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.firstQuote {
+  color: var(--col-magenta);
+}
+
+@media screen and (max-width: 576px) {
+  .typewriter {
+    line-height: 1.2;
+    font-size: 2.2rem;
+  }
+
+  .typewriter::after {
+    height: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .typewriter {
+    line-height: 1.2;
+    font-size: 3rem;
+  }
+
+  .typewriter::after {
+    height: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typewriter {
+    margin-top: 2rem;
+    font-size: 4rem;
+  }
+
+  .typewriter::after {
+    height: 3.5rem;
+  }
+}

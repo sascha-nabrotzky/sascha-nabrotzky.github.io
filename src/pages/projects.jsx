@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Sidemenu from "../components/Sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
-import * as styles from "../styles/projects.module.scss"
+import * as styles from "../styles/projects.module.css"
 
 function Projects() {
   const data = useStaticQuery(graphql`

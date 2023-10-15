@@ -1,0 +1,48 @@
+.totopbutton {
+  display: flex;
+  position: fixed;
+  right: 0.9rem;
+  bottom: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  border: none;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background-image: linear-gradient(45deg, var(--col-blue), var(--col-magenta));
+  background-position: 0% 50%;
+  background-size: 400% 400%;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  color: var(--col-white);
+}
+
+.totopbutton:hover {
+  animation: gradient 2s ease;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon {
+  background-image: url("../icons/arrow_up.svg");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.buttonHidden {
+  opacity: 0;
+  border-radius: 50%;
+  background-position: center 35%;
+}

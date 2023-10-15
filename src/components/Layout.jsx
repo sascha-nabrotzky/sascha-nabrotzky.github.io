@@ -5,7 +5,7 @@ import Header from "./Header"
 import Hero from "./Hero"
 import HeroSmall from "./HeroSmall"
 import ToTopButton from "./ToTopButton"
-import * as styles from "../styles/layout.module.scss"
+import * as styles from "../styles/global.module.css"
 
 function Layout({ children }) {
   return (
