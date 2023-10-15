@@ -10,8 +10,10 @@
   --fs-base: 1rem;
   --lh-base: 1.3rem;
   --sidemenu-height: 482px;
+}
 
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .sidemenu {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -22,8 +24,8 @@
   transition: 0.3s ease-in-out;
   text-decoration: none;
   color: var(--col-gray);
+}
 
-  &:hover {
-    color: var(--col-midgray);
-  }
+.menuLink:hover {
+  color: var(--col-midgray);
 }

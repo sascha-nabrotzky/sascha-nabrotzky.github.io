@@ -7,6 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "Sascha Nabrotzky | UX-Engineer",
+    siteUrl: "https://sascha-nabrotzky.github.io",
     description:
       "Leidenschaft für Design und Technologie - Entwicklung von innovativen Lösungen, um Produkte zu schaffen, die die Erwartungen der Benutzer übertreffen.",
     url: "https://sascha-nabrotzky.github.io/",
@@ -17,23 +18,25 @@ module.exports = {
   },
 
   plugins: [
-    `gatsby-plugin-remove-fingerprints`,
-    `gatsby-plugin-sass`,
+    "gatsby-plugin-remove-fingerprints",
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-plugin-sharp`,
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-svgr",
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          `gatsby-remark-relative-images`,
+          "gatsby-remark-relative-images",
           {
-            resolve: `gatsby-remark-images`,
+            resolve: "gatsby-remark-images",
             options: {
               maxWidth: 960,
               withWebp: true,

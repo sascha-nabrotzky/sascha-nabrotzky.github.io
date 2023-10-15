@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
-import * as style from "../styles/line-svg.module.scss"
+import * as style from "../styles/line-svg.module.css"
 
-const SvgAnimation = () => {
+function SvgAnimation() {
   const length = 2183.94189453125
   const [pathOffset, setOffset] = useState(length)
   const [currentColor, setColor] = useState("rgba(35, 166, 213, 0)")

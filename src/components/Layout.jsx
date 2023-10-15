@@ -5,9 +5,9 @@ import Header from "./Header"
 import Hero from "./Hero"
 import HeroSmall from "./HeroSmall"
 import ToTopButton from "./ToTopButton"
-import * as styles from "../styles/layout.module.scss"
+import * as styles from "../styles/global.module.css"
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Header />

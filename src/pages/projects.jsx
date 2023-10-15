@@ -3,10 +3,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Sidemenu from "../components/Sidemenu"
 import socMedImg from "../images/socMedImg.jpg"
-import GithubProjects from "../components/GithubProjects"
-import * as styles from "../styles/projects.module.scss"
+import * as styles from "../styles/projects.module.css"
 
-const Projects = () => {
+function Projects() {
   const data = useStaticQuery(graphql`
     query projectsQuery {
       allMarkdownRemark {
@@ -39,7 +38,6 @@ const Projects = () => {
           })}
         </section>
 
-        <GithubProjects />
         <Sidemenu />
       </Layout>
     </>
@@ -48,7 +46,7 @@ const Projects = () => {
 
 export default Projects
 
-export const Head = () => {
+export function Head() {
   return (
     <>
       <html lang="de" />

@@ -4,10 +4,10 @@ import Layout from "../components/Layout"
 import TimeLine from "../components/TimeLine"
 import TypewriterText from "../components/TypewriterText"
 import socMedImg from "../images/socMedImg.jpg"
-import CloseIcon from "../icons/close.svg"
-import * as styles from "../styles/index.module.scss"
+import { ReactComponent as CloseIcon } from "../icons/close.svg"
+import * as styles from "../styles/index.module.css"
 
-const Index = () => {
+function Index() {
   const modalRef1 = React.useRef(null)
 
   const openModal1 = () => {
@@ -36,7 +36,7 @@ const Index = () => {
             className={styles.portfolioImage}
           />
           <button onClick={openModal1} className={styles.openModalBtn}>
-            Mehr Infos
+            Mehr über mich ...
           </button>
         </div>
         <p>
@@ -56,7 +56,7 @@ const Index = () => {
       <dialog ref={modalRef1}>
         <div>
           <button onClick={closeModal1}>
-            <img src={CloseIcon} alt="close icon" />
+            <CloseIcon />
           </button>
         </div>
         <div>
@@ -102,7 +102,7 @@ const Index = () => {
 
 export default Index
 
-export const Head = () => {
+export function Head() {
   const data = useStaticQuery(graphql`
     query SEOQuery {
       site {
