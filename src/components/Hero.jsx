@@ -1,7 +1,7 @@
 import React from "react"
 import * as heroStyles from "../styles/hero.module.scss"
 
-const Hero = () => {
+function Hero() {
   const textFirstLine = ["User-Experience", "Frontend-", "Grafik /"]
   const textSecondLine = ["Engineer", "Entwicklung", "Illustration"]
 

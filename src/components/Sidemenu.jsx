@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import * as styles from "../styles/sidemenu.module.scss"
 
-const Sidemenu = () => {
+function Sidemenu() {
   const [headlines, setHeadlines] = useState([])
 
   useEffect(() => {

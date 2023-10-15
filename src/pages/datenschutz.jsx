@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-const Impressum = () => {
+function Impressum() {
   return (
     <Layout>
       <h1>Datenschutzerklärung</h1>
@@ -760,7 +760,7 @@ const Impressum = () => {
 
 export default Impressum
 
-export const Head = () => {
+export function Head() {
   return (
     <>
       <title>Datenschutz | Sascha Nabrotzky</title>

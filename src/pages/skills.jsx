@@ -4,7 +4,7 @@ import SkillsSections from "../components/SkillsSections"
 import socMedImg from "../images/socMedImg.jpg"
 import SvgAnimation from "../components/SvgAnimation"
 
-const Skills = () => {
+function Skills() {
   return (
     <Layout>
       <h1>Never stop learning!</h1>
@@ -19,7 +19,7 @@ const Skills = () => {
   )
 }
 
-export const Head = () => {
+export function Head() {
   return (
     <>
       <title>Skills | Sascha Nabrotzky</title>

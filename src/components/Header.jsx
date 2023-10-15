@@ -5,7 +5,7 @@ import XingLogo from "../icons/Xing-Logo.svg"
 import MailIcon from "../icons/mail-icon.svg"
 import * as styles from "../styles/header.module.scss"
 
-const Header = () => {
+function Header() {
   const data = useStaticQuery(graphql`
     query MyQuery {
       site {

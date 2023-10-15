@@ -12,7 +12,7 @@ export default function About() {
   )
 }
 
-export const Head = () => {
+export function Head() {
   return (
     <>
       <title>404 | Sascha Nabrotzky</title>

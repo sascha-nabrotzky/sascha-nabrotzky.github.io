@@ -7,7 +7,7 @@ import socMedImg from "../images/socMedImg.jpg"
 import CloseIcon from "../icons/close.svg"
 import * as styles from "../styles/index.module.scss"
 
-const Index = () => {
+function Index() {
   const modalRef1 = React.useRef(null)
 
   const openModal1 = () => {
@@ -102,7 +102,7 @@ const Index = () => {
 
 export default Index
 
-export const Head = () => {
+export function Head() {
   const data = useStaticQuery(graphql`
     query SEOQuery {
       site {

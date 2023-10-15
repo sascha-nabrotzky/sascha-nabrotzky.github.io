@@ -6,7 +6,7 @@ import socMedImg from "../images/socMedImg.jpg"
 import GithubProjects from "../components/GithubProjects"
 import * as styles from "../styles/projects.module.scss"
 
-const Projects = () => {
+function Projects() {
   const data = useStaticQuery(graphql`
     query projectsQuery {
       allMarkdownRemark {
@@ -39,7 +39,6 @@ const Projects = () => {
           })}
         </section>
 
-        <GithubProjects />
         <Sidemenu />
       </Layout>
     </>
@@ -48,7 +47,7 @@ const Projects = () => {
 
 export default Projects
 
-export const Head = () => {
+export function Head() {
   return (
     <>
       <html lang="de" />

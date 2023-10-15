@@ -17,7 +17,7 @@ import logoUXResearch from "../icons/ux-research.svg"
 import logoUbuntu from "../icons/Ubuntu-Logo_weiss.svg"
 import * as style from "../styles/skills.module.scss"
 
-const SkillsSections = () => {
+function SkillsSections() {
   return (
     <div className={style.wrapper}>
       <div className={style.logosMain}>

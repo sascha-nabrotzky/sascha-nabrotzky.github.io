@@ -4,7 +4,7 @@ import "../../node_modules/tiny-slider/src/tiny-slider.scss"
 import "../styles/tiny-slider_custom.scss"
 import * as gitProjectStyles from "../styles/githubprojects.module.scss"
 
-const GithubProjects = () => {
+function GithubProjects() {
   let [data, setData] = useState(null) //data auf null setzen, danach mit Funkt. setData die commits fetchen und Projektdaten mappen
 
   useEffect(() => {
