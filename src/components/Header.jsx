@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import LinkedInLogo from "../icons/LinkedIn-Logo.svg"
-import XingLogo from "../icons/Xing-Logo.svg"
-import MailIcon from "../icons/mail-icon.svg"
+import { ReactComponent as LinkedInLogo } from "../icons/LinkedIn-Logo.svg"
+import { ReactComponent as XingLogo } from "../icons/Xing-Logo.svg"
+import { ReactComponent as MailIcon } from "../icons/mail-icon.svg"
 import * as styles from "../styles/header.module.css"
 
 function Header() {
@@ -61,11 +61,7 @@ function Header() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src={LinkedInLogo}
-              alt="LinkedIn-Logo"
-              className={styles.socialmediaLogo}
-            />
+            <LinkedInLogo className={styles.socialmediaLogo} />
           </a>
           <a
             href="https://www.xing.com/profile/Sascha_Nabrotzky/cv"
@@ -73,11 +69,7 @@ function Header() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src={XingLogo}
-              alt="Xing-Logo"
-              className={styles.socialmediaLogo}
-            />
+            <XingLogo className={styles.socialmediaLogo} />
           </a>
           <a
             className={styles.socialmediaLink}
@@ -85,11 +77,7 @@ function Header() {
             alt={`E-Mail an Sascha senden`}
             onClick={addMail}
           >
-            <img
-              src={MailIcon}
-              alt="mail icon"
-              className={styles.socialmediaLogo}
-            />
+            <MailIcon className={styles.socialmediaLogo} />
           </a>
         </nav>
         <nav className={styles.navList}>

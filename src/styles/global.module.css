@@ -198,7 +198,7 @@ dialog button {
   border: none;
 }
 
-dialog button img {
+dialog button svg {
   width: 1.5rem;
   height: 1.5rem;
 }

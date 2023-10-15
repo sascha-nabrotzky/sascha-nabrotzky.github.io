@@ -28,6 +28,7 @@
   margin-right: 2em;
   text-decoration: none;
 }
+
 .logo p {
   font-family: var(--ff-sans-cond);
   font-style: italic;
@@ -124,6 +125,7 @@
   .navList {
     gap: 1rem;
   }
+
   .navList:last-of-type {
     margin-right: auto;
     padding-right: unset;
@@ -152,6 +154,10 @@
 .socialmediaLink {
   transition: opacity 0.3s ease-in-out;
   opacity: 0.4;
+}
+
+.socialmediaLink svg {
+  color: var(--col-darkgray);
 }
 
 .socialmediaLink:hover {

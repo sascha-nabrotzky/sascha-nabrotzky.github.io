@@ -33,17 +33,10 @@
   }
 }
 
-.logosMain img {
+.logosMain svg {
   max-width: 11rem;
   height: 4rem;
-}
-
-.logosMain img[alt="Npm-Logo"] {
-  max-width: 4.375rem;
-}
-
-.logosMain img[alt="TYPO3-Logo"] {
-  max-width: 9rem;
+  color: white;
 }
 
 .headline {

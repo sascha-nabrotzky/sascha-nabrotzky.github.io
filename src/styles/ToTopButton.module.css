@@ -35,7 +35,7 @@
 }
 
 .icon {
-  background-image: url("../icons/arrow_up.svg");
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNi42MjggMTQuOTIzIj48cGF0aCBkPSJtMjYuNjI4IDEzLjMxNS0xLjYwOCAxLjYwOEwxMy4zMTQgMy4yMTcgMS42MDggMTQuOTIzIDAgMTMuMzE1IDEzLjMxNCAwWiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==);
   background-repeat: no-repeat;
   width: 1.5rem;
   height: 1rem;

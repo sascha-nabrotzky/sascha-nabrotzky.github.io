@@ -15,22 +15,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
     "gatsby": "^5.12.5",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-config": "^1.0.7",
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-remove-fingerprints": "^0.0.2",
-    "gatsby-plugin-sass": "^6.12.0",
     "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-plugin-sitemap": "^6.12.1",
+    
     "gatsby-remark-images": "^7.12.0",
     "gatsby-remark-relative-images": "^2.0.5",
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-transformer-remark": "^6.12.0",
-    "postcss": "^8.4.31",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.68.0",
-    "tiny-slider": "^2.9.4"
+    "react-dom": "^18.2.0"
   },
   "repository": {
     "type": "git",
@@ -38,5 +37,10 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.31",
+    "gatsby-plugin-svgr": "^3.0.0-beta.0"
   }
 }
