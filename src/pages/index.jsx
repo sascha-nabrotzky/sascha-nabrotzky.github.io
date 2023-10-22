@@ -29,16 +29,6 @@ function Index() {
           Websites
         </h1>
         <TypewriterText text="Viele Anmeldungen durch gelungene Umsetzung der Kita-Website" />
-        <div className={styles.portfolioImageWrapper}>
-          <img
-            src="https://placehold.co/800x300"
-            alt="random"
-            className={styles.portfolioImage}
-          />
-          <button onClick={openModal1} className={styles.openModalBtn}>
-            Mehr über mich ...
-          </button>
-        </div>
         <p>
           <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
           mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional
@@ -46,10 +36,10 @@ function Index() {
           neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
           Produkte zu schaffen, die die{" "}
           <strong>Erwartungen der Benutzer übertreffen.</strong>
-          <br />
-          <br />
         </p>
-
+        <button onClick={openModal1} className={styles.openModalBtn}>
+          Mehr über mich ...
+        </button>
         <TimeLine />
       </Layout>
 

@@ -1,16 +1,38 @@
 .herocontainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: linear-gradient(
-    -45deg,
-    var(--col-orange),
-    var(--col-magenta),
-    var(--col-blue),
-    var(--col-green)
-  );
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  background-image: url("../images/Sascha_im_Buero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0.5rem;
+  height: 16rem;
+}
+
+@media screen and (min-width: 640px) {
+  .herocontainer {
+    height: 23rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .herocontainer {
+    height: 31rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .herocontainer {
+    height: 36rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .herocontainer {
+    height: 36rem;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .herocontainer {
+    height: 42rem;
+  }
 }
 
 @keyframes gradient {
@@ -33,11 +55,37 @@
 .overflowcontainer p {
   text-transform: uppercase;
   color: var(--col-white);
-  font-size: 13vw;
+  font-size: 3rem;
   font-weight: 400;
   margin: 0;
   animation: TextFlowIn 1s;
   line-height: 1.2;
+}
+
+@media screen and (min-width: 640px) {
+  .overflowcontainer p {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .overflowcontainer p {
+    font-size: 6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .overflowcontainer p {
+    font-size: 7rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .overflowcontainer p {
+    font-size: 8rem;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .overflowcontainer p {
+    font-size: 9rem;
+  }
 }
 
 @keyframes TextFlowIn {
