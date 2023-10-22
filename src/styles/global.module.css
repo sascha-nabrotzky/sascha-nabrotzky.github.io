@@ -120,6 +120,7 @@ button {
 
 button {
   cursor: pointer;
+  font-family: var(--ff-sans-cond);
 }
 
 ol,
@@ -131,45 +132,19 @@ ul {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
-  .content {
-    margin-top: 3rem;
-    max-width: 60rem;
-  }
 }
 
-@media screen and (max-width: 576px) {
-  .content {
-    padding-right: 1em;
-    padding-left: 1em;
-  }
+.content {
+  margin-top: 3rem;
+  margin-inline: auto;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-@media screen and (min-width: 577px) {
+@media screen and (max-width: 768px) {
   .content {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .content {
-    padding-right: 5rem;
-    padding-left: 5rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .content {
-    padding-right: 15%;
-    padding-left: 15%;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .content {
-    padding-right: 25%;
-    padding-left: 25%;
+    margin-top: 1rem;
   }
 }
 
