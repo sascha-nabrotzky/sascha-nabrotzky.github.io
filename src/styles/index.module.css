@@ -12,6 +12,9 @@
   background: none;
   border: none;
   padding: 0;
+  margin-bottom: 1.5em;
+  width: 100%;
+  text-align: center;
   color: var(--col-gray);
   text-decoration: underline;
 }

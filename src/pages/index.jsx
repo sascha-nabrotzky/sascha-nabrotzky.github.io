@@ -36,7 +36,6 @@ function Index() {
           neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
           Produkte zu schaffen, die die{" "}
           <strong>Erwartungen der Benutzer übertreffen.</strong>
-          <br />
         </p>
         <button onClick={openModal1} className={styles.openModalBtn}>
           Mehr über mich ...
