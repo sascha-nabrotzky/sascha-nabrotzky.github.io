@@ -53,7 +53,7 @@ function Index() {
           <p>
             Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
             Kindern lebe ich im ländlichen Ladbergen. Als{" "}
-            <strong>UX-Engineer</strong> mit Schwerpunkt auf{" "}
+            <strong>Webdesigner</strong> mit Schwerpunkt auf{" "}
             <strong>Frontend-Entwicklung</strong> und{" "}
             <strong>UI/UX-Design</strong> habe ich umfangreiche Erfahrung in der
             Gestaltung und Entwicklung responsiver Apps und PWAs für die
