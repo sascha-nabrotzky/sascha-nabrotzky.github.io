@@ -1,16 +1,19 @@
 import React from "react"
+import ProfileImg from "../images/Sascha_im_Buero.jpg"
 import * as styles from "../styles/hero.module.css"
 
 function Hero() {
   return (
-    <section className={styles.herocontainer}>
-      <div className={styles.overflowcontainer}>
-        <p>Webdesign /</p>
+    <>
+      <section className={styles.herocontainer}>
+        <div className={styles.overflowcontainer}>
+          <p>UX-Engineer</p>
+        </div>
+      </section>
+      <div className={styles.imgWrapper}>
+        <img src={ProfileImg} alt="Sascha Nabrotzky" />
       </div>
-      <div className={styles.overflowcontainer}>
-        <p>UX-Design</p>
-      </div>
-    </section>
+    </>
   )
 }
 
