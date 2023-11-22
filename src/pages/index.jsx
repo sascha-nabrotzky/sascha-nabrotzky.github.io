@@ -28,7 +28,7 @@ function Index() {
           Design und Programmierung von gut geplanten und grafisch auffallenden
           Websites
         </h1>
-        <TypewriterText text="Viele Anmeldungen durch gelungene Umsetzung der Kita-Website" />
+        <TypewriterText text="Hohes Anfragevolumen durch gelungene Umsetzung der Kita-Website" />
         <p>
           <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
           mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional

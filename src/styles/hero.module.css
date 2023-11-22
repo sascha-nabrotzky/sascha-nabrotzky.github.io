@@ -1,79 +1,64 @@
 .herocontainer {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/Sascha_im_Buero.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-left: 0.5rem;
+  background: linear-gradient(
+    -45deg,
+    var(--col-orange),
+    var(--col-magenta),
+    var(--col-blue),
+    var(--col-green)
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  padding-inline: 0.5rem;
   height: 16rem;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (min-width: 640px) {
   .herocontainer {
     height: 23rem;
+    padding-left: 1.5rem;
   }
 }
 @media screen and (min-width: 768px) {
   .herocontainer {
-    height: 31rem;
+    height: 25rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .herocontainer {
-    height: 36rem;
+    height: 29rem;
   }
 }
 @media screen and (min-width: 1280px) {
   .herocontainer {
-    height: 36rem;
-  }
-}
-@media screen and (min-width: 1536px) {
-  .herocontainer {
-    height: 42rem;
+    height: 33rem;
   }
 }
 
 .overflowcontainer {
-  margin-bottom: -4em;
   overflow: hidden;
 }
 
 .overflowcontainer p {
   text-transform: uppercase;
   color: var(--col-white);
-  font-size: 3rem;
   font-weight: 400;
-  margin: 0;
+  margin: 0.5rem;
   animation: TextFlowIn 1s;
   line-height: 1.2;
-}
-
-@media screen and (min-width: 640px) {
-  .overflowcontainer p {
-    font-size: 4rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .overflowcontainer p {
-    font-size: 6rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .overflowcontainer p {
-    font-size: 7rem;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .overflowcontainer p {
-    font-size: 8rem;
-  }
-}
-@media screen and (min-width: 1536px) {
-  .overflowcontainer p {
-    font-size: 9rem;
-  }
 }
 
 @keyframes TextFlowIn {
@@ -88,15 +73,80 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .overflowcontainer {
-    margin-bottom: -0.2rem;
+@media screen and (max-width: 639px) {
+  .overflowcontainer p {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 640px) {
+  .overflowcontainer p {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .overflowcontainer p {
+    font-size: 6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .overflowcontainer p {
+    font-size: 7rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .overflowcontainer p {
+    font-size: 10rem;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .overflowcontainer p {
+    font-size: 12rem;
   }
 }
 
-@media (min-width: 768px) {
-  .herocontainer div:last-child {
-    margin-top: 2rem;
-    margin-bottom: 0;
+.imgWrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 20rem;
+  aspect-ratio: 1;
+}
+
+.imgWrapper img {
+  height: 100%;
+}
+
+@media screen and (max-width: 639px) {
+  .imgWrapper {
+    margin-top: -11rem;
+    margin-inline: auto;
+  }
+}
+@media screen and (min-width: 640px) {
+  .imgWrapper {
+    margin-top: -16rem;
+    margin-inline: auto 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .imgWrapper {
+    margin-top: -20rem;
+    width: 27rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .imgWrapper {
+    margin-top: -22rem;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .imgWrapper {
+    width: 29rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .imgWrapper {
+    margin-top: -27rem;
+    width: 33rem;
   }
 }
