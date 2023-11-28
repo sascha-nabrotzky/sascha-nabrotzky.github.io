@@ -9,6 +9,9 @@ function Hero() {
         <div className={styles.overflowcontainer}>
           <p>UX-Engineer</p>
         </div>
+        <div className={styles.overflowcontainer}>
+          <p>Webdesign & Frontend-Entwicklung</p>
+        </div>
       </section>
       <div className={styles.imgWrapper}>
         <img src={ProfileImg} alt="Sascha Nabrotzky" />
