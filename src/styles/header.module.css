@@ -136,32 +136,27 @@
   transition: border-bottom 0.3s ease-in-out;
   border-bottom: 2px solid transparent;
   text-decoration: none;
-  color: var(--col-gray);
+  color: var(--col-midgray);
 }
 
 .navLink:hover {
   border-bottom: 2px solid var(--col-blue);
   padding-bottom: 0.5rem;
-  color: var(--col-midgray);
 }
 
 .activeNavLink {
   border-bottom: 2px solid var(--col-blue);
   padding-bottom: 0.5rem;
-  color: var(--col-link-active);
-}
-
-.socialmediaLink {
-  transition: opacity 0.3s ease-in-out;
-  opacity: 0.4;
-}
-
-.socialmediaLink svg {
   color: var(--col-darkgray);
 }
 
+.socialmediaLink {
+  transition: color 0.3s ease-in-out;
+  color: var(--col-midgray);
+}
+
 .socialmediaLink:hover {
-  opacity: 1;
+  color: var(--col-blue);
 }
 
 .socialmediaLogo {

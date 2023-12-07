@@ -14,7 +14,7 @@ function Hero() {
         </div>
       </section>
       <div className={styles.imgWrapper}>
-        <img src={ProfileImg} alt="Sascha Nabrotzky" />
+        <img src={ProfileImg} alt="Sascha Nabrotzky" width="432" height="432" />
       </div>
     </>
   )

@@ -38,12 +38,11 @@
   --col-midgray: #555;
   --col-darkgray: #333;
 
-  --col-link-active: var(--col-darkgray);
-
   --col-blue: #23a6d5;
   --col-light-blue: lighten(var(--col-blue), 35%);
   --col-magenta: #e73c7e;
   --col-green: #23d5ab;
+  --col-darkgreen: #0c6451;
   --col-orange: #ee7752;
 
   --ff-sans-cond: "Fira Sans Condensed";
@@ -135,11 +134,13 @@ ul {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   margin-top: 3rem;
   margin-inline: auto;
-  max-width: 60rem;
   padding-right: 1rem;
   padding-left: 1rem;
+  max-width: 60rem;
 }
 
 @media screen and (max-width: 768px) {
