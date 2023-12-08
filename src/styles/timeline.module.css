@@ -6,6 +6,7 @@
   max-width: 30em;
   text-align: center;
 }
+
 .timeLinePoint img {
   margin-bottom: 1em;
   border-radius: 50%;
@@ -25,7 +26,6 @@
   justify-content: center;
   transform: scale(0.5);
   transition: 1s ease-in;
-  opacity: 0.5;
   margin: 0 auto;
   border-radius: 50%;
   background-color: var(--col-darkgreen);
@@ -36,8 +36,8 @@
 }
 
 .scale {
+  background-color: var(--col-green);
   transform: scale(1);
-  opacity: 1;
 }
 
 .linie {
