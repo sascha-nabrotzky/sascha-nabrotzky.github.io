@@ -61,6 +61,8 @@ function Header() {
             className={styles.socialmediaLink}
             target="_blank"
             rel="noreferrer"
+            alt="Sascha Nabrotzky auf LinkedIn"
+            aria-label="Sascha Nabrotzky auf LinkedIn"
           >
             <LinkedInLogo className={styles.socialmediaLogo} />
           </a>
@@ -69,6 +71,8 @@ function Header() {
             className={styles.socialmediaLink}
             target="_blank"
             rel="noreferrer"
+            alt="Sascha Nabrotzky auf Xing"
+            aria-label="Sascha Nabrotzky auf Xing"
           >
             <XingLogo className={styles.socialmediaLogo} />
           </a>
@@ -77,14 +81,17 @@ function Header() {
             className={styles.socialmediaLink}
             target="_blank"
             rel="noreferrer"
+            alt="Sascha Nabrotzky auf Github"
+            aria-label="Sascha Nabrotzky auf Github"
           >
             <GithubLogo className={styles.socialmediaLogo} />
           </a>
           <a
             className={styles.socialmediaLink}
             href={`mailto:${currentMail}`}
-            alt={`E-Mail an Sascha senden`}
             onClick={addMail}
+            alt="Sascha Nabrotzky per E-Mail kontaktieren"
+            aria-label="Sascha Nabrotzky per E-Mail kontaktieren"
           >
             <MailIcon className={styles.socialmediaLogo} />
           </a>
