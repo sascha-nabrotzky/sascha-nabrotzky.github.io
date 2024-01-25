@@ -43,7 +43,7 @@ function SkillsSections() {
           <p className={style.rating}>
             Tailwind CSS
             <br />
-            ***
+            ****
           </p>
         </div>
         <div className={style.skill}>
@@ -51,7 +51,7 @@ function SkillsSections() {
           <p className={style.rating}>
             HTML5
             <br />
-            ***
+            ****
           </p>
         </div>
         <div className={style.skill}>

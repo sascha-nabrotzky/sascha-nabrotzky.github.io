@@ -16,10 +16,10 @@
   width: 3rem;
   height: 3rem;
   color: var(--col-white);
-}
 
-.totopbutton:hover {
-  animation: gradient 2s ease;
+  &:hover {
+    animation: gradient 2s ease;
+  }
 }
 
 @keyframes gradient {

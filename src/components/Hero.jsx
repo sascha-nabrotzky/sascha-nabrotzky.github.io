@@ -10,7 +10,7 @@ function Hero() {
           <p>UX-Engineer</p>
         </div>
         <div className={styles.overflowcontainer}>
-          <p>Webdesign & Frontend-Entwicklung</p>
+          <p>UI/UX-Design & Frontend-Entwicklung</p>
         </div>
       </section>
       <div className={styles.imgWrapper}>

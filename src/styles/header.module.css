@@ -27,15 +27,15 @@
   justify-content: center;
   margin-right: 2em;
   text-decoration: none;
-}
 
-.logo p {
-  font-family: var(--ff-sans-cond);
-  font-style: italic;
-  color: var(--col-midgray);
-  font-size: 2em;
-  margin: 0;
-  z-index: 2;
+  & p {
+    font-family: var(--ff-sans-cond);
+    font-style: italic;
+    color: var(--col-midgray);
+    font-size: 2em;
+    margin: 0;
+    z-index: 2;
+  }
 }
 
 .circle1 {
