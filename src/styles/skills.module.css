@@ -10,6 +10,12 @@
   background-image: linear-gradient(45deg, var(--col-blue), var(--col-green));
   padding: 1rem;
   gap: 1.5rem;
+
+  & svg {
+    max-width: 11rem;
+    height: 4rem;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -31,12 +37,6 @@
   .logosMain {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-}
-
-.logosMain svg {
-  max-width: 11rem;
-  height: 4rem;
-  color: white;
 }
 
 .headline {

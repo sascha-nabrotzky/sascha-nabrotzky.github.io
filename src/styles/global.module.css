@@ -155,28 +155,28 @@ dialog {
   border: none;
   padding: 2em;
   overflow-y: scroll;
-}
 
-dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
-}
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+  }
 
-dialog > div:first-child {
-  text-align: right;
-  position: sticky;
-  top: 0;
-  right: 0;
-}
+  & > div:first-child {
+    text-align: right;
+    position: sticky;
+    top: 0;
+    right: 0;
+  }
 
-dialog button {
-  background: none;
-  border: none;
-}
+  & button {
+    background: none;
+    border: none;
 
-dialog button svg {
-  width: 1.5rem;
-  height: 1.5rem;
+    & svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {

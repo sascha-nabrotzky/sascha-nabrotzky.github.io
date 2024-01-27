@@ -5,15 +5,15 @@
   margin: 0 auto;
   max-width: 30em;
   text-align: center;
-}
 
-.timeLinePoint img {
-  margin-bottom: 1em;
-  border-radius: 50%;
-}
+  & img {
+    margin-bottom: 1em;
+    border-radius: 50%;
+  }
 
-.timeLinePoint p {
-  text-align: center;
+  & p {
+    text-align: center;
+  }
 }
 
 .headline {
