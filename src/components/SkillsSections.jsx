@@ -15,6 +15,7 @@ import { ReactComponent as LogoUX } from "../icons/ux-design.svg"
 import { ReactComponent as LogoUI } from "../icons/ui-design.svg"
 import { ReactComponent as LogoUXResearch } from "../icons/ux-research.svg"
 import { ReactComponent as LogoUbuntu } from "../icons/Ubuntu-Logo_weiss.svg"
+import { ReactComponent as LogoTypo3 } from "../icons/typo3-logo.svg"
 import * as style from "../styles/skills.module.css"
 
 function SkillsSections() {
@@ -66,6 +67,14 @@ function SkillsSections() {
           <LogoReact />
           <p className={style.rating}>
             React.js
+            <br />
+            **
+          </p>
+        </div>
+        <div className={style.skill}>
+          <LogoTypo3 />
+          <p className={style.rating}>
+            TYPO3 CMS
             <br />
             **
           </p>
