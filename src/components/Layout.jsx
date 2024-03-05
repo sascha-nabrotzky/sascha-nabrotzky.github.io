@@ -7,7 +7,7 @@ import HeroSmall from "./HeroSmall"
 import ToTopButton from "./ToTopButton"
 import * as styles from "../styles/global.module.css"
 
-function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
       <Header />

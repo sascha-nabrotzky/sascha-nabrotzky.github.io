@@ -6,7 +6,7 @@ import { ReactComponent as MailIcon } from "../icons/mail-icon.svg"
 import { ReactComponent as GithubLogo } from "../icons/github-logo.svg"
 import * as styles from "../styles/header.module.css"
 
-function Header() {
+const Header = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
       site {

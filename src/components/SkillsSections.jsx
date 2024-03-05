@@ -18,7 +18,7 @@ import { ReactComponent as LogoUbuntu } from "../icons/Ubuntu-Logo_weiss.svg"
 import { ReactComponent as LogoTypo3 } from "../icons/typo3-logo.svg"
 import * as style from "../styles/skills.module.css"
 
-function SkillsSections() {
+const SkillsSections = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.logosMain}>

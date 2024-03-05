@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import * as styles from "../styles/ToTopButton.module.css"
 
-function ToTopButton() {
+const ToTopButton = () => {
   const [currentClass, setClass] = useState(`${styles.buttonHidden}`)
 
   useEffect(() => {

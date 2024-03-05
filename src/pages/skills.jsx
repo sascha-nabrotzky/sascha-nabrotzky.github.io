@@ -4,7 +4,7 @@ import SkillsSections from "../components/SkillsSections"
 import socMedImg from "../images/socMedImg.jpg"
 import SvgAnimation from "../components/SvgAnimation"
 
-function Skills() {
+const Skills = () => {
   return (
     <Layout>
       <h1>Never stop learning!</h1>
@@ -18,6 +18,8 @@ function Skills() {
     </Layout>
   )
 }
+
+export default Skills
 
 export function Head() {
   return (
@@ -47,5 +49,3 @@ export function Head() {
     </>
   )
 }
-
-export default Skills

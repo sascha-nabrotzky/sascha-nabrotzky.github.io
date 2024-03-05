@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as styles from "../styles/footer.module.css"
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
       <ul className={styles.footerNavList}>

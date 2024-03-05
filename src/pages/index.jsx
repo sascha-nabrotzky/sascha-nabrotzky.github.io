@@ -7,7 +7,7 @@ import socMedImg from "../images/socMedImg.jpg"
 import { ReactComponent as CloseIcon } from "../icons/close.svg"
 import * as styles from "../styles/index.module.css"
 
-function Index() {
+const Index = () => {
   const modalRef1 = React.useRef(null)
 
   const openModal1 = () => {
@@ -24,11 +24,8 @@ function Index() {
   return (
     <>
       <Layout>
-        <h1>
-          Design und Programmierung von gut geplanten und grafisch auffallenden
-          Websites
-        </h1>
-        <TypewriterText text="Hohes Anfragevolumen durch gelungene Umsetzung der Kita-Website" />
+        <h1>Webdesign und Programmierung von Websites - aus Ladbergen</h1>
+        <TypewriterText text="Ausgebuchte Kita-Plätze durch gelungene Umsetzung der Website" />
         <p>
           <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
           mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional

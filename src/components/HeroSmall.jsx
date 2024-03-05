@@ -2,7 +2,7 @@ import React from "react"
 import { Location } from "@reach/router"
 import * as style from "../styles/hero_small.module.css"
 
-function HeroSmall() {
+const HeroSmall = () => {
   return (
     <section className={style.herocontainer}>
       <Location>

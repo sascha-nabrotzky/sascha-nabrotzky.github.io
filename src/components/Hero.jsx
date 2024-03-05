@@ -2,7 +2,7 @@ import React from "react"
 import ProfileImg from "../images/Sascha_im_Buero.jpg"
 import * as styles from "../styles/hero.module.css"
 
-function Hero() {
+const Hero = () => {
   return (
     <>
       <section className={styles.herocontainer}>

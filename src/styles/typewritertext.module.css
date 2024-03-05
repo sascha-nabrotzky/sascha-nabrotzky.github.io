@@ -1,4 +1,5 @@
 .typewriter {
+  margin-bottom: 2rem;
   font-family: var(--ff-sans-cond);
   font-weight: 600;
   font-style: italic;
