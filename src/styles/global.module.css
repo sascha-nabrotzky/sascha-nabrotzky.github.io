@@ -151,7 +151,7 @@ ul {
 
 /* Dialog/Modal */
 dialog {
-  max-width: 40rem;
+  max-width: 42rem;
   border: none;
   padding: 2em;
   overflow-y: scroll;

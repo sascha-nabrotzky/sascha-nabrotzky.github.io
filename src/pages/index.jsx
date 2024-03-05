@@ -24,7 +24,7 @@ const Index = () => {
   return (
     <>
       <Layout>
-        <h1>Design und Programmierung von Websites</h1>
+        <h1>Webdesign und Programmierung von Websites - aus Ladbergen</h1>
         <TypewriterText text="Ausgebuchte Kita-Plätze durch gelungene Umsetzung der Website" />
         <p>
           <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
