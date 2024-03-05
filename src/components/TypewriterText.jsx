@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react"
 import * as style from "../styles/typewritertext.module.css"
 
-function TypewriterText(props) {
+const TypewriterText = props => {
   const typewriterDiv = useRef(null)
 
   useEffect(() => {

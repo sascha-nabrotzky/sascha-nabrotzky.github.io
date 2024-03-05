@@ -7,7 +7,7 @@ import socMedImg from "../images/socMedImg.jpg"
 import { ReactComponent as CloseIcon } from "../icons/close.svg"
 import * as styles from "../styles/index.module.css"
 
-function Index() {
+const Index = () => {
   const modalRef1 = React.useRef(null)
 
   const openModal1 = () => {

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-function Impressum() {
+const Impressum = () => {
   return (
     <Layout>
       <h2>Impressum</h2>
