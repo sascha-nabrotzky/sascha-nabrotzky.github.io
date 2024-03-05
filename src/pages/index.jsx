@@ -24,11 +24,8 @@ const Index = () => {
   return (
     <>
       <Layout>
-        <h1>
-          Design und Programmierung von gut geplanten und grafisch auffallenden
-          Websites
-        </h1>
-        <TypewriterText text="Hohes Anfragevolumen durch gelungene Umsetzung der Kita-Website" />
+        <h1>Design und Programmierung von Websites</h1>
+        <TypewriterText text="Ausgebuchte Kita-Plätze durch gelungene Umsetzung der Website" />
         <p>
           <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
           mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional

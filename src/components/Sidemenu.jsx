@@ -8,12 +8,12 @@ const Sidemenu = ({ headings }) => {
         <strong>Projektmenü</strong>
       </span>
       {headings.map((heading, index) => {
-        console.log(heading.node, index)
         return (
           <a
             href={`#${index}`}
             className={styles.menuLink}
             key={index}
+            aria-label={`Scrolle zum Projekt "${heading.node.headings[1].value}"`}
             dangerouslySetInnerHTML={{ __html: heading.node.headings[1].value }}
           ></a>
         )

@@ -18,11 +18,6 @@ const TypewriterText = props => {
     }
 
     typewriter()
-
-    // Cleanup function for useEffect
-    return () => {
-      i = text.length
-    }
   }, [props.text])
 
   return (
