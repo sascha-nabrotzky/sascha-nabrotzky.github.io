@@ -13,6 +13,9 @@ const Projects = () => {
           node {
             html
             id
+            headings {
+              value
+            }
           }
         }
       }
@@ -38,7 +41,7 @@ const Projects = () => {
           })}
         </section>
 
-        <Sidemenu />
+        <Sidemenu headings={data.allMarkdownRemark.edges} />
       </Layout>
     </>
   )
