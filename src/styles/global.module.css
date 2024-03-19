@@ -154,7 +154,7 @@ dialog {
   max-width: 42rem;
   border: none;
   padding: 2em;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   &::backdrop {
     background-color: rgba(0, 0, 0, 0.5);
