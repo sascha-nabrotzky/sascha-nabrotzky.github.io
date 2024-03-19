@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | Frontend-Entwickler & UI/UX-Designer",
+    title: "Sascha Nabrotzky | Webdesigner",
     siteUrl: "https://sascha-nabrotzky.github.io",
     description:
       "Leidenschaft für Design und Technologie - Entwicklung von innovativen Lösungen, um Produkte zu schaffen, die die Erwartungen der Benutzer übertreffen. Webdesign aus Ladbergen im Münsterland.",
