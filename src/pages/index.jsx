@@ -24,10 +24,7 @@ const Index = () => {
   return (
     <>
       <Layout>
-        <h1>
-          Design-Entwicklung und Programmierung von Websites aus dem Münsterland
-          in Ladbergen
-        </h1>
+        <h1>Design-Entwicklung und Programmierung von Websites</h1>
         <TypewriterText text="Ausgebuchte Kita-Plätze durch gelungene Umsetzung der Website" />
         <p>
           <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
