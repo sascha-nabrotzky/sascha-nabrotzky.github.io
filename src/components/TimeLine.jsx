@@ -3,26 +3,26 @@ import * as styles from "../styles/timeline.module.css"
 import TimeLineJSON from "../content/timeline.json"
 
 const TimeLine = () => {
-  useEffect(() => {
-    let options = {
-      root: null,
-      rootMargin: "-100px 0px -100px 0px",
-      threshold: 1,
-    }
+  // useEffect(() => {
+  //   let options = {
+  //     root: null,
+  //     rootMargin: "-100px 0px -100px 0px",
+  //     threshold: 1,
+  //   }
 
-    let callback = entries => {
-      entries.forEach(entry => {
-        entry.target.classList.toggle(`${styles.scale}`, entry.isIntersecting)
-      })
-    }
+  //   let callback = entries => {
+  //     entries.forEach(entry => {
+  //       entry.target.classList.toggle(`${styles.scale}`, entry.isIntersecting)
+  //     })
+  //   }
 
-    let targets = document.querySelectorAll(`.${styles.circle}`)
-    let observer = new IntersectionObserver(callback, options)
+  //   let targets = document.querySelectorAll(`.${styles.circle}`)
+  //   let observer = new IntersectionObserver(callback, options)
 
-    targets.forEach(target => {
-      observer.observe(target)
-    })
-  }, [])
+  //   targets.forEach(target => {
+  //     observer.observe(target)
+  //   })
+  // }, [])
 
   return (
     <>
