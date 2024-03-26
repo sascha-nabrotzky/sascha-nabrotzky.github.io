@@ -7,10 +7,10 @@ const Hero = () => {
     <>
       <section className={styles.herocontainer}>
         <div className={styles.overflowcontainer}>
-          <p>Webdesigner</p>
+          <p>UX-Engineer</p>
         </div>
         <div className={styles.overflowcontainer}>
-          <p>Entwicklung & Programmierung</p>
+          <p>Frontend-Entwicklung & Webdesign</p>
         </div>
       </section>
       <div className={styles.imgWrapper}>
