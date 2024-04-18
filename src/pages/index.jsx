@@ -32,7 +32,8 @@ const Index = () => {
           als auch ästhetisch ansprechend sind. Ich bin stets bestrebt, die
           neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
           Produkte zu schaffen, die die{" "}
-          <strong>Erwartungen der Benutzer übertreffen.</strong>
+          <strong>Erwartungen der Benutzer übertreffen.</strong> Webdesign und
+          Grafiken aus Ladbergen.
         </p>
         <button onClick={openModal1} className={styles.openModalBtn}>
           Mehr über mich ...
@@ -42,7 +43,7 @@ const Index = () => {
 
       <dialog ref={modalRef1}>
         <div>
-          <button onClick={closeModal1}>
+          <button onClick={closeModal1} aria-label="close modal">
             <CloseIcon />
           </button>
         </div>
