@@ -10,7 +10,7 @@ const TypewriterText = props => {
     const speed = 100
 
     function typewriter() {
-      if (i < text.length) {
+      if (i < text.length && typewriterDiv.current) {
         typewriterDiv.current.innerHTML += text.charAt(i)
         i++
         setTimeout(typewriter, speed)
