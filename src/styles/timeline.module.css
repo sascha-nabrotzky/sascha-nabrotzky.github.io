@@ -24,22 +24,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* transform: scale(0.5); */
+  transform: scale(0.5);
   transition: 1s ease-in;
   margin: 0 auto;
   border-radius: 50%;
-  /* background-color: var(--col-darkgreen); */
-  background-color: var(--col-green);
+  border: 1px solid var(--col-darkgray);
   width: 6em;
   height: 6em;
-  color: white;
   font-weight: 700;
 }
 
-/* .scale {
-  background-color: var(--col-green);
+.scale {
   transform: scale(1);
-} */
+}
 
 .linie {
   margin: 0 auto 1em;

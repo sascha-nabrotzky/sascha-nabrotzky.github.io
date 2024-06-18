@@ -11,11 +11,10 @@
 .openModalBtn {
   margin-top: 1.5em;
   margin-bottom: 2.5em;
-  margin-inline: auto;
-  border: none;
+  border: 1px solid var(--col-darkgray);
+  background-color: transparent;
   border-radius: 50px;
-  background: var(--col-midgray);
   padding: 0.5em 1.5em;
   text-align: center;
-  color: white;
+  margin-inline: auto;
 }
