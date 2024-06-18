@@ -28,15 +28,13 @@
   transition: 1s ease-in;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: var(--col-darkgreen);
+  border: 1px solid var(--col-darkgray);
   width: 6em;
   height: 6em;
-  color: white;
   font-weight: 700;
 }
 
 .scale {
-  background-color: var(--col-green);
   transform: scale(1);
 }
 

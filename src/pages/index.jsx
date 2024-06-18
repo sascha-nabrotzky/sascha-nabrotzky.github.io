@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useRef } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import TimeLine from "../components/TimeLine"
@@ -8,7 +8,7 @@ import { ReactComponent as CloseIcon } from "../icons/close.svg"
 import * as styles from "../styles/index.module.css"
 
 const Index = () => {
-  const modalRef1 = React.useRef(null)
+  const modalRef1 = useRef(null)
 
   const openModal1 = () => {
     if (modalRef1.current != null) {
@@ -25,15 +25,14 @@ const Index = () => {
     <>
       <Layout>
         <h1>Design-Entwicklung und Programmierung von Websites</h1>
-        <TypewriterText text="Ausgebuchte Kita-Plätze durch gelungene Umsetzung der Website" />
+        <TypewriterText text="Leidenschaft für Design und Technologie" />
         <p>
-          <strong>Meine Leidenschaft für Design und Technologie</strong> treibt
-          mich dazu an, innovative Lösungen zu entwickeln, die sowohl funktional
-          als auch ästhetisch ansprechend sind. Ich bin stets bestrebt, die
-          neuesten Designtrends und Technologien zu erlernen und anzuwenden, um
-          Produkte zu schaffen, die die{" "}
-          <strong>Erwartungen der Benutzer übertreffen.</strong> Webdesign und
-          Grafiken aus Ladbergen.
+          Diese Leidenschaft treibt mich dazu an, innovative Lösungen zu
+          entwickeln, die sowohl funktional als auch ästhetisch ansprechend
+          sind. Ich bin stets bestrebt, die neuesten Designtrends und
+          Technologien zu erlernen und anzuwenden, um Produkte zu schaffen, die
+          die <strong>Erwartungen der Benutzer übertreffen.</strong> Webdesign
+          und Grafiken aus Ladbergen.
         </p>
         <button onClick={openModal1} className={styles.openModalBtn}>
           Mehr über mich ...
