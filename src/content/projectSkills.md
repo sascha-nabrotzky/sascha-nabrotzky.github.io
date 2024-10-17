@@ -1,8 +1,8 @@
 ##### Die Darstellung meiner beruflichen Fähigkeiten wirkte zerstreut und es wurden nicht alle Fragen (z. B. für Recruiter) beantwortet
 
-## Skills schneller erfassbar und werden leichter verstanden
+## Skills schneller erfassbar
 
-<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: UX-Engineer<br/>Technologien: React | Gatsby | SCSS</p>
+<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | Gatsby | CSS</p>
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
@@ -20,3 +20,7 @@ Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammenge
 4. Anpassen der Formulierungen und Hinzufügen von **ausgeschriebenen Technologienamen,** um die Übersichtlichkeit zu erhöhen.
 5. Darstellung der **Wissensstände mit kleinen Sternen** unter den Logos und einer Legende unten drunter.
 6. **Test und Validierung** der Änderungen mit **Heuristic Markup** und einem **5-Sekunden-Test**.
+
+**Ergebnis**
+
+Meine Kenntnisse sind jetzt schneller erfassbar und werden leichter verstanden.
