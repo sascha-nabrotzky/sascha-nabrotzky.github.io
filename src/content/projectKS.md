@@ -1,6 +1,6 @@
 ##### Der Shop musste in vielen Bereichen aktualisiert und besser strukturiert werden, um sich abzuheben und wieder konkurrenzfähig zu sein.
 
-## 30% Umsatzsteigerung durch Optimierung des Online-Shops
+## Optimierung des Online-Shops
 
 <p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
 
@@ -21,6 +21,10 @@ Auf bestehnder Struktur aufbauend, sollte der Shop modernisiert werden, um wiede
 7. **Landingpages** auf Basis vorangegangener **User-Research** erstellt, um die Anbindung an die Planungssoftware zu bewerben.
 8. **Produktpflege** wurde optimiert, indem die Produktbilder und Beschreibungen überarbeitet wurden.
 9. Getestet wurden die Maßnahmen zuerst mittels **Heuristic Markup** und monatlich die steigenden Umsätze im Online-Shop registriert, zudem habe ich jede Änderung mit Hilfe des **5-Sekunden-Tests** überprüft.
+
+**Ergebnis**
+
+30% Umsatzsteigerung durch Optimierung des Online-Shops und der Kommunikation mit den Kunden.
 
 ![Proto-Persona für den generellen Kundenstamm](../images/KS-CI.jpg)
 
