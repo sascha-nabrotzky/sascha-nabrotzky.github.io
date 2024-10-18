@@ -3,25 +3,35 @@ import * as styles from "../styles/timeline.module.css"
 import TimeLineJSON from "../content/timeline.json"
 
 const TimeLine = () => {
-  useEffect(() => {
-    let options = {
-      root: null,
-      rootMargin: "-100px 0px -100px 0px",
-      threshold: 1,
-    }
+  // TODO: Remove this check when the bug is fixed
+  const isChromeBrowser = navigator.userAgent.includes("Chrome")
 
-    let callback = entries => {
-      entries.forEach(entry => {
-        entry.target.classList.toggle(`${styles.scale}`, entry.isIntersecting)
+  useEffect(() => {
+    if (!isChromeBrowser) {
+      const options = {
+        root: null,
+        rootMargin: "-100px 0px -100px 0px",
+        threshold: 1,
+      }
+
+      const callback = entries => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle(`${styles.scale}`, entry.isIntersecting)
+        })
+      }
+
+      const targets = document.querySelectorAll(`.${styles.circle}`)
+      const observer = new IntersectionObserver(callback, options)
+
+      targets.forEach(target => {
+        observer.observe(target)
+      })
+    } else {
+      const targets = document.querySelectorAll(`.${styles.circle}`)
+      targets.forEach(target => {
+        target.classList.add(`${styles.scale}`)
       })
     }
-
-    let targets = document.querySelectorAll(`.${styles.circle}`)
-    let observer = new IntersectionObserver(callback, options)
-
-    targets.forEach(target => {
-      observer.observe(target)
-    })
   }, [])
 
   return (

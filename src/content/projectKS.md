@@ -2,9 +2,15 @@
 
 ## Optimierung des Online-Shops
 
-<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS3 | HTML5 | JavaScript | Adobe Suite CC</p>
+<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS | HTML | JavaScript | Adobe Suite CC</p>
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
+
+<div class="description-button">
+    <button>Beschreibung &darr;</button>
+</div>
+
+<div class="project-description">
 
 **Herausforderung**
 
@@ -29,3 +35,5 @@ Auf bestehnder Struktur aufbauend, sollte der Shop modernisiert werden, um wiede
 ![Proto-Persona für den generellen Kundenstamm](../images/KS-CI.jpg)
 
 <p style="font-size: var(--fs-small-text)">&#8593;  <strong>Anlegen des erweiterten Farbschemas</strong> auf Basis der ursprünglichen Logo-Farben (schwarz/gelb) und abgleichen möglichst passender Schriften für Print und Online (li.). Proto-Persona zur Planung für meine Designs und dem generellen Überblick über den Kunden und was gerne Bestellt wird (re).</p>
+
+</div>
