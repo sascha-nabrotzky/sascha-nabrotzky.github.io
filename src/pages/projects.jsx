@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useLayoutEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Sidemenu from "../components/Sidemenu"
@@ -21,6 +21,38 @@ const Projects = () => {
       }
     }
   `)
+
+  useLayoutEffect(() => {
+    const buttons = document.querySelectorAll("button")
+    const description = document.querySelectorAll(".project-description")
+    const descriptionButton = document.querySelectorAll(
+      ".description-button button"
+    )
+
+    buttons.forEach(button => {
+      button.addEventListener("click", e => {
+        e.preventDefault()
+        if (e.target.parentElement.nextElementSibling.style.height === "auto") {
+          e.target.parentElement.nextElementSibling.style.height = 0
+          e.target.innerHTML = "Beschreibung &darr;"
+        } else {
+          e.target.parentElement.nextElementSibling.style.height = "auto"
+          e.target.innerHTML = "Beschreibung &uarr;"
+        }
+      })
+    })
+
+    description.forEach(desc => {
+      desc.style.height = 0
+      desc.style.overflow = "hidden"
+      desc.style.transition = "height 1s ease"
+      desc.style.interpolateSize = "allow-keywords"
+    })
+    descriptionButton.forEach(button => {
+      button.style.fontSize = "var(--fs-small-text)"
+      button.style.fontWeight = 700
+    })
+  }, [])
 
   return (
     <>

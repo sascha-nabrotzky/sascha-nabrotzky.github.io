@@ -9,6 +9,12 @@ Technologien: HTML | CSS | JavaScript</p>
 
 [Zur Website](http://www.sascha-nabrotzky.de/moorland/index.html)
 
+<div class="description-button">
+    <button>Beschreibung &darr;</button>
+</div>
+
+<div class="project-description">
+
 **Herausforderung**
 
 Das zweite Moorland-Festival sollte noch größer werden und dadurch noch mehr Spendengelder für einen guten Zweck zusammenkommen
@@ -28,3 +34,5 @@ Das erhaltene Spendengeld hatte sich durch längere Veranstaltungszeit und durch
 ![Wireframe der Website Moorland-Festival](../images/MoorlandWireframe.jpg)
 
 <p style="font-size: var(--fs-small-text)">&#8593; Erste Wireframes und Ideen</p>
+
+</div>

@@ -8,6 +8,12 @@
 
 [Zur Website](https://sascha-nabrotzky.github.io/skills)
 
+<div class="description-button">
+    <button>Beschreibung &darr;</button>
+</div>
+
+<div class="project-description">
+
 **Herausforderung**
 
 Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammengefasst und zudem der aktuelle Wissenstand gezeigt werden.
@@ -24,3 +30,5 @@ Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammenge
 **Ergebnis**
 
 Meine Kenntnisse sind jetzt schneller erfassbar und werden leichter verstanden.
+
+</div>

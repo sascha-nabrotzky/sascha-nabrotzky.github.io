@@ -2,11 +2,17 @@
 
 ## Tagesmütter professioneller wahrgenommen
 
-<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Webdesigner | Illustrator<br/>Technologien: React | CSS | HTML5</p>
+<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | CSS | HTML5</p>
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
 [Zur Website](https://kitala-ladbergen.de)
+
+<div class="description-button">
+    <button>Beschreibung &darr;</button>
+</div>
+
+<div class="project-description">
 
 **Herausforderung**
 
@@ -35,3 +41,5 @@ Tagesmütter werden durch reduziertes Design professioneller wahrgenommen und ha
 ![Aktionswoche](../images/Aktion_KiTaLa.jpg)
 
 <p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Illustrationen für Socialmedia-Posts,</strong> die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
+
+</div>
