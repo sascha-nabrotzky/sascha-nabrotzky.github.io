@@ -4,8 +4,10 @@ import TimeLineJSON from "../content/timeline.json"
 
 const TimeLine = () => {
   // TODO: Remove this check when the bug is fixed
+  let isChromeBrowser
+
   useLayoutEffect(() => {
-    const isChromeBrowser = navigator.userAgent.includes("Chrome")
+    isChromeBrowser = navigator.userAgent.includes("Chrome")
   }, [])
 
   useEffect(() => {
