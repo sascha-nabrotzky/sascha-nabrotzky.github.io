@@ -9,7 +9,7 @@
 [Zur Website](https://kitala-ladbergen.de)
 
 <div class="description-button">
-    <button>Beschreibung &darr;</button>
+    <button>Beschreibung +</button>
 </div>
 
 <div class="project-description">

@@ -7,10 +7,8 @@ Technologien: HTML | CSS | JavaScript</p>
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
 
-[Zur Website](http://www.sascha-nabrotzky.de/moorland/index.html)
-
 <div class="description-button">
-    <button>Beschreibung &darr;</button>
+    <button>Beschreibung +</button>
 </div>
 
 <div class="project-description">

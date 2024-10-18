@@ -1,13 +1,13 @@
 ##### Der Shop musste in vielen Bereichen aktualisiert und besser strukturiert werden, um sich abzuheben und wieder konkurrenzfähig zu sein.
 
-## Optimierung des Online-Shops
+## 30% Umsatzsteigerung
 
 <p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS | HTML | JavaScript | Adobe Suite CC</p>
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
 
 <div class="description-button">
-    <button>Beschreibung &darr;</button>
+    <button>Beschreibung +</button>
 </div>
 
 <div class="project-description">

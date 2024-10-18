@@ -6,10 +6,8 @@
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
-[Zur Website](https://sascha-nabrotzky.github.io/skills)
-
 <div class="description-button">
-    <button>Beschreibung &darr;</button>
+    <button>Beschreibung +</button>
 </div>
 
 <div class="project-description">

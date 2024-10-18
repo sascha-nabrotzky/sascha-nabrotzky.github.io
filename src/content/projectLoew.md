@@ -8,7 +8,7 @@ Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
 
 <div class="description-button">
-    <button>Beschreibung &darr;</button>
+    <button>Beschreibung +</button>
 </div>
 
 <div class="project-description">
