@@ -1,10 +1,14 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useLayoutEffect } from "react"
 import * as styles from "../styles/timeline.module.css"
 import TimeLineJSON from "../content/timeline.json"
 
 const TimeLine = () => {
   // TODO: Remove this check when the bug is fixed
-  const isChromeBrowser = navigator.userAgent.includes("Chrome")
+  let isChromeBrowser
+
+  useLayoutEffect(() => {
+    isChromeBrowser = navigator.userAgent.includes("Chrome")
+  }, [])
 
   useEffect(() => {
     if (!isChromeBrowser) {
