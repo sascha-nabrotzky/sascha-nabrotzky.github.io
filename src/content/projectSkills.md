@@ -12,11 +12,11 @@
 
 <div class="project-description">
 
-**Herausforderung**
+#### Herausforderung
 
 Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammengefasst und zudem der aktuelle Wissenstand gezeigt werden.
 
-**Vorgehen**
+#### Vorgehen
 
 1. **User-Research** (Fragen an Recruiter, Freunde, Bekannte) zeigte auf, dass die bisherige Darstellung zu unübersichtlich war und nicht alle Fragen beantwortete.
 2. Grober **Aufbau im Grafikprogramm** Inkscape erstellt, um die einzelnen Bereiche zu strukturieren und die Farbgebung zu testen.
@@ -25,7 +25,7 @@ Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammenge
 5. Darstellung der **Wissensstände mit kleinen Sternen** unter den Logos und einer Legende unten drunter.
 6. **Test und Validierung** der Änderungen mit **Heuristic Markup** und einem **5-Sekunden-Test**.
 
-**Ergebnis**
+#### Ergebnis
 
 Meine Kenntnisse sind jetzt schneller erfassbar und werden leichter verstanden.<br/><br/>
 

@@ -12,11 +12,11 @@
 
 <div class="project-description">
 
-**Herausforderung**
+#### Herausforderung
 
 Auf bestehnder Struktur aufbauend, sollte der Shop modernisiert werden, um wieder konkurrenzfähig zu sein. Die Kundenbetreuer und Vertreter sollten entlastet werden, indem die Kommunikation mit den Kunden vereinfacht wird und die Kunden sollten sich besser zurechtfinden, um mehr zu bestellen.
 
-**Vorgehen**
+#### Vorgehen
 
 1. Die qualitative **User-Research** (Fragen an Kundenbetreuer, Vertreter, Kunden) und quantitative **Auswertung von Google-Analytics-Daten** zeigte auf, auf welchen Seiten die Absprungrate zu hoch war und anhand der Resonanz der Kundenbetreuer, dass zu viele Produktbilder für Bestellungen fehlten und der Anmeldeprozess sowie die Kommunikation zum Unternehmen zu kompliziert war.
 2. **Proto-Persona** erstellt, um die Kunden besser zu verstehen und um die **Informationsarchitektur** zu verbessern.
@@ -28,7 +28,7 @@ Auf bestehnder Struktur aufbauend, sollte der Shop modernisiert werden, um wiede
 8. **Produktpflege** wurde optimiert, indem die Produktbilder und Beschreibungen überarbeitet wurden.
 9. Getestet wurden die Maßnahmen zuerst mittels **Heuristic Markup** und monatlich die steigenden Umsätze im Online-Shop registriert, zudem habe ich jede Änderung mit Hilfe des **5-Sekunden-Tests** überprüft.
 
-**Ergebnis**
+#### Ergebnis
 
 30% Umsatzsteigerung durch Optimierung des Online-Shops und der Kommunikation mit den Kunden.<br/><br/>
 
