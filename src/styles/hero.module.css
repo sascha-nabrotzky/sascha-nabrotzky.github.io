@@ -1,6 +1,10 @@
 .herocontainer {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  height: 16rem;
+  animation: gradient 10s ease infinite;
   background: linear-gradient(
     -45deg,
     var(--col-orange),
@@ -9,9 +13,20 @@
     var(--col-green)
   );
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
-  height: 16rem;
-  padding-top: 1rem;
+
+  @media (width > 640px) {
+    height: 23rem;
+    padding-left: 1.5rem;
+  }
+  @media (width > 768px) {
+    height: 25rem;
+  }
+  @media (width > 1024px) {
+    height: 29rem;
+  }
+  @media (width > 1280px) {
+    height: 33rem;
+  }
 }
 
 @keyframes gradient {
@@ -26,48 +41,68 @@
   }
 }
 
-@media screen and (min-width: 640px) {
-  .herocontainer {
-    height: 23rem;
-    padding-left: 1.5rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .herocontainer {
-    height: 25rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .herocontainer {
-    height: 29rem;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .herocontainer {
-    height: 33rem;
-  }
-}
-
 .overflowcontainer {
   overflow: hidden;
-}
 
-.overflowcontainer p {
-  text-transform: uppercase;
-  color: var(--col-white);
-  font-weight: 400;
-  margin: 0;
-  padding-inline: 0.5rem;
-  line-height: 1.2;
-  transform: translateY(100%);
-}
+  p {
+    transform: translateY(100%);
+    margin: 0;
+    line-height: 1;
+    color: var(--col-white);
+    font-weight: 400;
+    padding-inline: 0.5rem;
+  }
 
-.overflowcontainer:first-of-type p {
-  animation: TextFlowIn 0.5s forwards;
-}
+  &:first-of-type p {
+    animation: TextFlowIn 0.5s forwards;
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
 
-.overflowcontainer:last-of-type p {
-  animation: TextFlowIn 0.5s 0.5s forwards;
+    @media (width > 640px) {
+      text-align: left;
+      font-size: 4rem;
+    }
+    @media (width > 768px) {
+      font-size: 5rem;
+    }
+    @media (width > 1024px) {
+      font-size: 6rem;
+    }
+    @media (width > 1024px) {
+      font-size: 6rem;
+    }
+    @media (width > 1280px) {
+      font-size: 7rem;
+    }
+    @media (width > 1536px) {
+      font-size: 12rem;
+    }
+  }
+
+  &:last-of-type p {
+    animation: TextFlowIn 0.5s 0.5s forwards;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: var(--lh-md);
+
+    @media (width > 640px) {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    @media (width > 768px) {
+      font-size: 1.8rem;
+    }
+    @media (width > 1024px) {
+      font-size: 2.3rem;
+    }
+    @media (width > 1280px) {
+      font-size: 3.2rem;
+    }
+    @media (width > 1280px) {
+      font-size: 3.8rem;
+    }
+  }
 }
 
 @keyframes TextFlowIn {
@@ -76,101 +111,42 @@
   }
 }
 
-@media screen and (max-width: 639px) {
-  .overflowcontainer:first-of-type p {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-  .overflowcontainer:last-of-type p {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 640px) {
-  .overflowcontainer:first-of-type p {
-    font-size: 5rem;
-  }
-  .overflowcontainer:last-of-type p {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .overflowcontainer:first-of-type p {
-    font-size: 6rem;
-  }
-  .overflowcontainer:last-of-type p {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .overflowcontainer:first-of-type p {
-    font-size: 7rem;
-  }
-  .overflowcontainer:last-of-type p {
-    font-size: 2.3rem;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .overflowcontainer:first-of-type p {
-    font-size: 10rem;
-  }
-  .overflowcontainer:last-of-type p {
-    font-size: 3.2rem;
-  }
-}
-@media screen and (min-width: 1536px) {
-  .overflowcontainer:first-of-type p {
-    font-size: 12rem;
-  }
-  .overflowcontainer:last-of-type p {
-    font-size: 3.8rem;
-  }
-}
-
 .imgWrapper {
+  margin-top: -2rem;
+  margin-inline: auto;
   border-radius: 50%;
+  width: 90vw;
   overflow: hidden;
-  width: 20rem;
   aspect-ratio: 1;
-}
 
-.imgWrapper img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
-}
-
-@media screen and (max-width: 639px) {
-  .imgWrapper {
-    margin-top: -7.5rem;
-    margin-inline: auto;
+  @media (width > 320px) {
+    width: 20rem;
   }
-}
-@media screen and (min-width: 640px) {
-  .imgWrapper {
-    margin-top: -16rem;
+  @media (width > 480px) {
+    margin-top: -7.5rem;
+  }
+  @media (width > 640px) {
+    margin-top: -15rem;
     margin-inline: auto 6%;
   }
-}
-@media screen and (min-width: 1024px) {
-  .imgWrapper {
-    margin-top: -20rem;
+  @media (width > 1024px) {
+    margin-top: -18rem;
     width: 27rem;
   }
-}
-@media screen and (min-width: 1280px) {
-  .imgWrapper {
+  @media (width > 1280px) {
     margin-top: -22rem;
   }
-}
-@media screen and (min-width: 1536px) {
-  .imgWrapper {
+  @media (width > 1536px) {
     width: 29rem;
   }
-}
-@media screen and (min-width: 1920px) {
-  .imgWrapper {
+  @media (width > 1920px) {
     margin-top: -27rem;
     width: 33rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
   }
 }

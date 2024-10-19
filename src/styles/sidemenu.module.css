@@ -1,7 +1,4 @@
 .sidemenu {
-  --fs-base: 1rem;
-  --lh-base: 1.3rem;
-
   display: none;
   position: fixed;
   bottom: 50vh;

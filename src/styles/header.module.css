@@ -29,7 +29,7 @@
   text-decoration: none;
 
   & p {
-    font-family: var(--ff-sans-cond);
+    font-family: var(--ff-sans);
     font-style: italic;
     color: var(--col-midgray);
     font-size: 2em;
@@ -82,7 +82,7 @@
 }
 
 .author {
-  font-family: var(--ff-sans-cond);
+  font-family: var(--ff-sans);
   font-weight: 600;
   font-style: italic;
   font-size: 1.5em;

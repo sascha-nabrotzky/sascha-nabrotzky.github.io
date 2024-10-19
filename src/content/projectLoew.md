@@ -2,7 +2,7 @@
 
 ## Mehr Vertrauen durch gutes Design
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>
 Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
 ![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
@@ -31,10 +31,10 @@ Kitaplätze waren schnell vergeben und die Tagesmutter konnte sich in der Region
 
 ![Proto-Persona der Eltern/Mütter](../images/ProtopersonaLoew.jpg)
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Anlegen einer Proto-Persona</strong> mit weiteren Infos, wie Kita gefunden wurde (li). Logoentwicklung mit Vorabskizze (re).</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Anlegen einer Proto-Persona</strong> mit weiteren Infos, wie Kita gefunden wurde (li). Logoentwicklung mit Vorabskizze (re).</p>
 
 ![Suchbegriffe im Bereich Tagesmütter](../images/LoewWireframe.jpg)
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Exportierte CSV-Datei der Suchbegriffe</strong> eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen (li.). Ideation und Wireframing von den ersten Entwürfen auf Papier (re).</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Exportierte CSV-Datei der Suchbegriffe</strong> eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen (li.). Ideation und Wireframing von den ersten Entwürfen auf Papier (re).</p>
 
 </div>

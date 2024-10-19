@@ -2,7 +2,7 @@
 
 ## Tagesmütter professioneller wahrgenommen
 
-<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | CSS | HTML5</p>
+<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | CSS | HTML5</p>
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
@@ -32,14 +32,14 @@ Tagesmütter werden durch reduziertes Design professioneller wahrgenommen und ha
 
 ![Planung und Vorzeichnung](../images/Kitala_PlanungZeichnung.jpg)
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Stichwortsuche nach Begriffen,</strong> die für die Website wichtig für Informationgehalt werden und anschließender Zeichnung der Startseite.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Stichwortsuche nach Begriffen,</strong> die für die Website wichtig für Informationgehalt werden und anschließender Zeichnung der Startseite.</p>
 
 ![Logoskizzen und Farbschemen](../images/LogoMockup_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Anfertigen von Skizzen</strong> für das Logo und anschließender Umsetzung im Grafikprogramm bei gleichzeitiger Entwicklung des Farbschemas.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Anfertigen von Skizzen</strong> für das Logo und anschließender Umsetzung im Grafikprogramm bei gleichzeitiger Entwicklung des Farbschemas.</p>
 
 ![Aktionswoche](../images/Aktion_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text)">&#8593; <strong>Illustrationen für Socialmedia-Posts,</strong> die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Illustrationen für Socialmedia-Posts,</strong> die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
 
 </div>

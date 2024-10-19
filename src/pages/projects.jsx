@@ -35,7 +35,7 @@ const Projects = () => {
       desc.style.interpolateSize = "allow-keywords"
     })
     descriptionButton.forEach(button => {
-      button.style.fontSize = "var(--fs-small-text)"
+      button.style.fontSize = "var(--fs-sm)"
       button.style.fontWeight = 700
     })
 

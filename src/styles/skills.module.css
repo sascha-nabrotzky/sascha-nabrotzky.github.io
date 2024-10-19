@@ -4,6 +4,7 @@
 
 .logosMain {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   justify-items: center;
   margin-top: 1rem;
   border-radius: var(--br-normal);
@@ -11,31 +12,20 @@
   padding: 1rem;
   gap: 1.5rem;
 
+  @media (width > 577px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  @media (width > 768px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  @media (width > 1024px) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
   & svg {
     max-width: 11rem;
     height: 4rem;
     color: white;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .logosMain {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media screen and (min-width: 577px) {
-  .logosMain {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-@media screen and (min-width: 768px) {
-  .logosMain {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-@media screen and (min-width: 1024px) {
-  .logosMain {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 

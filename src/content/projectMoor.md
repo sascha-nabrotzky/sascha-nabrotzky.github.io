@@ -2,7 +2,7 @@
 
 ## Doppeltes Spendengeld
 
-<p style="font-size: var(--fs-small-text); line-height: var(--lh-small-text); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>
 Technologien: HTML | CSS | JavaScript</p>
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
@@ -31,6 +31,6 @@ Das erhaltene Spendengeld hatte sich durch längere Veranstaltungszeit und durch
 
 ![Wireframe der Website Moorland-Festival](../images/MoorlandWireframe.jpg)
 
-<p style="font-size: var(--fs-small-text)">&#8593; Erste Wireframes und Ideen</p>
+<p style="font-size: var(--fs-sm)">&#8593; Erste Wireframes und Ideen</p>
 
 </div>

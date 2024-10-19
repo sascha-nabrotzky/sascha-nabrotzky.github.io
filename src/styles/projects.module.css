@@ -11,7 +11,7 @@
   & a {
     text-decoration: none;
     color: var(--col-gray);
-    font-size: var(--fs-small-text);
+    font-size: var(--fs-sm);
     font-weight: 600;
   }
 
@@ -21,6 +21,6 @@
 }
 
 .points {
-  margin-top: 5rem;
+  margin-block: 3rem 6rem;
   text-align: center;
 }

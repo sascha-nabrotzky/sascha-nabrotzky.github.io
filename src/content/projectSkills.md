@@ -2,7 +2,7 @@
 
 ## Skills schneller erfassbar
 
-<p style="font-size: var(--fs-small-text); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | Gatsby | CSS</p>
+<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | Gatsby | CSS</p>
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
