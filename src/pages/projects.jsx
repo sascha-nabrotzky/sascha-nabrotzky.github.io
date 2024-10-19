@@ -36,6 +36,7 @@ const Projects = () => {
     })
     descriptionButton.forEach(button => {
       button.style.fontSize = "var(--fs-sm)"
+      button.style.color = "var(--col-darkgray)"
       button.style.fontWeight = 700
     })
 

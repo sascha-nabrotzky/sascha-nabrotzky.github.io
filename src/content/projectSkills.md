@@ -27,6 +27,6 @@ Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammenge
 
 **Ergebnis**
 
-Meine Kenntnisse sind jetzt schneller erfassbar und werden leichter verstanden.
+Meine Kenntnisse sind jetzt schneller erfassbar und werden leichter verstanden.<br/><br/>
 
 </div>

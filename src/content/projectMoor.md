@@ -27,7 +27,7 @@ Das zweite Moorland-Festival sollte noch größer werden und dadurch noch mehr S
 
 **Ergebnis**
 
-Das erhaltene Spendengeld hatte sich durch längere Veranstaltungszeit und durch auffallende und konsistente Außenkommunikation auf 10.000 € verdoppelt.
+Das erhaltene Spendengeld hatte sich durch längere Veranstaltungszeit und durch auffallende und konsistente Außenkommunikation auf 10.000 € verdoppelt.<br/><br/>
 
 ![Wireframe der Website Moorland-Festival](../images/MoorlandWireframe.jpg)
 

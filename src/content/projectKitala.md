@@ -2,7 +2,7 @@
 
 ## Tagesmütter professioneller wahrgenommen
 
-<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | CSS | HTML5</p>
+<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer<br/>Technologien: React | CSS | HTML5</p>
 
 ![Vereinsseite der Tagesmütter](../images/WebsiteMockup_KiTaLa.jpg)
 
@@ -28,7 +28,7 @@ Um die professionelle Wahrnehmung zu erreichen, musste das Design der Website un
 
 **Ergebnis**
 
-Tagesmütter werden durch reduziertes Design professioneller wahrgenommen und haben jetzt mehr Mitspracherecht in der Gemeinde.
+Tagesmütter werden durch reduziertes Design professioneller wahrgenommen und haben jetzt mehr Mitspracherecht in der Gemeinde.<br/><br/>
 
 ![Planung und Vorzeichnung](../images/Kitala_PlanungZeichnung.jpg)
 

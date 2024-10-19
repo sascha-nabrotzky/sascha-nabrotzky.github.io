@@ -1,11 +1,13 @@
-##### Eine gelernte Erzieherin wollte sich möglichst schnell in der Region mit ihrer neuen Selbstständigkeit etablieren
+##### Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen und auch diese sollte sich wieder etablieren.
 
-## Mehr Vertrauen durch gutes Design
+## Kita-Plätze lange im Vorraus ausgebucht
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>
-Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer<br/>
+Technologien: Gatsby | React | HTML | CSS | JavaScript</p>
 
-![Website Kita Löwenzahn](../images/Website_Kita_Loew_web1.jpg)
+![Website Waldschnecken](../images/Website_Waldschnecken.webp)
+
+[Zur Website](https://waldschnecken-ladbergen.de)
 
 <div class="description-button">
     <button>Beschreibung +</button>
@@ -13,28 +15,30 @@ Technologien: Joomla! | HTML5 | CSS3 | JavaScript</p>
 
 <div class="project-description">
 
-**Herausforderung**
+#### Herausforderung
 
-Es wurde neben Flyern auch eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
+Es wurde eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
 
-**Vorgehen**
+#### Vorgehen
 
-1. **User-Research** mit Eltern, Tagesmutter und Online-Tools
-2. **Informationsarchitektur** und **Wireframing**
-3. Es wurde ein buntes, aber abgestimmtes, reduziertes Farbkonzept mit grün als Basisfarbe erarbeitet
-4. **Logoentwicklung** mit Vorabskizze
-5. Die Website programmierte ich in **Joomla!** und **CSS3,** und es wurden auffallende **CSS-Animationen** erstellt.
+1. **User-Research** mit KI- und Online-Tools, was die Kindertagespflege ausmacht und Eltern erwarten.
+2. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche.
+3. Es wurde ein buntes, aber abgestimmtes, reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen erarbeitet.
+4. **Logoentwicklung** mit Vorabskizze.
+5. Die Website programmierte ich in **React, Gatsby, HTML** und **CSS** und die Vorteile-Blöcke wurden etwas animiert.
+6. Erstellen von Illustrationen, da diese die kinderfreundliche Atmosphäre unterstützen.
+7. **SEO- und Pagespeed-Optimierung** damit die Website gut gefunden wird und schnell lädt.
 
-**Ergebnis**
+#### Ergebnis
 
-Kitaplätze waren schnell vergeben und die Tagesmutter konnte sich in der Region etablieren.
+Kitaplätze sind lange im Vorraus ausgebucht oder vorgemerkt und die Tagesmütter konnten sich auch mit der Kindergroßtagespflege wieder etablieren.<br/><br/>
 
-![Proto-Persona der Eltern/Mütter](../images/ProtopersonaLoew.jpg)
+![KI-User-Research: Vorteile einer Tagesmutter](../images/VorteileTagesmutter.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Anlegen einer Proto-Persona</strong> mit weiteren Infos, wie Kita gefunden wurde (li). Logoentwicklung mit Vorabskizze (re).</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>KI-gestützte User-Research,</strong> um die Vorteile der Tagesmutter und die Erwartungen der Eltern herauszufinden.</p>
 
-![Suchbegriffe im Bereich Tagesmütter](../images/LoewWireframe.jpg)
+![Erstellen von Illustrationen](../images/Waldschnecken_Illustration.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Exportierte CSV-Datei der Suchbegriffe</strong> eines Online-Tools. Damit konnte ich die grundsätzlichen Inhalte als Platzhalter, bis der richtige Text da war, auf der Website aufbauen (li.). Ideation und Wireframing von den ersten Entwürfen auf Papier (re).</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Für die kinderfreundliche Atmosphäre</strong> wurden, wie das Logo selber, einige Illustrationen für die einzelnen Seiten erstellt.</p>
 
 </div>

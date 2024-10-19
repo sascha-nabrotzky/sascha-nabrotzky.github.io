@@ -30,7 +30,7 @@ Auf bestehnder Struktur aufbauend, sollte der Shop modernisiert werden, um wiede
 
 **Ergebnis**
 
-30% Umsatzsteigerung durch Optimierung des Online-Shops und der Kommunikation mit den Kunden.
+30% Umsatzsteigerung durch Optimierung des Online-Shops und der Kommunikation mit den Kunden.<br/><br/>
 
 ![Proto-Persona für den generellen Kundenstamm](../images/KS-CI.jpg)
 
