@@ -9,14 +9,10 @@
   }
 
   & a {
-    opacity: 0.6;
-    border-radius: 0.5em;
-    background-color: #5d5d5d;
-    padding: 0.3em 0.7em;
     text-decoration: none;
-    color: #ffffff;
-    font-size: 0.7em;
-    font-weight: bold;
+    color: var(--col-gray);
+    font-size: var(--fs-sm);
+    font-weight: 600;
   }
 
   & a:hover {
@@ -25,6 +21,6 @@
 }
 
 .points {
-  margin-top: 5rem;
+  margin-block: 3rem 6rem;
   text-align: center;
 }

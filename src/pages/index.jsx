@@ -10,12 +10,12 @@ import * as styles from "../styles/index.module.css"
 const Index = () => {
   const modalRef1 = useRef(null)
 
-  const openModal1 = () => {
+  const openModal = () => {
     if (modalRef1.current != null) {
       modalRef1.current.showModal()
     }
   }
-  const closeModal1 = () => {
+  const closeModal = () => {
     if (modalRef1.current != null) {
       modalRef1.current.close()
     }
@@ -24,17 +24,16 @@ const Index = () => {
   return (
     <>
       <Layout>
-        <h1>Design-Entwicklung und Programmierung von Websites</h1>
+        <h1>Webdesign | UX-Design | Programmierung</h1>
         <TypewriterText text="Leidenschaft für Design und Technologie" />
         <p>
           Diese Leidenschaft treibt mich dazu an, innovative Lösungen zu
           entwickeln, die sowohl funktional als auch ästhetisch ansprechend
           sind. Ich bin stets bestrebt, die neuesten Designtrends und
           Technologien zu erlernen und anzuwenden, um Produkte zu schaffen, die
-          die <strong>Erwartungen der Benutzer übertreffen.</strong> Webdesign
-          und Grafiken aus Ladbergen.
+          die <strong>Erwartungen der Benutzer übertreffen.</strong>
         </p>
-        <button onClick={openModal1} className={styles.openModalBtn}>
+        <button onClick={openModal} className={styles.openModalBtn}>
           Mehr über mich ...
         </button>
         <TimeLine />
@@ -42,44 +41,27 @@ const Index = () => {
 
       <dialog ref={modalRef1}>
         <div>
-          <button onClick={closeModal1} aria-label="close modal">
+          <button onClick={closeModal} aria-label="close modal">
             <CloseIcon />
           </button>
         </div>
         <div>
           <p>
-            Ich bin Sascha Nabrotzky, verheiratet und als Familienvater mit zwei
-            Kindern lebe ich im ländlichen Ladbergen. Als{" "}
-            <strong>Webdesigner</strong> mit Schwerpunkt auf{" "}
-            <strong>Frontend-Entwicklung</strong> und{" "}
-            <strong>UI/UX-Design</strong> habe ich umfangreiche Erfahrung in der
-            Gestaltung und Entwicklung responsiver Apps und PWAs für die
-            Steuerung von Saunen, Küchen- und Kassensystemen per Touchscreen und
-            Tablet.
-          </p>
-
-          <p>
-            Meine Fähigkeiten umfassen die Entwicklung von{" "}
-            <strong>interaktiven Highfidelity-Prototypen</strong> sowie die{" "}
-            <strong>Optimierung der Nutzererfahrung</strong> in einem
-            interdisziplinären Team. In meiner Rolle als Frontend-Entwickler
-            habe ich maßgeschneiderte Lösungen entwickelt, um sicherzustellen,
-            dass die Benutzeroberflächen reibungslos funktionieren und auf
-            verschiedenen Geräten und Bildschirmgrößen optimal angezeigt werden.
-            Dabei habe ich moderne Technologien wie{" "}
-            <strong>HTML, CSS, JavaScript und React</strong> eingesetzt, um
-            ansprechende und benutzerfreundliche Apps zu erstellen.
-          </p>
-          <p>
-            Darüber hinaus habe ich umfangreiche Erfahrung im UI/UX-Design
-            gesammelt. Ich habe interaktive Highfidelity-Prototypen erstellt, um
-            das Designkonzept zu visualisieren und die Benutzererfahrung zu
-            optimieren. Dabei habe ich eng mit einem interdisziplinären Team
-            zusammengearbeitet, um sicherzustellen, dass das Design den
-            Anforderungen der Benutzer entspricht und gleichzeitig die
-            Geschäftsziele unterstützt. Dabei setze ich auch auf{" "}
-            <strong>KI-gestützte User-Research,</strong> um die Bedürfnisse der
-            Nutzer optimal zu verstehen.
+            Ich bin <strong>Sascha Nabrotzky,</strong> verheiratet und als
+            Familienvater mit zwei Kindern lebe ich im ländlichen Ladbergen.{" "}
+            <br />
+            Als Webdesigner mit Fokus auf{" "}
+            <strong>Frontend-Entwicklung und UX-Design </strong>
+            habe ich umfangreiche Erfahrung in der Gestaltung und Entwicklung
+            responsiver Apps und PWAs für die Steuerung von Saunen, Küchen und
+            Kassensystemen per Touchscreen und Tablet. <br />
+            Meine Fähigkeiten umfassen die Entwicklung von interaktiven
+            Prototypen sowie die Optimierung der Nutzererfahrung in einem
+            interdisziplinären Team. In meiner Rolle als Webdesigner habe ich
+            moderne Technologien wie{" "}
+            <strong>HTML, CSS, JavaScript, React und TYPO3 </strong>
+            eingesetzt, um ansprechende und benutzerfreundliche Apps zu
+            erstellen.
           </p>
         </div>
       </dialog>

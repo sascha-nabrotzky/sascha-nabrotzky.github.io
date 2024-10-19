@@ -23,24 +23,10 @@ const Projects = () => {
   `)
 
   useLayoutEffect(() => {
-    const buttons = document.querySelectorAll("button")
-    const description = document.querySelectorAll(".project-description")
     const descriptionButton = document.querySelectorAll(
       ".description-button button"
     )
-
-    buttons.forEach(button => {
-      button.addEventListener("click", e => {
-        e.preventDefault()
-        if (e.target.parentElement.nextElementSibling.style.height === "auto") {
-          e.target.parentElement.nextElementSibling.style.height = 0
-          e.target.innerHTML = "Beschreibung &darr;"
-        } else {
-          e.target.parentElement.nextElementSibling.style.height = "auto"
-          e.target.innerHTML = "Beschreibung &uarr;"
-        }
-      })
-    })
+    const description = document.querySelectorAll(".project-description")
 
     description.forEach(desc => {
       desc.style.height = 0
@@ -49,8 +35,22 @@ const Projects = () => {
       desc.style.interpolateSize = "allow-keywords"
     })
     descriptionButton.forEach(button => {
-      button.style.fontSize = "var(--fs-small-text)"
+      button.style.fontSize = "var(--fs-sm)"
+      button.style.color = "var(--col-darkgray)"
       button.style.fontWeight = 700
+    })
+
+    descriptionButton.forEach(button => {
+      button.addEventListener("click", e => {
+        e.preventDefault()
+        if (e.target.parentElement.nextElementSibling.style.height === "auto") {
+          e.target.parentElement.nextElementSibling.style.height = 0
+          e.target.innerHTML = "Beschreibung +"
+        } else {
+          e.target.parentElement.nextElementSibling.style.height = "auto"
+          e.target.innerHTML = "Beschreibung &ndash;"
+        }
+      })
     })
   }, [])
 

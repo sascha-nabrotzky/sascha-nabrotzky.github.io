@@ -24,6 +24,9 @@ const Footer = () => {
             Datenschutz
           </Link>
         </li>
+        <li>
+          <span className={styles.copyright}>&copy; 2024 Sascha Nabrotzky</span>
+        </li>
       </ul>
     </footer>
   )
