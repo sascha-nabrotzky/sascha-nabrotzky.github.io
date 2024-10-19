@@ -134,13 +134,14 @@
     width: 27rem;
   }
   @media (width > 1280px) {
-    margin-top: -22rem;
+    margin-top: -18rem;
   }
   @media (width > 1536px) {
+    margin-top: -12rem;
     width: 29rem;
   }
   @media (width > 1920px) {
-    margin-top: -27rem;
+    margin-top: -14rem;
     width: 33rem;
   }
 
