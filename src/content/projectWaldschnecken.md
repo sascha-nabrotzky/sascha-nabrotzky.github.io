@@ -1,22 +1,20 @@
-##### Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen und auch diese sollte sich wieder etablieren.
-
 ## Kita-Plätze lange im Vorraus ausgebucht
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer | Technologien: Gatsby, React, HTML, CSS, JavaScript</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> Web- & UX-Designer | <strong>Technologien:</strong> Gatsby, React, HTML, CSS, JavaScript</p>
 
 ![Website Waldschnecken](../images/Website_Waldschnecken.webp)
 
-[Zur Website](https://waldschnecken-ladbergen.de)
+[Zur Website &rarr;](https://waldschnecken-ladbergen.de)
 
-<div class="description-button">
-    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: 600;">Beschreibung +</button>
+<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-gray)">
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Beschreibung +</button>
 </div>
 
-<div class="project-description" style="height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords;">
+<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-gray)">
 
 #### Herausforderung
 
-Es wurde eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
+Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen und auch diese sollte sich wieder etablieren. Es wurde eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
 
 #### Vorgehen
 

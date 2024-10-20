@@ -1,23 +1,21 @@
 .projects {
-  margin-top: 5rem;
+  &:first-of-type {
+    margin-top: 3rem;
+
+    @media (width > 320px) {
+      margin-top: 5rem;
+    }
+  }
 
   & a {
     text-decoration: none;
-    color: var(--col-gray);
+    color: var(--col-darkgray);
     font-size: var(--fs-sm);
-    font-weight: 600;
+    font-weight: var(--fw-bold);
   }
 
   & a:hover {
     opacity: 1;
-  }
-
-  h5 {
-    color: var(--col-gray);
-    max-width: 75%;
-    border-left: 2px solid var(--col-gray);
-    padding-left: 1.2rem;
-    margin-block: 1rem;
   }
 
   h2 {
@@ -33,7 +31,7 @@
   }
 
   p:has(picture) {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.2rem;
 
     & + p {
       margin-top: 0;
@@ -42,6 +40,10 @@
 }
 
 .points {
-  margin-block: 3rem 6rem;
+  margin-block: 3rem;
   text-align: center;
+
+  @media (width > 576px) {
+    margin-block: 6rem;
+  }
 }

@@ -1,20 +1,18 @@
-##### Der Shop musste in vielen Bereichen aktualisiert und besser strukturiert werden, um sich abzuheben und wieder konkurrenzfähig zu sein.
+## 30% Umsatzsteigerung im Online-Shop
 
-## 30% Umsatzsteigerung
-
-<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer | Technologien: Joomla!, CSS, HTML, JavaScript, Adobe Suite CC</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle: </strong>Web- & UX-Designer | <strong>Technologien: </strong>Joomla!, CSS, HTML, JavaScript, Adobe Suite CC</p>
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
 
-<div class="description-button">
-    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: 600;">Beschreibung +</button>
+<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-gray)">
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Beschreibung +</button>
 </div>
 
-<div class="project-description" style="height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords;">
+<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-gray)">
 
 #### Herausforderung
 
-Auf bestehnder Struktur aufbauend, sollte der Shop modernisiert werden, um wieder konkurrenzfähig zu sein. Die Kundenbetreuer und Vertreter sollten entlastet werden, indem die Kommunikation mit den Kunden vereinfacht wird und die Kunden sollten sich besser zurechtfinden, um mehr zu bestellen.
+Der Shop musste in vielen Bereichen aktualisiert und besser strukturiert werden, um sich abzuheben und wieder konkurrenzfähig zu sein, also musste auf bestehnder Struktur aufbauend, der Shop modernisiert werden. Die Kundenbetreuer und Vertreter sollten zudem entlastet werden, indem die Kommunikation mit den Kunden vereinfacht wird und die Kunden sollten sich besser zurechtfinden, um mehr zu bestellen.
 
 #### Vorgehen
 
