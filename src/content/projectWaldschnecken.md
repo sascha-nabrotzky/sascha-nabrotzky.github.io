@@ -6,11 +6,11 @@
 
 [Zur Website &rarr;](https://waldschnecken-ladbergen.de)
 
-<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-gray)">
-    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Beschreibung +</button>
+<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-lightgray)">
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Projektbeschreibung +</button>
 </div>
 
-<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-gray)">
+<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-lightgray)">
 
 #### Herausforderung
 
@@ -19,7 +19,7 @@ Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen
 #### Vorgehen
 
 1. **User-Research** mit Unterstützung von KI und Online-Tools, was die Kindertagespflege ausmacht und Eltern erwarten.
-2. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche.
+2. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche und der Erwartungen der Eltern wurde ausgearbeitet.
 3. Es wurde ein buntes, aber abgestimmtes, reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen erarbeitet.
 4. **Logoentwicklung** mit Vorabskizze.
 5. Die Website programmierte ich in **React, Gatsby, HTML** und **CSS** und die Vorteile-Blöcke wurden etwas animiert.

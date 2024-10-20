@@ -5,11 +5,11 @@
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
 
-<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-gray)">
-    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Beschreibung +</button>
+<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-lightgray)">
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Projektbeschreibung +</button>
 </div>
 
-<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-gray)">
+<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-lightgray)">
 
 #### Herausforderung
 
