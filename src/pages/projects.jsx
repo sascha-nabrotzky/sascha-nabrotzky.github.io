@@ -22,6 +22,8 @@ const Projects = () => {
     }
   `)
 
+  console.log(data)
+
   useLayoutEffect(() => {
     const descriptionButton = document.querySelectorAll(
       ".description-button button"
