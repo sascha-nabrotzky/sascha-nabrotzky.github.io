@@ -2,17 +2,17 @@
 
 ## Tagesmütter professioneller wahrgenommen
 
-<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer<br/>Technologien: React | CSS | HTML</p>
+<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer | Technologien: React, CSS, HTML</p>
 
 ![Vereinsseite der Tagesmütter](../images/Kitala_Website.webp)
 
 [Zur Website](https://kitala-ladbergen.de)
 
 <div class="description-button">
-    <button>Beschreibung +</button>
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: 600;">Beschreibung +</button>
 </div>
 
-<div class="project-description">
+<div class="project-description" style="height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords;">
 
 #### Herausforderung
 

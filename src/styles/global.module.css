@@ -45,7 +45,7 @@
   --col-darkgreen: #0c6451;
   --col-orange: #ee7752;
 
-  --ff-sans: "Fira Sans Condensed";
+  --ff-sans: "Fira Sans Condensed", sans-serif;
 
   --fs-xs: 1rem;
   --fs-base: 1.3rem;
@@ -66,7 +66,7 @@ body {
   margin: 0;
   background-color: var(--col-white);
   color: var(--col-darkgray);
-  font-family: var(--ff-sans), sans-serif;
+  font-family: var(--ff-sans);
 }
 
 h1,

@@ -1,13 +1,6 @@
 .projects {
   margin-top: 5rem;
 
-  & h5 {
-    color: var(--col-gray);
-    max-width: 75%;
-    border-left: 2px solid var(--col-gray);
-    padding-left: 1.2rem;
-  }
-
   & a {
     text-decoration: none;
     color: var(--col-gray);
@@ -17,6 +10,34 @@
 
   & a:hover {
     opacity: 1;
+  }
+
+  h5 {
+    color: var(--col-gray);
+    max-width: 75%;
+    border-left: 2px solid var(--col-gray);
+    padding-left: 1.2rem;
+    margin-block: 1rem;
+  }
+
+  h2 {
+    margin-block: 1rem;
+  }
+
+  h4 {
+    margin-bottom: 0.5rem;
+
+    & + p {
+      margin-top: 0;
+    }
+  }
+
+  p:has(picture) {
+    margin-bottom: 0.5rem;
+
+    & + p {
+      margin-top: 0;
+    }
   }
 }
 

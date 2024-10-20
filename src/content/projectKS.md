@@ -2,15 +2,15 @@
 
 ## 30% Umsatzsteigerung
 
-<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Mediengestalter/Webdesigner<br/>Technologien: Joomla! | CSS | HTML | JavaScript | Adobe Suite CC</p>
+<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer | Technologien: Joomla!, CSS, HTML, JavaScript, Adobe Suite CC</p>
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
 
 <div class="description-button">
-    <button>Beschreibung +</button>
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: 600;">Beschreibung +</button>
 </div>
 
-<div class="project-description">
+<div class="project-description" style="height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords;">
 
 #### Herausforderung
 
@@ -19,9 +19,9 @@ Auf bestehnder Struktur aufbauend, sollte der Shop modernisiert werden, um wiede
 #### Vorgehen
 
 1. Die qualitative **User-Research** (Fragen an Kundenbetreuer, Vertreter, Kunden) und quantitative **Auswertung von Google-Analytics-Daten** zeigte auf, auf welchen Seiten die Absprungrate zu hoch war und anhand der Resonanz der Kundenbetreuer, dass zu viele Produktbilder für Bestellungen fehlten und der Anmeldeprozess sowie die Kommunikation zum Unternehmen zu kompliziert war.
-2. **Proto-Persona** erstellt, um die Kunden besser zu verstehen und um die **Informationsarchitektur** zu verbessern.
-3. **Farbschema harmonisch erweitert,** da die primären Farben nicht ausgetauscht werden sollten
-4. **harmonierende Schriftpaare** gefunden und dann die **Corporate Identity** erstellt.
+2. **Proto-Persona** erstellt, damit das Team sich auf diesen einen Typ Kunden einstellt und plant.
+3. **Farbschema harmonisch erweitert,** da die primären Farben nicht ausgetauscht werden sollten und man mehr Spielraum bekommt, um das Interesse des Kunden zu bekommen.
+4. **harmonierende Schriftpaare** getestet und dann die **Corporate Identity** erstellt.
 5. Chat-Modul eingerichtet, da so direkt Probleme und Fragen der Kunden leichter beseitigt werden konnten.
 6. **Newsletter-Modul** wurde installiert, das kostspielige Flyer ersetzt und die Kunden konnten sich besser über neue Produkte informieren.
 7. **Landingpages** auf Basis vorangegangener **User-Research** erstellt, um die Anbindung an die Planungssoftware zu bewerben.

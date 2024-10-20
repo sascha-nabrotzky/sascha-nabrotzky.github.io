@@ -2,15 +2,15 @@
 
 ## Skills schneller erfassbar
 
-<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | Gatsby | CSS</p>
+<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Webdesigner | Technologien: React, Gatsby, CSS</p>
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
 <div class="description-button">
-    <button>Beschreibung +</button>
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: 600;">Beschreibung +</button>
 </div>
 
-<div class="project-description">
+<div class="project-description" style="height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords;">
 
 #### Herausforderung
 

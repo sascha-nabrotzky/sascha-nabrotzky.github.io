@@ -2,16 +2,16 @@
 
 ## Doppeltes Spendengeld
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>
-Technologien: HTML | CSS | JavaScript</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer |
+Technologien: HTML, CSS, JavaScript</p>
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
 
 <div class="description-button">
-    <button>Beschreibung +</button>
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: 600;">Beschreibung +</button>
 </div>
 
-<div class="project-description">
+<div class="project-description" style="height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords;">
 
 #### Herausforderung
 

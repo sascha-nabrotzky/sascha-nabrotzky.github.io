@@ -2,18 +2,17 @@
 
 ## Kita-Plätze lange im Vorraus ausgebucht
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer<br/>
-Technologien: Gatsby | React | HTML | CSS | JavaScript</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Web- & UX-Designer | Technologien: Gatsby, React, HTML, CSS, JavaScript</p>
 
 ![Website Waldschnecken](../images/Website_Waldschnecken.webp)
 
 [Zur Website](https://waldschnecken-ladbergen.de)
 
 <div class="description-button">
-    <button>Beschreibung +</button>
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: 600;">Beschreibung +</button>
 </div>
 
-<div class="project-description">
+<div class="project-description" style="height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords;">
 
 #### Herausforderung
 
@@ -21,7 +20,7 @@ Es wurde eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und 
 
 #### Vorgehen
 
-1. **User-Research** mit KI- und Online-Tools, was die Kindertagespflege ausmacht und Eltern erwarten.
+1. **User-Research** mit Unterstützung von KI und Online-Tools, was die Kindertagespflege ausmacht und Eltern erwarten.
 2. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche.
 3. Es wurde ein buntes, aber abgestimmtes, reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen erarbeitet.
 4. **Logoentwicklung** mit Vorabskizze.
