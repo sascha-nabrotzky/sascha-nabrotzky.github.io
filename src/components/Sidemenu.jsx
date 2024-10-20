@@ -13,8 +13,8 @@ const Sidemenu = ({ headings }) => {
             href={`#${index}`}
             className={styles.menuLink}
             key={index}
-            aria-label={`Scrolle zum Projekt "${heading.node.headings[1].value}"`}
-            dangerouslySetInnerHTML={{ __html: heading.node.headings[1].value }}
+            aria-label={`Scrolle zum Projekt "${heading.node.headings[0].value}"`}
+            dangerouslySetInnerHTML={{ __html: heading.node.headings[0].value }}
           ></a>
         )
       })}
