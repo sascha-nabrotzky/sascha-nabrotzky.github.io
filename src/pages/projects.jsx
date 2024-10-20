@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect } from "react"
+import React, { useLayoutEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Sidemenu from "../components/Sidemenu"
@@ -26,19 +26,6 @@ const Projects = () => {
     const descriptionButton = document.querySelectorAll(
       ".description-button button"
     )
-    const description = document.querySelectorAll(".project-description")
-
-    description.forEach(desc => {
-      desc.style.height = 0
-      desc.style.overflow = "hidden"
-      desc.style.transition = "height 1s ease"
-      desc.style.interpolateSize = "allow-keywords"
-    })
-    descriptionButton.forEach(button => {
-      button.style.fontSize = "var(--fs-sm)"
-      button.style.color = "var(--col-darkgray)"
-      button.style.fontWeight = 700
-    })
 
     descriptionButton.forEach(button => {
       button.addEventListener("click", e => {

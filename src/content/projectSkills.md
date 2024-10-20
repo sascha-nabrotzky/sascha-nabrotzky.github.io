@@ -1,20 +1,18 @@
-##### Die Darstellung meiner beruflichen Fähigkeiten wirkte zerstreut und es wurden nicht alle Fragen (z. B. für Recruiter) beantwortet
-
 ## Skills schneller erfassbar
 
-<p style="font-size: var(--fs-sm); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>Technologien: React | Gatsby | CSS</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> Web- & UX-Designer | <strong>Technologien: </strong>React, Gatsby, CSS</p>
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
-<div class="description-button">
-    <button>Beschreibung +</button>
+<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-lightgray)">
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Projektbeschreibung +</button>
 </div>
 
-<div class="project-description">
+<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-lightgray)">
 
 #### Herausforderung
 
-Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammengefasst und zudem der aktuelle Wissenstand gezeigt werden.
+Die Darstellung meiner beruflichen Fähigkeiten wirkte zerstreut und es wurden nicht alle Fragen (z. B. für Recruiter) beantwortet. Alle meine Fähigkeiten sollten übersichtlicher und leicht erfassbar zusammengefasst und zudem der aktuelle Wissenstand gezeigt werden.
 
 #### Vorgehen
 

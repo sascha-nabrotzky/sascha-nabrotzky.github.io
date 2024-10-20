@@ -83,7 +83,7 @@
 
 .author {
   font-family: var(--ff-sans);
-  font-weight: 600;
+  font-weight: var(--fw-bold);
   font-style: italic;
   font-size: 1.5em;
 }

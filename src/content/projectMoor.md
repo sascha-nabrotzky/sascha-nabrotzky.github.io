@@ -1,21 +1,19 @@
-##### Das Erscheinungsbild musste bei allen Touchpoints flüssig und eingängig funktionieren und professionell wirken, um die Spendengelder zu maximieren.
-
 ## Doppeltes Spendengeld
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg); color: var(--col-gray)">Meine Rolle: Webdesigner<br/>
-Technologien: HTML | CSS | JavaScript</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> Web- & UX-Designer |
+<strong>Technologien:</strong> HTML, CSS, JavaScript</p>
 
 ![Website Moorland-Festival](../images/MoorlandFestivalWebsite1.jpg)
 
-<div class="description-button">
-    <button>Beschreibung +</button>
+<div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-lightgray)">
+    <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Projektbeschreibung +</button>
 </div>
 
-<div class="project-description">
+<div class="project-description" style="padding-bottom: 0.5rem; height: 0; overflow: hidden; transition: height 1s ease; interpolate-size: allow-keywords; border-bottom: 1px solid var(--col-lightgray)">
 
 #### Herausforderung
 
-Das zweite Moorland-Festival sollte noch größer werden und dadurch noch mehr Spendengelder für einen guten Zweck zusammenkommen
+Das zweite Moorland-Festival sollte noch größer werden und dadurch noch mehr Spendengelder für einen guten Zweck zusammenkommen. Also muss das Erscheinungsbild bei allen Touchpoints flüssig und eingängig funktionieren und professionell wirken, um die Spendengelder zu maximieren.
 
 #### Vorgehen
 

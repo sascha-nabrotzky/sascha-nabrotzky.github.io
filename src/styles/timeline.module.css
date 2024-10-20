@@ -31,7 +31,7 @@
   border: 1px solid var(--col-darkgray);
   width: 6em;
   height: 6em;
-  font-weight: 700;
+  font-weight: var(--fw-bold);
 }
 
 .scale {
