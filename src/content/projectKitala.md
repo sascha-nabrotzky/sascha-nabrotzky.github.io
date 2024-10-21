@@ -18,8 +18,8 @@ Tagesmütter wurden nicht als professionell wahrgenommen und hatten wenig Mitspr
 
 #### Vorgehen
 
-1. Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt.**
-2. Durch KI-gestützte User-Research konnte ich die **Content-Strategie** entwickeln.
+1. Nach der KI-gestützte User-Research habe ich die **Content-Strategie** entwickelt.
+2. Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt.**
 3. **Wireframes** der Website erstellt.
 4. Das Design hielt ich sehr reduziert und entfernte alle unnötigen Spielereien, die ich normalerweise auf Seiten in diesem Bereich setzen würde.
 5. **Test und Validierung:** Auch hier habe ich die Content-Strategie mit **Heuristic Markup** und dem **5-Sekunden-Test** überprüft und optimiert.

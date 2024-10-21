@@ -34,10 +34,10 @@ const Projects = () => {
         e.preventDefault()
         if (e.target.parentElement.nextElementSibling.style.height === "auto") {
           e.target.parentElement.nextElementSibling.style.height = 0
-          e.target.innerHTML = "Beschreibung +"
+          e.target.innerHTML = "Projektbeschreibung +"
         } else {
           e.target.parentElement.nextElementSibling.style.height = "auto"
-          e.target.innerHTML = "Beschreibung &ndash;"
+          e.target.innerHTML = "Projektbeschreibung &ndash;"
         }
       })
     })
