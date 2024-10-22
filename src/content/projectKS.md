@@ -1,3 +1,8 @@
+---
+title: "K+S Online-Shop"
+date: "2019-06-28"
+---
+
 ## 30% Umsatzsteigerung im Online-Shop
 
 <p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle: </strong>Web- & UX-Designer | <strong>Technologien: </strong>Joomla!, CSS, HTML, JavaScript, Adobe Suite CC</p>

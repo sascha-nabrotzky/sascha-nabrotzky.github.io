@@ -1,3 +1,8 @@
+---
+title: "Waldschnecken"
+date: "2024-10-22"
+---
+
 ## Kita-Plätze lange im Vorraus ausgebucht
 
 <p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> Web- & UX-Designer | <strong>Technologien:</strong> Gatsby, React, HTML, CSS, JavaScript</p>

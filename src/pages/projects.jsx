@@ -8,11 +8,15 @@ import * as styles from "../styles/projects.module.css"
 const Projects = () => {
   const data = useStaticQuery(graphql`
     query projectsQuery {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
         edges {
           node {
             html
             id
+            frontmatter {
+              title
+              date(formatString: "MMMM DD, YYYY")
+            }
             headings {
               value
             }
