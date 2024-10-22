@@ -24,7 +24,6 @@ const Index = () => {
   return (
     <>
       <Layout>
-        <h1>Webdesign | UX-Design | Programmierung</h1>
         <TypewriterText text="Leidenschaft für Design und Technologie" />
         <p>
           Diese Leidenschaft treibt mich dazu an, innovative Lösungen zu
