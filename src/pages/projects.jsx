@@ -8,11 +8,15 @@ import * as styles from "../styles/projects.module.css"
 const Projects = () => {
   const data = useStaticQuery(graphql`
     query projectsQuery {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
         edges {
           node {
             html
             id
+            frontmatter {
+              title
+              date(formatString: "MMMM DD, YYYY")
+            }
             headings {
               value
             }
@@ -34,10 +38,10 @@ const Projects = () => {
         e.preventDefault()
         if (e.target.parentElement.nextElementSibling.style.height === "auto") {
           e.target.parentElement.nextElementSibling.style.height = 0
-          e.target.innerHTML = "Beschreibung +"
+          e.target.innerHTML = "Projektbeschreibung +"
         } else {
           e.target.parentElement.nextElementSibling.style.height = "auto"
-          e.target.innerHTML = "Beschreibung &ndash;"
+          e.target.innerHTML = "Projektbeschreibung &ndash;"
         }
       })
     })
