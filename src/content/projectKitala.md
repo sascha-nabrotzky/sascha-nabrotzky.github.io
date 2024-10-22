@@ -14,19 +14,20 @@
 
 #### Herausforderung
 
-Tagesmütter wurden nicht als professionell wahrgenommen und hatten wenig Mitspracherecht in der Gemeinde. Um die professionelle Wahrnehmung zu erreichen, musste das Design der Website und der andreren Touchpoints konsistent sein und nicht zu verspielt wirken.
+Tagesmütter wurden nicht als professionell wahrgenommen und hatten wenig Mitspracherecht in der Gemeinde, also hatten sie sich zu einem Verein zusammengeschlossen und brauchten eine passende Website. Um die professionelle Wahrnehmung zu erreichen, musste das Design aller Touchpoints konsistent sein und nicht zu verspielt wirken.
 
 #### Vorgehen
 
-1. Nach der KI-gestützte User-Research habe ich die **Content-Strategie** entwickelt.
-2. Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt.**
-3. **Wireframes** der Website erstellt.
+1. Nach der KI-gestützten **User-Research**, um herauszufinden welche Fragen die Website behandeln muss, habe ich die **Content-Strategie** entwickelt.
+2. Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt**, kombiniert mit dem Farbwunsch der Tagesmütter.
+3. Einige **Wireframes** der Website wurden skizziert, um eine Vorstellung zu bekommen, wie die Website aussehen könnte.
 4. Das Design hielt ich sehr reduziert und entfernte alle unnötigen Spielereien, die ich normalerweise auf Seiten in diesem Bereich setzen würde.
 5. **Test und Validierung:** Auch hier habe ich die Content-Strategie mit **Heuristic Markup** und dem **5-Sekunden-Test** überprüft und optimiert.
+6. **SEO-Optimierung** und **Performance-Optimierung** waren ebenfalls wichtige Punkte, die ich in der Entwicklung berücksichtigt habe.
 
 #### Ergebnis
 
-Tagesmütter werden durch reduziertes Design professioneller wahrgenommen und haben jetzt mehr Mitspracherecht in der Gemeinde.<br/><br/>
+Die Website des Tagesmüttervereins ist eine gut platzierte und viel beachtete Ergänzung zur Vereinsgründung mit vielen Informationen zum Nachlesen.<br/><br/>
 
 ![Planung und Vorzeichnung](../images/Kitala_PlanungZeichnung.jpg)
 
@@ -38,6 +39,6 @@ Tagesmütter werden durch reduziertes Design professioneller wahrgenommen und ha
 
 ![Aktionswoche](../images/Aktion_KiTaLa.jpg)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Illustrationen für Socialmedia-Posts,</strong> die während der bundesweiten Aktionswoche der Tagesmütter in privaten Accounts täglich geteilt wurden.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Socialmedia-Posts mit meinen Illustrationen,</strong> dienten dazu, die Wirksamkeit der Arbeit der Tagsmütter besser vorzustellen.</p>
 
 </div>

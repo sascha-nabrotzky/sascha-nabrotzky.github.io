@@ -14,21 +14,22 @@
 
 #### Herausforderung
 
-Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen und auch diese sollte sich wieder etablieren. Es wurde eine neue Website gebraucht, die kinderfreundlich, etwas verspielt und gleichzeitig professionell wirkt.
+Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen und auch diese sollte sich wieder etablieren. Dafür wurde eine neue Website gebraucht, die kinderfreundlich und gleichzeitig professionell wirkt.
 
 #### Vorgehen
 
-1. **User-Research** mit Unterstützung von KI und Online-Tools, was die Kindertagespflege ausmacht und Eltern erwarten.
-2. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche und der Erwartungen der Eltern wurde ausgearbeitet.
-3. Es wurde ein buntes, aber abgestimmtes, reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen erarbeitet.
-4. **Logoentwicklung** mit Vorabskizze.
-5. Die Website programmierte ich in **React, Gatsby, HTML** und **CSS** und die Vorteile-Blöcke wurden etwas animiert.
-6. Erstellen von Illustrationen, da diese die kinderfreundliche Atmosphäre unterstützen.
-7. **SEO- und Pagespeed-Optimierung** damit die Website gut gefunden wird und schnell lädt.
+1. **User-Research** mit Unterstützung von KI und Online-Tools wurde durchgeführt, um herauszufinden welche Fragen für Eltern auf der Website beantwortet werden müssen.
+2. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche wurde anschließend ausgearbeitet.
+3. Es ein relativ buntes, aber abgestimmtes und reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen, wurde erarbeitet.
+4. **Logoentwicklung** mit Vorabskizze wurde von mir illustriert und mit Aquarellfarben umgesetzt.
+5. Die Website programmierte ich in **React, Gatsby, HTML** und **CSS** und die Vorteile-Blöcke wurden etwas animiert, um das Interesse der Besucher darauf zu lenken. Ein wichtiger Punkt war auch die **Barrierefreiheit**, dabei wurden die Farben und die Schriftgrößen etwas angepasst, damit die Informationen besser erkennbar waren.
+6. **Test und Validierung:** Die Website wurde mit **Heuristic Markup** und dem **5-Sekunden-Test** überprüft und optimiert.
+7. Zudem habe ich **Illustrationen** für die Website und den Eingangsbereich erstellt, da diese die kinderfreundliche Atmosphäre unterstützen.
+8. **SEO- und Pagespeed-Optimierung** wurden ausgeführt, damit die Website gut gefunden wird und schnell lädt.
 
 #### Ergebnis
 
-Kitaplätze sind lange im Vorraus ausgebucht oder vorgemerkt und die Tagesmütter konnten sich auch mit der Kindergroßtagespflege wieder etablieren.<br/><br/>
+Gut gestaltete Website wird immer wieder als ausschlaggebendes Kriterium angegeben für die Kitaplatz-Entscheidung. Zudem sind die Kitaplätze lange im Voraus ausgebucht oder vorgemerkt und die Tagesmütter konnten sich auch mit der Kindergroßtagespflege wieder etablieren.<br/><br/>
 
 ![KI-User-Research: Vorteile einer Tagesmutter](../images/VorteileTagesmutter.webp)
 
@@ -36,6 +37,6 @@ Kitaplätze sind lange im Vorraus ausgebucht oder vorgemerkt und die Tagesmütte
 
 ![Erstellen von Illustrationen](../images/Waldschnecken_Illustration.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Für die kinderfreundliche Atmosphäre</strong> wurden, wie das Logo selber, einige Illustrationen für die einzelnen Seiten erstellt.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Für die kinderfreundliche Atmosphäre</strong> wurden einige Illustrationen für die einzelnen Seiten und den Eingangsbereich erstellt.</p>
 
 </div>
