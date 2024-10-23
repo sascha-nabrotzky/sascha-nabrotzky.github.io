@@ -1,7 +1,6 @@
 import React, { useRef } from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
-import TimeLine from "../components/TimeLine"
 import TypewriterText from "../components/TypewriterText"
 import socMedImg from "../images/socMedImg.jpg"
 import { ReactComponent as CloseIcon } from "../icons/close.svg"
@@ -25,17 +24,22 @@ const Index = () => {
     <>
       <Layout>
         <TypewriterText text="Leidenschaft für Design und Technologie" />
-        <p>
-          Diese Leidenschaft treibt mich dazu an, innovative Lösungen zu
-          entwickeln, die sowohl funktional als auch ästhetisch ansprechend
-          sind. Ich bin stets bestrebt, die neuesten Designtrends und
-          Technologien zu erlernen und anzuwenden, um Produkte zu schaffen, die
-          die <strong>Erwartungen der Benutzer übertreffen.</strong>
+        <p className={styles.introtext}>
+          Meine <strong>Leidenschaft </strong>für <strong>UX-Design </strong>und{" "}
+          <strong>Programmierung </strong>
+          treibt mich dazu an, innovative Lösungen zu entwickeln, die sowohl
+          funktional als auch ästhetisch ansprechend sind, um Produkte zu
+          schaffen, die die{" "}
+          <strong>Erwartungen der Benutzer übertreffen.</strong>{" "}
+          <button onClick={openModal} className={styles.openModalBtn}>
+            mehr über mich &rarr;
+          </button>
         </p>
-        <button onClick={openModal} className={styles.openModalBtn}>
-          Mehr über mich ...
-        </button>
-        <TimeLine />
+        <div className={styles.btnWrapper}>
+          <Link to="/projects" className={styles.ctaBtn}>
+            Zu meinen Projekten
+          </Link>
+        </div>
       </Layout>
 
       <dialog ref={modalRef1}>
@@ -49,8 +53,7 @@ const Index = () => {
             Ich bin <strong>Sascha Nabrotzky,</strong> verheiratet und als
             Familienvater mit zwei Kindern lebe ich im ländlichen Ladbergen.{" "}
             <br />
-            Als Webdesigner mit Fokus auf{" "}
-            <strong>Frontend-Entwicklung und UX-Design </strong>
+            Mit Fokus auf <strong>Web- und UX-Design </strong>
             habe ich umfangreiche Erfahrung in der Gestaltung und Entwicklung
             responsiver Apps und PWAs für die Steuerung von Saunen, Küchen und
             Kassensystemen per Touchscreen und Tablet. <br />

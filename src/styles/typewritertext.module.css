@@ -1,8 +1,20 @@
 .typewriter {
-  margin-bottom: 2rem;
+  margin-block: 1rem 0.5rem;
   font-family: var(--ff-sans);
   font-weight: var(--fw-bold);
   font-style: italic;
+  line-height: 1.2;
+  font-size: 2.2rem;
+  text-align: center;
+
+  @media (width > 576px) {
+    line-height: 1.2;
+    font-size: 3rem;
+  }
+  @media (width > 768px) {
+    margin-top: 2rem;
+    font-size: 4rem;
+  }
 
   &::after {
     display: inline-block;
@@ -10,9 +22,16 @@
     margin-left: 0.8rem;
     background-color: gray;
     width: 0.2rem;
-    height: 3.2rem;
+    height: 2.2rem;
     animation: blink 1s steps(2, start) infinite;
     content: "";
+
+    @media (width > 576px) {
+      height: 2.5rem;
+    }
+    @media (width > 768px) {
+      height: 3.5rem;
+    }
   }
 }
 
@@ -24,37 +43,4 @@
 
 .firstQuote {
   color: var(--col-magenta);
-}
-
-@media screen and (max-width: 576px) {
-  .typewriter {
-    line-height: 1.2;
-    font-size: 2.2rem;
-
-    &::after {
-      height: 2.2rem;
-    }
-  }
-}
-
-@media screen and (min-width: 577px) {
-  .typewriter {
-    line-height: 1.2;
-    font-size: 3rem;
-
-    &::after {
-      height: 2.5rem;
-    }
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .typewriter {
-    margin-top: 2rem;
-    font-size: 4rem;
-
-    &::after {
-      height: 3.5rem;
-    }
-  }
 }

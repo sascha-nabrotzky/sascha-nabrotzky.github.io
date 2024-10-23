@@ -3,18 +3,21 @@ import Layout from "../components/Layout"
 import SkillsSections from "../components/SkillsSections"
 import socMedImg from "../images/socMedImg.jpg"
 import SvgAnimation from "../components/SvgAnimation"
+import TimeLine from "../components/TimeLine"
+import * as style from "../styles/skills.module.css"
 
 const Skills = () => {
   return (
     <Layout>
-      <h1>Never stop learning!</h1>
-      <p>
+      <h1 className={style.pageheader}>Never stop learning!</h1>
+      <p className={style.introtext}>
         Ich stelle hier kurz meine wichtigsten Skills vor, die ich am meisten
         bei meinen privaten Projekten anwende oder worauf hauptberuflich mein
         Fokus liegt.
       </p>
       <SvgAnimation />
       <SkillsSections />
+      <TimeLine />
     </Layout>
   )
 }

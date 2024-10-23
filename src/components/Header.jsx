@@ -107,16 +107,16 @@ const Header = () => {
           <Link
             className={styles.navLink}
             activeClassName={styles.activeNavLink}
-            to="/skills"
+            to="/projects"
           >
-            Skills
+            Projekte
           </Link>
           <Link
             className={styles.navLink}
             activeClassName={styles.activeNavLink}
-            to="/projects"
+            to="/skills"
           >
-            Projekte
+            Skills
           </Link>
         </nav>
       </div>

@@ -107,6 +107,12 @@
   display: flex;
   font-size: 1.3em;
   gap: 1.5rem;
+
+  &:nth-child(2) {
+    @media (width > 768px) {
+      margin-left: auto;
+    }
+  }
 }
 
 .navList:last-of-type {
