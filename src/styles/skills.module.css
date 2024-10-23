@@ -1,5 +1,14 @@
+.pageheader,
+.introtext {
+  text-align: center;
+}
+
+.pageheader {
+  margin-bottom: 0;
+}
+
 .wrapper {
-  margin-top: 2rem;
+  margin-block: 2rem;
 }
 
 .logosMain {

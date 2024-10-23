@@ -6,14 +6,14 @@ const Hero = () => {
   return (
     <>
       <h1 className={styles.herocontainer}>
-        <p className={styles.overflowcontainer}>
-          <span>Messbare Erfolge</span>
-        </p>
-        <p className={styles.overflowcontainer}>
-          <span>
+        <div className={styles.overflowcontainer}>
+          <p>Messbare Erfolge</p>
+        </div>
+        <div className={styles.overflowcontainer}>
+          <p>
             Web- & UX-Design &ndash; nutzerfreundlich, zugänglich und ästhetisch
-          </span>
-        </p>
+          </p>
+        </div>
       </h1>
       <div className={styles.imgWrapper}>
         <img src={ProfileImg} alt="Sascha Nabrotzky" width="432" height="432" />

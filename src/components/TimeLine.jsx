@@ -36,7 +36,7 @@ const TimeLine = () => {
 
   return (
     <>
-      <h2 className={styles.headline}>Werdegang</h2>
+      <h2 className={styles.headline}>Woher mein Wissen kommt</h2>
       {TimeLineJSON.jahrtaetigkeit.map(point => {
         return (
           <section key={point.jahr.toString()}>

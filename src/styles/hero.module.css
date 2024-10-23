@@ -18,14 +18,13 @@
   font-style: normal;
 
   @media (width > 640px) {
-    height: 23rem;
-    padding-left: 1.5rem;
+    height: 20rem;
   }
   @media (width > 768px) {
-    height: 25rem;
+    height: 21rem;
   }
   @media (width > 1024px) {
-    height: 29rem;
+    height: 23rem;
   }
   @media (width > 1280px) {
     height: 33rem;
@@ -49,11 +48,7 @@
   margin: 0;
   text-align: center;
 
-  @media (width > 640px) {
-    text-align: left;
-  }
-
-  span {
+  p {
     transform: translateY(100%);
     margin: 0;
     line-height: 1;
@@ -62,11 +57,10 @@
 
     @media (width > 640px) {
       font-size: 4rem;
-      text-align: left;
     }
   }
 
-  &:first-of-type span {
+  &:first-of-type p {
     animation: TextFlowIn 0.5s forwards;
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -91,7 +85,7 @@
     }
   }
 
-  &:last-of-type span {
+  &:last-of-type p {
     animation: TextFlowIn 0.5s 0.5s forwards;
     font-size: 1.5rem;
     line-height: var(--lh-sm);
@@ -125,33 +119,21 @@
   margin-inline: auto;
   border-radius: 50%;
   width: 90vw;
+  max-width: 20rem;
   overflow: hidden;
   aspect-ratio: 1;
 
-  @media (width > 320px) {
-    width: 20rem;
-  }
   @media (width > 480px) {
     margin-top: -7.5rem;
   }
   @media (width > 640px) {
-    margin-top: -15rem;
-    margin-inline: auto 6%;
+    margin-top: -12rem;
   }
   @media (width > 1024px) {
-    margin-top: -18rem;
-    width: 27rem;
+    margin-top: -11rem;
   }
   @media (width > 1280px) {
-    margin-top: -18rem;
-  }
-  @media (width > 1536px) {
-    margin-top: -12rem;
-    width: 29rem;
-  }
-  @media (width > 1920px) {
     margin-top: -14rem;
-    width: 33rem;
   }
 
   img {

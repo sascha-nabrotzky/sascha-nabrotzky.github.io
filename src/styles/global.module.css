@@ -165,6 +165,8 @@ dialog {
   padding: 1rem;
   overflow-y: auto;
   margin: auto 1rem;
+  opacity: 0;
+  animation: fade-in 1s forwards;
 
   @media (width > 768px) {
     margin: auto;
@@ -191,5 +193,11 @@ dialog {
       width: 1.5rem;
       height: 1.5rem;
     }
+  }
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
   }
 }

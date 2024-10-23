@@ -1,7 +1,6 @@
 import React, { useRef } from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/Layout"
-import TimeLine from "../components/TimeLine"
 import TypewriterText from "../components/TypewriterText"
 import socMedImg from "../images/socMedImg.jpg"
 import { ReactComponent as CloseIcon } from "../icons/close.svg"
@@ -26,12 +25,14 @@ const Index = () => {
       <Layout>
         <TypewriterText text="Leidenschaft für Design und Technologie" />
         <p className={styles.introtext}>
-          Meine Leidenschaft für UX-Design und Programmierung treibt mich dazu
-          an, innovative Lösungen zu entwickeln, die sowohl funktional als auch
-          ästhetisch ansprechend sind, um Produkte zu schaffen, die die{" "}
+          Meine <strong>Leidenschaft </strong>für <strong>UX-Design </strong>und{" "}
+          <strong>Programmierung </strong>
+          treibt mich dazu an, innovative Lösungen zu entwickeln, die sowohl
+          funktional als auch ästhetisch ansprechend sind, um Produkte zu
+          schaffen, die die{" "}
           <strong>Erwartungen der Benutzer übertreffen.</strong>{" "}
           <button onClick={openModal} className={styles.openModalBtn}>
-            Mehr über mich ...
+            mehr über mich &rarr;
           </button>
         </p>
         <div className={styles.btnWrapper}>
@@ -39,8 +40,6 @@ const Index = () => {
             Zu meinen Projekten
           </Link>
         </div>
-
-        <TimeLine />
       </Layout>
 
       <dialog ref={modalRef1}>

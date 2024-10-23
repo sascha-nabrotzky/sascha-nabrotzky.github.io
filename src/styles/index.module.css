@@ -1,5 +1,6 @@
 .introtext {
   font-size: var(--fs-md);
+  text-align: center;
 }
 
 .openModalBtn {
@@ -13,13 +14,13 @@
 }
 
 .ctaBtn {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
   border-radius: 5rem;
-  background-color: var(--col-magenta);
+  background-color: var(--col-green);
   padding: 1rem 2rem;
   text-decoration: none;
-  color: var(--col-white);
+  color: var(--col-darkgray);
   font-size: var(--fs-base);
   text-align: center;
 }
