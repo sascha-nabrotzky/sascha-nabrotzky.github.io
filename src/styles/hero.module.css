@@ -30,10 +30,6 @@
   @media (width > 1280px) {
     height: 33rem;
   }
-
-  p {
-    margin: 0;
-  }
 }
 
 @keyframes gradient {
@@ -50,6 +46,12 @@
 
 .overflowcontainer {
   overflow: hidden;
+  margin: 0;
+  text-align: center;
+
+  @media (width > 640px) {
+    text-align: left;
+  }
 
   span {
     transform: translateY(100%);
@@ -57,16 +59,19 @@
     line-height: 1;
     color: var(--col-white);
     padding-inline: 0.5rem;
+
+    @media (width > 640px) {
+      font-size: 4rem;
+      text-align: left;
+    }
   }
 
   &:first-of-type span {
     animation: TextFlowIn 0.5s forwards;
-    text-align: center;
     font-size: 3.5rem;
     text-transform: uppercase;
 
     @media (width > 640px) {
-      text-align: left;
       font-size: 4rem;
     }
     @media (width > 768px) {
@@ -88,12 +93,10 @@
 
   &:last-of-type span {
     animation: TextFlowIn 0.5s 0.5s forwards;
-    text-align: center;
     font-size: 1.5rem;
-    line-height: var(--lh-md);
+    line-height: var(--lh-sm);
 
     @media (width > 640px) {
-      text-align: left;
       font-size: 1.5rem;
     }
     @media (width > 768px) {
