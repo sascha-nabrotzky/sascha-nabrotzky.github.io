@@ -1,6 +1,6 @@
 ---
 title: "Waldschnecken"
-date: "2024-10-22"
+date: "2024-03-22"
 ---
 
 ## Kita-Plätze lange im Vorraus ausgebucht
@@ -43,7 +43,15 @@ Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen
 
 #### Ergebnis
 
-Gut gestaltete Website wird immer wieder als ausschlaggebendes Kriterium angegeben für die Kitaplatz-Entscheidung. Zudem sind die Kitaplätze lange im Voraus ausgebucht oder vorgemerkt und die Tagesmütter konnten sich auch mit der Kindergroßtagespflege wieder etablieren.<br/><br/>
+- Gut gestaltete Website wird immer wieder als **ausschlaggebendes Kriterium angegeben für die Kitaplatz-Entscheidung.**
+- Kitaplätze sind dadurch **lange im Voraus ausgebucht** oder vorgemerkt.
+- Tagesmütter konnten sich auch mit der Kindergroßtagespflege wieder etablieren und einen **guten Namen über die Gemeinde hinaus** machen.
+
+#### Learnings
+
+- **KI-User-Research und Interviews:** KI-gestützte User-Research in Kombination mit Interviews ist eine schnelle und leichte Möglichkeit, um die Vorteile der Tagesmutter und die Erwartungen der Eltern herauszufinden.
+- **Kinderfreundliche Atmosphäre:** Illustrationen und kindgerechte Farben unterstützen die kinderfreundliche Atmosphäre und geben den Eltern ein gutes Bauchgefühl, um sich für diese Kindergroßtagespflege zu entscheiden.
+- **Barrierefreiheit:** Für eine Kindergroßtagespflege ist es wichtig, dass die Informationen für alle gut lesbar und erkennbar sind, da auch Eltern mit Sehschwäche oder ältere Menschen die Website besuchen.<br/><br/>
 
 ![KI-User-Research: Vorteile einer Tagesmutter](../images/VorteileTagesmutter.webp)
 
