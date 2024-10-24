@@ -8,7 +8,7 @@ import * as styles from "../styles/projects.module.css"
 const Projects = () => {
   const data = useStaticQuery(graphql`
     query projectsQuery {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
         edges {
           node {
             html
