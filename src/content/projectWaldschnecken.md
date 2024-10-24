@@ -23,23 +23,23 @@ Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen
 
 #### User-Research
 
-- **Quantitativ:** Mit Unterstützung von **KI und Online-Tools** wurde online nach immer wiederkehrenden Fragen der Eltern gesucht.
+- **Quantitativ:** Mit Unterstützung von **KI und Online-Tools** wurde online nach immer wiederkehrenden Fragen der Eltern gesucht (Fig. 1).
 - **Qualitativ:** Interviews mit den Tagesmüttern selber wurde durchgeführt, um die Vorteile der Tagesmutter herauszufinden und die Erwartungen der Eltern zu ermitteln.
 - Fragen zum **Konzept,** zu den **Vorteilen** und zu den **Kosten** wurden von den Eltern häufig gestellt, auch nach **Flexibilität** und **Betreuungszeiten** wurde gefragt.
 - Wichtig war auch immer den **Eltern ein gutes Bauchgefühl zu vermitteln,** da sie ihre Kinder in die Obhut der Tagesmütter geben.
 
 #### Umsetzung
 
-2. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche wurde anschließend ausgearbeitet.
-3. Ein abgestimmtes und reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen, wurde erarbeitet.
-4. **Logo** mit Vorabskizze wurde von mir illustriert und mit Aquarellfarben final umgesetzt.
-5. Die Website programmierte ich in **React, Gatsby, HTML** und **CSS** und die Vorteile-Blöcke wurden etwas animiert, um das Interesse der Besucher darauf zu lenken. Ein wichtiger Punkt war auch die **Barrierefreiheit**, dabei wurde der Farbkontrast und die Schriftgröße etwas erhöht, damit die Informationen besser erkennbar waren.
-6. Zudem habe ich **Illustrationen** für die Website und den Eingangsbereich der Kita erstellt, da diese die kinderfreundliche Atmosphäre unterstützen.
-7. **SEO- und Pagespeed-Optimierung** wurden ausgeführt, damit die Website gut gefunden wird und schnell lädt.
+1. Ein abgestimmtes und reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen, wurde erarbeitet.
+2. **Logo** mit Vorabskizze wurde von mir illustriert und mit Aquarellfarben final umgesetzt.
+3. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche wurde anschließend ausgearbeitet (Fig. 2).
+4. Die Website programmierte ich in **React, Gatsby, HTML** und **CSS** und die Vorteile-Blöcke wurden etwas animiert, um das Interesse der Besucher darauf zu lenken. Ein wichtiger Punkt war auch die **Barrierefreiheit**, dabei wurde der Farbkontrast und die Schriftgröße etwas erhöht, damit die Informationen besser erkennbar waren.
+5. Zudem habe ich **Illustrationen** für die Website und den Eingangsbereich der Kita erstellt, da diese die kinderfreundliche Atmosphäre unterstützen (Fig. 3).
+6. **SEO- und Pagespeed-Optimierung** wurden ausgeführt, damit die Website gut gefunden wird und schnell lädt.
 
 #### Test und Validierung
 
-- Die Website wurde seiten- und komponentenweise mit **Heuristic Markup** und dem **5-Sekunden-Test** iterativ überprüft und optimiert.
+- Die Website wurde seiten- und komponentenweise mit **Heuristic Markup** und dem **5-Sekunden-Test** immer wieder iterativ überprüft und optimiert.
 
 #### Ergebnis
 
@@ -47,10 +47,14 @@ Gut gestaltete Website wird immer wieder als ausschlaggebendes Kriterium angegeb
 
 ![KI-User-Research: Vorteile einer Tagesmutter](../images/VorteileTagesmutter.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>KI-gestützte User-Research,</strong> um die Vorteile der Tagesmutter und die Erwartungen der Eltern herauszufinden.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Fig.1: KI-gestützte User-Research,</strong> um die Vorteile der Tagesmutter und die Erwartungen der Eltern herauszufinden.</p>
+
+![Prototyping der Website](../images/Waldschnecken_Prototyping.webp)
+
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Fig.2: Prototyping in Penpot.</strong> Aufbau der Informationsarchitektur, des Layouts und einstellen der Farbharmonien.</p>
 
 ![Erstellen von Illustrationen](../images/Waldschnecken_Illustration.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Für die kinderfreundliche Atmosphäre</strong> wurden einige Illustrationen für die einzelnen Seiten und den Eingangsbereich erstellt.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Fig.3: Für die kinderfreundliche Atmosphäre</strong> wurden einige Illustrationen für die einzelnen Seiten und den Eingangsbereich erstellt.</p>
 
 </div>
