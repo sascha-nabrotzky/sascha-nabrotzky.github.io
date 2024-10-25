@@ -5,7 +5,7 @@ date: "2024-03-22"
 
 ## Kita-Plätze lange im Vorraus ausgebucht
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> Web- & UX-Designer | <strong>Technologien:</strong> Gatsby, React, HTML, CSS, JavaScript</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> UX-Designer & Frontend-Entwickler | <strong>Technologien:</strong> Gatsby, React, HTML, CSS, JavaScript</p>
 
 ![Website Waldschnecken](../images/Website_Waldschnecken.webp)
 
@@ -39,7 +39,7 @@ Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen
 
 #### Test und Validierung
 
-- Die Website wurde seiten- und komponentenweise mit **Heuristic Markup** und dem **5-Sekunden-Test** immer wieder iterativ überprüft und optimiert.
+- Die Website wurde seiten- und komponentenweise mit **Heuristic Markup** und dem **5-Sekunden-Test** immer wieder iterativ überprüft und optimiert, da diese Tests schnell durchzuführen sind.
 
 #### Ergebnis
 

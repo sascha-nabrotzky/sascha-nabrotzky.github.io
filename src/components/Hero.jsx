@@ -11,7 +11,7 @@ const Hero = () => {
         </div>
         <div className={styles.overflowcontainer}>
           <p>
-            Web- & UX-Design &ndash; nutzerfreundlich, zugänglich und ästhetisch
+            UI/UX-Design &ndash; nutzerfreundlich, zugänglich und ästhetisch
           </p>
         </div>
       </h1>
