@@ -5,7 +5,7 @@ date: "2020-03-12"
 
 ## Tagesmütter professioneller wahrgenommen
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> Web- & UX-Designer | <strong>Technologien:</strong> React, CSS, HTML</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> UX-Designer & Frontend-Entwickler | <strong>Technologien:</strong> React, CSS, HTML</p>
 
 ![Vereinsseite der Tagesmütter](../images/Kitala_Website.webp)
 
@@ -21,14 +21,21 @@ date: "2020-03-12"
 
 Tagesmütter wurden nicht als professionell wahrgenommen und hatten wenig Mitspracherecht in der Gemeinde, also hatten sie sich zu einem Verein zusammengeschlossen und brauchten eine passende Website. Um die professionelle Wahrnehmung zu erreichen, musste das Design aller Touchpoints konsistent sein und nicht zu verspielt wirken.
 
+#### User-Research
+
+- **KI-gestützte** User-Research wurde durchgeführt, um herauszufinden welche Fragen die Website beantworten muss.
+- Ergebnisse **vorhandener User-Research** für Tagesmütter wurde hinzugezogen, da dort identische Themen behandelt wurden.
+
 #### Vorgehen
 
-1. Nach der KI-gestützten **User-Research**, um herauszufinden welche Fragen die Website behandeln muss, habe ich die **Content-Strategie** entwickelt.
-2. Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt**, kombiniert mit dem Farbwunsch der Tagesmütter.
-3. Einige **Wireframes** der Website wurden skizziert, um eine Vorstellung zu bekommen, wie die Website aussehen könnte.
-4. Das Design hielt ich sehr reduziert und entfernte alle unnötigen Spielereien, die ich normalerweise auf Seiten in diesem Bereich setzen würde.
-5. **Test und Validierung:** Auch hier habe ich die Content-Strategie mit **Heuristic Markup** und dem **5-Sekunden-Test** überprüft und optimiert.
-6. **SEO-Optimierung** und **Performance-Optimierung** waren ebenfalls wichtige Punkte, die ich in der Entwicklung berücksichtigt habe.
+1. Beim **Illustrieren des Logos** habe ich gleichzeitig auch das grundsätzliche **Farbschema erstellt**, kombiniert mit dem Farbwunsch der Tagesmütter.
+2. Einige **Wireframes** der Website wurden skizziert, um eine Vorstellung zu bekommen, wie die Website aussehen könnte.
+3. Das Design hielt ich sehr reduziert und entfernte alle unnötigen Spielereien, die ich normalerweise auf Seiten in diesem Bereich setzen würde.
+4. **SEO-Optimierung** und **Performance-Optimierung** waren ebenfalls wichtige Punkte, die ich in der Entwicklung berücksichtigt habe.
+
+#### Test und Validierung
+
+- **Test und Validierung:** Auch hier habe ich die Content-Strategie mit **Heuristic Markup** und dem **5-Sekunden-Test** überprüft und optimiert, da diese Tests immer schnell zwischendurch durchzuführen sind.
 
 #### Ergebnis
 

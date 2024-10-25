@@ -5,7 +5,7 @@ date: "2023-08-31"
 
 ## Skills schneller erfassbar
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> Web- & UX-Designer | <strong>Technologien: </strong>React, Gatsby, CSS</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> UX-Designer & Frontend-Entwickler | <strong>Technologien: </strong>React, Gatsby, CSS</p>
 
 ![Vereinsseite der Tagesmütter](../images/SkillsRework.jpg)
 
@@ -19,17 +19,20 @@ date: "2023-08-31"
 
 Die Darstellung meiner beruflichen Fähigkeiten wirkte zerstreut und es wurden nicht alle Fragen (z. B. für Recruiter) beantwortet. Alle meine Fähigkeiten sollten übersichtlicher und leichter erfassbar zusammengefasst und zudem der aktuelle Wissenstand gezeigt werden.
 
+#### User-Research
+
+- Rückmeldungen von Recruitern und Fragen an Freunde und Bekannte zeigte auf, dass die bisherige Darstellung zu unübersichtlich war und nicht klar war, was genau meine Fähigkeiten und wie sie verteilt sind.
+
 #### Vorgehen
 
-1. **User-Research** (Fragen an Recruiter, Freunde, Bekannte) zeigte auf, dass die bisherige Darstellung zu unübersichtlich war und nicht klar war, was genau meine Fähigkeiten sind.
-2. Grober **Aufbau im Grafikprogramm** Inkscape erstellt, um die einzelnen Bereiche zu strukturieren und die Farbgebung zu testen.
-3. Finetuning und Umsetzung mit **CSS** im Projekt.
-4. Anpassen der Formulierungen und Hinzufügen von **ausgeschriebenen Technologienamen,** um die Übersichtlichkeit zu erhöhen.
-5. Darstellung der **Wissensstände mit kleinen Sternen** unter den Logos und einer Legende unten drunter.
-6. **Test und Validierung** der Änderungen mit **Heuristic Markup** und einem **5-Sekunden-Test**.
+1. Grober **Aufbau im Grafikprogramm** Inkscape erstellt, um die einzelnen Bereiche zu strukturieren und die Farbgebung zu testen.
+2. Finetuning und Umsetzung mit **CSS** im Projekt.
+3. Anpassen der Formulierungen und Hinzufügen von **ausgeschriebenen Technologienamen,** um die Übersichtlichkeit zu erhöhen.
+4. Darstellung der **Wissensstände mit kleinen Sternen** unter den Logos und einer Legende unten drunter.
+5. **Test und Validierung** der Änderungen mit **Heuristic Markup** und einem **5-Sekunden-Test.**
 
 #### Ergebnis
 
-Meine Kenntnisse sind jetzt schneller erfassbar und werden leichter verstanden, außerdem wirk alles viel ruhiger und geordneter.<br/><br/>
+Meine Kenntnisse sind jetzt schneller erfassbar und werden leichter verstanden, außerdem wirkt alles viel ruhiger und geordneter.<br/><br/>
 
 </div>

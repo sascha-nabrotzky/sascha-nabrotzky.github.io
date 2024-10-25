@@ -26,13 +26,13 @@ const Index = () => {
         <TypewriterText text="Leidenschaft für Design und Technologie" />
         <p className={styles.introtext}>
           Meine <strong>Leidenschaft </strong>für <strong>UX-Design </strong>und{" "}
-          <strong>Programmierung </strong>
+          <strong>Frontend-Entwicklung </strong>
           treibt mich dazu an, innovative Lösungen zu entwickeln, die sowohl
           funktional als auch ästhetisch ansprechend sind, um Produkte zu
           schaffen, die die{" "}
           <strong>Erwartungen der Benutzer übertreffen.</strong>{" "}
           <button onClick={openModal} className={styles.openModalBtn}>
-            mehr über mich &rarr;
+            Mehr über mich &rarr;
           </button>
         </p>
         <div className={styles.btnWrapper}>
@@ -53,13 +53,14 @@ const Index = () => {
             Ich bin <strong>Sascha Nabrotzky,</strong> verheiratet und als
             Familienvater mit zwei Kindern lebe ich im ländlichen Ladbergen.{" "}
             <br />
-            Mit Fokus auf <strong>Web- und UX-Design </strong>
-            habe ich umfangreiche Erfahrung in der Gestaltung und Entwicklung
-            responsiver Apps und PWAs für die Steuerung von Saunen, Küchen und
-            Kassensystemen per Touchscreen und Tablet. <br />
+            Mit Fokus auf <strong>UX-Design </strong> und{" "}
+            <strong>Frontend-Entwicklung</strong> habe ich umfangreiche
+            Erfahrung in der Gestaltung und Entwicklung responsiver Apps und
+            PWAs für die Steuerung von Saunen, Küchen und Kassensystemen per
+            Touchscreen und Tablet. <br />
             Meine Fähigkeiten umfassen die Entwicklung von interaktiven
             Prototypen sowie die Optimierung der Nutzererfahrung in einem
-            interdisziplinären Team. In meiner Rolle als Webdesigner habe ich
+            interdisziplinären Team. In meiner Rolle als "UX-Engineer" habe ich
             moderne Technologien wie{" "}
             <strong>HTML, CSS, JavaScript, React und TYPO3 </strong>
             eingesetzt, um ansprechende und benutzerfreundliche Apps zu
