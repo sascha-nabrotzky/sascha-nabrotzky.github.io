@@ -35,7 +35,7 @@ Die alte Buchungsstrecke war unübersichtlich und langsam. Die Kunden haben sich
 3. **Informationsarchitektur** und **Wireframing** der Hauptseiten für die eigentliche Buchung wurde anschließend in Figma weiter ausgearbeitet (Fig. 1).
 4. **Übergabe** der ersten Wireframes an die Grafikabteilung, um die **Gestaltung** der Buchungsstrecke zu optimieren.
 5. Das Frontend der Buchungsstrecke programmierte ich auf Basis des ausgearbeiteten Designs in **React, HTML** und **CSS**, danach Übergabe an die Backend-Entwickler.
-6. **Pagespeed-Optimierung** wurden ausgeführt, damit die Buchungsstrecke schnell lädt, sowol im Frontend, als auch im Backend.
+6. **Pagespeed-Optimierung** wurden ausgeführt, damit die Buchungsstrecke schnell lädt, sowohl im Frontend, als auch im Backend.
 
 #### Test und Validierung
 
