@@ -10,9 +10,7 @@ const Hero = () => {
           <p>Messbare Erfolge</p>
         </div>
         <div className={styles.overflowcontainer}>
-          <p>
-            UI/UX-Design &ndash; nutzerfreundlich, zugänglich und ästhetisch
-          </p>
+          <p>Webdesign &ndash; nutzerfreundlich, zugänglich und ästhetisch</p>
         </div>
       </h1>
       <div className={styles.imgWrapper}>
