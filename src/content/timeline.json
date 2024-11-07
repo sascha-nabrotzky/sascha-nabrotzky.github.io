@@ -1,6 +1,11 @@
 {
   "jahrtaetigkeit": [
     {
+      "jahr": "2024",
+      "taetigkeit": "Fokus auf UI/UX-Design",
+      "technologie": "und intensive Weiterbildung auch im Webdesign."
+    },
+    {
       "jahr": "2023",
       "taetigkeit": "Webdesigner UI/UX bei MyWellness",
       "technologie": "Apps/PWAs mit React, Typescript, Tailwind, Storybook, CSS3, SCSS"

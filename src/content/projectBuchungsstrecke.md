@@ -10,7 +10,7 @@ date: "2024-06-01"
 
 ![Wireframes für den User-Flow der Buchungsstrecke](../images/Buchungsstrecke_Wireframe.webp)
 
-<p style="font-size: var(--fs-sm)">&#8593; <strong>Fig. 1: Erste Wireframes</strong> und entwickeln des User-Flows für besonders leicht verständliche und schnelle Buchung der Suiten. Startseite mit Filter fürs schnelle Suchen (li.), Schnellsuche per Radius (mi.), Auswahl der Startzeit mit Flyout-Filter, damit der Kunde schnell noch was ändern kann (re.).</p>
+<p style="font-size: var(--fs-sm)">&#8593; <strong>Fig. 1: Entwickeln des User-Flows</strong> für besonders leicht verständliche und schnelle Buchung der Suiten. Startseite mit Filter fürs schnelle Suchen (li.), Schnellsuche per Radius (mi.), Auswahl der Startzeit mit Flyout-Filter, damit der Kunde schnell noch was ändern kann (re.).</p>
 
 <div class="description-button" style="padding-top: 0.5rem; border-top: 1px solid var(--col-lightgray)">
     <button style="font-size: var(--fs-sm); color: var(--col-darkgray); font-weight: var(--fw-bold);">Projektbeschreibung +</button>
