@@ -31,7 +31,7 @@ const Index = () => {
           funktional als auch ästhetisch ansprechend sind, um Produkte zu
           schaffen, die die{" "}
           <strong>Erwartungen der Benutzer übertreffen</strong> und{" "}
-          <strong>Umsätze steigert.</strong>{" "}
+          <strong>Umsätze steigern.</strong>{" "}
           <button onClick={openModal} className={styles.openModalBtn}>
             Mehr über mich &rarr;
           </button>
