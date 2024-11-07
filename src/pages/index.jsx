@@ -30,7 +30,8 @@ const Index = () => {
           treibt mich dazu an, innovative Lösungen zu entwickeln, die sowohl
           funktional als auch ästhetisch ansprechend sind, um Produkte zu
           schaffen, die die{" "}
-          <strong>Erwartungen der Benutzer übertreffen.</strong>{" "}
+          <strong>Erwartungen der Benutzer übertreffen</strong> und{" "}
+          <strong>Umsätze steigert.</strong>{" "}
           <button onClick={openModal} className={styles.openModalBtn}>
             Mehr über mich &rarr;
           </button>
