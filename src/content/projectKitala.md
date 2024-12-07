@@ -5,7 +5,7 @@ date: "2020-03-12"
 
 ## Tagesmütter professioneller wahrgenommen
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> UX-Designer & Frontend-Entwickler | <strong>Technologien:</strong> React, CSS, HTML</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> UX Engineer | <strong>Technologien:</strong> React, CSS, HTML</p>
 
 ![Vereinsseite der Tagesmütter](../images/Kitala_Website.webp)
 

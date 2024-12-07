@@ -6,15 +6,15 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Sascha Nabrotzky | Web- & UX-Design",
+    title: "Sascha Nabrotzky | UX Engineer",
     siteUrl: "https://sascha-nabrotzky.github.io",
     description:
-      "Leidenschaft für Design und Technologie - Entwicklung von innovativen Lösungen, um Produkte zu schaffen, die die Erwartungen der Benutzer übertreffen. Webdesign aus Ladbergen im Münsterland.",
+      "Leidenschaft für UX Design und Frontend-Entwicklung, innovative und benutzerzentrierte Lösungen, Vereinigung von Funktionalität und Ästhetik. Erwartungen der Nutzer übertreffen und messbarer Geschäftserfolg. Webdesign aus Ladbergen im Münsterland.",
     url: "https://sascha-nabrotzky.github.io/",
     image: "../images/socMedImg.jpg",
     author: "Sascha Nabrotzky",
     keywords:
-      "UX-Engineer, UX-Design, ux engineer, UI-Design, UI, React, Gatsby, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
+      "UX Engineer, UX Design, ux engineer, UI Design, UI, React, Gatsby, Front-End Development, Frontend-Entwicklung, Webdesign, Frontend, Programmierung, Web, Webentwicklung, web developer",
   },
 
   plugins: [

@@ -5,7 +5,7 @@ date: "2019-06-28"
 
 ## 30% Umsatzsteigerung im Online-Shop
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle: </strong>UX-Designer & Frontend-Entwickler | <strong>Technologien: </strong>Joomla!, CSS, HTML, JavaScript, Adobe Suite CC</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle: </strong>UX Engineer | <strong>Technologien: </strong>Joomla!, CSS, HTML, JavaScript, Adobe Suite CC</p>
 
 ![Online-Shop von K + S](../images/KS-ShopMockup.jpg)
 
