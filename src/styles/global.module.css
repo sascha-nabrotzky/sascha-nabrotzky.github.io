@@ -196,6 +196,8 @@ dialog {
   }
 
   a {
+    color: var(--col-darkgray);
+
     &:visited {
       color: var(--col-darkgray);
     }

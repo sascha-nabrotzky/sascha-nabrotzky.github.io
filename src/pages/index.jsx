@@ -61,7 +61,7 @@ const Index = () => {
             auf dem Trainingsplatz &minus; und eine weitere Leidenschaft, die
             mich beruflich häufig begleitet und erfolgreich unterstützt hat, ist
             das{" "}
-            <Link to="https:/sascha-nabrotzky.de" target="_blank">
+            <Link to="https://sascha-nabrotzky.de/" target="_blank">
               Illustrieren.
             </Link>
           </p>
