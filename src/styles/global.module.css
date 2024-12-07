@@ -178,7 +178,7 @@ dialog {
     backdrop-filter: blur(5px);
   }
 
-  & > div:first-child {
+  & > header {
     text-align: right;
     position: sticky;
     top: 0;
@@ -192,6 +192,12 @@ dialog {
     & svg {
       width: 1.5rem;
       height: 1.5rem;
+    }
+  }
+
+  a {
+    &:visited {
+      color: var(--col-darkgray);
     }
   }
 }

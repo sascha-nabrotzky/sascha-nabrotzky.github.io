@@ -25,13 +25,15 @@ const Index = () => {
       <Layout>
         <TypewriterText text="Leidenschaft für Design und Technologie" />
         <p className={styles.introtext}>
-          Meine <strong>Leidenschaft </strong>für <strong>UX-Design </strong>und{" "}
-          <strong>Frontend-Entwicklung </strong>
-          treibt mich dazu an, innovative Lösungen zu entwickeln, die sowohl
-          funktional als auch ästhetisch ansprechend sind, um Produkte zu
-          schaffen, die die{" "}
-          <strong>Erwartungen der Benutzer übertreffen</strong> und{" "}
-          <strong>Umsätze steigern.</strong>{" "}
+          Meine Leidenschaft für <strong>UX-Design </strong>und{" "}
+          <strong>Frontend-Entwicklung </strong>motiviert mich, innovative und{" "}
+          <strong>benutzerzentrierte Lösungen </strong>zu gestalten, die
+          Funktionalität und Ästhetik vereinen. Mein Ziel ist es, Produkte zu
+          schaffen, die nicht nur die Erwartungen der Nutzer übertreffen,
+          sondern auch <strong>messbar zum Geschäftserfolg beitragen. </strong>
+          Ich optimiere die Zusammenarbeit zwischen Design- und Entwicklerteams,
+          indem ich Prototypen und UI-Komponenten direkt in produktionsreifen
+          Code überführe.
           <button onClick={openModal} className={styles.openModalBtn}>
             Mehr über mich &rarr;
           </button>
@@ -44,28 +46,24 @@ const Index = () => {
       </Layout>
 
       <dialog ref={modalRef1}>
-        <div>
+        <header>
           <button onClick={closeModal} aria-label="close modal">
             <CloseIcon />
           </button>
-        </div>
+        </header>
         <div>
           <p>
             Ich bin <strong>Sascha Nabrotzky,</strong> verheiratet und als
             Familienvater mit zwei Kindern lebe ich im ländlichen Ladbergen.{" "}
             <br />
-            Mit Fokus auf <strong>UX-Design </strong> und{" "}
-            <strong>Frontend-Entwicklung</strong> habe ich umfangreiche
-            Erfahrung in der Gestaltung und Entwicklung responsiver Apps und
-            PWAs für die Steuerung von Saunen, Küchen und Kassensystemen per
-            Touchscreen und Tablet. <br />
-            Meine Fähigkeiten umfassen die Entwicklung von interaktiven
-            Prototypen sowie die Optimierung der Nutzererfahrung in einem
-            interdisziplinären Team. In meiner Rolle als "UX-Engineer" habe ich
-            moderne Technologien wie{" "}
-            <strong>HTML, CSS, JavaScript, React und TYPO3 </strong>
-            eingesetzt, um ansprechende und benutzerfreundliche Apps zu
-            erstellen.
+            Wenn ich mal nicht am programmieren bin oder Designs entwickle, dann
+            bin ich entweder für meine Familie da oder stehe als Bogenschütze
+            auf dem Trainingsplatz &minus; und eine weitere Leidenschaft, die
+            mich beruflich häufig begleitet und erfolgreich unterstützt hat, ist
+            das{" "}
+            <Link to="https:/sascha-nabrotzky.de" target="_blank">
+              Illustrieren.
+            </Link>
           </p>
         </div>
       </dialog>

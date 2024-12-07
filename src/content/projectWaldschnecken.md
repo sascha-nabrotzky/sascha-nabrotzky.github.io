@@ -5,7 +5,7 @@ date: "2024-03-22"
 
 ## Kita-Plätze lange im Vorraus ausgebucht
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> UX-Designer & Frontend-Entwickler | <strong>Technologien:</strong> Gatsby, React, HTML, CSS, JavaScript</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-base); color: var(--col-gray)"><strong>Meine Rolle:</strong> UX Engineer | <strong>Technologien:</strong> Gatsby, React, HTML, CSS, JavaScript</p>
 
 ![Website Waldschnecken](../images/Website_Waldschnecken.webp)
 
@@ -23,7 +23,7 @@ Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen
 
 #### User-Research
 
-- **Quantitativ:** Mit Unterstützung von **KI und Online-Tools** wurde online nach immer wiederkehrenden Fragen der Eltern gesucht (Fig. 1).
+- **Quantitativ:** Mit Unterstützung von **KI und Online-Tools** wurde online nach immer wiederkehrenden Fragen der Eltern gesucht (Abb. 1).
 - **Qualitativ:** Interviews mit den Tagesmüttern selber wurde durchgeführt, um die Vorteile der Tagesmutter herauszufinden und die Erwartungen der Eltern zu ermitteln.
 - Fragen zum **Konzept,** zu den **Vorteilen** und zu den **Kosten** wurden von den Eltern häufig gestellt, auch nach **Flexibilität** und **Betreuungszeiten** wurde gefragt.
 - Wichtig war auch immer den **Eltern ein gutes Bauchgefühl zu vermitteln,** da sie ihre Kinder in die Obhut der Tagesmütter geben.
@@ -32,9 +32,9 @@ Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen
 
 1. Ein abgestimmtes und reduziertes **Farbkonzept** mit natürlichen Tönen, die zum Thema "Wald" passen, wurde erarbeitet.
 2. **Logo** mit Vorabskizze wurde von mir illustriert und mit Aquarellfarben final umgesetzt.
-3. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche wurde anschließend ausgearbeitet (Fig. 2).
+3. **Informationsarchitektur** und **Wireframing** auf Basis der Recherche wurde anschließend ausgearbeitet (Abb. 2).
 4. Die Website programmierte ich in **React, Gatsby, HTML** und **CSS** und die Vorteile-Blöcke wurden etwas animiert, um das Interesse der Besucher darauf zu lenken. Ein wichtiger Punkt war auch die **Barrierefreiheit**, dabei wurde der Farbkontrast und die Schriftgröße etwas erhöht, damit die Informationen besser erkennbar waren.
-5. Zudem habe ich **Illustrationen** für die Website und den Eingangsbereich der Kita erstellt, da diese die kinderfreundliche Atmosphäre unterstützen (Fig. 3).
+5. Zudem habe ich **Illustrationen** für die Website und den Eingangsbereich der Kita erstellt, da diese die kinderfreundliche Atmosphäre unterstützen (Abb. 3).
 6. **SEO- und Pagespeed-Optimierung** wurden ausgeführt, damit die Website gut gefunden wird und schnell lädt.
 
 #### Test und Validierung
@@ -47,22 +47,16 @@ Zwei Tagesmütter haben sich zu einer Kindergroßtagespflege zusammengeschlossen
 - Kitaplätze sind dadurch **lange im Voraus ausgebucht** oder vorgemerkt.
 - Tagesmütter konnten sich auch mit der Kindergroßtagespflege wieder etablieren und einen **guten Namen über die Gemeinde hinaus** machen.
 
-#### Learnings
-
-- **KI-User-Research und Interviews:** KI-gestützte User-Research in Kombination mit Interviews ist eine schnelle und leichte Möglichkeit, um die Vorteile der Tagesmutter und die Erwartungen der Eltern herauszufinden.
-- **Kinderfreundliche Atmosphäre:** Illustrationen und kindgerechte Farben unterstützen die kinderfreundliche Atmosphäre und geben den Eltern ein gutes Bauchgefühl, um sich für diese Kindergroßtagespflege zu entscheiden.
-- **Barrierefreiheit:** Für eine Kindergroßtagespflege ist es wichtig, dass die Informationen für alle gut lesbar und erkennbar sind, da auch Eltern mit Sehschwäche oder ältere Menschen die Website besuchen.<br/><br/>
-
 ![KI-User-Research: Vorteile einer Tagesmutter](../images/VorteileTagesmutter.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Fig.1: KI-gestützte User-Research,</strong> um die Vorteile der Tagesmutter und die Erwartungen der Eltern herauszufinden.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Abb.1: KI-gestützte User-Research,</strong> um die Vorteile der Tagesmutter und die Erwartungen der Eltern herauszufinden.</p>
 
 ![Prototyping der Website](../images/Waldschnecken_Prototyping.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Fig.2: Prototyping in Penpot.</strong> Aufbau der Informationsarchitektur, des Layouts und einstellen der Farbharmonien.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Abb.2: Prototyping in Penpot.</strong> Aufbau der Informationsarchitektur, des Layouts und einstellen der Farbharmonien.</p>
 
 ![Erstellen von Illustrationen](../images/Waldschnecken_Illustration.webp)
 
-<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Fig.3: Für die kinderfreundliche Atmosphäre</strong> wurden einige Illustrationen für die einzelnen Seiten und den Eingangsbereich erstellt.</p>
+<p style="font-size: var(--fs-sm); line-height: var(--lh-lg)">&#8593; <strong>Abb.3: Für die kinderfreundliche Atmosphäre</strong> wurden einige Illustrationen für die einzelnen Seiten und den Eingangsbereich erstellt.</p>
 
 </div>

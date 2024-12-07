@@ -55,6 +55,31 @@ const Header = () => {
 
       <div className={styles.navListWrapper}>
         <Logo />
+
+        <nav className={styles.navList}>
+          <Link
+            className={styles.navLink}
+            activeClassName={styles.activeNavLink}
+            to="/"
+          >
+            About
+          </Link>
+          <Link
+            className={styles.navLink}
+            activeClassName={styles.activeNavLink}
+            to="/projects"
+          >
+            Projekte
+          </Link>
+          <Link
+            className={styles.navLink}
+            activeClassName={styles.activeNavLink}
+            to="/skills"
+          >
+            Skills
+          </Link>
+        </nav>
+
         <nav className={styles.navList}>
           <a
             href="https://www.linkedin.com/in/sascha-nabrotzky"
@@ -95,29 +120,6 @@ const Header = () => {
           >
             <MailIcon className={styles.socialmediaLogo} />
           </a>
-        </nav>
-        <nav className={styles.navList}>
-          <Link
-            className={styles.navLink}
-            activeClassName={styles.activeNavLink}
-            to="/"
-          >
-            About
-          </Link>
-          <Link
-            className={styles.navLink}
-            activeClassName={styles.activeNavLink}
-            to="/projects"
-          >
-            Projekte
-          </Link>
-          <Link
-            className={styles.navLink}
-            activeClassName={styles.activeNavLink}
-            to="/skills"
-          >
-            Skills
-          </Link>
         </nav>
       </div>
     </>
