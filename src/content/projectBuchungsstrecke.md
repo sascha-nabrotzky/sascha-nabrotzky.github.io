@@ -24,7 +24,7 @@ Die alte Buchungsstrecke war unübersichtlich und langsam. Die Kunden haben sich
 
 #### User-Research
 
-- Sammeln und auswerten der **Kundenfeedbacks** und **E-Mails** der letzten 6 Monate (Abb. 3).
+- Sammeln und auswerten der **Kundenfeedbacks** und **E-Mails** der vergangenen 6 Monaten (Abb. 3).
 - **Interviews** mit den anderen Abteilungen die Kundenkontakt haben, um herauszufinden, was die Kunden am meisten stört und um einen anderen Blickwinkel auf die Erwartungen an die neue Buchungsstrecke zu bekommen.
 - Speziell die **Auswahl der Startzeit war ein großes Problem,** da die Kunden oft die falsche Zeit ausgewählt haben und dann die Buchung abbrechen mussten.
 
