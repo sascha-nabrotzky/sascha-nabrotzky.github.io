@@ -30,7 +30,7 @@ Die alte Buchungsstrecke war unübersichtlich und langsam. Die Kunden haben sich
 
 #### Umsetzung
 
-1. Erstellen einer Persona auf Basis der eigenen Daten und Abgleich mit KI-Daten (Abb. 2).
+1. Erstellen einer Proto-Persona auf Basis von KI-Daten (Abb. 2).
 2. Erste **einfache Skizzen** wurden auf Basis der Recherche erstellt, um ein **Gefühl** für den User-Flow zu bekommen.
 3. **Informationsarchitektur** und **Wireframing** der Hauptseiten für die eigentliche Buchung wurde anschließend in Figma weiter ausgearbeitet (Abb. 1).
 4. **Übergabe** der ersten Wireframes an die Grafikabteilung, um die **Gestaltung** der Buchungsstrecke zu optimieren.
