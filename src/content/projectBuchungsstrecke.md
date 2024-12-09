@@ -48,11 +48,11 @@ Die alte Buchungsstrecke war unübersichtlich und langsam. Die Kunden haben sich
 - **Kaum Beschwerden** mehr im Service-Center über die Buchungsstrecke, die **Kunden sind zufrieden** und buchen schneller und einfacher.
 - **Internen Preis** für den besonderen Einsatz, das überwältigende Ergebnis und die gute Zusammenarbeit mit den anderen Abteilungen erhalten.
 
-![Erstellen einer Persona für die Buchungsstrecke](../images/Buchungsstrecke_Persona.webp)
+![Erstellen einer Proto-Persona für die Buchungsstrecke](../images/Buchungsstrecke_Persona.webp)
 
-<p style="font-size: var(--fs-sm)">&#8593; <strong>Abb. 2: Für die neue Buchungsstrecke</strong> und alle nachfolgenden Projekte habe ich eine <strong>Persona auf Basis eigener Daten</strong> erstellt und mit KI-Daten abgeglichen.</p>
+<p style="font-size: var(--fs-sm)">&#8593; <strong>Abb. 2: Für die neue Buchungsstrecke</strong> und alle nachfolgenden Projekte habe ich eine <strong>Proto-Persona auf Basis von KI-Daten</strong> erstellt.</p>
 
-![Erstellen einer Persona für die Buchungsstrecke](../images/Buchungsstrecke_PainPoints.webp)
+![Erstellen einer Proto-Persona für die Buchungsstrecke](../images/Buchungsstrecke_PainPoints.webp)
 
 <p style="font-size: var(--fs-sm)">&#8593; <strong>Abb. 3: Ein halbes Jahr lang,</strong> habe ich zudem alle <strong>E-Mails gesammelt</strong> und bezüglich Probleme bei der Bedienung der alten Buchungsstrecke <strong>ausgewertet,</strong> um diese Pain-Points besonders zu beachten und nicht zu wiederholen.</p>
 
