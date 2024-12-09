@@ -30,7 +30,7 @@ Die alte Buchungsstrecke war unübersichtlich und langsam. Die Kunden haben sich
 
 #### Umsetzung
 
-1. Erstellen einer Persona auf Basis der eigenen Daten und Abgleich mit KI-Daten (Abb. 2).
+1. Erstellen einer Proto-Persona auf Basis von KI-Daten (Abb. 2).
 2. Erste **einfache Skizzen** wurden auf Basis der Recherche erstellt, um ein **Gefühl** für den User-Flow zu bekommen.
 3. **Informationsarchitektur** und **Wireframing** der Hauptseiten für die eigentliche Buchung wurde anschließend in Figma weiter ausgearbeitet (Abb. 1).
 4. **Übergabe** der ersten Wireframes an die Grafikabteilung, um die **Gestaltung** der Buchungsstrecke zu optimieren.
@@ -48,11 +48,11 @@ Die alte Buchungsstrecke war unübersichtlich und langsam. Die Kunden haben sich
 - **Kaum Beschwerden** mehr im Service-Center über die Buchungsstrecke, die **Kunden sind zufrieden** und buchen schneller und einfacher.
 - **Internen Preis** für den besonderen Einsatz, das überwältigende Ergebnis und die gute Zusammenarbeit mit den anderen Abteilungen erhalten.
 
-![Erstellen einer Persona für die Buchungsstrecke](../images/Buchungsstrecke_Persona.webp)
+![Erstellen einer Proto-Persona für die Buchungsstrecke](../images/Buchungsstrecke_Persona.webp)
 
-<p style="font-size: var(--fs-sm)">&#8593; <strong>Abb. 2: Für die neue Buchungsstrecke</strong> und alle nachfolgenden Projekte habe ich eine <strong>Persona auf Basis eigener Daten</strong> erstellt und mit KI-Daten abgeglichen.</p>
+<p style="font-size: var(--fs-sm)">&#8593; <strong>Abb. 2: Für die neue Buchungsstrecke</strong> und alle nachfolgenden Projekte habe ich eine <strong>Proto-Persona auf Basis von KI-Daten</strong> erstellt.</p>
 
-![Erstellen einer Persona für die Buchungsstrecke](../images/Buchungsstrecke_PainPoints.webp)
+![Erstellen einer Proto-Persona für die Buchungsstrecke](../images/Buchungsstrecke_PainPoints.webp)
 
 <p style="font-size: var(--fs-sm)">&#8593; <strong>Abb. 3: Ein halbes Jahr lang,</strong> habe ich zudem alle <strong>E-Mails gesammelt</strong> und bezüglich Probleme bei der Bedienung der alten Buchungsstrecke <strong>ausgewertet,</strong> um diese Pain-Points besonders zu beachten und nicht zu wiederholen.</p>
 
