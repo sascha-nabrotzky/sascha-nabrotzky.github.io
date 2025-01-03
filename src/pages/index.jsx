@@ -23,17 +23,64 @@ const Index = () => {
   return (
     <>
       <Layout>
-        <TypewriterText text="Leidenschaft für Design und Technologie" />
+        <TypewriterText text="Ich vereine Design und Entwicklung ..." />
         <p className={styles.introtext}>
-          Meine Leidenschaft für <strong>UX-Design </strong>und{" "}
-          <strong>Frontend-Entwicklung </strong>motiviert mich, innovative und{" "}
-          <strong>benutzerzentrierte Lösungen </strong>zu gestalten, die
-          Funktionalität und Ästhetik vereinen. Mein Ziel ist es, Produkte zu
-          schaffen, die nicht nur die Erwartungen der Nutzer übertreffen,
-          sondern auch <strong>messbar zum Geschäftserfolg beitragen. </strong>
+          ... um nahtlose und benutzerzentrierte digitale Erlebnisse zu
+          schaffen. Mit meinem tiefen Verständnis für UX-Design und meiner
+          Expertise in Frontend-Technologien wie React und CSS überbrücke ich
+          die Lücke zwischen kreativer Vision und technischer Umsetzung.
+          <br />
+          <br />
+          <strong className={styles.advantageTitle}>Effizienz:</strong>
+          <br />
           Ich optimiere die Zusammenarbeit zwischen Design- und Entwicklerteams,
           indem ich Prototypen und UI-Komponenten direkt in produktionsreifen
-          Code überführe.
+          Code überführe. <br />
+          <span className={styles.advantage}>
+            Das spart Zeit, reduziert Fehlerquellen und beschleunigt den
+            Go-to-Market-Prozess.
+          </span>
+          <br />
+          <br />
+          <strong className={styles.advantageTitle}>
+            Benutzerzentrierung:
+          </strong>
+          <br />
+          Meine Arbeit basiert auf fundierter Nutzerforschung, um
+          <span className={styles.advantage}>
+            {" "}
+            Produkte mit echten Mehrwerten{" "}
+          </span>
+          zu entwickeln, die nicht nur ästhetisch ansprechend, sondern auch
+          intuitiv und zugänglich sind.
+          <br />
+          <br />
+          <strong className={styles.advantageTitle}>Innovation:</strong>
+          <br />
+          Durch den Einsatz modernster Technologien wie React und Tools zur
+          Erstellung dynamischer Interfaces bringe ich Ideen schneller zum Leben
+          und sorge für interaktive Erlebnisse, die überzeugen.
+          <br />
+          <span className={styles.advantage}>
+            So entstehen interaktive Erlebnisse, die Ihre Zielgruppe langfristig
+            binden.
+          </span>
+          <br />
+          <br />
+          <strong className={styles.advantageTitle}>
+            Strategischer Mehrwert:
+          </strong>
+          <br />
+          Ich unterstütze Unternehmen dabei, Design-Systeme und skalierbare
+          Komponentenbibliotheken zu entwickeln, die Effizienz und Konsistenz
+          langfristig sichern.
+          <br />
+          <span className={styles.advantage}>
+            Das ermöglicht Ihnen, Ressourcen gezielt einzusetzen und schneller
+            auf Marktanforderungen zu reagieren.
+          </span>
+          <br />
+          <br />
           <button onClick={openModal} className={styles.openModalBtn}>
             Mehr über mich &rarr;
           </button>
