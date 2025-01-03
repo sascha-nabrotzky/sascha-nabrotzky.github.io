@@ -3,9 +3,19 @@
   text-align: center;
 }
 
+.advantageTitle {
+  font-size: var(--fs-lg);
+  color: var(--col-blue);
+}
+
+.advantage {
+  font-weight: var(--fw-bold);
+}
+
 .openModalBtn {
   text-decoration: underline;
   margin-left: 0.5rem;
+  color: var(--col-gray);
 }
 
 .btnWrapper {

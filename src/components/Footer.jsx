@@ -25,7 +25,7 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <span className={styles.copyright}>&copy; 2024 Sascha Nabrotzky</span>
+          <span className={styles.copyright}>&copy; 2025 Sascha Nabrotzky</span>
         </li>
       </ul>
     </footer>
