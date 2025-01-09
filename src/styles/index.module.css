@@ -3,28 +3,55 @@
   text-align: center;
 }
 
-.advantageTitle {
-  font-size: var(--fs-lg);
-  color: var(--col-blue);
+.advantagesWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  margin-top: 2rem;
 }
 
 .advantage {
-  font-weight: var(--fw-bold);
+  border-bottom: 1px solid var(--col-gray);
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: var(--fs-lg);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    bottom: -1.2rem;
+    transform: translateX(-50%);
+    background-color: var(--col-white);
+    content: url(../icons/trophy.svg);
+    width: 3rem;
+  }
 }
 
-.openModalBtn {
+.advantageTitle {
+  color: var(--col-blue);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  border-top: 1px solid var(--col-gray);
+  padding-top: 1rem;
+}
+
+.advantageText {
+  margin-block: 0;
+}
+
+.aboutMeBtn {
   text-decoration: underline;
-  margin-left: 0.5rem;
+  margin-top: 4rem;
   color: var(--col-gray);
 }
 
-.btnWrapper {
+.projectBtnWrapper {
   display: flex;
   justify-content: center;
 }
 
-.ctaBtn {
-  margin-top: 3rem;
+.projectBtn {
+  margin-top: 4rem;
   margin-bottom: 6rem;
   border-radius: 5rem;
   background-color: var(--col-green);
